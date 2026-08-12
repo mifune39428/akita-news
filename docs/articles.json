@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-12T22:14:20.946973+09:00",
+ "updated_at": "2026-08-13T04:04:17.431546+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -21,143 +21,95 @@
  "weather": {
   "city": "秋田市",
   "reported_at": "2026-08-12T21:00:00+09:00",
-  "updated_at": "2026-08-12T22:15:15.133131+09:00",
+  "updated_at": "2026-08-13T04:06:25.344387+09:00",
   "days": [
-   {
-    "date": "2026-08-12",
-    "code": 2,
-    "max": 31.0,
-    "min": 23.1,
-    "pop": 55,
-    "text": "くもり所により雨"
-   },
    {
     "date": "2026-08-13",
     "code": 2,
-    "max": 30.6,
-    "min": 25.0,
+    "max": 31.3,
+    "min": 24.7,
     "pop": 69,
-    "text": "くもり時々晴れ所により朝から雨"
+    "text": "くもり所により雨"
    },
    {
     "date": "2026-08-14",
-    "code": 51,
-    "max": 30.4,
-    "min": 24.2,
-    "pop": 83,
-    "text": ""
+    "code": 3,
+    "max": 30.1,
+    "min": 25.3,
+    "pop": 81,
+    "text": "くもり時々晴れ所により朝から雨"
    },
    {
     "date": "2026-08-15",
     "code": 3,
-    "max": 30.8,
+    "max": 32.4,
     "min": 23.5,
-    "pop": 11,
+    "pop": 18,
     "text": ""
    },
    {
     "date": "2026-08-16",
     "code": 3,
-    "max": 30.4,
-    "min": 21.7,
-    "pop": 0,
+    "max": 30.6,
+    "min": 21.5,
+    "pop": 4,
     "text": ""
    },
    {
     "date": "2026-08-17",
     "code": 3,
-    "max": 30.5,
-    "min": 21.9,
-    "pop": 4,
+    "max": 31.8,
+    "min": 21.5,
+    "pop": 2,
     "text": ""
    },
    {
     "date": "2026-08-18",
     "code": 3,
-    "max": 30.7,
-    "min": 20.9,
-    "pop": 12,
+    "max": 30.9,
+    "min": 23.6,
+    "pop": 21,
     "text": ""
    },
    {
     "date": "2026-08-19",
     "code": 51,
-    "max": 28.5,
-    "min": 22.5,
+    "max": 29.7,
+    "min": 24.1,
     "pop": 55,
     "text": ""
    },
    {
     "date": "2026-08-20",
     "code": 51,
-    "max": 27.8,
-    "min": 23.4,
+    "max": 29.0,
+    "min": 23.3,
     "pop": 71,
     "text": ""
    },
    {
     "date": "2026-08-21",
-    "code": 51,
-    "max": 28.5,
-    "min": 22.7,
+    "code": 95,
+    "max": 28.7,
+    "min": 22.5,
     "pop": 76,
+    "text": ""
+   },
+   {
+    "date": "2026-08-22",
+    "code": 55,
+    "max": 28.4,
+    "min": 22.8,
+    "pop": 67,
     "text": ""
    }
   ],
   "hours": [
    {
-    "time": "2026-08-12T00:00",
-    "pop": 0,
-    "temp": 23.1,
-    "code": 0
-   },
-   {
-    "time": "2026-08-12T03:00",
-    "pop": 0,
-    "temp": 23.4,
-    "code": 0
-   },
-   {
-    "time": "2026-08-12T06:00",
-    "pop": 0,
-    "temp": 24.8,
-    "code": 1
-   },
-   {
-    "time": "2026-08-12T09:00",
-    "pop": 4,
-    "temp": 29.2,
-    "code": 1
-   },
-   {
-    "time": "2026-08-12T12:00",
-    "pop": 49,
-    "temp": 31.0,
-    "code": 1
-   },
-   {
-    "time": "2026-08-12T15:00",
-    "pop": 51,
-    "temp": 30.7,
-    "code": 0
-   },
-   {
-    "time": "2026-08-12T18:00",
-    "pop": 6,
-    "temp": 27.3,
-    "code": 1
-   },
-   {
-    "time": "2026-08-12T21:00",
-    "pop": 0,
-    "temp": 26.3,
-    "code": 1
-   },
-   {
     "time": "2026-08-13T00:00",
     "pop": 0,
-    "temp": 25.6,
-    "code": 1
+    "temp": 25.9,
+    "code": 2
    },
    {
     "time": "2026-08-13T03:00",
@@ -168,38 +120,86 @@
    {
     "time": "2026-08-13T06:00",
     "pop": 0,
-    "temp": 25.2,
-    "code": 1
+    "temp": 24.9,
+    "code": 0
    },
    {
     "time": "2026-08-13T09:00",
     "pop": 0,
-    "temp": 27.9,
-    "code": 1
+    "temp": 28.1,
+    "code": 2
    },
    {
     "time": "2026-08-13T12:00",
-    "pop": 29,
-    "temp": 30.5,
+    "pop": 16,
+    "temp": 31.3,
     "code": 1
    },
    {
     "time": "2026-08-13T15:00",
     "pop": 69,
-    "temp": 29.6,
-    "code": 2
+    "temp": 30.6,
+    "code": 1
    },
    {
     "time": "2026-08-13T18:00",
-    "pop": 4,
-    "temp": 27.3,
+    "pop": 6,
+    "temp": 28.0,
     "code": 1
    },
    {
     "time": "2026-08-13T21:00",
     "pop": 0,
-    "temp": 26.2,
+    "temp": 26.3,
     "code": 1
+   },
+   {
+    "time": "2026-08-14T00:00",
+    "pop": 0,
+    "temp": 25.7,
+    "code": 1
+   },
+   {
+    "time": "2026-08-14T03:00",
+    "pop": 0,
+    "temp": 25.4,
+    "code": 1
+   },
+   {
+    "time": "2026-08-14T06:00",
+    "pop": 0,
+    "temp": 25.6,
+    "code": 1
+   },
+   {
+    "time": "2026-08-14T09:00",
+    "pop": 0,
+    "temp": 28.2,
+    "code": 1
+   },
+   {
+    "time": "2026-08-14T12:00",
+    "pop": 18,
+    "temp": 29.9,
+    "code": 2
+   },
+   {
+    "time": "2026-08-14T15:00",
+    "pop": 80,
+    "temp": 29.8,
+    "code": 1
+   },
+   {
+    "time": "2026-08-14T18:00",
+    "pop": 59,
+    "temp": 27.5,
+    "code": 1
+   },
+   {
+    "time": "2026-08-14T21:00",
+    "pop": 0,
+    "temp": 26.0,
+    "code": 3
    }
   ]
  },
@@ -226,6 +226,7 @@
   "nhk.or.jp",
   "online.logi-biz.com",
   "prtimes.jp",
+  "t.co",
   "tenki.jp",
   "いわき民報社",
   "ウォーカープラス",
@@ -250,11 +251,44 @@
   "秋田魁新報",
   "秋田魁新報電子版",
   "読売新聞",
+  "遊都総研",
   "電波タイムズ",
   "ｄメニューニュース"
  ],
- "count": 195,
+ "count": 205,
  "items": [
+  {
+   "id": "86cb95b7eb66a17c",
+   "url": "https://t.co/KE0L944GRb",
+   "title_original": "『秋田県北秋田市 レストラン葡萄の樹のかっちゃん丼』",
+   "source": "t.co",
+   "image": "https://stat.ameba.jp/user_images/20260812/23/django-in-akita/bc/fd/j/o1697127215811722061.jpg?cax=1280-720",
+   "local": false,
+   "published": "2026-08-12T14:53:42+00:00",
+   "title_ja": "北秋田市「レストラン葡萄の樹」の名物かっちゃん丼を紹介",
+   "summary_ja": "秋田県北秋田市に所在する飲食店「レストラン葡萄の樹」で提供されている「かっちゃん丼」についての話題です。地元の店舗で親しまれている人気メニューの魅力や特徴が紹介されています。",
+   "category": "グルメ・農林水産",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "85d2c52d15189edf",
+   "url": "https://tenki.jp/leisure/2/8/31/186848",
+   "title_original": "ザキッズ 秋田イオンタウン鷹巣店の今日・明日の天気 週末の天気・紫外線情報【お出かけスポット天気】",
+   "source": "tenki.jp",
+   "image": "https://d2goguvysdoarq.cloudfront.net/system/facility_photos/photos/305030/normal.jpg?1783908234&w=640&h=640&t=r",
+   "local": false,
+   "published": "2026-08-12T13:51:15+00:00",
+   "title_ja": "イオンタウン鷹巣店「ザキッズ」周辺の天気と紫外線情報",
+   "summary_ja": "秋田県北秋田市のイオンタウン鷹巣内にある室内遊具施設「ザキッズ」周辺における、本日および明日、週末の天気予報や紫外線情報が公開されています。お出かけ時の参考に活用できます。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
+  },
   {
    "id": "3e2fcbd4a2e523e7",
    "url": "https://www.akt.co.jp/events/garinpeirofes",
@@ -608,6 +642,38 @@
    "importance": 1
   },
   {
+   "id": "c186e4b966e07dda",
+   "url": "https://topics.smt.docomo.ne.jp/article/abs/region/abs-2026081206745675",
+   "title_original": "お盆の帰省ラッシュ続く…空の便は12日が混雑のピーク 大館能代空港では特産のバター餅を配って出迎え 秋田",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/-/20260803100341/img/dmenu_service-brand-logo_200x200.png",
+   "local": false,
+   "published": "2026-08-12T09:11:00+00:00",
+   "title_ja": "大館能代空港で帰省客にバター餅を配布 お盆の混雑続く",
+   "summary_ja": "お盆の帰省ラッシュが続くなか、大館能代空港では帰省客らを歓迎するため、地元の特産品であるバター餅が配られました。空の便は8月12日に混雑のピークを迎えています。",
+   "category": "観光・イベント",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "6fd436cac8bab5d8",
+   "url": "https://topics.smt.docomo.ne.jp/article/abs/region/abs-2026081208262363?fm=latestnews",
+   "title_original": "新たな門出への決意を新たに 大潟村で二十歳のつどい 幼なじみ20人が再会を喜び合う 秋田",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/-/20260803100341/img/dmenu_service-brand-logo_200x200.png",
+   "local": false,
+   "published": "2026-08-12T09:07:00+00:00",
+   "title_ja": "大潟村で二十歳のつどい 幼なじみ20人が再会を祝う",
+   "summary_ja": "秋田県の大潟村で「二十歳のつどい」が開催されました。式典には幼なじみなど20人が集まり、久しぶりの再会を喜び合うとともに、大人としての新たな門出への決意を新たにしました。",
+   "category": "くらし・地域",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "abd8a4c6eb7767ae",
    "url": "https://topics.smt.docomo.ne.jp/amp/article/npn/nation/npn-300470848",
    "title_original": "秋田県幹部の男性職員がオンライン対応中に喫煙 ラブホテルのバスローブだった可能性も",
@@ -736,6 +802,38 @@
    "importance": 3
   },
   {
+   "id": "a37d17132b8928d2",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/abs/region/abs-2026081204396459",
+   "title_original": "JR北上線の一部区間で17日からバス代行開始 2日の大雨被害で運転再開の見通し立たず 復旧までは”相当の期間” 秋田",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/abs/m_abs-2026081204396459.jpg",
+   "local": false,
+   "published": "2026-08-12T07:40:00+00:00",
+   "title_ja": "大雨被害のJR北上線で17日から代行バス運行開始 運転再開見通せず",
+   "summary_ja": "8月2日の大雨による被害を受けたJR北上線の一部区間で、17日から代行バスの運行が始まります。線路の復旧には相当な期間がかかる見込みで、現時点で運転再開の見通しは立っていません。",
+   "category": "くらし・地域",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "92242270a7d48623",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1460175973770478254",
+   "title_original": "（秋田）三種町森岳木戸沢でクマ出没 ８月１２日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/053481.png?fushinsha_joho-1460175973770478254",
+   "local": false,
+   "published": "2026-08-12T07:35:00+00:00",
+   "title_ja": "三種町森岳木戸沢でクマが出没 周辺に注意呼びかけ",
+   "summary_ja": "8月12日、三種町森岳の木戸沢地区でクマが出没しました。近隣にお住まいの方や周辺を通行する際は、音の出るものを身につけるなどして、クマとの遭遇に十分注意するよう呼びかけられています。",
+   "category": "くらし・地域",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "9b9b1064fa9ebab5",
    "url": "https://akita.keizai.biz/gpnews/1750062",
    "title_original": "収穫期前の伝統レース",
@@ -798,6 +896,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 2
+  },
+  {
+   "id": "3ee0b3e229612d0b",
+   "url": "https://news.yahoo.co.jp/articles/445cb5806cb54da8a0c0300e079ef9e2ff50d757",
+   "title_original": "「秋田をＡＩ最先端都市に」国内最大規模のデータセンター建設計画、ＵＡＥが投資に意欲…関連産業の集積に期待",
+   "source": "Yahoo!ニュース",
+   "image": "https://s.yimg.jp/images/news-web/versions/20260812-1bf3f4a/all/images/ogp_default.png",
+   "local": false,
+   "published": "2026-08-12T05:02:00+00:00",
+   "title_ja": "UAEが投資意欲 国内最大級データセンターを秋田に建設計画",
+   "summary_ja": "秋田をAIの最先端都市にすることを目指し、国内最大規模となるデータセンターの建設計画が進められています。アラブ首長国連邦（UAE）が投資に意欲を示しており、関連産業の集積などが期待されています。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
   },
   {
    "id": "718143b68aeba206",
@@ -960,6 +1074,22 @@
    "importance": 3
   },
   {
+   "id": "7322e70d5c4eb2a4",
+   "url": "https://origin.akt.co.jp/news?sel=20260812-00000002-AKT-1",
+   "title_original": "AKT-NEWS 山肌に浮かぶ文字と花火の競演 夏の風物詩「大館大文字まつり」多くの人魅了 秋田|08月12日(水)12:00",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/AKT-thumb.jpg",
+   "local": false,
+   "published": "2026-08-12T03:15:12+00:00",
+   "title_ja": "大館市で「大館大文字まつり」開催 山肌の文字と花火が人々を魅了",
+   "summary_ja": "大館市で夏の伝統行事「大館大文字まつり」が開催されました。山肌に大きく浮かび上がる文字と夜空を彩る打ち上げ花火の競演が繰り広げられ、会場に訪れた多くの観客を楽しませました。",
+   "category": "観光・イベント",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "487fad4dc0e884fa",
    "url": "https://news.yahoo.co.jp/articles/b6b0084eb736270446aa80c791aa06ada966661a",
    "title_original": "山肌に浮かぶ文字と花火の競演 夏の風物詩「大館大文字まつり」多くの人魅了 秋田（秋田テレビ）",
@@ -1018,6 +1148,22 @@
    "title_ja": "秋田県のインターンシップに参加した学生が鈴木知事と意見交換を実施",
    "summary_ja": "秋田県が実施したインターンシップの参加学生たちが、鈴木知事との意見交換会に臨みました。学生らはマーケティング戦略課や人事課、デジタル政策推進課が関わる5日間のプログラムに参加しました。",
    "category": "行政・政治",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "37556aeeb14b3af4",
+   "url": "https://yutosoken.com/wp/2026/08/12/ana-35",
+   "title_original": "【ニュース】 ANAなど、二地域居住を支援するポータルサイト「ANAの二地域居住 BLUE SKY LIFE」に秋田県の6自治体が新たに参画 秋田県横手市",
+   "source": "遊都総研",
+   "image": "",
+   "local": false,
+   "published": "2026-08-12T03:01:45+00:00",
+   "title_ja": "ANAの二地域居住支援サイトに横手市など県内6自治体が参画",
+   "summary_ja": "ANAなどが共同で展開する二地域居住をサポートするポータルサイトに、秋田県横手市をはじめとする県内6つの自治体が新たに加わりました。ネットを通じて地域の魅力を発信し、移住や交流人口の増加を後押しします。",
+   "category": "くらし・地域",
    "area": "県全体",
    "kind": "news",
    "event_when": "",
@@ -2206,6 +2352,22 @@
    "event_when": "",
    "importance": 3,
    "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052132.png?fushinsha_joho-1459746141507158212"
+  },
+  {
+   "id": "da749e54848d7b92",
+   "url": "https://t.co/3AiEoQNNJk",
+   "title_original": "【秋田市】「夏の終わりの盆踊り＋亜留辺＆神崎りく 二人の歌謡ショー」をアルヴェで8月21日開催！",
+   "source": "t.co",
+   "image": "https://akitanote.jp/26/08/bonodori-s.jpg",
+   "local": false,
+   "published": "2026-08-11T02:54:47+00:00",
+   "title_ja": "8月21日に秋田市のアルヴェで盆踊りと歌謡ショーのイベント開催",
+   "summary_ja": "秋田市の拠点センターアルヴェにて、8月21日に「夏の終わりの盆踊り＋亜留辺＆神崎りく 二人の歌謡ショー」が開催されます。盆踊りと歌謡パフォーマンスを楽しめるイベントです。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "event",
+   "event_when": "8月21日",
+   "importance": 2
   },
   {
    "id": "f77adefb7651833c",
