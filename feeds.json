@@ -1,0 +1,15 @@
+{
+  "_comment": "収集元のRSS。enabled を false にすると一時的に外せる。google_news: true のフィードは <source> から実際の媒体名を取り出し、見出し末尾の「 - 媒体名」を落とす。hint は分類の手がかり（event を指定すると催し物として拾いやすくなる）。",
+  "feeds": [
+    { "name": "秋田魁新報", "url": "https://feeds.feedburner.com/akita_news", "local": true, "enabled": true },
+    { "name": "AAB秋田朝日放送", "url": "https://www.aab-tv.co.jp/news/feed/", "local": true, "enabled": true },
+    { "name": "秋田経済新聞", "url": "https://akita.keizai.biz/rss.xml", "local": true, "enabled": true },
+
+    { "name": "Google ニュース", "url": "https://news.google.com/rss/search?q=%E7%A7%8B%E7%94%B0%E7%9C%8C%20when%3A2d&hl=ja&gl=JP&ceid=JP:ja", "google_news": true, "enabled": true },
+    { "name": "Google ニュース", "url": "https://news.google.com/rss/search?q=%E7%A7%8B%E7%94%B0%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20OR%20%E7%A5%AD%E3%82%8A%20OR%20%E3%83%95%E3%82%A7%E3%82%B9%20when%3A7d&hl=ja&gl=JP&ceid=JP:ja", "google_news": true, "hint": "event", "enabled": true },
+    { "name": "Google ニュース", "url": "https://news.google.com/rss/search?q=%E7%A7%8B%E7%94%B0%E5%B8%82%20OR%20%E5%A4%A7%E9%A4%A8%E5%B8%82%20OR%20%E8%83%BD%E4%BB%A3%E5%B8%82%20OR%20%E6%A8%AA%E6%89%8B%E5%B8%82%20OR%20%E7%94%B1%E5%88%A9%E6%9C%AC%E8%8D%98%E5%B8%82%20OR%20%E5%A4%A7%E4%BB%99%E5%B8%82%20OR%20%E7%94%B7%E9%B9%BF%E5%B8%82%20when%3A2d&hl=ja&gl=JP&ceid=JP:ja", "google_news": true, "enabled": true },
+    { "name": "Google ニュース", "url": "https://news.google.com/rss/search?q=site%3Aakita-abs.co.jp%20when%3A3d&hl=ja&gl=JP&ceid=JP:ja", "google_news": true, "enabled": true },
+    { "name": "Google ニュース", "url": "https://news.google.com/rss/search?q=site%3Aakt.co.jp%20when%3A3d&hl=ja&gl=JP&ceid=JP:ja", "google_news": true, "enabled": true },
+    { "name": "Google ニュース", "url": "https://news.google.com/rss/search?q=site%3Anhk.or.jp%20%E7%A7%8B%E7%94%B0%20when%3A3d&hl=ja&gl=JP&ceid=JP:ja", "google_news": true, "enabled": true }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "秋田ニュース＆イベント",
+  "short_name": "秋田ニュース",
+  "description": "秋田県のニュースと催し物を、短い要約付きで。6時間ごとに自動更新。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#16283f",
+  "theme_color": "#16283f",
+  "lang": "ja",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

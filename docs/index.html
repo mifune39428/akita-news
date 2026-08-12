@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>秋田ニュース＆イベント</title>
+<meta name="description" content="秋田県のニュースとイベント情報を自動で集め、短い要約付きでまとめています。6時間ごとに更新。">
+<meta name="theme-color" content="#f7f4ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101214" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="秋田ニュース">
+<meta property="og:title" content="秋田ニュース＆イベント">
+<meta property="og:description" content="秋田県のニュースと催し物を、短い要約付きで。6時間ごとに自動更新。">
+<meta property="og:type" content="website">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+  :root {
+    --bg: #f7f4ee;
+    --card: #ffffff;
+    --text: #1c1a17;
+    --muted: #6f6a61;
+    --line: rgba(0,0,0,.09);
+    --accent: #a8560f;
+    --chip: rgba(0,0,0,.05);
+    --chip-on: #1b3a5c;
+    --chip-on-text: #ffffff;
+    --badge: #c0392b;
+    --event: #0d6e5e;
+    --header: rgba(247,244,238,.85);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101214;
+      --card: #1b1e21;
+      --text: #eceae5;
+      --muted: #9a958c;
+      --line: rgba(255,255,255,.1);
+      --accent: #f0a03c;
+      --chip: rgba(255,255,255,.1);
+      --chip-on: #f0a03c;
+      --chip-on-text: #14100a;
+      --badge: #ff6b5e;
+      --event: #45c8ac;
+      --header: rgba(16,18,20,.8);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  a { color: inherit; text-decoration: none; }
+
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--header);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid var(--line);
+    padding: max(env(safe-area-inset-top), 10px) 16px 0;
+  }
+  .bar { max-width: 760px; margin: 0 auto; display: flex; align-items: baseline; gap: 10px; }
+  h1 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin: 0; }
+  .updated { font-size: 11px; color: var(--muted); margin-left: auto; white-space: nowrap; }
+  .filters {
+    max-width: 760px; margin: 0 auto;
+    display: flex; gap: 6px; overflow-x: auto; padding: 10px 0 0;
+    scrollbar-width: none;
+  }
+  .filters:last-of-type { padding-bottom: 10px; }
+  .filters::-webkit-scrollbar { display: none; }
+  .chip {
+    flex: 0 0 auto; border: 0; cursor: pointer;
+    background: var(--chip); color: var(--text);
+    font: inherit; font-size: 13px; line-height: 1.4;
+    padding: 6px 13px; border-radius: 999px;
+    font-family: inherit;
+  }
+  .chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); }
+
+  main { max-width: 760px; margin: 0 auto; padding: 16px 16px 56px; }
+  .search {
+    width: 100%; margin-bottom: 14px;
+    background: var(--card); color: var(--text);
+    border: 1px solid var(--line); border-radius: 12px;
+    padding: 11px 14px; font: inherit; font-size: 16px;
+  }
+  .search::placeholder { color: var(--muted); }
+
+  article {
+    background: var(--card); border-radius: 16px;
+    padding: 15px 17px; margin-bottom: 11px;
+    border: 1px solid var(--line);
+    transition: transform .15s ease;
+  }
+  article:active { transform: scale(.99); }
+  .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 11.5px; color: var(--muted); margin-bottom: 7px; }
+  .tag { background: var(--chip); border-radius: 6px; padding: 2px 7px; color: var(--text); }
+  .badge { background: var(--badge); color: #fff; border-radius: 6px; padding: 2px 7px; font-weight: 600; }
+  .kind { border: 1px solid var(--event); color: var(--event); border-radius: 6px; padding: 1px 7px; font-weight: 600; }
+  h2 { font-size: 17px; font-weight: 700; margin: 0 0 6px; letter-spacing: -.01em; line-height: 1.45; }
+  p.summary { margin: 0 0 10px; font-size: 14px; color: var(--text); opacity: .85; }
+  .when { display: inline-block; margin: 0 0 9px; font-size: 13px; color: var(--event); font-weight: 600; }
+  .src { font-size: 12.5px; color: var(--accent); font-weight: 500; }
+
+  .empty, .loading { text-align: center; color: var(--muted); padding: 48px 0; font-size: 14px; }
+  #more {
+    display: block; width: 100%; margin-top: 8px; padding: 13px;
+    background: var(--card); color: var(--accent); border: 1px solid var(--line);
+    border-radius: 12px; font: inherit; font-size: 15px; cursor: pointer;
+  }
+  footer {
+    max-width: 760px; margin: 0 auto; padding: 24px 16px 40px;
+    font-size: 11.5px; color: var(--muted); border-top: 1px solid var(--line);
+  }
+  footer p { margin: 0 0 7px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <h1>秋田ニュース＆イベント</h1>
+    <span class="updated" id="updated"></span>
+  </div>
+  <div class="filters" id="kindFilters"></div>
+  <div class="filters" id="areaFilters"></div>
+  <div class="filters" id="categoryFilters"></div>
+</header>
+
+<main>
+  <input class="search" id="search" type="search" placeholder="キーワードで絞り込む（例: 竿燈、大館、なまはげ）" autocomplete="off">
+  <div id="list"><p class="loading">読み込み中…</p></div>
+  <button id="more" hidden>もっと見る</button>
+</main>
+
+<footer>
+  <p>秋田県内の報道各社などのRSSを自動収集し、見出しと要約を機械生成しています。要約は原文の全訳ではありません。詳細は必ず出典元の記事をご確認ください。</p>
+  <p>イベントの日時・会場・料金は変更されることがあります。お出かけの前に主催者の告知をご確認ください。</p>
+  <p>記事の著作権は各媒体に帰属します。掲載の停止をご希望の媒体様はリポジトリのIssueよりご連絡ください。</p>
+  <p id="sources"></p>
+</footer>
+
+<script>
+const PAGE_SIZE = 30;
+let all = [], filtered = [], shown = 0;
+let kind = "all", area = "all", category = "all", query = "";
+
+const fmt = new Intl.DateTimeFormat("ja-JP", {
+  month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Tokyo"
+});
+
+function relative(iso) {
+  const then = new Date(iso), diff = (Date.now() - then) / 1000;
+  if (diff < 3600) return `${Math.max(1, Math.floor(diff / 60))}分前`;
+  if (diff < 86400) return `${Math.floor(diff / 3600)}時間前`;
+  if (diff < 604800) return `${Math.floor(diff / 86400)}日前`;
+  return fmt.format(then);
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function apply() {
+  const q = query.trim().toLowerCase();
+  filtered = all.filter(item => {
+    if (kind !== "all" && (item.kind || "news") !== kind) return false;
+    if (area !== "all" && item.area !== area) return false;
+    if (category !== "all" && item.category !== category) return false;
+    if (q) {
+      const hay = `${item.title_ja} ${item.summary_ja} ${item.title_original} ${item.source} ${item.area}`.toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  shown = 0;
+  document.getElementById("list").innerHTML = "";
+  render();
+}
+
+function render() {
+  const list = document.getElementById("list");
+  const slice = filtered.slice(shown, shown + PAGE_SIZE);
+  if (!filtered.length) {
+    list.innerHTML = '<p class="empty">該当する記事がありません</p>';
+    document.getElementById("more").hidden = true;
+    return;
+  }
+  list.insertAdjacentHTML("beforeend", slice.map(item => `
+    <article>
+      <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+        <div class="meta">
+          ${item.kind === "event" ? '<span class="kind">イベント</span>' : ""}
+          ${item.importance >= 4 ? '<span class="badge">重要</span>' : ""}
+          <span class="tag">${escapeHtml(item.category)}</span>
+          <span class="tag">${escapeHtml(item.area || "県全体")}</span>
+          <span>${escapeHtml(item.source)}</span>
+          <span>・${relative(item.published)}</span>
+        </div>
+        <h2>${escapeHtml(item.title_ja)}</h2>
+        <p class="summary">${escapeHtml(item.summary_ja)}</p>
+        ${item.event_when ? `<span class="when">📅 ${escapeHtml(item.event_when)}</span><br>` : ""}
+        <span class="src">元の記事を読む →</span>
+      </a>
+    </article>`).join(""));
+  shown += slice.length;
+  document.getElementById("more").hidden = shown >= filtered.length;
+}
+
+// 該当0件のチップは押しても空になるだけなので、そもそも出さない。
+function buildChips(boxId, attr, current, defs) {
+  document.getElementById(boxId).innerHTML = defs
+    .filter(d => d.key === "all" || all.some(d.match))
+    .map(d => `<button class="chip" data-${attr}="${escapeHtml(d.key)}" aria-pressed="${d.key === current}">${d.label}</button>`)
+    .join("");
+}
+
+function buildAll(categories, areas) {
+  const used = new Set(all.map(i => i.category));
+  if (category !== "all" && !used.has(category)) category = "all";
+  buildChips("kindFilters", "kind", kind, [
+    { key: "all", label: "すべて", match: () => true },
+    { key: "event", label: "📅 イベント", match: i => i.kind === "event" },
+    { key: "news", label: "🗞 ニュース", match: i => i.kind !== "event" },
+  ]);
+  buildChips("areaFilters", "area", area, [{ key: "all", label: "全エリア", match: () => true }]
+    .concat(areas.map(a => ({ key: a, label: a, match: i => i.area === a }))));
+  buildChips("categoryFilters", "category", category, [{ key: "all", label: "全カテゴリ", match: () => true }]
+    .concat(categories.map(c => ({ key: c, label: c, match: i => i.category === c }))));
+}
+
+// チップは読み込みのたびに作り直すので、クリックは親側で1度だけ受ける。
+function chipHandler(attr, setValue) {
+  return e => {
+    const btn = e.target.closest(`[data-${attr}]`);
+    if (!btn) return;
+    setValue(btn.dataset[attr]);
+    e.currentTarget.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", String(c === btn)));
+    apply();
+  };
+}
+
+document.getElementById("kindFilters").addEventListener("click", chipHandler("kind", v => { kind = v; }));
+document.getElementById("areaFilters").addEventListener("click", chipHandler("area", v => { area = v; }));
+document.getElementById("categoryFilters").addEventListener("click", chipHandler("category", v => { category = v; }));
+
+document.getElementById("more").addEventListener("click", render);
+
+let timer;
+document.getElementById("search").addEventListener("input", e => {
+  clearTimeout(timer);
+  query = e.target.value;
+  timer = setTimeout(apply, 180);
+});
+
+async function load() {
+  try {
+    const res = await fetch(`articles.json?t=${Date.now()}`, { cache: "no-store" });
+    const data = await res.json();
+    all = data.items || [];
+    document.getElementById("updated").textContent = data.updated_at ? `更新 ${relative(data.updated_at)}` : "";
+    document.getElementById("sources").textContent = "収集元: " + (data.sources || []).join("、");
+    buildAll(data.categories || [], data.areas || []);
+    apply();
+  } catch (err) {
+    document.getElementById("list").innerHTML = '<p class="empty">記事を読み込めませんでした。時間をおいて再読み込みしてください。</p>';
+  }
+}
+
+load();
+// ホーム画面から復帰したときに最新へ追従する。
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") load();
+});
+</script>
+</body>
+</html>
