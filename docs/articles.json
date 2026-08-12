@@ -1,11 +1,10 @@
 {
- "updated_at": "2026-08-12T09:31:28.594383+09:00",
+ "updated_at": "2026-08-12T09:55:09.550253+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
   "観光・イベント",
   "グルメ・農林水産",
-  "事件・事故",
   "天気・防災",
   "スポーツ",
   "文化・芸能",
@@ -19,6 +18,191 @@
   "県南",
   "県全体"
  ],
+ "weather": {
+  "city": "秋田市",
+  "reported_at": "2026-08-12T05:00:00+09:00",
+  "updated_at": "2026-08-12T09:55:38.800872+09:00",
+  "days": [
+   {
+    "date": "2026-08-12",
+    "code": 2,
+    "max": 31.0,
+    "min": 23.1,
+    "pop": 53,
+    "text": "晴れ時々くもり所により昼過ぎから夕方雨で雷を伴い激しく降る"
+   },
+   {
+    "date": "2026-08-13",
+    "code": 51,
+    "max": 30.5,
+    "min": 23.9,
+    "pop": 47,
+    "text": "くもり所により雨"
+   },
+   {
+    "date": "2026-08-14",
+    "code": 3,
+    "max": 29.2,
+    "min": 24.5,
+    "pop": 63,
+    "text": ""
+   },
+   {
+    "date": "2026-08-15",
+    "code": 3,
+    "max": 30.5,
+    "min": 23.5,
+    "pop": 8,
+    "text": ""
+   },
+   {
+    "date": "2026-08-16",
+    "code": 3,
+    "max": 30.4,
+    "min": 22.8,
+    "pop": 6,
+    "text": ""
+   },
+   {
+    "date": "2026-08-17",
+    "code": 1,
+    "max": 31.1,
+    "min": 21.2,
+    "pop": 14,
+    "text": ""
+   },
+   {
+    "date": "2026-08-18",
+    "code": 80,
+    "max": 28.9,
+    "min": 22.1,
+    "pop": 25,
+    "text": ""
+   },
+   {
+    "date": "2026-08-19",
+    "code": 95,
+    "max": 28.1,
+    "min": 23.1,
+    "pop": 47,
+    "text": ""
+   },
+   {
+    "date": "2026-08-20",
+    "code": 53,
+    "max": 28.0,
+    "min": 22.6,
+    "pop": 59,
+    "text": ""
+   },
+   {
+    "date": "2026-08-21",
+    "code": 3,
+    "max": 28.1,
+    "min": 21.7,
+    "pop": 65,
+    "text": ""
+   }
+  ],
+  "hours": [
+   {
+    "time": "2026-08-12T00:00",
+    "pop": 0,
+    "temp": 23.1,
+    "code": 0
+   },
+   {
+    "time": "2026-08-12T03:00",
+    "pop": 0,
+    "temp": 23.4,
+    "code": 0
+   },
+   {
+    "time": "2026-08-12T06:00",
+    "pop": 4,
+    "temp": 24.7,
+    "code": 1
+   },
+   {
+    "time": "2026-08-12T09:00",
+    "pop": 6,
+    "temp": 29.1,
+    "code": 1
+   },
+   {
+    "time": "2026-08-12T12:00",
+    "pop": 27,
+    "temp": 31.0,
+    "code": 1
+   },
+   {
+    "time": "2026-08-12T15:00",
+    "pop": 53,
+    "temp": 30.3,
+    "code": 1
+   },
+   {
+    "time": "2026-08-12T18:00",
+    "pop": 24,
+    "temp": 27.8,
+    "code": 1
+   },
+   {
+    "time": "2026-08-12T21:00",
+    "pop": 4,
+    "temp": 26.4,
+    "code": 2
+   },
+   {
+    "time": "2026-08-13T00:00",
+    "pop": 4,
+    "temp": 25.5,
+    "code": 51
+   },
+   {
+    "time": "2026-08-13T03:00",
+    "pop": 2,
+    "temp": 24.3,
+    "code": 1
+   },
+   {
+    "time": "2026-08-13T06:00",
+    "pop": 0,
+    "temp": 24.4,
+    "code": 2
+   },
+   {
+    "time": "2026-08-13T09:00",
+    "pop": 0,
+    "temp": 27.7,
+    "code": 1
+   },
+   {
+    "time": "2026-08-13T12:00",
+    "pop": 20,
+    "temp": 29.6,
+    "code": 2
+   },
+   {
+    "time": "2026-08-13T15:00",
+    "pop": 47,
+    "temp": 30.0,
+    "code": 3
+   },
+   {
+    "time": "2026-08-13T18:00",
+    "pop": 6,
+    "temp": 28.1,
+    "code": 1
+   },
+   {
+    "time": "2026-08-13T21:00",
+    "pop": 0,
+    "temp": 26.4,
+    "code": 1
+   }
+  ]
+ },
  "sources": [
   "47NEWS",
   "AAB秋田朝日放送",
@@ -28,28 +212,28 @@
   "Infoseek",
   "LOGISTICS TODAY",
   "Mshale",
+  "NHKニュース",
   "Number Web",
   "PR TIMES",
-  "TBS NEWS DIG",
+  "STRAIGHT PRESS",
+  "TVer",
   "Weverse",
   "Yahoo!ニュース",
-  "akt.co.jp",
   "au Webポータル",
-  "chiba-tv.com",
-  "news.ntv.co.jp",
-  "news.yahoo.co.jp",
   "nhk.or.jp",
   "tenki.jp",
   "いわき民報社",
-  "じゃんごブログ",
   "ウォーカープラス",
   "クラウドファンディング - READYFOR",
+  "チバテレ",
+  "トラベルボイス",
   "ライブドアニュース",
   "レッツエンジョイ東京",
   "北羽新報社",
   "夜景FAN",
   "山陽新聞",
   "日テレNEWS",
+  "日テレNEWS NNN",
   "日刊スポーツ",
   "朝日新聞",
   "東京報道新聞",
@@ -57,14 +241,15 @@
   "福島民報デジタル",
   "秋田経済新聞",
   "秋田魁新報",
+  "秋田魁新報電子版",
   "読売新聞",
   "ｄメニューニュース"
  ],
- "count": 119,
+ "count": 138,
  "items": [
   {
    "id": "1fdd12fdfff7ec2b",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xYWxvZC1oQmxHTGk3UjZENXRwbDlrc2ZudHZhMmRmUVFldlpMeHhSRDkyYWNtUWdPOVFpbkVRb2xWbDBtbTVkcDk4OA?oc=5",
+   "url": "https://www.47news.jp/14777128.html",
    "title_original": "「ホームページだけでは分からない」秋田の就職フェアに帰省中の学生ら来場",
    "source": "47NEWS",
    "local": false,
@@ -75,11 +260,12 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://img.cf.47news.jp/public/photo/df4a9e7fcc6ab869cf633f12c26b058b/photo.jpg"
   },
   {
    "id": "46f97ea9f9dac39c",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44eDI2WkZyYTZNRjlmRDVkWHdmbHF0SjZmMUE2TFNERWxQSjcwcEx3NVd3bzdKN3lfc2JseHJXWjJvYlI2MHpfSlJTM0hxWGM5dFlQQUJZVExmNnZiX19xR2ZQcUwyX1ly?oc=5",
+   "url": "https://origin.akt.co.jp/news?sel=20260812-00000001-AKT-1",
    "title_original": "バレー女子元日本代表・佐藤美弥さんがイベントが初開催！夢を諦めない挑戦する気持ちを 秋田・横手市",
    "source": "AKT秋田テレビ",
    "local": false,
@@ -90,11 +276,12 @@
    "area": "県南",
    "kind": "event",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.akt.co.jp/akt_news/20260812-00000001-AKT-1-00-thumb.jpg"
   },
   {
    "id": "9f6eaa178af0b548",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LaElNNTZxSkZkZEt3T09wbUhuWGZwSGo4am5qbUNfTG4tZUlaWEx3QnZYUnUxcTQzb29aZG1sRE4xNk04RXlrM3JYRktMZ01Gc3NnRFdfMmpYMjE2dGc?oc=5",
+   "url": "https://news.livedoor.com/topics/detail/32042869",
    "title_original": "お盆にあわせて秋田県で就職や移住について相談できるイベント (2026年8月11日掲載)",
    "source": "ライブドアニュース",
    "local": false,
@@ -105,7 +292,8 @@
    "area": "県全体",
    "kind": "event",
    "event_when": "2026年8月11日",
-   "importance": 3
+   "importance": 3,
+   "image": ""
   },
   {
    "id": "0617838488df1831",
@@ -120,13 +308,14 @@
    "area": "県北",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0015_02_l.jpg"
   },
   {
    "id": "9f1509d1715fd38e",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14UTVJQWR5MVl5WWJVZURScnhtMUNYdWx5em1rYmh5cXBZaWZQdkFDblRjalYzT1FoYXZBMXpvelRaX0hzeE8zYVcwRVlFY0FUcC1lOEQ1eEpkMS1NV1FZ?oc=5",
+   "url": "https://www.chiba-tv.com/plus/detail/2026081888188",
    "title_original": "【秋田道】秋田市内で事故復旧緊急工事 一部通行止め解除（12日07:00現在）",
-   "source": "chiba-tv.com",
+   "source": "チバテレ",
    "local": false,
    "published": "2026-08-11T22:00:48+00:00",
    "title_ja": "秋田市内の秋田道、事故復旧工事の通行止め解除",
@@ -135,7 +324,8 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1128650059009229094/origin_1.png"
   },
   {
    "id": "d25b1c03e332be07",
@@ -150,7 +340,8 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0025_01_l.jpg"
   },
   {
    "id": "3cfb85d8fb01f622",
@@ -165,11 +356,12 @@
    "area": "県北",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0036_01_l.jpg"
   },
   {
    "id": "2560fe5de0ef4512",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04RC0wVjRyZHpxOGh3LXVyMF9iNHVUeG9JQVh2UWVqNG1lUzByS3lSRXJUMXJ6SnVocGFVNVVFTVg3cU5zWUNuU3NOLXpBRGM?oc=5",
+   "url": "https://www.minpo.jp/articles/-/202000",
    "title_original": "【全国高校総合文化祭】秋田県で開催（７月26～８月１日） 光放つ文化部の情熱 福島県勢１５部門出場",
    "source": "福島民報デジタル",
    "local": false,
@@ -180,11 +372,12 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://minpo.ismcdn.jp/mwimgs/6/8/1200w/img_68e0df58003cc9bdde47b465255c0e4e67906.jpg"
   },
   {
    "id": "cd0c08c55dfec4a5",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1OUmY2WW5iSFBHYXRnM3NOWmhqZjVENUM4NmUtX3hCa1ZxT25CLUFtQjZNNlpHbWx6SkJZYlVVUW9MNzlBS0N0Z0dXSDBGdw?oc=5",
+   "url": "https://www.fnn.jp/articles/-/1093053",
    "title_original": "【秋田県】8/12の天気予報",
    "source": "FNNプライムオンライン",
    "local": false,
@@ -195,11 +388,12 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://fnn.ismcdn.jp/mwimgs/7/1/600/img_71908d3179db39e69db6dec341dc2ae7126238.jpg"
   },
   {
    "id": "ee0ffeee16cc96a0",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wNVhGNnJLQzlWbU54cXBfZ0pqNXNVd2JKTDBKUFBSTnZsczJQRWhPRk16SThtSGEwTElfV0NRb2hxNzA1eDlYQjdKXzJNRHNiRF9rTF9ic29XM212UWc?oc=5",
+   "url": "https://news.livedoor.com/topics/detail/32042057",
    "title_original": "夏休みの思い出を 魚のつかみ取り大会！100人以上の子どもが夢中に 秋田・北秋田市 (2026年8月11日掲載)",
    "source": "ライブドアニュース",
    "local": false,
@@ -210,11 +404,12 @@
    "area": "県北",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": ""
   },
   {
    "id": "1642fd288476b958",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5adGloMnRMa0o5dlF1SHdvM2czR3BpdmpXVl9VMHRHMGgyZTRhWjVCbndocnlTOUZhZVU3M29NU0Jta1RhUlhsaHloWHo3ZHplOE1tZHg3U2hOdzdHdE01VXBvTm1ETVlwdlRaZE1kNXdmM1RzZ0hRYkZqNktVbjg?oc=5",
+   "url": "https://news.yahoo.co.jp/articles/fe7cb8ed5657d28503c9dce7f3b887624a06b829",
    "title_original": "【秋田市】8/12 最高32℃、暑さに注意、昼間はやや風がある予想【朝版】",
    "source": "Yahoo!ニュース",
    "local": false,
@@ -225,7 +420,8 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260812-00020003-wordleafw-000-1-view.jpg?exp=10800"
   },
   {
    "id": "36882aacb500ae1c",
@@ -240,11 +436,12 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0037_01_l.jpg"
   },
   {
    "id": "f1dd5f8fbb8388a8",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GMEd3aE03TmYyYXp0SjIwMWxubGNNa0VmeGtEYW5iNFhGWWVnQU5aRTBSMm1jOF91SklRTmtUd3FzRDVhMjZ5cl9jVUhHWGdnVkE?oc=5",
+   "url": "https://www.enjoytokyo.jp/event/2077287",
    "title_original": "秋田県ジャズダンス協会 合同公演 Vol.7「 rapports 」｜レッツエンジョイ東京",
    "source": "レッツエンジョイ東京",
    "local": false,
@@ -255,11 +452,12 @@
    "area": "県全体",
    "kind": "event",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://rstatic.enjoytokyo.jp/assets/images/event_draft/ff/2077287/img_1.jpg?1785131346&p=t&w=1200"
   },
   {
    "id": "693c3db86e5a175d",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBlby0tYUI5R0cwNzZHaWstUFR6ODYwS3J4S3drbUs1RVprQnBoZllhT2lHT2NsbEdoX3lkdk9mVU5aUGlFM2ZmN3RLalBkcW9KT1g3NFd4MVZENVUxamlMY0VwYTltNm9NWWFJYWZxajJMVlV0bUltLQ?oc=5",
+   "url": "https://article.auone.jp/article/e2a6b93d-4033-4d83-8251-37ed84e359cb",
    "title_original": "大仙・太田町の「もつ煮処ちゃみせ」が1周年 母の味を再現したもつ煮",
    "source": "au Webポータル",
    "local": false,
@@ -270,11 +468,12 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/08/10/https___daisen_keizai_biz_headline_329_.jpg"
   },
   {
    "id": "4aa391fd2cbd0897",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5BaE9lM3E4eE9rS3EwR0ZPelZPRkZPMWJTOGRMN0hmQWVaVXpjbmZvN0RJMDVCdnRnS1BVZDBPZDMtTFZOOERPREJabW1pMlduYUtZUDJLUkdoOGM?oc=5",
+   "url": "https://mshale.com/c3a87fb5/a43f04f0Zf7aYtqiTNA",
    "title_original": "俳優・高橋克典さんも参加 世界一の大太鼓を打ち鳴らし集落を行進 北秋田市・綴子神社の例大祭 (2026/07/15 19:53) Uzbekistan (qnHB3Kfheb)",
    "source": "Mshale",
    "local": false,
@@ -285,11 +484,12 @@
    "area": "県北",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": ""
   },
   {
    "id": "29ce178414512ebe",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TaVJDeGF4UXRXM09rUU9rWHBsNkxSZ0dxV0RCaEtmdGl6Tm40bUtLQm16eHFlZU0ya0l0aEstdTB4djVHNjZQd3lnVDlmeDNQOEJuVmNXcC1HR2xsdkFHQ3RTWWdWSy13X2Rmd1RR?oc=5",
+   "url": "https://www.walkerplus.com/article/1027713/image10247094.html",
    "title_original": "画像1 / 4＞おしゃれでモダンな作品を楽しめる！秋田県仙北市で「ルネ・ラリックのガラスとアール・デココレクション」が開催中",
    "source": "ウォーカープラス",
    "local": false,
@@ -300,26 +500,28 @@
    "area": "県南",
    "kind": "event",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://news.walkerplus.com/article/1027713/10247094_615.jpg"
   },
   {
    "id": "83e5ef38d131f02e",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUkxKd0hXQ0Z3M1RBcHlCdXYyUGNrclJidzFkMW9Kc09nUUNQVDUtdzVNQmJpUmEya05adDNnX3JncDgyRnhWZEp4VVFJU0FfMnllUEs5VjVkbnNBcDFjOGRuRFY1cWlSVkFlM2pCWnU5NkpWSU9BSkQxWjViNXdZbHlvNjZ2LUNFai1tOHJqSXVIUGVQLUdZTHpBZm5RTDlqdFHSAaIBQVVfeXFMT1JMSndIV0NGdzNUQXB5QnV2MlBja3JSYncxZDFvSnNPZ1FDUFQ1LXc1TUJiaVJhMmtOWnQzZ19yZ3A4MkZ4VmRKeFVRSVNBXzJ5ZVBLOVY1ZG5zQXAxYzhkbkRWNXFpUlZBZTNqQlp1OTZKVklPQUpEMVo1YjV3WWx5bzY2di1DRWotbThyakl1SFBlUC1HWUx6QWZuUUw5anRR?oc=5",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1459908209217847786",
    "title_original": "（秋田）東成瀬村椿川でクマ出没 ８月１１日",
    "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/054640.png?fushinsha_joho-1459908209217847786",
    "local": false,
    "published": "2026-08-11T13:51:00+00:00",
-   "title_ja": "東成瀬村椿川でクマが出没、警戒を呼びかけ",
-   "summary_ja": "8月11日、秋田県東成瀬村の椿川地区でクマが出没しました。地域住民や付近を訪れる予定のある方は、遭遇しないよう十分に注意し、今後の出没情報などにも警戒してください。",
-   "category": "事件・事故",
+   "title_ja": "東成瀬村椿川でクマが目撃される",
+   "summary_ja": "東成瀬村椿川でクマが目撃されました。今後の情報に注意し、外出時は周囲への警戒を心がけてください。",
+   "category": "天気・防災",
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 3
   },
   {
    "id": "051385ba3da97c1f",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX3FkOW1NaEhERTVwZUxsVHpCYUc2UDdMdDluTmJFUFhtMmJfTzgzX0F4S3BqWTBkNVYtRGpHVTlGWUV1bVQ2Rl9vR0pmWkRmdDIzSGlkQmNWdWdobUxjWVZTam9nVGtVZVI4LWdoWGxYTjhCZXRkejViZVhGaXR4TlhRTGZCUnJhY25pS044LU5QNFA0WFo2VURzeDPSAaIBQVVfeXFMTUUwX2tTX1NCTzVIMjVzWmE1aExIZ3B4THU2ZWowcEc0YTFwVVBKUlp2OWh3YnJObEkyR01LZlUzTWticHY1LTJGckZJYWZTRk9DQmpYckFCQ3NQdmMzRmRjek9PaVRJMFF3cm16N2NYbmx1Q19MVTFubVVaNnJuZzJNbjBUVk5nbXFxc2N3bk9pcFo1MHc0MEZCX1hnXzBGTDhR?oc=5",
+   "url": "https://topics.smt.docomo.ne.jp/article/fushinsha_joho/region/fushinsha_joho-1459899149205308258",
    "title_original": "（秋田）由利本荘市鳥海町下笹子間木ノ平でクマ出没 ８月１１日",
    "source": "ｄメニューニュース",
    "local": false,
@@ -330,11 +532,12 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052108.png?fushinsha_joho-1459899149205308258"
   },
   {
    "id": "8f3fe0e7c6f02bc2",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wenRJaGdiSUd2QlZxZ1pzS0NUV2ZhVDhOaGMzdlUwdUV5NkY5UWlHN2pROUNhcHlkWjVPbWgyd0VZZDlHVEVrUkZFQm05eGxOdU0w?oc=5",
+   "url": "https://tokyonewsmedia.com/archives/26387",
    "title_original": "秋田に国内最大級のAIデータセンター誘致へ 整備費2兆円規模、UAEが投資検討",
    "source": "東京報道新聞",
    "local": false,
@@ -345,11 +548,12 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 4
+   "importance": 4,
+   "image": "https://tokyonewsmedia.com/wp-content/uploads/2026/08/秋田市役所.jpg"
   },
   {
    "id": "1995c50dd6c2ddd7",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TMDNQNTFyazhwbzZZdmZ3OURiMTBhejJWZkktd3pLME9nbElpMXlqSzI1eVVQaXZ2bHAxS0JiSnpVQlJXWGlPeDR0a0o1TnlXdkljZF9za3pkUDhWNF83SjdGUmREVS04eUh4VFF3?oc=5",
+   "url": "https://article.auone.jp/4abc6bc8-69cc-4243-9a0f-ae01603522db",
    "title_original": "秋田県幹部「バスローブ喫煙会見」は「フリータイム休憩7000円」ラブホテルから…AIの分析は「会見映像と202号室がほぼ一致」",
    "source": "au Webポータル",
    "local": false,
@@ -360,7 +564,8 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/08/11/https___www_asagei_com_excerpt_349054.jpg"
   },
   {
    "id": "afc6632821ddb44d",
@@ -375,7 +580,8 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 4
+   "importance": 4,
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026081118300011916.jpg"
   },
   {
    "id": "af44f7d779592d0d",
@@ -390,7 +596,8 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026081115130011917.jpg"
   },
   {
    "id": "6db91bc01211a58f",
@@ -405,7 +612,8 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026081117550011915.jpg"
   },
   {
    "id": "fc6cb22e1e1d1626",
@@ -420,7 +628,8 @@
    "area": "県北",
    "kind": "event",
    "event_when": "16日まで",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260811G00012_l.jpg"
   },
   {
    "id": "0a096ff907e229e4",
@@ -435,7 +644,8 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026081116130011914.jpg"
   },
   {
    "id": "1883b9bb14f1ccf8",
@@ -450,13 +660,30 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026081114270011913.jpg"
+  },
+  {
+   "id": "c92934f625d6f899",
+   "url": "https://akita.keizai.biz/gpnews/1749820",
+   "title_original": "神流川で行われた灯籠流し",
+   "source": "秋田経済新聞",
+   "image": "https://images.keizai.biz/img/gp/m0092495442.jpg",
+   "local": false,
+   "published": "2026-08-11T10:57:57+00:00",
+   "title_ja": "神流川で灯籠流しが開催される",
+   "summary_ja": "神流川を舞台に灯籠流しが行われました。川面に幻想的な光が揺らめく様子が伝えられています。",
+   "category": "観光・イベント",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "5d95584a08ad128b",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tSmc5dUd2NHJGU0xXYjZIRU5TTXlLODN6QTRRNWltVFZJQ1FId3VPMGZCa2YwM3lGT2tWM29pWmZpUW5xLURoZVhOZEhUbVpMUW5yYTMwLUFuX3lYdmVVVUxWMXA?oc=5",
+   "url": "https://www.akt.co.jp/news?sel=20260811-00000004-AKT-1",
    "title_original": "地元で働く魅力を発信 秋田市で就職フェア 最大110万円の商品券・交通費支援で人材呼び戻しへ",
-   "source": "akt.co.jp",
+   "source": "AKT秋田テレビ",
    "local": false,
    "published": "2026-08-11T10:30:13+00:00",
    "title_ja": "秋田市で就職フェア開催へ 移住支援も用意",
@@ -465,41 +692,12 @@
    "area": "中央",
    "kind": "event",
    "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "ae0ddc87ea9d5402",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA1LUhlU0dpT2dqMk1xSjduanhuVE55RmJSZE5WbWxRbVVRR2dYbXVjVk9ZMTNNX1U0bjNHQmhJcVlrcElZV1Fwa3JkRHFoRS1vdjhZdExVVkZLM0E3TGJTU25VNG0?oc=5",
-   "title_original": "AKT-NEWS 警察署に2万回以上の無言電話 秋田市の男（29）を偽計業務妨害の罪で起訴|08月11日(火)19:00",
-   "source": "akt.co.jp",
-   "local": false,
-   "published": "2026-08-11T10:17:41+00:00",
-   "title_ja": "警察署に無言電話2万回 秋田市の男を起訴",
-   "summary_ja": "警察署に対して2万回を超える無言電話をかけ、業務を妨害したとして、秋田市の29歳の男が偽計業務妨害の罪で起訴されました。8月11日に明らかになったものです。",
-   "category": "事件・事故",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "30340ec07ad691a1",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tSFBDTUh3QS1uNElMb0QxZ19EODMyR3VwYUJoeWJmR3B4c2NhY0NqODJkd2NIenFLSlA2cW40U2hKQ2FBdzl6SC1jVkQtUjIyNU15UlpiMG83LV94YmxLTXBjcUdBNU05UENtRTJ2RkhVMVROdThIUzgzZ0NfWVE?oc=5",
-   "title_original": "警察署に2万回以上の無言電話 秋田市の男（29）を偽計業務妨害の罪で起訴（秋田テレビ）",
-   "source": "news.yahoo.co.jp",
-   "local": false,
-   "published": "2026-08-11T10:14:01+00:00",
-   "title_ja": "警察署へ無言電話を繰り返した男を起訴",
-   "summary_ja": "秋田市内の警察署に対して2万回以上の無言電話をかけ続け、業務を妨害した罪で29歳の男が起訴されました。警察の対応業務に大きな支障をきたした事件です。",
-   "category": "事件・事故",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.akt.co.jp/akt_news/20260811-00000004-AKT-1-00-thumb.jpg"
   },
   {
    "id": "68ac54d74da355c9",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UU082VnNDeGRMZlBtbjdMbzdoVFZJNnFYY0VibkVXVlc1YW9oVHU3ZDM4ZElCTzRyRk95ZWx2eU1iVEgwb2FMYl9LdHBlUlFBYk01OTFCY3FEV1dwcVc0VGdmaXE4QUE?oc=5",
+   "url": "https://www.akt.co.jp/nicescup2026/sokuho_day2game6.html",
    "title_original": "ナイスカップ2026|試合速報・結果",
    "source": "AKT秋田テレビ",
    "local": false,
@@ -510,13 +708,14 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": ""
   },
   {
    "id": "5e659c2c7fca2aec",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTbXc1azhUTWxtWk5pNTBlbkNBN1YzcmRhVDVOeXdSRmN6TzZGSGZSVTR6QjFYbzVBYnlFYVpuTDZ4VFg5LUVwb0lmcjFXemZZNlZDSWg5RUQtQkJBaTRZX0J3NHU?oc=5",
+   "url": "https://www.akt.co.jp/news?sel=20260811-00000001-AKT-2",
    "title_original": "AKT-NEWS 花火のまち大曲駅から“ひと駅寄り道” ラベンダーで癒やされ湧き水で涼む夏に 秋田|08月11日(火)18:00",
-   "source": "akt.co.jp",
+   "source": "AKT秋田テレビ",
    "local": false,
    "published": "2026-08-11T10:10:12+00:00",
    "title_ja": "大曲駅周辺で楽しむ夏のラベンダーと湧き水",
@@ -525,11 +724,12 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://www.akt.co.jp/akt_news/20260811-00000001-AKT-2-00-thumb.jpg"
   },
   {
    "id": "2aa86f7d8519e55c",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jbW91WG9HaFBJeDRUZTdmX1VrVG8wd2pRSk5kN191bWJPa1dhbXJGcGhmWGNLOUJWSDdNVUE5VHY3MVJhTE50d1Y3d1Z2ZFY0Wm5OWmpBY0h5Y2h6eFE?oc=5",
+   "url": "https://news.livedoor.com/topics/detail/32042020",
    "title_original": "県内就職や移住希望者向けのイベント 140以上の企業・団体が秋田で働く魅力をPR (2026年8月11日掲載)",
    "source": "ライブドアニュース",
    "local": false,
@@ -540,13 +740,14 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": ""
   },
   {
    "id": "ae72d80ea43e448b",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBaTmJKdThQYk5mOExxUkF3TjBQR09MYkFrT0FkMHFlSjBrT3Y2em4wenRYampTdUpWNGkyX2VqYkQ5dWtEOXpSSVhPUHh0bHhfbWcyMlZLUlhPc1NtRWFZeVBQSzQ?oc=5",
+   "url": "https://www.akt.co.jp/news?sel=20260811-00000002-AKT-1",
    "title_original": "AKT-NEWS ナイスカップ秋田県小学校クラブ野球大会が開幕 小学生球児が熱戦繰り広げる|08月11日(火)19:00",
-   "source": "akt.co.jp",
+   "source": "AKT秋田テレビ",
    "local": false,
    "published": "2026-08-11T10:05:06+00:00",
    "title_ja": "小学生球児が熱戦、ナイスカップ野球大会が開幕",
@@ -555,13 +756,14 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.akt.co.jp/akt_news/20260811-00000002-AKT-1-00-thumb.jpg"
   },
   {
    "id": "42cc3974beb29223",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01OHdaZzh4dmhCZTFlMTVRVTZyWERsWEN0amRRUHVhYlRocFZtVWpvQmNRdV85U081bDJqYXVjMFNQSmFIY0pTeFRwY3ppazI4aTRMM1lQS0Uwc1V4b0NpVGRKTVBUSER0ZW9CenlfNlJtSFpFTVpNbXMtYjFHRlU?oc=5",
+   "url": "https://news.yahoo.co.jp/articles/1cd52201b65529b0a11d114e2b3d881d22a8d296",
    "title_original": "ナイスカップ秋田県小学校クラブ野球大会が開幕 小学生球児が熱戦繰り広げる（秋田テレビ）",
-   "source": "news.yahoo.co.jp",
+   "source": "Yahoo!ニュース",
    "local": false,
    "published": "2026-08-11T10:04:01+00:00",
    "title_ja": "ナイスカップ秋田県小学校クラブ野球大会が開幕",
@@ -570,13 +772,14 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260811-90018163-akt-000-1-thumb.jpg?exp=10800"
   },
   {
    "id": "600acf05ffb026a0",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DcUlfZTdQZVljbkg0c3YtdmpOVEV2eFRRSG96ZTZId1ZhWDFjN2tCTll5aHpIbU14cjdhOWpFTS1YVzIxZG1HUjVFdFA3R3ozbGRSLXlZRm5wM3B3SlQ0SjhrTEtoT29GR2tza0xVZUFmb20tTl9NT283ck4yRGs?oc=5",
+   "url": "https://news.yahoo.co.jp/articles/af510a8d96ce40df304444a35dbe0c2ab619f78c",
    "title_original": "花火のまち大曲駅から“ひと駅寄り道” ラベンダーで癒やされ湧き水で涼む夏に 秋田（秋田テレビ）",
-   "source": "news.yahoo.co.jp",
+   "source": "Yahoo!ニュース",
    "local": false,
    "published": "2026-08-11T09:56:01+00:00",
    "title_ja": "大曲駅からひと駅寄り道、ラベンダーと湧き水を楽しむ夏",
@@ -585,11 +788,12 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260811-90018158-akt-000-2-thumb.jpg?exp=10800"
   },
   {
    "id": "9e74964ba352f3bf",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BQlVsM1ItbTNCaThrQVdhazNzQXZsME1JSDVXenNXcTRueWVLcDU4THBVcEk2QVJzOXNsZzhPWU9KSFRfSmdxc1drR0VKQjAyUHcxSHgwVWdPZw?oc=5",
+   "url": "https://www.juniorsoccer-news.com/post-1957015",
    "title_original": "【秋田県少年女子】参加選手掲載！2026年度第53回東北総合スポーツ大会サッカー競技 兼 国民スポーツ大会東北ブロック大会 （8/7,8,9）",
    "source": "Green Card ニュース",
    "local": false,
@@ -600,7 +804,8 @@
    "area": "県全体",
    "kind": "event",
    "event_when": "8月7日〜9日",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.juniorsoccer-news.com/wp-content/uploads/2026/08/7f78821a21a11ac206c1287daa36f167.png"
   },
   {
    "id": "3ac2f4c07d533793",
@@ -615,7 +820,8 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260811G00032_l.jpg"
   },
   {
    "id": "6704297e34838a88",
@@ -630,11 +836,12 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 4
+   "importance": 4,
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260811G00009_l.jpg"
   },
   {
    "id": "f52f80fb7fcb0c27",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTkJZdjJMeXY0eWdQX0VyN29lZ2FvTzhzTFJqRjR5ZEZSZm9pMVBfUll3LURzRjBfUV83UG9tODZENUlDTDl2d25EQzB2bG5NTE03VTNGTGdVYnVUaTFTLUhTQUpzeFk0OFdkUC1Ed2hVRVM2YnBqRjRkaWl4YmFMQkpwOA?oc=5",
+   "url": "https://news.ntv.co.jp/n/abs/category/life/ab4a7974839dc04b87b38c314db17f8b04",
    "title_original": "夏休みの思い出を 魚のつかみ取り大会！100人以上の子どもが夢中に 秋田・北秋田市",
    "source": "日テレNEWS",
    "local": false,
@@ -645,13 +852,14 @@
    "area": "県北",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://image.gallery.play.jp/abs-news/articles/ad51fa1c6f474639be827b01cd25f2a9/3cc422dc-c85e-4cfd-bd1c-36693f9983a8.jpg?w=1200"
   },
   {
    "id": "79ccfb75f32c084c",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcWpheGE2TlRXb3Q1bXF5cUU3enJtZjJRMDlRNE9yd1J2bUUtT2R6ZWoyMjk5NzVMOTdRalVtdm02b1cxeEw1NG9lRUtweG5GR3hpcXVMSjZOZEZZaTdfeVVmeTEwbzZoVk5xdE1CQjU3bEU1SS1faG4tQkVZaXRDRzQ1NA?oc=5",
+   "url": "https://news.ntv.co.jp/n/abs/category/life/abdb61dcde0d2a43b284fa28d656c16666",
    "title_original": "県内就職や移住希望者向けのイベント 140以上の企業や団体が秋田で働く魅力をPR",
-   "source": "news.ntv.co.jp",
+   "source": "日テレNEWS",
    "local": false,
    "published": "2026-08-11T09:08:00+00:00",
    "title_ja": "秋田での就職や移住を応援する大規模なPRイベントを開催",
@@ -660,13 +868,14 @@
    "area": "県全体",
    "kind": "event",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://image.gallery.play.jp/abs-news/articles/ef2572d9ee7248b1a7c80089c20119fa/c664fa36-d608-4e84-893c-45563fd563c6.jpg?w=1200"
   },
   {
    "id": "2d9be872b416c222",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRkdocktrSGFpUDZXLXljRG0tRk4weDJpaTJNY2hOS2ZFODhGMUpRWEtPc2c1VUowMXRxc29STHpZTlBBa1FWZHpSb0xZcmRWbERzLUZwTjlUakp4ZU5yT3lnVVRfU1pkMTdsUmp2Qk9UZUFtdDVzaUlnSEZWNkoxMXRHLTcwMEk?oc=5",
+   "url": "https://news.ntv.co.jp/n/abs/category/economy/abfb9958bfe5124eaeb13537040dec5025",
    "title_original": "去年県内を訪れた外国人観光客の旅行消費額は約45億円 東北で最少 唯一前年を下回る 秋田",
-   "source": "news.ntv.co.jp",
+   "source": "日テレNEWS",
    "local": false,
    "published": "2026-08-11T09:05:00+00:00",
    "title_ja": "昨年の外国人旅行消費額は約45億円、東北で唯一の前年割れ",
@@ -675,7 +884,8 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 4
+   "importance": 4,
+   "image": "https://image.gallery.play.jp/abs-news/articles/a6b110d2e4a2488dabb0056e065024ec/5babac1e-cd52-4a7f-85b6-a0051344580d.jpg?w=1200"
   },
   {
    "id": "8ee8ec0f5051d14f",
@@ -690,7 +900,8 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0031_01_l.jpg"
   },
   {
    "id": "a61b9d9c588f2279",
@@ -705,11 +916,12 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0030_01_l.jpg"
   },
   {
    "id": "fa76667983ff36b5",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JZE02QU9oSlNlWEhZNnR2YlQ2WmpGMWhRSy1tNHY2enNXR2VKRmRCRU1uOHRLLUg2MWNWaHhZUDF4bXdLbjBlcVVKYmFpbXc1Sm5TZHZubll0MXlHSHk1MjlVM1Y2WlJTQVlsMjJoRUViLUxXcjQwYQ?oc=5",
+   "url": "https://article.auone.jp/article/74a01246-8f24-41d2-afb7-cc1cab75b221",
    "title_original": "秋田県で1時間に約100mmの猛烈な雨 気象防災速報・記録的短時間大雨",
    "source": "au Webポータル",
    "local": false,
@@ -720,7 +932,8 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 5
+   "importance": 5,
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/08/09/https___weathernews_jp_news_202608_090171_.jpg"
   },
   {
    "id": "46e3ecfa038d2cb5",
@@ -735,11 +948,12 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0027_01_l.jpg"
   },
   {
    "id": "2cea44de44ddad86",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qRFVoTFF6ZWFyNEQ5bnUyTUJfelV4Rk5RQTBkRFhjQjN2NElHRlRyTGd3bjNRVjlwYk1HYlRYcXBrQlNRVFJqcVZKRXZtWnd6SWhtcVRhRDNSUFZOU0E?oc=5",
+   "url": "https://weverse.io/akb48/artist/3-238657932?hl=ja",
    "title_original": "AKB48コミュニティの投稿 - ✨＼いよいよ明後日スタート！／✨ 秋田県・たざ",
    "source": "Weverse",
    "local": false,
@@ -750,11 +964,28 @@
    "area": "県南",
    "kind": "event",
    "event_when": "8月14日",
+   "importance": 2,
+   "image": "https://phinf.wevpstatic.net/MjAyNjA4MTFfMjMw/MDAxNzg2NDM0NzMxOTc0.O8rKgX1Sdjp11Gtn8lHr71cG_2mslSdYa7uVL_48Fmog.EJ_7YzdkzYU-OuHJu_d3fRESb92lI2bReckH3GIj_Q4g.JPEG/image.jpg?type=w1414"
+  },
+  {
+   "id": "0be261b48368f04f",
+   "url": "https://weverse.io/akb48/artist/3-238657932?hl=ko",
+   "title_original": "AKB48 커뮤니티 포스트 - ✨＼いよいよ明後日スタート！／✨ 秋田県・たざ",
+   "source": "Weverse",
+   "image": "https://phinf.wevpstatic.net/MjAyNjA4MTFfMjMw/MDAxNzg2NDM0NzMxOTc0.O8rKgX1Sdjp11Gtn8lHr71cG_2mslSdYa7uVL_48Fmog.EJ_7YzdkzYU-OuHJu_d3fRESb92lI2bReckH3GIj_Q4g.JPEG/image.jpg?type=w1414",
+   "local": false,
+   "published": "2026-08-11T08:00:24+00:00",
+   "title_ja": "仙北市でAKB48関連のイベントが開催予定",
+   "summary_ja": "仙北市を舞台にしたAKB48関連のイベントが、いよいよ明後日からスタートする予定です。詳細はコミュニティ等で確認できます。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "event",
+   "event_when": "8月14日",
    "importance": 2
   },
   {
    "id": "b3a68fc8c0bb2e0a",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40T2lndUw5by13cXpGdDg0cFF2di1FTldRbGloN3M2SEdnZUNiYk1LVHdCRzdGZ2FRdlhrMFdXQ3NaeHVraEtLVmtFZWwzdU0wa0JIZnVtRHBDMDZIaTc2bnZB?oc=5",
+   "url": "https://weverse.io/akb48/artist/3-238657932?hl=zh-cn",
    "title_original": "AKB48社区帖子 - ✨＼いよいよ明後日スタート！／✨ 秋田県・たざわ湖スキー",
    "source": "Weverse",
    "local": false,
@@ -765,22 +996,8 @@
    "area": "県南",
    "kind": "event",
    "event_when": "8月14日",
-   "importance": 2
-  },
-  {
-   "id": "cb3fe26b28fe460a",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5VRmhRV2w1UDVGYWFIazJIcEtPVHZ4aVpQV2QwVklIcU5jS0Z4VGVWTkZZY3duZ1dub29FNUU5bmhHNXhhN0k5ZnhLcWY3bkZfNkxJWXlyeHJEV3lqTG5ELThiQkdWNXh4dl9adzdvb2JVY2lvVWc?oc=5",
-   "title_original": "秋田で住宅火災、２人死亡 夫妻か、長男は連絡取れる",
-   "source": "山陽新聞",
-   "local": false,
-   "published": "2026-08-11T07:18:16+00:00",
-   "title_ja": "秋田県内で住宅火災が発生　遺体で2人発見",
-   "summary_ja": "秋田県内の住宅で火災が発生し、焼け跡から2人の遺体が発見された。この家に住む夫妻とみられており、警察などが身元の確認を進めている。なお、同居する長男の無事は確認されている。",
-   "category": "事件・事故",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
+   "importance": 2,
+   "image": "https://phinf.wevpstatic.net/MjAyNjA4MTFfMjMw/MDAxNzg2NDM0NzMxOTc0.O8rKgX1Sdjp11Gtn8lHr71cG_2mslSdYa7uVL_48Fmog.EJ_7YzdkzYU-OuHJu_d3fRESb92lI2bReckH3GIj_Q4g.JPEG/image.jpg?type=w1414"
   },
   {
    "id": "9e2179323d67cd7f",
@@ -795,11 +1012,12 @@
    "area": "県北",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260811G00017_l.jpg"
   },
   {
    "id": "1828b9881dd8fb0e",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rMm9qYVh4a3pPS0N1MDVKaG5GLUFGamZ3bmhIOVd2R1hzUGJaNklpOW45RnpsLXhHS09uaFdQbU5pU2hUZHBRTVY1TXpxbDZMZ1gwd1F1ODRsZHRNMVZ4U0pVV1pVU1JNMUNiVUFR?oc=5",
+   "url": "https://article.auone.jp/7382c2ab-9c98-4179-9146-d671af8782b2",
    "title_original": "紀藤正樹弁護士 秋田県のバスローブ会見に「この件は謝罪で済むレベルではない」",
    "source": "au Webポータル",
    "local": false,
@@ -810,11 +1028,12 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/08/11/https___news_jp_i_1459796659511788023.jpg"
   },
   {
    "id": "e0af468ca79ac6ec",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51bW9GNUZQVC1VY3ZlVTVKc01jNUxHem02VGxPV3pLOC1HaS01ZDJnSlBIMml5VmtYNTBNOVNvVEdPQl8zMHRrVWhUdk1RMy1zbGlYT1Vhb3NscHZEaUFXZ3BpZ3RrSFhuVmZ0MHg5R0xMX0kyMDM3TUdXZw?oc=5",
+   "url": "https://yakei-fan.com/magazine/fireworks/akita/happo-hanabifes2026.html",
    "title_original": "花火と音楽とグルメが集う「八峰花火フェス2026」本日開催（秋田県山本郡八峰町）",
    "source": "夜景FAN",
    "local": false,
@@ -825,11 +1044,12 @@
    "area": "県北",
    "kind": "event",
    "event_when": "本日",
-   "importance": 3
+   "importance": 3,
+   "image": "https://yakei-fan.com/images/magazine/fireworks/pic_happo-hanabifes202601.jpg"
   },
   {
    "id": "fb08b3b8d5400598",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4xaWktWmhNRmF4OS1waW5zTGNrUnkxV2ZHMElvbVJPR2Q3RkRFa0plQ2ljd1ZIZWVGRk1TbVM3NWtUWU9vOWxwOWZwWXloTUIwNEsta0d1T3hSLVVtNmoxWENtd2d4eUk0MmpfS2xLSGVEbHlTT0g0?oc=5",
+   "url": "https://yakei-fan.com/magazine/fireworks/akita/odate-hanabi2026.html",
    "title_original": "【2026】「大館大文字まつり」第72回花火大会本日開催！花火と大文字焼きの競演",
    "source": "夜景FAN",
    "local": false,
@@ -840,11 +1060,12 @@
    "area": "県北",
    "kind": "event",
    "event_when": "本日",
-   "importance": 3
+   "importance": 3,
+   "image": "https://yakei-fan.com/images/magazine/tourism/pic_odate-hanabi202301.jpg"
   },
   {
    "id": "41335e7b580ba681",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TZl93VGZLck4wY3Nkc3pDdko2UWFCR0JPb1d3NnJKSVExTWc1ZDFrdUlEWTNXbDlSNUZYcXhheXZUeDdORXRjWGwycjRRQUxFRmNCWEhrSWtGVDR2LUZ2M2xB?oc=5",
+   "url": "https://tenki.jp/lite/bousai/typhoon/storm/2616/2/8",
    "title_original": "台風16号(2026年)の秋田県の暴風域に入る確率",
    "source": "tenki.jp",
    "local": false,
@@ -855,7 +1076,8 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://static.tenki.jp/static-images/typhoon-detail/recent/japan_wide-large.jpg"
   },
   {
    "id": "cae760cbf35907b6",
@@ -870,11 +1092,12 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260809G00019_l.jpg"
   },
   {
    "id": "aea31b56a5ddf1b8",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSzUyc0Y3SGVQdW85ZzVMSDYtMW90VFAyR2xlSDJHYVA1blJHT0tHeWN0RlpYWlprV1BtaFMxZmU0RXE4YWpMSVJXM2puc0ZHU0RhRndIamhYWHA3bXNtWC1TV3V6cVI5X2lfRC1CRTQ1Wk01VU9YYTlON3RuOFFvOFpCLWxxcXNnYjEwVE1PZUNzVDQzVVV2VWVubXhwalFrNC1lWGR1QTB5UHpDUWx1Q21LNnE4NWxfNXk3SjVtWFhtelpNTVRyY3JPakVRcDdxVHVJRXhadmgyQjg?oc=5",
+   "url": "https://www.sanyonews.jp/article/1961725?kw=%C3%A5%E2%80%A6%C2%B5%C3%A5%C2%BA%C2%AB%C3%A7%C5%93%C5%92%C3%A3%E2%82%AC%E2%82%AC%C3%A5%C5%92%C2%BA",
    "title_original": "秋篠宮ご夫妻、総文祭視察 秋田、高校生と交流",
    "source": "山陽新聞",
    "local": false,
@@ -885,13 +1108,14 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://static.sanyonews.jp/image/article/size1/b/2/7/6/b276fad54873e95615f6d53bb2403107_1.jpg"
   },
   {
    "id": "488207c15adf950e",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHNXNVT25kX3BUVnhqVC1KeEdxeUZ6MXhYci1tQmVEQ2t3anR2QWJ0MGJWWENsV2ljWl9qb1RWaFNranprcmhzc3JhdFVxZ0dlQ1Qzel9VZk1aNlAzWnk0?oc=5",
+   "url": "https://www.chiba-tv.com/plus/detail/2026081886322",
    "title_original": "【日本海東北道】由利本荘市内で故障車 一部通行止め解除（11日14:40現在）",
-   "source": "chiba-tv.com",
+   "source": "チバテレ",
    "local": false,
    "published": "2026-08-11T05:41:13+00:00",
    "title_ja": "由利本荘市内の日本海東北道で故障車、通行止め解除",
@@ -900,22 +1124,8 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "b4b73b10d65a3c75",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mUDZrTXNJY3NNeFhUVXJPc05hNnNUcktPR0dsbHB5bGh6QXQ5SEtyY3I3T09hNkF4d0lqT0RqNzdPWlZPWHQ0YUIxbkxaOERLOHc5MnJFVHJrMmlKSzB1MHUzU3FwNTlialduN1h3VGRQRnVqdHExVUlNaExvVFk?oc=5",
-   "title_original": "田沢湖で盛岡市の60代男性が沈んでいるのが見つかる 発見者と周辺にいた人が救助も搬送先で死亡 一人で遊泳中 秋田・仙北市（IBC岩手放送）",
-   "source": "Yahoo!ニュース",
-   "local": false,
-   "published": "2026-08-11T05:07:00+00:00",
-   "title_ja": "仙北市田沢湖で遊泳中の男性が死亡",
-   "summary_ja": "仙北市田沢湖で、一人で遊泳していた60代男性が沈んでいるのが発見され、搬送先の病院で死亡が確認されました。",
-   "category": "事件・事故",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
+   "importance": 2,
+   "image": "https://img.jp.ekkowassets.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/1128650059009229094/origin_1.png"
   },
   {
    "id": "035edf03c705b3e0",
@@ -930,7 +1140,8 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260811G00004_l.jpg"
   },
   {
    "id": "6d8f4e7ffa92b633",
@@ -945,7 +1156,8 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026081111430011911.jpg"
   },
   {
    "id": "370614f62a3a69c4",
@@ -960,7 +1172,8 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 4
+   "importance": 4,
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026081110510011912.jpg"
   },
   {
    "id": "aa430d74e11e77f8",
@@ -975,11 +1188,12 @@
    "area": "県北",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0006_01_l.jpg"
   },
   {
    "id": "df4eb7c329d43d19",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1hFajBHQnhpRFlRM0Q2blh5bEpGZFM1V2NqbUpOUlU1ZmtFWm5JVy1JemhlLTV6bTdORVlmdkZxUzZyTTZOWVE3RXlKSHcwbWxKRk5jZDVxZlJiRkNJeFZieTU1S3RNX2dSSnNmNWUxVjIwUks3ZVJOZnJFVDhtRk5Qd054UUZvX3hBQ1VEbi1lVzU1T2dMN0s3UFRZQTA?oc=5",
+   "url": "https://www.nikkansports.com/baseball/highschool/photonews/photonews_nsInc_202608110000294-10.html",
    "title_original": "【甲子園】横手・佐藤宙斗「初勝利を横手市に届けたい気持ちは大きかった」57年ぶり出場も敗退",
    "source": "日刊スポーツ",
    "local": false,
@@ -990,7 +1204,8 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 4
+   "importance": 4,
+   "image": "https://www.nikkansports.com/baseball/highschool/news/img/202608110000294-w1300_10.jpg"
   },
   {
    "id": "1ad80d662f5b4e9c",
@@ -1005,11 +1220,12 @@
    "area": "県北",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0019_01_l.jpg"
   },
   {
    "id": "0255ba18390a4d66",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTVQ1ejRQNXRmSFFXM3dya1o1N1FqQUVrMDJLZVNDUjhyZWpsVTlwWmVFM1BZVHlqMVRmY0FpLUpmWTBCQlBoYWh1VDFjN241OW5kZ0Nwelp6WENvTm5NWi1wd1dxZmRfX1NMeS0xT1MxSWpwRnhJZjFsSW9LaXhLMEdUTmdRT1FSOW10aXNXS3V5YUVEOURhWHY2Ri1DdGIwbGVyWHpkam5nOE92ZDVCc2U4NFIwMkg0Um84WHU2UHQtaGNkNms1ZVl3YzhVTzZUMzlZNEo2MVJna2NEVERDb2wtZW8zZ3VVaUFzN0ppSXhhZ9IBogFBVV95cUxOdV9TR2V2cFlPNExTVWVXb3lnNWdMY3NibmlmYkE1LW91RHV1N1BwNC01bEFCU2hxd0xxMGQ2RTlOYWZWTEJrLTM2OEhIaXVLSUw1RWNhR3llT05VY2laMG1LMkJKRHI2TGFHR0FxXzNYU1RyUGVEMWFDM2FoUFdnUko1cGp4N2NraHhROEo2bmtzYlZJT0pBMGE0MVFqaHdLY2c?oc=5",
+   "url": "https://topics.smt.docomo.ne.jp/article/fushinsha_joho/region/fushinsha_joho-1459747147370578752",
    "title_original": "（秋田）大仙市南外大畑でクマ出没 ８月１０日",
    "source": "ｄメニューニュース",
    "local": false,
@@ -1020,22 +1236,24 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052124.png?fushinsha_joho-1459747147370578752"
   },
   {
-   "id": "179ccc5a7ccb165a",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TUUpsUWRxLVRFOFJJcDhEMzJpWHpJV1p4U0pxY2F0Rnc2dzNXNFRwVnN5OWw0Wlp0eWZaWTdBOGtGOTVZYWN1c0NVUUVEdXVaNU5SOGtoa0o0UEtTRTlFa21OaWZqME1DcG9neUJQeGhHQ2pRS1VwakR2bm1IY2M?oc=5",
-   "title_original": "秋田でアユ釣り中の山形市の男性、川に流され死亡（YBC山形放送）",
-   "source": "Yahoo!ニュース",
+   "id": "996d286c734b620b",
+   "url": "https://www.nikkansports.com/entertainment/photonews/photonews_nsInc_202608110000136-3.html",
+   "title_original": "秋田・横手市出身「農家の娘」グラドル、真っ白ビキニ水着「めちゃエチ」谷間＆くびれ曲線美公開",
+   "source": "日刊スポーツ",
+   "image": "https://www.nikkansports.com/entertainment/news/img/202608110000136-w1300_3.jpg",
    "local": false,
-   "published": "2026-08-11T03:20:00+00:00",
-   "title_ja": "秋田県内でのアユ釣り中に男性が流され死亡",
-   "summary_ja": "県内においてアユ釣りをしていた山形市の男性が川に流され、死亡する事故が発生しました。河川での安全確保が求められます。",
-   "category": "事件・事故",
-   "area": "県全体",
+   "published": "2026-08-11T03:23:16+00:00",
+   "title_ja": "横手市出身タレントがグラビア写真を公開",
+   "summary_ja": "秋田県横手市出身のタレントが自身のSNSを更新し、グラビア写真を公開して話題を集めています。",
+   "category": "文化・芸能",
+   "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 4
+   "importance": 2
   },
   {
    "id": "a3c684bae370f629",
@@ -1050,11 +1268,12 @@
    "area": "中央",
    "kind": "event",
    "event_when": "12日",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260810ak0024_01_l.jpg"
   },
   {
    "id": "3f6af18306bf1b2a",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNS004QmJ6bUpXN25sU0p0RDItZHozeTliVC11MHZFbXVMMTVtVEZtb0tYVVNuVGZwY3pTYkdOQ3JYSTBxaTNMY0l6aEZLbzJkcjdhSzNpOFRlVmFsWTc0ZERna3NrMlZlR0tqMlJLbEZYdHVUaGJ5U2tkZmRHdzZLWXJXT1FLVi1EOEJxUDNPeXkyTlVOWWhKdHdlVXdweERPdmFOdTFITzhQMkdSaEQzSFhXbVFxNFhDamFmd2dvYXBDdWRqNFZfODlEVVdma1dIdWZXWHdmMldNQ3hUNktkRkZaRGNzZnlsSlRqc1hsd1k1d9IBogFBVV95cUxPVUVyMkhqTmhPWVI4ckNXVEZvdUtOSkVzRXpDV3plakNJMDVTajhRdkJBeTI3Yl9fUkNKSTZNZDkxbjV5ck5reHNpMVY4OEo0bWZIX0NMYkdOQ3kwcDVOSnVmV2lNMFRsT3Q3V01qNzhQZ0xRQnp3dFg3MG9kUnI1dWJ3NHJjWThvSFBvQ0ZlT2ZOWVFEUTlNdkxfd29oNzY1WHc?oc=5",
+   "url": "https://topics.smt.docomo.ne.jp/article/fushinsha_joho/region/fushinsha_joho-1459746141507158212",
    "title_original": "（秋田）北秋田市森吉でクマ出没 ８月１０日",
    "source": "ｄメニューニュース",
    "local": false,
@@ -1065,11 +1284,12 @@
    "area": "県北",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052132.png?fushinsha_joho-1459746141507158212"
   },
   {
    "id": "f77adefb7651833c",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5xemF1ZHhwMTc4a3JPd3Nrd0tLNGhzWTZxZDcxSXowcWNXRG44OHVLR0tkN3JWamRncEdBMnhobWJHV0FGMkZEQXJoM093MEswaVB6OFlWbkJsWXgtcFdBMEF3Q0NxQQ?oc=5",
+   "url": "https://www.yomiuri.co.jp/national/20260810-GYT1T00305",
    "title_original": "部下に仕事与えず電話も禁止、注意に「私は間違っていない」…秋田・由利本荘市が女性職員をパワハラで停職３か月の処分",
    "source": "読売新聞",
    "local": false,
@@ -1080,7 +1300,8 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.yomiuri.co.jp/media/2026/08/20260810-GYT1I00306-1.jpg?type=ogp"
   },
   {
    "id": "b05807f12c9a3fa5",
@@ -1095,18 +1316,20 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 4
+   "importance": 4,
+   "image": "https://www.sakigake.jp/images/news-entry/20260810ak0064_04_l.jpg"
   },
   {
-   "id": "e657eaf60be6712d",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0QjdJbk9DaTRfdU5QOUJsa2tGUi1hVUtXVDdkU2JmSGlMUFM5WHZYOWdFOFZoVFg4TTVtaUdDNXVCTXlianJHV3NjTzhQZFotZXd4YkNHWGRtOXV4aXVndXo0a2dJeXo2VXJxeEVvTVo2UdIBckFVX3lxTFA0QjdJbk9DaTRfdU5QOUJsa2tGUi1hVUtXVDdkU2JmSGlMUFM5WHZYOWdFOFZoVFg4TTVtaUdDNXVCTXlianJHV3NjTzhQZFotZXd4YkNHWGRtOXV4aXVndXo0a2dJeXo2VXJxeEVvTVo2UQ?oc=5",
+   "id": "4387cb3f3cce149f",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/abs/region/abs-2026081107368275",
    "title_original": "仙北市田沢湖の民家敷地内の畑にクマ 自宅にいた女性が目撃 クマの体長は約1.5メートル 秋田",
-   "source": "Infoseek",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/abs/m_abs-2026081107368275.jpg",
    "local": false,
-   "published": "2026-08-11T02:16:10+00:00",
-   "title_ja": "仙北市田沢湖の畑に体長1.5メートルのクマ",
-   "summary_ja": "仙北市田沢湖の民家敷地内にある畑に、体長約1.5メートルのクマが出没しました。自宅にいた女性が目撃し、注意が呼びかけられています。",
-   "category": "事件・事故",
+   "published": "2026-08-11T02:15:00+00:00",
+   "title_ja": "田沢湖の畑にクマが出没",
+   "summary_ja": "民家敷地内の畑にクマが現れ、住民が目撃しました。人的被害の記載はありません。",
+   "category": "天気・防災",
    "area": "県南",
    "kind": "news",
    "event_when": "",
@@ -1125,7 +1348,8 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/ogp.png"
   },
   {
    "id": "89d733dd7ee7d5a6",
@@ -1140,33 +1364,20 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0005_01_l.jpg"
   },
   {
-   "id": "371b6425275ecd34",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZHdjNGd1UkZNWHp6TEZUSkZyMTB6cTJITktWQjR5c0xBbUs5c3VJbWF0NjJuREZrOU1vSDRjdlBaREVzSkdTdHppUlJfc1Z2REpJb0hpdjc0ZlZYRkx2TUlqVlBPMU5mRjUtN0FSY1Z6WkRadE5PdlhnNEFzb3NvOV9KZ2JCdHhlQlBnNm9VRnZtY2lEWk9ILUVhZ1FPVkprVXfSAaIBQVVfeXFMTmR3YzRndVJGTVh6ekxGVEpGcjEwenEySE5LVkI0eXNMQW1LOXN1SW1hdDYybkRGazlNb0g0Y3ZQWkRFc0pHU3R6aVJSX3NWdkRKSW9IaXY3NGZWWEZMdk1JalZQTzFOZkY1LTdBUmNWelpEWnROT3ZYZzRBc29zbzlfSmdiQnR4ZUJQZzZvVUZ2bWNpRFpPSC1FYWdRT1ZKa1V3?oc=5",
+   "id": "a4d2df845e452729",
+   "url": "https://topics.smt.docomo.ne.jp/article/fushinsha_joho/region/fushinsha_joho-1459731041439023117",
    "title_original": "（秋田）秋田市下新城岩城槻ノ木でクマ出没 ８月１０日",
    "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052019.png?fushinsha_joho-1459731041439023117",
    "local": false,
    "published": "2026-08-11T02:07:00+00:00",
-   "title_ja": "秋田市下新城岩城槻ノ木でクマが出没",
-   "summary_ja": "秋田市下新城岩城槻ノ木地内で、8月10日にクマが出没したとの情報が寄せられました。周辺住民の方は十分に注意してください。",
-   "category": "事件・事故",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "2731fbbc62ab8f2d",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYzROdlVIQWpCbW54cnpTS2JWbm04S1loVDM4ZHNPRkVIZWlwMHZPVE1JWFJQaDctUWNGZDQ3cFZlLUxhZGJaOE0xMENUMFNCdDhXNDliTGVISjlxSUN5bDVUSWZoOFRTVW5xRWY3UkpZNzlONlhacjFHWFA3MUJHcFZEVGtuWDRxUkpWUll6SXYxcEpFcGs3LWlvcHXSAaIBQVVfeXFMT3JLMjBlVnpPRmh5b05Dcjh0N3BoSm9YWXR5RDBudHlPRy0tMTdBTWo2aHY4dXpTUTI3UGJ1YjRHZnhZSjByQUJrV1RMZF9ZaWkzclRRc18yZEpGSTN6WGVkbTNneEVUUnNKR08xS2FVMGVjbEJuUGhGSkVuUWY0SUJtdGFjSVA3SnVlVkpGR1llNGViaXhGeEN4OFBvTG5kZzRR?oc=5",
-   "title_original": "（秋田）秋田市雄和椿川でクマ出没 ８月１０日",
-   "source": "ｄメニューニュース",
-   "local": false,
-   "published": "2026-08-11T02:03:00+00:00",
-   "title_ja": "秋田市雄和椿川でクマが出没",
-   "summary_ja": "秋田市雄和椿川のエリアにおいて、8月10日にクマが目撃されました。付近を通行する際は警戒が必要です。",
-   "category": "事件・事故",
+   "title_ja": "秋田市下新城でクマ出没",
+   "summary_ja": "住宅街周辺でクマの出没が確認されました。今後の情報に注意してください。",
+   "category": "天気・防災",
    "area": "中央",
    "kind": "news",
    "event_when": "",
@@ -1174,7 +1385,7 @@
   },
   {
    "id": "dc5c0bf2aae54c41",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBEN1h6ZGk4a3p0bHdYZ3hIa1RoVGtja3JrMTdtX09PajJTNllwMlVZSE00UWJlcnFpNEFRSEhvSE9jSXBNajlERGdpR2llUzEwcE5GVWF5Y1ltbHNfUlNpdFRXTHdLZmtlY0tEZUxod0U3X25KaWxmSDFfT0NaMUE?oc=5",
+   "url": "https://news.yahoo.co.jp/articles/07cf5b663ac391f2ea52b23ebe41e312a6685c5d",
    "title_original": "リモート会見中にタバコ バスローブ姿で近くの人と談笑も 秋田県職員の対応に部長「あってはならないこと」",
    "source": "Yahoo!ニュース",
    "local": false,
@@ -1185,7 +1396,8 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260811-01192559-fnn-000-1-view.jpg?exp=10800"
   },
   {
    "id": "bd45b71ac138af2d",
@@ -1200,7 +1412,8 @@
    "area": "県北",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://www.sakigake.jp/images/news-entry/20260810ak0021_01_l.jpg"
   },
   {
    "id": "396528536e32a0e3",
@@ -1215,11 +1428,12 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260810ak0020_01_l.jpg"
   },
   {
    "id": "bf4ebc3591e99fd7",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LMUZfYTdjTlJBUElWZXNhNlNQemEwd004NHlZN2Ffek5WcURhMUtSSGJZa3dRYjJrY1JxcnM5YW52Zm9DaC15NE1aNjdkaHZ2UlY1VjljSzZMZnA5YnNzODJNU01xZDRNTUhROVlGeElkSkVpWEgweFZ3bW5DMjQ?oc=5",
+   "url": "https://news.yahoo.co.jp/articles/90a964803d102eb87421c07726a796b7e32c550d",
    "title_original": "【速報】敦賀気比（福井）が横手（秋田）に10－0で大勝 夏の甲子園3回戦進出決める （福井テレビ）",
    "source": "Yahoo!ニュース",
    "local": false,
@@ -1230,7 +1444,8 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 4
+   "importance": 4,
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260811-90016961-ftb-000-3-view.jpg?exp=10800"
   },
   {
    "id": "afe68129e56625b3",
@@ -1245,11 +1460,12 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0009_01_l.jpg"
   },
   {
    "id": "528567150e44ec36",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS0g2QUZjTkJHV21lZFoySFYzMy1LbzR1VDhscXNvalV4WUdlb3NpcG5GaGk1MDgzeUc5QXJsdVQ0UTF1bmotY1BGdmhYWHJhcjA2azREdE1nVGp6eUNORHd1Z1l3YTlTVVdzQk42dE9iUG1LNU9lVUxSNk5GbVhKNWhzaDRSYjU2QmxLeThQQVZfS3FiZTVLTHY5Mks4VFgyaHfSAaIBQVVfeXFMT0tINkFGY05CR1dtZWRaMkhWMzMtS280dVQ4bHFzb2pVeFlHZW9zaXBuRmhpNTA4M3lHOUFybHVUNFExdW5qLWNQRnZoWFhyYXIwNms0RHRNZ1RqenlDTkR3dWdZd2E5U1VXc0JONnRPYlBtSzVPZVVMUjZORm1YSjVoc2g0UmI1NkJsS3k4UEFWX0txYmU1S0x2OTJLOFRYMmh3?oc=5",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1459719968431342173",
    "title_original": "（秋田）仙北市田沢湖田沢高屋でクマ出没 ８月１０日",
    "source": "ｄメニューニュース",
    "local": false,
@@ -1260,11 +1476,12 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052159.png?fushinsha_joho-1459719968431342173"
   },
   {
    "id": "b9442ac96dca4012",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ySWlXTnIySXdtRXZGSWVyUnRfNmRUZVZHeWxuRXAwQ0xOTWNkSl93OGNNTkg1T3d3MEUwbE8wdzU2UjIwYmJ3ZHBMaG5lZ1BISGtiNm5DVERKVXhvZkpjRDlia0xRTlVnZUE?oc=5",
+   "url": "https://prtimes.jp/main/html/rd/p/000002463.000031382.html",
    "title_original": "【西武秋田店】SNS映えする最新ひんやりスイーツから、全国のご当地アイスまでそろう大人気のアイスフェスが西武秋田店に登場！ 「あいぱく® AKITA 2026」開催 | 株式会社そごう・西武のプレスリリース",
    "source": "PR TIMES",
    "local": false,
@@ -1275,7 +1492,8 @@
    "area": "中央",
    "kind": "event",
    "event_when": "2026年",
-   "importance": 3
+   "importance": 3,
+   "image": "https://prcdn.freetls.fastly.net/release_image/31382/2463/31382-2463-9c111bdf50ddf727d8dccaa9701b647e-917x1191.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
   },
   {
    "id": "1d9a2e54356b4f01",
@@ -1290,11 +1508,12 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 1
+   "importance": 1,
+   "image": "https://www.sakigake.jp/images/ogp.png"
   },
   {
    "id": "f5a0508a85b7ed62",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SdUtLdWtPVllPTnJ5djVQVnFaZVVPZE9vT3pEWFRwcTVsQVpZVXJhT0Y1dV9DUWhNMXFLWUFDbmgzSGpSeENXYklGenBtaXdDTlU3MVMtNTc1WEhzQ0E2RzNZWGRLcms?oc=5",
+   "url": "https://www.asahi.com/articles/ASV8B4SM1V8BUBUB001M.html",
    "title_original": "「安全安心へ、しなやかな組織に」 秋田県警の重成・新本部長が抱負 [秋田県]",
    "source": "朝日新聞",
    "local": false,
@@ -1305,11 +1524,12 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://imgopt.asahi.com/ogp/AS20260810005149_comm.jpg"
   },
   {
    "id": "50b03200d8e2f853",
-   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNQXBYR05iMmpVcGNOS1pjVTBTWmFNRmIwTzBzXzFQNTNCQ0hjcXlack1URDUwSzdVWDZYQVo0Vnlkc0w4SXBFZFpTQkJWVmQ2Qk5sWXRmb0UzemxvWkhGOWtPX3R1TFZlbW41RlRCYjhWbm91QjJSZGcwclFueGpHcHpucEUtMXV6SWFQenVHMHRFaXlqU3h5X1ZpMjcyZk5KSmJSSkdOUjNqX0tzUEVGdXFGc0QyYUtzR1JqRHhfcm5WSy1xNncxeGpFcXItVHlKV3NPRU90MmVBWFdxWDQxNkJxUTlSWnFBVEtpTWZPenI2LUpRTDZHVkRnbDc3eEh0V2loZndVM3hoRndDaVFzTndneEtJMDNENk9kUkp3UDdMbUJ5MEF3bi1OUkxCLVZsYXJV0gHjAUFVX3lxTE1ZNDRaVnlBR2RDUU5EOXB2NjQ2TmV4eWtLVS14djgzSGVIZXBTMGpkMTZpam5CRXdMWFJ1d2d6MWxHdXVNRGxHSE9ONmtCMnlnQVlRRllFYUQ0Y1M3VEdqZFJaeXJVSnFpOUJUMndhM0NaT25adVVoY0NzQVRpM1FvbmxoSDN1dXB4dm9fU2U5amJLcFJYMGJ5Y21mdGhKT1RjSjIyNmc3U1lQOERXUi1JeTM1VExNU0k3Sm1Fa0xxdm5WbUNpRDEzbXBWVVl4MkFENGNucHdSbF90bHB3YTQyb2xz?oc=5",
+   "url": "https://topics.smt.docomo.ne.jp/article/tjn_akitatownjoho/region/tjn_akitatownjoho-https_web.akita-townjoho.jp_gourmet_20260811-siri-thai-dining_",
    "title_original": "秋田市「Siri THAI DINING」本格的なタイ料理を楽しめるダイニング",
    "source": "ｄメニューニュース",
    "local": false,
@@ -1320,22 +1540,8 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "e674e8dcf8104a8e",
-   "url": "https://www.sakigake.jp/news/article/20260811AK0012",
-   "title_original": "行方不明の９０歳女性を発見、能代 けがはなし",
-   "source": "秋田魁新報",
-   "local": true,
-   "published": "2026-08-11T01:00:00+00:00",
-   "title_ja": "能代市で行方不明の90歳女性を無事保護、けがはなし",
-   "summary_ja": "能代市で9日午後から行方が分からなくなっていた90歳の女性が、11日早朝に市内の農道で無事発見、保護された。農作業中の住民が見つけたもので、女性にけがはなかった。",
-   "category": "事件・事故",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://img.topics.smt.news.goo.ne.jp/-/20260803100341/img/dmenu_service-brand-logo_200x200.png"
   },
   {
    "id": "ffeb098b0053876f",
@@ -1350,7 +1556,8 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 1
+   "importance": 1,
+   "image": "https://www.sakigake.jp/images/ogp.png"
   },
   {
    "id": "698dcbafd3085ee7",
@@ -1365,7 +1572,8 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/ogp.png"
   },
   {
    "id": "249a1bb78ffca124",
@@ -1380,7 +1588,8 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/ogp.png"
   },
   {
    "id": "d845827a39831650",
@@ -1395,7 +1604,8 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0007_01_l.jpg"
   },
   {
    "id": "7a0c19afa6a816be",
@@ -1410,11 +1620,12 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 1
+   "importance": 1,
+   "image": "https://www.sakigake.jp/images/ogp.png"
   },
   {
    "id": "8b8a4d04b3bb3bad",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE42a3lCbFo1cGFEVG4wRTZ4RUY4N0VCdWNhVmdDLTFzSGNOcUh5TGpsNHJudWJzUUtyN1pxUFFNTmgwT2NyUGpV?oc=5",
+   "url": "https://www.hokuu.co.jp/?p=43180",
    "title_original": "一足早く盆踊りも 能代市社福協施設が合同夏祭り",
    "source": "北羽新報社",
    "local": false,
@@ -1425,11 +1636,12 @@
    "area": "県北",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://www.hokuu.co.jp/wp-content/uploads/2026/08/hokuu-news-20260811-184-scaled-ogp.jpg"
   },
   {
    "id": "8e097182a29ae8c5",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9GYzJVQ1RmYnJfZVc1b2MwTm1aTGV0bzVSeVprenRKbnlNWG5YR01WUG9SSUVXRzFaXzFCaHBMY0thVkZLcG0w?oc=5",
+   "url": "https://www.hokuu.co.jp/?p=43154",
    "title_original": "「つながるまちキャンパスプロジェクト」９月に始動 能代市",
    "source": "北羽新報社",
    "local": false,
@@ -1440,7 +1652,8 @@
    "area": "県北",
    "kind": "event",
    "event_when": "9月",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.hokuu.co.jp/wp-content/uploads/2026/08/hokuu-news-20260811-784-ogp.jpeg"
   },
   {
    "id": "1174268740af3ec1",
@@ -1455,11 +1668,12 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.sakigake.jp/images/news-entry/20260810ak0030_01_l.jpg"
   },
   {
    "id": "c8e26c0324e3aa98",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53MS1NblphdzZVdUZBQllFZjd6bHd3TmpvZTFCOFVmRERWWWY3MHpScW9qWF9ETWhoVkZTbHFfUTdKemJMS3Y5NWFZWl9BWHBFUnljXzdoT1FqNVZERDd0MjY4dDd1U1U?oc=5",
+   "url": "https://www.asahi.com/articles/ASV8533J7V85UNHB00LM.html",
    "title_original": "人にやさしい塩こうじ 秋田・湯沢の厳しい気候、静かな職人が生む [秋田県]",
    "source": "朝日新聞",
    "local": false,
@@ -1470,11 +1684,12 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://imgopt.asahi.com/ogp/AS20260805003347_comm.jpg"
   },
   {
    "id": "63e1a1edc512b919",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EcGxfajBWRFlBaXc0RzRCemp0S0tVd091dmdGTVJlTHVDNWV0OVNLN0NiT05EcnpZZ2lqZnBJZFhyOFNyc3pVQUw2ZXFfU09vR1VaY3NfMkhuLXpZQ1E?oc=5",
+   "url": "https://news.livedoor.com/topics/detail/32036323",
    "title_original": "地元・横手市でも５７年ぶりの甲子園での戦いを後押し 応援の準備進む 秋田 (2026年8月10日掲載)",
    "source": "ライブドアニュース",
    "local": false,
@@ -1485,11 +1700,12 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 4
+   "importance": 4,
+   "image": ""
   },
   {
    "id": "d9e5fabe1ff911a7",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45c1djMzF5MkJnaDJoWUdfUm9jUjdEUEU2N3VlS0xGNzRXX1h6Z1Q3UXppRzJNcUVkb3NlWUdaaVJoMUstcGxNRXE1MTB2SUxLaFJHcEl4VkxRSTNJVzctYmhqSzdKeVk0VEV3ZVJGSWtsUmRi?oc=5",
+   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2130/r_id=10597",
    "title_original": "真夏彩る大輪 北秋田市米内沢 ７０㌃に迷路、展望台も ２万本のヒマワリ見頃",
    "source": "株式会社 北鹿新聞社",
    "local": false,
@@ -1500,11 +1716,12 @@
    "area": "県北",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.hokuroku.co.jp/files/libs/28605/202608101808169261.JPEG?1786496107"
   },
   {
    "id": "aee15ffe6f61cb4a",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQOU44bFViYjZXb19wUTVLRTR6SnZOSm90UDZYVEZLT1RKanc0T3pPYndSS2pWNjZFLV9qRUNnNUtTOVBHS1N0a2JGYU5hSGhVRGpmQ3hOLU1VdVZvbU53?oc=5",
+   "url": "https://number.bunshun.jp/articles/-/871545?page=1",
    "title_original": "「日本一人口が減る県」で…普通の公立校が「部員47人」で“57年ぶり甲子園”のナゼ「髪型は覚悟の丸刈り」「練習から1球にこだわる」横手高の秘密とは（田口元義）",
    "source": "Number Web",
    "local": false,
@@ -1515,11 +1732,12 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 4
+   "importance": 4,
+   "image": "https://number.ismcdn.jp/mwimgs/a/9/-/img_a9cc5ff95cece63c087a69612d4effd21530726.jpg"
   },
   {
    "id": "1a9ae5fd77dafcff",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRWUVKTnRHWDdSdG9jYmwteWlmOHBTZzVJb1lzZmdfTHdETzItVkpYTm1jOUgydlFieVdPZWNBOG5reU5lMkRaNmEwRzdhNmh1emJYbElQQ0hOdzRwOXJOVDBwVC1ITmdHeUI3R1F0ZFQzTnZvMEYxRlAycFBHQUE?oc=5",
+   "url": "https://news.yahoo.co.jp/articles/0ce6459529cf78d1d9da8ecdf4d336d55d96c062",
    "title_original": "57年ぶり出場の横手とは？ OBは夏の甲子園名勝負の実況アナ（毎日新聞）",
    "source": "Yahoo!ニュース",
    "local": false,
@@ -1530,11 +1748,12 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260811-00000002-mai-000-1-view.jpg?exp=10800"
   },
   {
    "id": "f0699a6b6e3af02f",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9HbVUwbGtkWng4UEdLdWNYanRFZGZVd3EyMU5URVJLckJRbHRWZ1RYUE94Y3Nidk5Ya3JjWW40X25nQ0hya2s3eg?oc=5",
+   "url": "https://www.logi-today.com/987237",
    "title_original": "秋田県、自動点呼など物流34事業を採択",
    "source": "LOGISTICS TODAY",
    "local": false,
@@ -1545,11 +1764,12 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": ""
   },
   {
    "id": "57648f6d024e08ee",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uWHR0YlhuRGs2WktoS3QwSS1GM0VWc2J2SFpBNjdHXzc5bXNkckZtcnVSTS0zaWpvNW9KOWNtOE5pZFFUcjByU0NDNlBNQkJibmZxZm1kWkVvcmc?oc=5",
+   "url": "https://mshale.com/fc99d68d/d1fad95cprLYoWdkqpo",
    "title_original": "秋田竿燈祭り 鐵砲町 囃子 妙技会 Rafael Devers (D71dOITwJy)",
    "source": "Mshale",
    "local": false,
@@ -1560,11 +1780,28 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": ""
+  },
+  {
+   "id": "766b5c7502ac26fa",
+   "url": "https://tenki.jp/past/2026/08/10/amedas/2/8/32571.html",
+   "title_original": "本荘(秋田県)の過去のアメダス(2026年08月10日)",
+   "source": "tenki.jp",
+   "image": "https://storage.tenki.jp/archive/amedas/2026/08/10/15/00/00/temp/pref-8-large.jpg",
+   "local": false,
+   "published": "2026-08-10T17:51:08+00:00",
+   "title_ja": "本荘のアメダス観測データを確認",
+   "summary_ja": "気象情報サイトにおいて、2026年8月10日時点の本荘地域における過去のアメダス観測データが公開されています。日々の気象状況の振り返りなどに活用されています。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
   },
   {
    "id": "faf13a357fba67a9",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1TY1dWOGs1eTFiU0JGUWtqSEp4cTJhc3lwaTRkV2NGSmc2VjJwZjNGSkdFVmx6YlNVM2FQTGNIYWxNYjVTd2lEbGNjeW9IcmxWRy1OZDhZaVQ?oc=5",
+   "url": "https://tenki.jp/past/2026/08/10/weather/2/8",
    "title_original": "秋田県の過去の天気(実況天気・2026年08月10日)",
    "source": "tenki.jp",
    "local": false,
@@ -1575,11 +1812,12 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://storage.tenki.jp/archive/live/map/2026/08/10/pref-8-large.jpg"
   },
   {
    "id": "8c9fb50ff2f43230",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13ZHd0b2dRQk9BQ2NjbUNHRnNoZERZREluek1tREVRWUlLTlZFRk9kNFJBMXZsUVpENHY1NTZFeE83SkhhVkdQVlk5VTg4RFpBb05XN09FWFdBQQ?oc=5",
+   "url": "https://iwaki-minpo.co.jp/news/2026/08/313898",
    "title_original": "両市の絆をより深く継承へ いわき、秋田・由利本荘 親子都市４０周年の式典",
    "source": "いわき民報社",
    "local": false,
@@ -1590,26 +1828,28 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": ""
   },
   {
-   "id": "e5563f3a4793a57f",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9jNGhlVHB4Um1vRmpVWUoyYmlFOVBpa3pnTXpoNWNjZmljVm9yZTFaZklCVTBQbVZaQzM0cHY0T0YzeG4wRnB1NlRhWU9Qb1Z4YWs4azczdw?oc=5",
-   "title_original": "各地で水難事故 秋田・北秋田市ではアユ釣りの70歳男性が川で転倒し流され死亡",
-   "source": "TBS NEWS DIG",
+   "id": "55f631541a3ba280",
+   "url": "https://straightpress.jp/20260810/1681235",
+   "title_original": "【秋田県大仙市】ノートンが全国花火競技大会「大曲の花火」でドローンショーを開催！キャンペーンも",
+   "source": "STRAIGHT PRESS",
+   "image": "https://straightpress.jp/wp-content/uploads/2026/08/hirai08071746-300x225.jpg",
    "local": false,
-   "published": "2026-08-10T14:40:33+00:00",
-   "title_ja": "北秋田市の米代川でアユ釣りの男性が流され死亡",
-   "summary_ja": "北秋田市内の川でアユ釣りをしていた70歳の男性が川底で転倒し、流されて死亡する水難事故が発生しました。各地で水難事故が相次いでいます。",
-   "category": "事件・事故",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
+   "published": "2026-08-10T14:22:18+00:00",
+   "title_ja": "大曲の花火でドローンショーが開催へ",
+   "summary_ja": "大仙市で開催される全国花火競技大会「大曲の花火」において、ノートンによるドローンショーが実施されます。関連するキャンペーンもあわせて展開される予定です。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "event",
+   "event_when": "8月12日以降",
    "importance": 4
   },
   {
    "id": "bbab64933400dd97",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkcEdPdFlKc1NaS25sOEN0VlNucHJTQTQySW9xSWNLRGluYVdNZDU1RkcwbWt6cjRJTmhPRklHdktoRVF3bmxiZ2JJUEVJVWVSc3lCbUQ5RmVWQUE?oc=5",
+   "url": "https://mshale.com/f9986418/1b3d34a0g5IFHdUGfK4",
    "title_original": "秋田竿灯祭り 2026 妙技会 保戸野小学校 囃子方 Eddie Murphy (isAGxqwJnO)",
    "source": "Mshale",
    "local": false,
@@ -1620,11 +1860,28 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
+   "importance": 2,
+   "image": ""
+  },
+  {
+   "id": "3a175c3095a5fd91",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1459507568884269489",
+   "title_original": "（秋田）上小阿仁村沖田面屋布でクマ出没 ８月１０日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/053279.png?fushinsha_joho-1459507568884269489",
+   "local": false,
+   "published": "2026-08-10T11:19:00+00:00",
+   "title_ja": "上小阿仁村沖田面屋布でクマが出没",
+   "summary_ja": "上小阿仁村沖田面屋布のエリアでクマが目撃されました。付近を通行する際は十分な注意が必要です。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
    "importance": 2
   },
   {
    "id": "9715fb140947eedf",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1UWHk1OWJFLS1ISkdvOWhwZUNpZ2xVN3JsdlB2Q1VHRXFCVjdOMGU1SlFlRWYybXI5TU1UQS1DcUxWWndCMWJ3X0JCaDVHUDA3SlVEU0tydFlNRUd1ejBZd05RTjJfSnpQd2R4QjJ1eDhRQXZxUHIzMA?oc=5",
+   "url": "https://article.auone.jp/article/3c8c49b9-3f5d-45a2-867c-045e48d3fc91",
    "title_original": "「成章50歳リレー」実行委が感謝フェス 11日開催、売り上げで熊本地震支援へ",
    "source": "au Webポータル",
    "local": false,
@@ -1635,11 +1892,44 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/08/10/https___news_jp_i_1459396472503190496.jpg"
+  },
+  {
+   "id": "01f01b32da08e4e4",
+   "url": "https://www.sakigake.jp/news/article/20260810AK0031",
+   "title_original": "台風１５号、東北地方に接近のおそれ 秋田県内、大雨や強風に注意",
+   "source": "秋田魁新報電子版",
+   "image": "https://www.sakigake.jp/images/news-entry/20260810ak0031_01_l.jpg",
+   "local": false,
+   "published": "2026-08-10T11:07:00+00:00",
+   "title_ja": "台風15号の東北接近にともなう大雨や強風への注意",
+   "summary_ja": "台風15号が東北地方へ接近するおそれがあり、秋田県内でも大雨や強風に対する警戒が呼びかけられています。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "61d8f21619ba3f54",
+   "url": "https://tver.jp/episodes/ep3metexzj",
+   "title_original": "仕事終わりの格別の一杯！冷えたビールで暑さ吹き飛ばす 秋田市のホテルで恒例のビアガーデン開催中",
+   "source": "TVer",
+   "image": "",
+   "local": false,
+   "published": "2026-08-10T11:01:22+00:00",
+   "title_ja": "秋田市のホテルで恒例のビアガーデンが開催中",
+   "summary_ja": "秋田市のホテルにおいて、夏の暑さを吹き飛ばす冷えたビールを楽しめる恒例のビアガーデンが開催されています。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "5974440cc9901b12",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yRDJSNGowaVQzQUVZeERVVTN3RGNReWF6cVFUSFV2a1hLeHpSOHlLRy1pdDhkQnFRbzhLbk9MUE5HbVl1eGo1LUlKODVvam80aldBRV9OeGlHbkk?oc=5",
+   "url": "https://mshale.com/51d24609/023b6fb3HRoluYn4w1s",
    "title_original": "秋田祭り・イベント ＃3 秋田竿燈まつり-夜本番- Shelley Moore Capito (Pk88yuU86m)",
    "source": "Mshale",
    "local": false,
@@ -1650,7 +1940,8 @@
    "area": "中央",
    "kind": "event",
    "event_when": "",
-   "importance": 4
+   "importance": 4,
+   "image": ""
   },
   {
    "id": "faed05b1d3faa35e",
@@ -1665,7 +1956,8 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
-   "importance": 4
+   "importance": 4,
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026081015090011904.jpg"
   },
   {
    "id": "f794e82157aa8e6d",
@@ -1677,6 +1969,23 @@
    "title_ja": "秋田市でレトロな雰囲気を楽しむ酒の博覧会が開催中",
    "summary_ja": "秋田市所蔵の貴重な資料を通じて地元の酒文化に触れられる「あきたなつかしれとろ博覧会」が秋田市で開催されています。",
    "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3,
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026081010400011901.jpg"
+  },
+  {
+   "id": "624b5de908e6287d",
+   "url": "https://topics.smt.docomo.ne.jp/article/fushinsha_joho/region/fushinsha_joho-1459492469284799013",
+   "title_original": "（秋田）秋田市下浜長浜深山沢でクマ出没 ８月１０日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052019.png?fushinsha_joho-1459492469284799013",
+   "local": false,
+   "published": "2026-08-10T10:19:00+00:00",
+   "title_ja": "秋田市下浜長浜深山沢でクマが目撃される",
+   "summary_ja": "秋田市下浜長浜深山沢にて、8月10日にクマの出没が確認されました。付近の住民や通行人は注意が必要です。",
+   "category": "天気・防災",
    "area": "中央",
    "kind": "news",
    "event_when": "",
@@ -1695,11 +2004,220 @@
    "area": "県南",
    "kind": "news",
    "event_when": "",
+   "importance": 4,
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026081017190011908.jpg"
+  },
+  {
+   "id": "5e276f29827e132c",
+   "url": "https://news.yahoo.co.jp/articles/3aa854314c9ed56d044b2c5b515ce192338552ca",
+   "title_original": "アメリカで学ぶ学生、秋田・大仙市で農業体験 “真の日本の美しさ”に触れる 海を越えた挑戦がつないだ縁（秋田テレビ）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260810-90018019-akt-000-1-thumb.jpg?exp=10800",
+   "local": false,
+   "published": "2026-08-10T10:13:01+00:00",
+   "title_ja": "大仙市でアメリカ留学中の学生が農業体験",
+   "summary_ja": "海外で学ぶ学生たちが大仙市を訪れ、地域の農作業を体験しました。日本の原風景に触れながら、海を越えた交流や新たな縁を深める貴重な機会となりました。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "a27fdd242872ad60",
+   "url": "https://www.akt.co.jp/news?sel=20260810-00000007-AKT-1",
+   "title_original": "秋田県庁内のネットワークに障害 納税証明書などの発行やメール送受信できず（10日午後5時時点）",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/20260810-00000007-AKT-1-00-thumb.jpg",
+   "local": false,
+   "published": "2026-08-10T10:12:40+00:00",
+   "title_ja": "県庁内ネットワークに障害が発生",
+   "summary_ja": "秋田県庁のネットワークで障害が発生し、納税証明書の発行やメールの送受信などができなくなりました。",
+   "category": "行政・政治",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "ff5c0917e1f86023",
+   "url": "https://www.akt.co.jp/news?sel=20260810-00000006-AKT-1",
+   "title_original": "横手、夏の甲子園初勝利へ 11日に敦賀気比（福井）と対戦 2人のサウスポー攻略が勝利への鍵か 秋田",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/20260810-00000006-AKT-1-00-thumb.jpg",
+   "local": false,
+   "published": "2026-08-10T10:08:09+00:00",
+   "title_ja": "夏の甲子園初勝利へ、横手が敦賀気比と対戦",
+   "summary_ja": "夏の甲子園で初勝利を目指す横手は、福井代表の敦賀気比と対戦する。2人のサウスポーをどのように攻略するかが、試合の行方を左右する重要な鍵となりそうだ。",
+   "category": "スポーツ",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "ac781f5b4f71b533",
+   "url": "https://news.yahoo.co.jp/articles/0309336d754ed71c50554bdb430c2b5e8c3231d9",
+   "title_original": "秋田市の大森山動物園に設けられたその名も「小森山動物園」 細部にまでこだわった粘土作家の作品並ぶ（秋田朝日放送）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260810-90011903-aab-000-1-thumb.jpg?exp=10800",
+   "local": false,
+   "published": "2026-08-10T10:06:01+00:00",
+   "title_ja": "大森山動物園に「小森山動物園」が登場",
+   "summary_ja": "秋田市の大森山動物園に、細部までこだわり抜いて制作された粘土作家の作品が並ぶ「小森山動物園」が設けられた。精巧なミニチュアの動物たちの世界を楽しむことができる。",
+   "category": "文化・芸能",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "44f1c656aa14f6e7",
+   "url": "https://www.47news.jp/14771675.html",
+   "title_original": "秋田県の庁内ネットワークに障害 メール送受信などに不具合",
+   "source": "47NEWS",
+   "image": "https://img.cf.47news.jp/public/photo/7813c36ce6f443a3651fd164ba1ab2c8/photo.jpg",
+   "local": false,
+   "published": "2026-08-10T10:03:00+00:00",
+   "title_ja": "県庁のネットワークに障害、メール不具合も",
+   "summary_ja": "秋田県の庁内ネットワークにシステム障害が発生し、電子メールの送受信などに不具合が出ている。業務への影響や原因の特定に向けて、復旧作業が進められている。",
+   "category": "行政・政治",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "d237113dc3278b10",
+   "url": "https://news.ntv.co.jp/n/abs/category/society/ab81e0d86e3d9143a4aa3f536f1bd508db",
+   "title_original": "秋田市太平の畑でカボチャ十数個の食害 付近にはクマの足跡（2026年8月10日掲載）｜ABS NEWS NNN",
+   "source": "日テレNEWS NNN",
+   "image": "https://image.gallery.play.jp/abs-news/articles/0071b9f1a16d42929204e896b37bf2de/cd5c72f5-356f-427b-bf30-5641606d4abf.jpg?w=1200",
+   "local": false,
+   "published": "2026-08-10T10:02:00+00:00",
+   "title_ja": "秋田市の畑でカボチャが食べられる被害、足跡も",
+   "summary_ja": "秋田市太平の畑で、栽培されていたカボチャ十数個が何者かに食べられる被害が見つかりました。現場の周辺にはクマの足跡も残されており、注意が呼びかけられています。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "0b610b0b05c5500a",
+   "url": "https://news.yahoo.co.jp/articles/177a23e6081256009319186ca088743b56c7294e/images/000",
+   "title_original": "秋田市太平の畑でカボチャ十数個の食害 付近にはクマの足跡 (ABS秋田放送)",
+   "source": "Yahoo!ニュース",
+   "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3h9uiCojScY7SLYgxmEygY0oyzpw0ma9OvfrQoP-0WDXFk--iucUGy0d_VH-vQk-95mQDBu5G0GlWwuK-bhEc7eoWuS-h2w4Hiiskl_tto0adnftHPhIpm8eqtV4bSJlM",
+   "local": false,
+   "published": "2026-08-10T10:02:00+00:00",
+   "title_ja": "秋田市太平の畑でカボチャが被害",
+   "summary_ja": "秋田市の畑でカボチャ十数個が食い荒らされる被害が発生しました。周辺にはクマの足跡が残されており、注意が呼びかけられています。",
+   "category": "くらし・地域",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "364c933b77229dc8",
+   "url": "https://www.fnn.jp/articles/-/1092246",
+   "title_original": "「クマ対策に役立てて」 CFで募った200万円を秋田県に寄付 マタギ発祥の地・北秋田市で活動する男性",
+   "source": "FNNプライムオンライン",
+   "image": "https://fnn.ismcdn.jp/mwimgs/8/c/600/img_8cfe37b76430cb44161178a7b7e5f82a22365.jpg",
+   "local": false,
+   "published": "2026-08-10T10:01:08+00:00",
+   "title_ja": "マタギ発祥の地・北秋田市の男性、CFで集めた200万円を寄付",
+   "summary_ja": "北秋田市で活動する男性が、クラウドファンディングで募った200万円をクマ対策に役立ててほしいと秋田県へ寄付しました。",
+   "category": "くらし・地域",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "fd023a4e673e5a2e",
+   "url": "https://www.aab-tv.co.jp/news/aabnews-26081017340009",
+   "title_original": "地元横手市から甲子園に向けて出発 ５７年ぶりの甲子園 横手を応援する０泊３日の“弾丸”バスツアー",
+   "source": "AAB秋田朝日放送",
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026081017340011909.jpg",
+   "local": false,
+   "published": "2026-08-10T10:01:00+00:00",
+   "title_ja": "横手を応援！甲子園へ向けて0泊3日のバスツアー出発",
+   "summary_ja": "地元・横手市から甲子園出場チームを応援するため、57年ぶりとなる晴れ舞台に向けて市民が参加するバスツアーが出発しました。",
+   "category": "スポーツ",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
    "importance": 4
   },
   {
+   "id": "ed6cffcd954c5da4",
+   "url": "https://news.yahoo.co.jp/articles/7734e487ac78df162d7a396f886bb78d1d50d4da",
+   "title_original": "秋田県警察とCNA秋田ケーブルテレビ「地域の安全・安心に関する協定」を締結／秋田",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260810-00010000-cnaakitav-000-1-thumb.jpg?exp=10800",
+   "local": false,
+   "published": "2026-08-10T10:00:29+00:00",
+   "title_ja": "県警察とCNA秋田ケーブルテレビが地域の安全協定を締結",
+   "summary_ja": "秋田県警察とCNA秋田ケーブルテレビが、地域の安全と安心の確保に向けた連携協定を新たに締結しました。",
+   "category": "行政・政治",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "2e43414b7296b310",
+   "url": "https://news.yahoo.co.jp/articles/7027a844c9deaeeb04a83e3bc39c85860f97a54a",
+   "title_original": "横手ナインを現地で応援！0泊3日の弾丸ツアー、市民79人が参加 甲子園に向けバス出発 秋田・横手市（秋田テレビ）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260810-90018160-akt-000-1-thumb.jpg?exp=10800",
+   "local": false,
+   "published": "2026-08-10T10:00:01+00:00",
+   "title_ja": "横手から甲子園へ！市民79人が応援の弾丸バスツアー出発",
+   "summary_ja": "甲子園での勝利を目指す横手ナインを現地で応援するため、市民79人を乗せた0泊3日の弾丸バスツアーが横手市から出発しました。",
+   "category": "スポーツ",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "e1e916173aa08dbb",
+   "url": "https://www.akt.co.jp/news?sel=20260810-00000003-AKT-1",
+   "title_original": "「かづの北限の桃」収穫始まる 雪害乗り越え大きく甘く育つ 生産者はクマの食害に警戒 秋田・鹿角市",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/20260810-00000003-AKT-1-00-thumb.jpg",
+   "local": false,
+   "published": "2026-08-10T09:48:35+00:00",
+   "title_ja": "鹿角市で「かづの北限の桃」の収穫が本格化",
+   "summary_ja": "雪害を乗り越えて大きく甘く育った桃の収穫が鹿角市で始まりました。生産者らはクマの食害への警戒も強めています。",
+   "category": "グルメ・農林水産",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "de80f871510ff64b",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1459482402924511545",
+   "title_original": "（秋田）小坂町小坂松倉出口でクマ出没 ８月１０日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/053031.png?fushinsha_joho-1459482402924511545",
+   "local": false,
+   "published": "2026-08-10T09:39:00+00:00",
+   "title_ja": "小坂町でクマの出没情報",
+   "summary_ja": "小坂町小坂松倉出口の地域において、8月10日にクマが出没したことが確認されました。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "6184d346670fed9a",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03MDczdjY4UndTSDdlZk9CcGhkSU9scVh0UmFPWTZ1WXA5NEVnSWVjMkI1Zzl5OXhvaGN4QjBmcTZoUmxGdU9GbldWU0xUd1l6S09FUzNSNnRMVEV0VlUyR3FPN2g?oc=5",
+   "url": "https://www.nhk.or.jp/sendai/info/articles/310/059/87",
    "title_original": "夏を熱く彩る！「東北夏まつり中継」今年もやります！盛岡さんさ踊り・秋田竿燈まつり・八戸三社大祭・山形花笠まつり・仙台七夕まつり・福島わらじまつり",
    "source": "nhk.or.jp",
    "local": false,
@@ -1710,22 +2228,72 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://www.nhk.or.jp/sendai/info/articles/310/059/87/img/og.jpg"
   },
   {
-   "id": "b761419af3d71a52",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5DeEY5UW5hWU11TzU5Ny1ua1lyeGlwVTBUeVNhaURWWGhuQ2Y4eU02c2dRcVQ1c1JBOEdIa3BOdFhPcWJtZ1dZ?oc=5",
-   "title_original": "じゃんごブログ週間ランキング！「イオンモールの話題」が1位に｜2026年8月3日～8月9日",
-   "source": "じゃんごブログ",
+   "id": "69934ecb0f954ca5",
+   "url": "https://news.web.nhk/newsweb/na/nb-6010028841",
+   "title_original": "台風１５号 秋田県では１１日にかけ警報級の大雨や風のおそれ",
+   "source": "NHKニュース",
+   "image": "https://imgu.web.nhk/news/u/lnews/akita/20260810/6010028841_20260810182033_m.jpg",
    "local": false,
-   "published": "2026-08-10T07:45:12+00:00",
-   "title_ja": "じゃんごブログ週間ランキング、イオンモールの話題が1位に",
-   "summary_ja": "県内の情報を発信するじゃんごブログの週間ランキングが発表されました。8月3日から9日の期間では、イオンモールに関する話題が1位となりました。",
-   "category": "くらし・地域",
+   "published": "2026-08-10T09:16:00+00:00",
+   "title_ja": "台風15号の影響で警報級の大雨や風に警戒",
+   "summary_ja": "台風15号の接近に伴い、県内では警報級の大雨や強風となるおそれがあります。今後の気象情報に注意が必要です。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 5
+  },
+  {
+   "id": "233e113221aba407",
+   "url": "https://www.akt.co.jp/nicescup2026/daihyou.html",
+   "title_original": "ナイスカップ 各地区代表チーム",
+   "source": "AKT秋田テレビ",
+   "image": "",
+   "local": false,
+   "published": "2026-08-10T08:18:17+00:00",
+   "title_ja": "ナイスカップの各地区代表チームが決定",
+   "summary_ja": "県内で開催されるナイスカップに向け、各地区を勝ち抜いた代表チームが出揃いました。",
+   "category": "スポーツ",
    "area": "県全体",
    "kind": "news",
    "event_when": "",
    "importance": 2
+  },
+  {
+   "id": "453fe7baedfa05b9",
+   "url": "https://www.sakigake.jp/news/article/20260810AK0019",
+   "title_original": "世界最大級のクレーン「大きくてすごい」 秋田市で洋上風力学ぶ「臨海学校」",
+   "source": "秋田魁新報電子版",
+   "image": "https://www.sakigake.jp/images/news-entry/20260810ak0019_01_l.jpg",
+   "local": false,
+   "published": "2026-08-10T08:15:00+00:00",
+   "title_ja": "秋田市で洋上風力学ぶ臨海学校が開催",
+   "summary_ja": "秋田市で洋上風力発電について学ぶ臨海学校が開かれました。巨大なクレーンを見学するなどして、児童らがエネルギー事業への理解を深めました。",
+   "category": "教育・子育て",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "8b375a10eaf9c59d",
+   "url": "https://www.travelvoice.jp/tenders/1558",
+   "title_original": "秋田県ブランドプロモーション業務に係る企画提案競技の実施",
+   "source": "トラベルボイス",
+   "image": "https://www.travelvoice.jp/frontend/img/common/tv_tenders_ogp.png",
+   "local": false,
+   "published": "2026-08-10T07:59:25+00:00",
+   "title_ja": "秋田県のブランドプロモーション業務で企画提案を募集",
+   "summary_ja": "秋田県の魅力を発信するブランドプロモーション業務について、企画提案競技が実施されることが発表されています。",
+   "category": "行政・政治",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "97375920f6d3214b",
@@ -1740,11 +2308,12 @@
    "area": "中央",
    "kind": "event",
    "event_when": "10月18日",
-   "importance": 3
+   "importance": 3,
+   "image": ""
   },
   {
    "id": "dcdd737df187b958",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNckxzTWZ4QnpNU0lUN196c0QySGg3Y1Zxdkh1YV9LWnJqMEplQTZvV2RfaVhGLWZwNENKeEgxQ3hEVHdkejBQeWo0cnV6VjgtZER4UVp0SmNqQTBMVUZjN0NBUkVNUXhqT0Rfc0FjbUhGdlN4b01FRHdTUDA4Qi1MdEdTSDYwd9IBiwFBVV95cUxNbXVjYWRBOFllWVRRVTFXTnN3cHFkUVRNdjVqT25iNy12a1VZUjE5Ukl1XzFocU9tWmhKRVRUTFgxM3BIMXBwR3hMNGp0aWg2bnhZM3NkXzFxeWV4RHhCb0tCMm5QSWVQUkdSMTE1bzAxX2hoRmVYbTFGUEgtdF95SXVTU1Z6dl93UEh3?oc=5",
+   "url": "https://topics.smt.docomo.ne.jp/article/sakigake/region/sakigake-20260809AK0029",
    "title_original": "盆踊りと歌謡ショー、世代超えて楽しもう ２１日、アルヴェでイベント",
    "source": "ｄメニューニュース",
    "local": false,
@@ -1755,11 +2324,12 @@
    "area": "中央",
    "kind": "event",
    "event_when": "21日",
-   "importance": 3
+   "importance": 3,
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/sakigake/m_sakigake-20260809AK0029.jpg"
   },
   {
    "id": "5ab1938f8f2a0c8c",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wYmdjQUhhT0NDTHVkcG5XT3FTejAzbjl5MDh5S0ZoNC1KQXVPU3hGNGhkQ3RPRDJSY0FUNVBsb2hqbWlULThIVkhFdEVoSDlVXzJkcG1kVU5mSkE?oc=5",
+   "url": "https://mshale.com/05eefbd9/37bd7390Arosr_-uXAU",
    "title_original": "東北絆まつり2022秋田 DAY2 Dave Filoni (V7rLe9BV03)",
    "source": "Mshale",
    "local": false,
@@ -1770,11 +2340,12 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 1
+   "importance": 1,
+   "image": ""
   },
   {
    "id": "3745c41dc292b6be",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16dVlCRTh6Nmd5WkFwRVVPemlMVFVOMVY2OWF0cTRBTjdsZ05wWWx6WkJjWnZQMlZLWlhVT2JnY3BiOFVscXVKLUNJekQ0ay1ZTkU4bVdQYTJpWlk?oc=5",
+   "url": "https://readyfor.jp/projects/yatoseakitamatsuri",
    "title_original": "よさこいで、秋田を盛り上げたい！（ヤートセ秋田祭実行委員会 2026/06/09 公開） - クラウドファンディング READYFOR",
    "source": "クラウドファンディング - READYFOR",
    "local": false,
@@ -1785,11 +2356,12 @@
    "area": "県全体",
    "kind": "event",
    "event_when": "",
-   "importance": 2
+   "importance": 2,
+   "image": ""
   },
   {
    "id": "5191731116b63139",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBudXRWZGp5RjA3dGRNV3ZubFJsVWRxMHliUW02RFBRSElDNnpIWWRUQThnaE81ZkxJLTJGUEhPdlNmSmhhQlpoMWFuNTd0VmF6QXlqbmtGbDg2RVVwbGNjNzBCWEY3dXhucmc?oc=5",
+   "url": "https://www.walkerplus.com/article/153623/image879086.html",
    "title_original": "＜画像2 / 3＞秋田県秋田市で夏を彩る伝統の祭り「土崎港曳山まつり」開催",
    "source": "ウォーカープラス",
    "local": false,
@@ -1800,11 +2372,12 @@
    "area": "中央",
    "kind": "event",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://news.walkerplus.com/article/153623/879085_615.jpg"
   },
   {
    "id": "30b100fb99ce5bbe",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRXZKQWJzZU1qZGwybVE1dkh1NzAzaXRZNXNTZW5zX01GWnpiRUxuOGswemRCZGFFYTc4SDZqRTdLYlpTQTRZTC1DZDR2SUZiaThtRHU3MXFITXdSYUQ2VVNoSWtRdEwycHFMNUdHRUdjQkhTVDhIb2FuVUlXLUI4X2hoT1I2QdIBiwFBVV95cUxOSVZNUWVWb0RNVDZwSFhpd2o3MThJTXlIamUyRXlYMnJNNkFPZWpqQmVvRGlnSDh6TDRfNkNHeTdhbVc1aHdoVEVpRERnM0ZZWjZyeUEzZmFPdUFUX05CdUE4SzVsOVZQSkNDeXF4N1gyWHZFSGt5VXJTcHo0LTdIUDFocGdnZVBLbzRR?oc=5",
+   "url": "https://topics.smt.docomo.ne.jp/article/sakigake/region/sakigake-20260809AK0018",
    "title_original": "「飛躍を期待してほしい」 バレー女子・アランマーレ秋田庄内が意気込み",
    "source": "ｄメニューニュース",
    "local": false,
@@ -1815,11 +2388,12 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
+   "importance": 3,
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/sakigake/m_sakigake-20260809AK0018.jpg"
   },
   {
    "id": "e0736021096330fd",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nZ2VQWTBXc0MzRkpGSFdsRGxpZEc5bjRPNjZyRjRNYlFiSjM3SUw5TEZ2NUs5dlBFMUhUX1UwdkVhMzhsYld5QWZBVkJJODBGX1dKWEpZS1lpWHZWSDU4YmQwai1hcDZLVVpwNHBXTGRBelZvbFU0T2RrN1NoZVHSAX9BVV95cUxOZ2dlUFkwV3NDM0ZKRkhXbERsaWRHOW40TzY2ckY0TWJRYkozN0lMOUxGdjVLOXZQRTFIVF9VMHZFYTM4bGJXeUFmQVZCSTgwRl9XSlhKWUtZaVh2Vkg1OGJkMGotYXA2S1VacDRwV0xkQXpWb2xVNE9kazdTaGVR?oc=5",
+   "url": "https://news.infoseek.co.jp/amp/article/mainichi_20260809k0000m040192000c",
    "title_original": "2体の竜、勇壮に 幻想的なスモーク演出 秋田・八郎まつり",
    "source": "Infoseek",
    "local": false,
@@ -1830,7 +2404,40 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
+   "importance": 3,
+   "image": "https://media.image.infoseek.co.jp/isnews/photos/mainichi/mainichi_20260809k0000m040192000c_0-enlarge.jpg"
+  },
+  {
+   "id": "c42e2efeafc8a0ed",
+   "url": "https://article.auone.jp/558c4e85-33db-41b8-9a1f-52b5d924d190",
+   "title_original": "令和8年8月8日「ハチ公」に感謝 大館市・秋田犬の里でイベント",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/08/08/https___news_jp_i_1458958588717318808.jpg",
+   "local": false,
+   "published": "2026-08-09T10:05:50+00:00",
+   "title_ja": "大館市の秋田犬の里で「ハチ公」感謝イベント",
+   "summary_ja": "ハチ公にちなんだ記念日に合わせ、大館市の秋田犬の里で感謝を伝えるイベントが開催されました。",
+   "category": "観光・イベント",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "330666612c45aeee",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Sc1BwZEZ1Zk0tdFlnNTVUZEJ2QmpVUjRVeXdzaEktcTk2cVR0eWd3UTdmTjlmbFg1dm1HdVRrdk9PX2hsX1RFZzhaMjIzdXlJXzd6LVFOT21RM0k?oc=5",
+   "title_original": "秋田竿燈まつり2026 最終日｜過去最高の圧巻演技_最高の気象条件で見せた継ぎ竹の数々_最前列の感動を再びここで【4K高画質・高音質】 John Stamos (Zx8PaW0EGT)",
+   "source": "Mshale",
+   "image": "",
+   "local": false,
+   "published": "2026-08-09T08:45:45+00:00",
+   "title_ja": "秋田竿燈まつり2026が最終日を迎える",
+   "summary_ja": "好天に恵まれた今年の秋田竿燈まつりが最終日を迎え、見事な技の数々が披露されて感動のフィナーレとなりました。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
   },
   {
    "id": "181e8949dfdcea4b",

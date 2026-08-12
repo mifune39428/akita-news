@@ -49,13 +49,14 @@ MAX_NEW_PER_RUN = 40
 # そのうちイベント検索から来た記事のために空けておく枠。
 # 県内媒体のニュースを優先し切ると催し物がいつまでも載らないので、先に確保する。
 EVENT_QUOTA = 10
+# 1回の実行で、過去の記事のサムネイルを取りに行く件数の上限。
+BACKFILL_PER_RUN = 40
 
 CATEGORIES = [
     "行政・政治",
     "経済・企業",
     "観光・イベント",
     "グルメ・農林水産",
-    "事件・事故",
     "天気・防災",
     "スポーツ",
     "文化・芸能",
@@ -83,6 +84,7 @@ DOMAIN_NAMES = {
 JST = dt.timezone(dt.timedelta(hours=9))
 
 ATOM = "{http://www.w3.org/2005/Atom}"
+MEDIA = "{http://search.yahoo.com/mrss/}"
 DC = "{http://purl.org/dc/elements/1.1/}"
 CONTENT = "{http://purl.org/rss/1.0/modules/content/}"
 RSS10 = "{http://purl.org/rss/1.0/}"
@@ -175,6 +177,179 @@ def _text(node, *paths: str) -> str:
     return ""
 
 
+# 記事のサムネイルとして使わない画像（配信計測用の透明画像やアイコンなど）。
+IMAGE_BLOCKLIST = ("feedburner", "gravatar", "/pixel", "1x1", "blank.gif", "spacer", "doubleclick")
+IMG_TAG_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.I)
+OG_IMAGE_RE = re.compile(
+    r'<meta[^>]+(?:property|name)=["\'](?:og:image(?::url)?|twitter:image(?::src)?)["\']'
+    r'[^>]+content=["\']([^"\']+)["\']|'
+    r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+'
+    r'(?:property|name)=["\'](?:og:image(?::url)?|twitter:image(?::src)?)["\']',
+    re.I,
+)
+
+
+def usable_image(url: str, base: str) -> str:
+    url = html.unescape((url or "").strip())
+    if not url:
+        return ""
+    url = urllib.parse.urljoin(base, url)
+    if not url.startswith(("http://", "https://")):
+        return ""
+    if any(word in url.lower() for word in IMAGE_BLOCKLIST):
+        return ""
+    return url
+
+
+def image_from_entry(entry, base: str) -> str:
+    """RSSの中に入っている画像を探す。媒体ごとに置き場所が違うので順に当たる。"""
+    for node in entry.findall(f"{MEDIA}thumbnail") + entry.findall(f"{MEDIA}content"):
+        medium = (node.get("medium") or node.get("type") or "").lower()
+        if medium and "image" not in medium:
+            continue
+        found = usable_image(node.get("url", ""), base)
+        if found:
+            return found
+
+    for node in entry.findall("enclosure") + entry.findall(f"{ATOM}link"):
+        if "image" in (node.get("type") or "").lower():
+            found = usable_image(node.get("url") or node.get("href") or "", base)
+            if found:
+                return found
+
+    # 本文HTMLの最初の <img>。多くの媒体はここにアイキャッチが入っている。
+    raw_body = " ".join(
+        node.text or ""
+        for tag in ("description", f"{CONTENT}encoded", f"{RSS10}description",
+                    f"{ATOM}summary", f"{ATOM}content")
+        for node in entry.findall(tag)
+    )
+    for candidate in IMG_TAG_RE.findall(raw_body):
+        found = usable_image(candidate, base)
+        if found:
+            return found
+    return ""
+
+
+# --------------------------------------------------------------------------
+# Google ニュースのリンクを元媒体のURLに戻す
+# --------------------------------------------------------------------------
+
+GOOGLE_BATCH_URL = "https://news.google.com/_/DotsSplashUi/data/batchexecute"
+SIGNATURE_RE = re.compile(r'data-n-a-sg="([^"]+)"')
+TIMESTAMP_RE = re.compile(r'data-n-a-ts="([^"]+)"')
+
+
+def resolve_google_url(url: str) -> str:
+    """news.google.com の転送URLから、元媒体の記事URLを取り出す。
+
+    転送ページはJavaScriptで飛ぶ作りなので、HTTPを追うだけでは元URLが分からない。
+    ページに埋まっている署名（sg）と時刻（ts）を Google の batchexecute に投げると
+    元URLが返る。取れなければ転送URLのまま使う（リンクとしては機能する）。
+    """
+    if "news.google.com" not in url:
+        return url
+    try:
+        article_id = url.split("/articles/")[1].split("?")[0]
+        request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(request, timeout=15) as response:
+            # 署名はページのかなり後ろに入っているので、途中で切らずに全部読む。
+            page = response.read().decode("utf-8", errors="ignore")
+        signature, timestamp = SIGNATURE_RE.search(page), TIMESTAMP_RE.search(page)
+        if not signature or not timestamp:
+            return url
+
+        payload = [[
+            "Fbv4je",
+            json.dumps([
+                "garturlreq",
+                [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1,
+                  None, None, None, None, None, 0, 1],
+                 "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+                article_id, int(timestamp.group(1)), signature.group(1),
+            ]),
+            None, "1",
+        ]]
+        data = urllib.parse.urlencode({"f.req": json.dumps([payload])}).encode()
+        request = urllib.request.Request(
+            GOOGLE_BATCH_URL,
+            data=data,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+            },
+        )
+        with urllib.request.urlopen(request, timeout=15) as response:
+            body = response.read().decode("utf-8", errors="ignore")
+    except Exception:  # noqa: BLE001  取れなくても転送URLで記事は読める
+        return url
+    return parse_garturlres(body) or url
+
+
+def parse_garturlres(body: str) -> str:
+    """batchexecute の返事から元URLを取り出す。
+
+    返事は `[["wrb.fr","Fbv4je","[\\"garturlres\\",\\"https://…\\",1]",…]]` の形で、
+    URLは二重にJSONエスケープされている。素直に2段階で読む。
+    """
+    for line in body.splitlines():
+        if "garturlres" not in line:
+            continue
+        try:
+            for part in json.loads(line):
+                if isinstance(part, list) and len(part) > 2 and part[0] == "wrb.fr":
+                    inner = json.loads(part[2])
+                    if len(inner) > 1 and str(inner[1]).startswith("http"):
+                        return canonical_url(inner[1])
+        except (json.JSONDecodeError, TypeError, ValueError):
+            continue
+    return ""
+
+
+def resolve_google_urls(items: list[dict]) -> None:
+    targets = [item for item in items if "news.google.com" in item["url"]]
+    if not targets:
+        return
+    print(f"  Googleニュースのリンク {len(targets)}件を元媒体のURLに変換中 …")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        for item, resolved in zip(targets, pool.map(lambda i: resolve_google_url(i["url"]), targets)):
+            item["url"] = resolved
+    remaining = sum(1 for item in targets if "news.google.com" in item["url"])
+    print(f"  変換できたもの {len(targets) - remaining}件")
+
+
+def fetch_og_image(url: str) -> str:
+    """RSSに画像が無い記事は、元ページの og:image を見に行く。"""
+    try:
+        request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(request, timeout=12) as response:
+            head = response.read(200_000).decode("utf-8", errors="ignore")
+            final_url = response.geturl()
+    except Exception:  # noqa: BLE001  取れなくても記事自体は載せる
+        return ""
+    match = OG_IMAGE_RE.search(head)
+    if not match:
+        return ""
+    return usable_image(match.group(1) or match.group(2) or "", final_url)
+
+
+def fill_missing_images(items: list[dict], limit: int = 0) -> None:
+    """画像がまだ無い記事について、元ページの og:image を取りに行く。
+
+    limit を渡すと1回に取りに行く件数を抑える（既存記事の穴埋め用）。
+    """
+    targets = [item for item in items if not item.get("image")]
+    if limit:
+        targets = targets[:limit]
+    if not targets:
+        return
+    print(f"  サムネイル未取得 {len(targets)}件をページから取得中 …")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        for item, image in zip(targets, pool.map(lambda i: fetch_og_image(i["url"]), targets)):
+            item["image"] = image
+    print(f"  取得できたもの {sum(1 for item in targets if item['image'])}件")
+
+
 def fetch_feed(feed: dict) -> list[dict]:
     request = urllib.request.Request(feed["url"], headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=FETCH_TIMEOUT) as response:
@@ -245,6 +420,7 @@ def fetch_feed(feed: dict) -> list[dict]:
                 "title_original": title,
                 "excerpt": body[:800],
                 "source": source,
+                "image": image_from_entry(entry, link),
                 "local": bool(feed.get("local")),
                 "hint": feed.get("hint", ""),
                 "published": (published or dt.datetime.now(dt.timezone.utc)).isoformat(),
@@ -369,6 +545,12 @@ PROMPT_TEMPLATE = """あなたは秋田県のローカルニュースサイト�
 - akita: 秋田県（県内の市町村・団体・企業・人物・出来事）の話題なら true。
   秋田犬の他県での話題、「秋田」姓の人物、県外の出来事に秋田が少し出るだけの記事は false。
   広告・通販・番組宣伝・求人、まとめサイトのアクセスランキングなど報道でないものも false。
+- negative: 読んで気が滅入る話題なら true。このサイトには載せない。
+  事件・事故・犯罪・逮捕・裁判・訴訟・不祥事・自殺・訃報・お悔やみ・人身被害・
+  火災・遭難・クマなどによる人的被害・倒産・詐欺被害 は true。
+  ただし「大雨注意報」「クマの目撃情報」のような、これから身を守るための注意喚起は false
+  （被害そのものの報道ではなく、事前に知って役立つ情報なので載せる）。
+  スポーツの敗戦や制度の課題を扱う記事も、事件・事故でなければ false でよい。
 - kind: これから参加できる催し（祭り・フェス・展示・コンサート・体験会・相談会など）で、
   今日以降に開催されるものだけ "event"。既に終わった催しの報告記事は "news"。
 - event_when: kind が event で開催時期が分かる場合だけ「8月13日〜15日」のような短い文字列。
@@ -383,7 +565,7 @@ PROMPT_TEMPLATE = """あなたは秋田県のローカルニュースサイト�
 - 出力はJSON配列のみ。前置き・説明・コードフェンスを付けない。
 
 出力形式（要素数は入力と同じ{count}件、iは入力の番号）:
-[{{"i":1,"akita":true,"kind":"news","title_ja":"...","summary_ja":"...","area":"中央","category":"行政・政治","importance":3,"event_when":""}}]
+[{{"i":1,"akita":true,"negative":false,"kind":"news","title_ja":"...","summary_ja":"...","area":"中央","category":"行政・政治","importance":3,"event_when":""}}]
 
 入力記事:
 {articles}
@@ -456,6 +638,9 @@ def enrich(items: list[dict]) -> list[dict]:
             entry = by_index.get(index) or entries[index - 1]
             if entry.get("akita") is False:
                 continue
+            if entry.get("negative") is True:
+                print(f"  ・暗い話題のため除外: {entry.get('title_ja', '')}")
+                continue
             category = str(entry.get("category", "")).strip()
             area = str(entry.get("area", "")).strip()
             kind = str(entry.get("kind", "")).strip()
@@ -481,6 +666,90 @@ def to_public(item: dict) -> dict:
         key: value
         for key, value in item.items()
         if key not in ("excerpt", "hint")
+    }
+
+
+# --------------------------------------------------------------------------
+# 秋田市の天気
+# --------------------------------------------------------------------------
+
+# 気象庁の秋田県予報。timeSeries[0] に「沿岸」（秋田市が入る区域）の天気文がある。
+JMA_FORECAST_URL = "https://www.jma.go.jp/bosai/forecast/data/forecast/050000.json"
+JMA_COAST_AREA = "050010"
+# 気温・降水確率・週間は Open-Meteo（APIキー不要）。座標は秋田市役所あたり。
+OPEN_METEO_URL = (
+    "https://api.open-meteo.com/v1/forecast"
+    "?latitude=39.7186&longitude=140.1024"
+    "&hourly=precipitation_probability,temperature_2m,weather_code"
+    "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max"
+    "&timezone=Asia%2FTokyo&forecast_days=10"
+)
+
+
+def fetch_json(url: str, timeout: int = 15):
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def jma_weather_texts() -> tuple[list[str], str]:
+    """気象庁の「今日／明日の天気」の文と発表時刻を返す。取れなければ空。"""
+    try:
+        data = fetch_json(JMA_FORECAST_URL)
+        series = data[0]["timeSeries"][0]
+        area = next(a for a in series["areas"] if a["area"]["code"] == JMA_COAST_AREA)
+        # 「晴れ　時々　くもり」のように全角スペースで区切られているので詰める。
+        texts = [re.sub(r"[　\s]+", "", text) for text in area["weathers"]]
+        return texts, data[0]["reportDatetime"]
+    except Exception:  # noqa: BLE001  天気が取れなくても記事は出す
+        return [], ""
+
+
+def fetch_weather() -> dict:
+    """秋田市の天気（今日・明日、3時間ごとの降水確率、10日間）をまとめる。"""
+    try:
+        forecast = fetch_json(OPEN_METEO_URL)
+    except Exception as exc:  # noqa: BLE001
+        print(f"  × 天気の取得に失敗: {type(exc).__name__}: {exc}")
+        return {}
+
+    daily = forecast["daily"]
+    hourly = forecast["hourly"]
+    texts, reported_at = jma_weather_texts()
+
+    days = [
+        {
+            "date": date,
+            "code": daily["weather_code"][i],
+            "max": daily["temperature_2m_max"][i],
+            "min": daily["temperature_2m_min"][i],
+            "pop": daily["precipitation_probability_max"][i],
+            # 今日・明日だけ気象庁の天気文を添える。
+            "text": texts[i] if i < len(texts) and i < 2 else "",
+        }
+        for i, date in enumerate(daily["time"])
+    ]
+
+    # 3時間ごとの降水確率。今日と明日の2日分だけ載せる。
+    two_days = set(daily["time"][:2])
+    hours = [
+        {
+            "time": stamp,
+            "pop": hourly["precipitation_probability"][i],
+            "temp": hourly["temperature_2m"][i],
+            "code": hourly["weather_code"][i],
+        }
+        for i, stamp in enumerate(hourly["time"])
+        if stamp[:10] in two_days and int(stamp[11:13]) % 3 == 0
+    ]
+
+    print(f"  天気: {len(days)}日分 / 3時間ごと {len(hours)}コマ")
+    return {
+        "city": "秋田市",
+        "reported_at": reported_at,
+        "updated_at": dt.datetime.now(JST).isoformat(),
+        "days": days,
+        "hours": hours,
     }
 
 
@@ -555,15 +824,20 @@ def main() -> int:
     replaced: set[str] = set()
     if new_items:
         enriched = enrich(new_items)
-        print(f"  要約 {len(enriched)}件（秋田と無関係と判定された分は除外）")
+        print(f"  要約 {len(enriched)}件（秋田と無関係・暗い話題と判定された分は除外）")
         enriched, replaced = dedupe_stories(enriched, existing_items)
         print(f"  掲載対象 {len(enriched)}件")
+        # 実際に載せる記事だけ元ページを見に行く（無駄なアクセスを増やさないため）。
+        resolve_google_urls(enriched)
+        fill_missing_images(enriched)
 
-    # 既に載っている記事にも、あとから足した出典名の変換とブロックを効かせる。
+    # 既に載っている記事にも、あとから足した出典名の変換とブロック、
+    # それに「事件・事故は載せない」という方針を後追いで効かせる。
     kept_existing = [
         {**item, "source": DOMAIN_NAMES.get(item["source"], item["source"])}
         for item in existing_items
         if item["id"] not in replaced
+        and item.get("category") in CATEGORIES
         and not any(blocked in item["source"] for blocked in BLOCK_SOURCES)
     ]
 
@@ -575,12 +849,25 @@ def main() -> int:
         >= now - dt.timedelta(days=KEEP_DAYS_EVENT if item.get("kind") == "event" else KEEP_DAYS)
     ]
     merged.sort(key=lambda item: item["published"], reverse=True)
-    merged = [to_public(item) for item in merged[:KEEP_MAX]]
+    merged = merged[:KEEP_MAX]
+
+    # 以前の実行で画像が付かなかった記事を、少しずつ埋めていく。
+    stale = [item for item in merged if not item.get("image")][:BACKFILL_PER_RUN]
+    if stale:
+        print("■ 既存記事のサムネイル補完")
+        resolve_google_urls(stale)
+        fill_missing_images(stale)
+
+    print("■ 秋田市の天気")
+    weather = fetch_weather() or existing.get("weather") or {}
+
+    merged = [to_public(item) for item in merged]
 
     payload = {
         "updated_at": now.astimezone(JST).isoformat(),
         "categories": CATEGORIES,
         "areas": AREAS,
+        "weather": weather,
         "sources": sorted({item["source"] for item in merged}),
         "count": len(merged),
         "items": merged,
