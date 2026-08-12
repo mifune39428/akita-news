@@ -559,7 +559,15 @@ def main() -> int:
         enriched, replaced = dedupe_stories(enriched, existing_items)
         print(f"  掲載対象 {len(enriched)}件")
 
-    merged = enriched + [item for item in existing_items if item["id"] not in replaced]
+    # 既に載っている記事にも、あとから足した出典名の変換とブロックを効かせる。
+    kept_existing = [
+        {**item, "source": DOMAIN_NAMES.get(item["source"], item["source"])}
+        for item in existing_items
+        if item["id"] not in replaced
+        and not any(blocked in item["source"] for blocked in BLOCK_SOURCES)
+    ]
+
+    merged = enriched + kept_existing
     merged = [
         item
         for item in merged
