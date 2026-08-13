@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-13T04:04:17.431546+09:00",
+ "updated_at": "2026-08-13T11:08:38.610050+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,63 +20,63 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-08-12T21:00:00+09:00",
-  "updated_at": "2026-08-13T04:06:25.344387+09:00",
+  "reported_at": "2026-08-13T11:00:00+09:00",
+  "updated_at": "2026-08-13T11:13:45.771420+09:00",
   "days": [
    {
     "date": "2026-08-13",
     "code": 2,
-    "max": 31.3,
-    "min": 24.7,
-    "pop": 69,
-    "text": "くもり所により雨"
+    "max": 31.6,
+    "min": 24.6,
+    "pop": 55,
+    "text": "晴れ時々くもり所により雨で雷を伴う"
    },
    {
     "date": "2026-08-14",
-    "code": 3,
-    "max": 30.1,
+    "code": 2,
+    "max": 31.2,
     "min": 25.3,
-    "pop": 81,
-    "text": "くもり時々晴れ所により朝から雨"
+    "pop": 90,
+    "text": "くもり時々晴れ所により雨"
    },
    {
     "date": "2026-08-15",
     "code": 3,
     "max": 32.4,
     "min": 23.5,
-    "pop": 18,
+    "pop": 31,
     "text": ""
    },
    {
     "date": "2026-08-16",
     "code": 3,
-    "max": 30.6,
-    "min": 21.5,
-    "pop": 4,
+    "max": 31.0,
+    "min": 21.3,
+    "pop": 0,
     "text": ""
    },
    {
     "date": "2026-08-17",
     "code": 3,
-    "max": 31.8,
-    "min": 21.5,
-    "pop": 2,
+    "max": 31.1,
+    "min": 20.7,
+    "pop": 4,
     "text": ""
    },
    {
     "date": "2026-08-18",
     "code": 3,
-    "max": 30.9,
-    "min": 23.6,
-    "pop": 21,
+    "max": 31.9,
+    "min": 22.9,
+    "pop": 20,
     "text": ""
    },
    {
     "date": "2026-08-19",
     "code": 51,
     "max": 29.7,
-    "min": 24.1,
-    "pop": 55,
+    "min": 23.6,
+    "pop": 57,
     "text": ""
    },
    {
@@ -84,7 +84,7 @@
     "code": 51,
     "max": 29.0,
     "min": 23.3,
-    "pop": 71,
+    "pop": 76,
     "text": ""
    },
    {
@@ -92,7 +92,7 @@
     "code": 95,
     "max": 28.7,
     "min": 22.5,
-    "pop": 76,
+    "pop": 67,
     "text": ""
    },
    {
@@ -100,7 +100,7 @@
     "code": 55,
     "max": 28.4,
     "min": 22.8,
-    "pop": 67,
+    "pop": 78,
     "text": ""
    }
   ],
@@ -114,49 +114,49 @@
    {
     "time": "2026-08-13T03:00",
     "pop": 0,
-    "temp": 25.3,
+    "temp": 25.0,
     "code": 1
    },
    {
     "time": "2026-08-13T06:00",
     "pop": 0,
-    "temp": 24.9,
+    "temp": 24.7,
     "code": 0
    },
    {
     "time": "2026-08-13T09:00",
     "pop": 0,
-    "temp": 28.1,
+    "temp": 28.7,
     "code": 2
    },
    {
     "time": "2026-08-13T12:00",
-    "pop": 16,
+    "pop": 25,
     "temp": 31.3,
     "code": 1
    },
    {
     "time": "2026-08-13T15:00",
-    "pop": 69,
-    "temp": 30.6,
+    "pop": 55,
+    "temp": 31.4,
     "code": 1
    },
    {
     "time": "2026-08-13T18:00",
-    "pop": 6,
-    "temp": 28.0,
+    "pop": 4,
+    "temp": 28.2,
     "code": 1
    },
    {
     "time": "2026-08-13T21:00",
     "pop": 0,
-    "temp": 26.3,
+    "temp": 26.4,
     "code": 1
    },
    {
     "time": "2026-08-14T00:00",
     "pop": 0,
-    "temp": 25.7,
+    "temp": 25.6,
     "code": 1
    },
    {
@@ -174,32 +174,32 @@
    {
     "time": "2026-08-14T09:00",
     "pop": 0,
-    "temp": 28.2,
+    "temp": 28.4,
     "code": 1
    },
    {
     "time": "2026-08-14T12:00",
-    "pop": 18,
-    "temp": 29.9,
-    "code": 2
+    "pop": 24,
+    "temp": 30.7,
+    "code": 1
    },
    {
     "time": "2026-08-14T15:00",
-    "pop": 80,
-    "temp": 29.8,
+    "pop": 90,
+    "temp": 30.8,
     "code": 1
    },
    {
     "time": "2026-08-14T18:00",
-    "pop": 59,
-    "temp": 27.5,
+    "pop": 63,
+    "temp": 27.8,
     "code": 1
    },
    {
     "time": "2026-08-14T21:00",
     "pop": 0,
-    "temp": 26.0,
-    "code": 3
+    "temp": 26.2,
+    "code": 2
    }
   ]
  },
@@ -246,6 +246,7 @@
   "朝日新聞",
   "東京報道新聞",
   "株式会社 北鹿新聞社",
+  "株式会社旅行新聞新社",
   "福島民報デジタル",
   "秋田経済新聞",
   "秋田魁新報",
@@ -255,8 +256,200 @@
   "電波タイムズ",
   "ｄメニューニュース"
  ],
- "count": 205,
+ "count": 219,
  "items": [
+  {
+   "id": "79ae28e63125dbd5",
+   "url": "https://www.ryoko-net.co.jp/pr/detail.php?guid=c97044_r59",
+   "title_original": "稲とアガベとNEWLOCALの合弁会社 男鹿まち企画が男鹿市複合交流施設整備の「基本構想」を策定",
+   "source": "株式会社旅行新聞新社",
+   "image": "https://www.ryoko-net.co.jp/wp/wp-content/themes/twentysixteen_child/images/home/logo.png",
+   "local": false,
+   "published": "2026-08-13T01:46:20+00:00",
+   "title_ja": "男鹿まち企画が男鹿市複合交流施設の基本構想を策定",
+   "summary_ja": "稲とアガベとNEWLOCALによる合弁会社「男鹿まち企画」が、男鹿市における複合交流施設の整備に向けた「基本構想」を策定したことが分かりました。地域活性化を目指した新たな施設の整備計画が進められています。",
+   "category": "経済・企業",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "46c1128d716c7251",
+   "url": "https://www.hokuu.co.jp/?p=43193",
+   "title_original": "生駒さんのトークイベント盛況 「秋田 愛」を熱く 八峰花火フェス",
+   "source": "北羽新報社",
+   "image": "",
+   "local": false,
+   "published": "2026-08-13T01:25:48+00:00",
+   "title_ja": "八峰花火フェスで生駒里奈さんがトークイベント　秋田への愛語る",
+   "summary_ja": "八峰町で開催された花火フェスティバルで、タレントの生駒里奈さんによるトークイベントが行われました。生駒さんはステージで秋田への思いや愛を熱く語り、集まった多くの観客を盛り上げました。",
+   "category": "観光・イベント",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "9326b1b6f77ed4cf",
+   "url": "https://news.nicovideo.jp/watch/nw19657224?news_ref=20_20",
+   "title_original": "【秋田県鹿角市】AIを「知っている」から「使いこなす」へ。3ヶ月連続「実践型AIワークショップ」の第2回を8月に開催",
+   "source": "ニコニコニュース",
+   "image": "",
+   "local": false,
+   "published": "2026-08-13T01:15:23+00:00",
+   "title_ja": "鹿角市で実践型AIワークショップの第2回が8月に開催へ",
+   "summary_ja": "秋田県鹿角市にて、AIを実践的に使いこなすことを目指す3ヶ月連続の「実践型AIワークショップ」の第2回が8月に開催されます。参加者が実際にAIを活用できるようになるための講座が行われます。",
+   "category": "教育・子育て",
+   "area": "県北",
+   "kind": "event",
+   "event_when": "8月",
+   "importance": 2
+  },
+  {
+   "id": "de3571510af60325",
+   "url": "https://www.sakigake.jp/news/article/20260812AK0004",
+   "title_original": "こまちスタジアムがバッティングセンターに！ グラウンド整備講習も、参加者募集",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260812ak0004_01_l.jpg",
+   "local": true,
+   "published": "2026-08-13T01:00:00+00:00",
+   "title_ja": "こまちスタジアムで打撃体験と整備講習　23日開催、参加者を募集",
+   "summary_ja": "秋田県総合公社は、秋田市のこまちスタジアムで打撃体験やグラウンド整備講習を行う催しの参加者を募集している。開催日は8月23日で、対象は小学生以上。普段は入れない球場で体験が楽しめる。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "event",
+   "event_when": "8月23日",
+   "importance": 3
+  },
+  {
+   "id": "252c80a25a50434f",
+   "url": "https://topics.smt.docomo.ne.jp/article/fushinsha_joho/region/fushinsha_joho-1460427631421833552",
+   "title_original": "（秋田）にかほ市象潟町小砂川タカコヤでクマ出没 ８月１３日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052141.png?fushinsha_joho-1460427631421833552",
+   "local": false,
+   "published": "2026-08-13T00:15:00+00:00",
+   "title_ja": "にかほ市象潟町でクマの目撃情報（8月13日）",
+   "summary_ja": "2026年8月13日、秋田県にかほ市象潟町小砂川タカコヤでクマが出没したとの情報がありました。不測の事態に備え、周辺地域にお住まいの方や近くを通行する方は十分にご注意ください。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "4ef5001c04d9f505",
+   "url": "https://www.nikkansports.com/m/baseball/highschool/sensyuken/2026/school/school-akita_m.html?oyteam=10894&oyyear=2023",
+   "title_original": "横手（秋田代表）- 出場校 - 高校野球夏の甲子園2026",
+   "source": "日刊スポーツ",
+   "image": "https://www.nikkansports.com/mod2015/img/common/sns_nikkansports.png",
+   "local": false,
+   "published": "2026-08-13T00:14:01+00:00",
+   "title_ja": "夏の甲子園2026、秋田代表・横手高校の紹介",
+   "summary_ja": "2026年に開催される全国高校野球選手権大会（夏の甲子園）に出場する、秋田県代表の横手高校に関する出場校情報です。甲子園での活躍を目指すチームの動向が注目されます。",
+   "category": "スポーツ",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "b1f59ea8a589ba8c",
+   "url": "https://www.sakigake.jp/news/article/20260812AK0013",
+   "title_original": "にかほ市・鳥海山小滝番楽、３兄弟が初共演 きょう午後７時からお盆公演",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260810G00026_l.jpg",
+   "local": true,
+   "published": "2026-08-13T00:00:00+00:00",
+   "title_ja": "にかほ市「鳥海山小滝番楽」お盆公演、3兄弟が初共演へ",
+   "summary_ja": "秋田県にかほ市象潟町の小滝集落で受け継がれてきた「鳥海山小滝番楽」のお盆公演が、8月13日午後7時から奈曽会館で行われます。今回は、新しく保存会に加わった20代の若者や小学生などの3兄弟が初めて共演します。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "event",
+   "event_when": "8月13日",
+   "importance": 3
+  },
+  {
+   "id": "2e80557eb9fd9ab9",
+   "url": "https://www.sakigake.jp/news/article/20260812AK0010",
+   "title_original": "秋田市雄和の温泉「ユアシス」 ９月２６日リニューアルオープン",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260812ak0010_01_l.jpg",
+   "local": true,
+   "published": "2026-08-12T23:00:00+00:00",
+   "title_ja": "秋田市雄和の温泉「ユアシス」が9月26日にリニューアル",
+   "summary_ja": "秋田市雄和の温泉施設「ふるさと温泉ユアシス」が、老朽化による大規模改修工事を終えて9月26日にリニューアルオープンします。オープンに先立ち、当日は記念セレモニーも開催される予定です。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "3b5f8760d4afb4e8",
+   "url": "https://www.sanyonews.jp/article/1961324?kw=90",
+   "title_original": "秋篠宮ご夫妻、総文祭出席 秋田で開会式",
+   "source": "山陽新聞",
+   "image": "https://static.sanyonews.jp/image/article/size1/f/f/2/5/ff25d5c2c993979aebba7b56e1ccf149_1.jpg",
+   "local": false,
+   "published": "2026-08-12T21:33:45+00:00",
+   "title_ja": "秋篠宮ご夫妻が秋田県を訪問 全国高総文祭の開会式に出席",
+   "summary_ja": "秋田県内で開幕した全国高等学校総合文化祭の開会式に、秋篠宮ご夫妻が出席されました。全国から集まった高校生による文化芸術の祭典のスタートを、温かく見守られました。",
+   "category": "文化・芸能",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "d535d6140c8943b2",
+   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2130/r_id=10599",
+   "title_original": "帰省客らに移住呼びかけ 北秋田市 空港でＰＲ活動",
+   "source": "株式会社 北鹿新聞社",
+   "image": "https://www.hokuroku.co.jp/files/libs/8360/201909241311217234.jpg?1786587211",
+   "local": false,
+   "published": "2026-08-12T21:03:09+00:00",
+   "title_ja": "北秋田市が空港で移住PR活動 帰省客らに地元の魅力を訴求",
+   "summary_ja": "北秋田市は空港にて、お盆時期の帰省客や利用者を対象とした移住定住のPR活動を行いました。訪れた人々に対して地元の暮らしやすさや支援制度などを周知し、将来的な移住を呼びかけました。",
+   "category": "行政・政治",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "4873fa5d4764201d",
+   "url": "https://news.yahoo.co.jp/articles/c8a4d92ac3163a5876250b6052920577d35b0e14",
+   "title_original": "【横手市】8/13 最高32℃、暑さに注意、晴れのちくもりの予想【朝版】",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260813-00020116-wordleafw-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-08-12T20:46:20+00:00",
+   "title_ja": "横手市の天気予想 8月13日は最高気温32度で暑さに注意",
+   "summary_ja": "8月13日の横手市は晴れのちくもりの天気が予想されています。最高気温は32度に達する見込みで、日中の厳しい暑さに対してこまめな水分補給など十分な注意が求められます。",
+   "category": "天気・防災",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
+  },
+  {
+   "id": "ae90c02322f7afe8",
+   "url": "https://news.yahoo.co.jp/articles/3055bb54c99c687fd624a93356ab4e718be4fc17",
+   "title_original": "【秋田市】8/13 最高33℃、暑さに注意、晴れる時間が多い予想",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260813-00020003-wordleafw-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-08-12T20:09:05+00:00",
+   "title_ja": "秋田市の天気予想 8月13日は最高気温33度で熱中症に警戒",
+   "summary_ja": "8月13日の秋田市は晴れる時間が多い予想となっています。最高気温は33度まで上がる見込みのため、屋外での活動や室内での温度管理も含め、暑さへの対策を徹底してください。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
+  },
   {
    "id": "86cb95b7eb66a17c",
    "url": "https://t.co/KE0L944GRb",
@@ -1346,6 +1539,22 @@
    "image": "https://www.sakigake.jp/images/news-entry/20260811ak0015_02_l.jpg"
   },
   {
+   "id": "a78431d0fd2c8b40",
+   "url": "https://tenki.jp/radar/2/8/rainmesh.html",
+   "title_original": "秋田県の雨雲レーダー(予報)",
+   "source": "tenki.jp",
+   "image": "https://static.tenki.jp/static-images/rainmesh/60/pref-8-large.jpg",
+   "local": false,
+   "published": "2026-08-11T22:03:12+00:00",
+   "title_ja": "秋田県の雨雲レーダーと天気予報",
+   "summary_ja": "秋田県内の雨雲の動きや天気の予報を確認するための気象情報ページです。日々の備えや今後の天候変化の把握に役立ちます。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "9f1509d1715fd38e",
    "url": "https://www.chiba-tv.com/plus/detail/2026081888188",
    "title_original": "【秋田道】秋田市内で事故復旧緊急工事 一部通行止め解除（12日07:00現在）",
@@ -1504,6 +1713,22 @@
    "event_when": "",
    "importance": 2,
    "image": "https://rstatic.enjoytokyo.jp/assets/images/event_draft/ff/2077287/img_1.jpg?1785131346&p=t&w=1200"
+  },
+  {
+   "id": "dfe230785add1d5b",
+   "url": "https://mshale.com/5244a867/ea69b679KvQufPiyWHQ",
+   "title_original": "横手市のシバザクラが見ごろ 可憐な花々が一面に Pumas (th8rC8lKAc)",
+   "source": "Mshale",
+   "image": "",
+   "local": false,
+   "published": "2026-08-11T18:10:54+00:00",
+   "title_ja": "横手市のシバザクラが見ごろを迎える",
+   "summary_ja": "横手市内でシバザクラが見ごろを迎え、可憐な花々が一面に広がっています。美しい景観が楽しめるスポットとして、多くの人の目を和ませています。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "e322166ba0b29068",
