@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-13T22:15:58.409435+09:00",
+ "updated_at": "2026-08-14T04:05:29.735439+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -21,38 +21,30 @@
  "weather": {
   "city": "秋田市",
   "reported_at": "2026-08-13T17:00:00+09:00",
-  "updated_at": "2026-08-13T22:18:07.108345+09:00",
+  "updated_at": "2026-08-14T04:08:01.245271+09:00",
   "days": [
    {
-    "date": "2026-08-13",
-    "code": 2,
-    "max": 32.5,
-    "min": 24.6,
-    "pop": 69,
-    "text": "晴れ所により夕方雨で雷を伴い激しく降る"
-   },
-   {
     "date": "2026-08-14",
-    "code": 2,
-    "max": 30.9,
-    "min": 24.9,
-    "pop": 90,
-    "text": "晴れ時々くもり所により昼前から夜のはじめ頃雨で雷を伴う"
+    "code": 51,
+    "max": 31.8,
+    "min": 25.1,
+    "pop": 82,
+    "text": "晴れ所により夕方雨で雷を伴い激しく降る"
    },
    {
     "date": "2026-08-15",
     "code": 3,
-    "max": 31.9,
-    "min": 23.1,
-    "pop": 45,
-    "text": ""
+    "max": 28.5,
+    "min": 23.6,
+    "pop": 51,
+    "text": "晴れ時々くもり所により昼前から夜のはじめ頃雨で雷を伴う"
    },
    {
     "date": "2026-08-16",
-    "code": 3,
-    "max": 31.1,
-    "min": 20.6,
-    "pop": 2,
+    "code": 1,
+    "max": 32.0,
+    "min": 21.4,
+    "pop": 0,
     "text": ""
    },
    {
@@ -60,20 +52,20 @@
     "code": 3,
     "max": 31.5,
     "min": 21.8,
-    "pop": 4,
+    "pop": 6,
     "text": ""
    },
    {
     "date": "2026-08-18",
-    "code": 96,
+    "code": 95,
     "max": 30.2,
     "min": 23.8,
-    "pop": 47,
+    "pop": 45,
     "text": ""
    },
    {
     "date": "2026-08-19",
-    "code": 96,
+    "code": 95,
     "max": 27.2,
     "min": 23.2,
     "pop": 63,
@@ -102,110 +94,119 @@
     "min": 22.2,
     "pop": 78,
     "text": ""
+   },
+   {
+    "date": "2026-08-23",
+    "code": 2,
+    "max": 27.6,
+    "min": 21.4,
+    "pop": 55,
+    "text": ""
    }
   ],
   "hours": [
    {
-    "time": "2026-08-13T00:00",
-    "pop": 0,
-    "temp": 25.9,
-    "code": 2
-   },
-   {
-    "time": "2026-08-13T03:00",
-    "pop": 0,
-    "temp": 25.0,
-    "code": 1
-   },
-   {
-    "time": "2026-08-13T06:00",
-    "pop": 0,
-    "temp": 24.7,
-    "code": 0
-   },
-   {
-    "time": "2026-08-13T09:00",
-    "pop": 0,
-    "temp": 28.5,
-    "code": 1
-   },
-   {
-    "time": "2026-08-13T12:00",
-    "pop": 37,
-    "temp": 32.0,
-    "code": 1
-   },
-   {
-    "time": "2026-08-13T15:00",
-    "pop": 69,
-    "temp": 32.2,
-    "code": 0
-   },
-   {
-    "time": "2026-08-13T18:00",
-    "pop": 22,
-    "temp": 29.1,
-    "code": 1
-   },
-   {
-    "time": "2026-08-13T21:00",
-    "pop": 0,
-    "temp": 26.4,
-    "code": 1
-   },
-   {
     "time": "2026-08-14T00:00",
     "pop": 0,
-    "temp": 25.4,
-    "code": 1
+    "temp": 25.7,
+    "code": 0
    },
    {
     "time": "2026-08-14T03:00",
     "pop": 0,
-    "temp": 25.0,
-    "code": 2
+    "temp": 25.2,
+    "code": 1
    },
    {
     "time": "2026-08-14T06:00",
     "pop": 0,
-    "temp": 25.1,
+    "temp": 25.2,
     "code": 1
    },
    {
     "time": "2026-08-14T09:00",
     "pop": 0,
-    "temp": 27.8,
+    "temp": 28.6,
     "code": 1
    },
    {
     "time": "2026-08-14T12:00",
-    "pop": 24,
-    "temp": 30.2,
+    "pop": 16,
+    "temp": 31.5,
     "code": 1
    },
    {
     "time": "2026-08-14T15:00",
-    "pop": 90,
-    "temp": 30.8,
+    "pop": 80,
+    "temp": 31.4,
     "code": 1
    },
    {
     "time": "2026-08-14T18:00",
-    "pop": 57,
-    "temp": 28.2,
-    "code": 1
+    "pop": 63,
+    "temp": 28.1,
+    "code": 2
    },
    {
     "time": "2026-08-14T21:00",
     "pop": 0,
-    "temp": 26.5,
+    "temp": 26.3,
     "code": 1
+   },
+   {
+    "time": "2026-08-15T00:00",
+    "pop": 0,
+    "temp": 25.3,
+    "code": 1
+   },
+   {
+    "time": "2026-08-15T03:00",
+    "pop": 0,
+    "temp": 24.7,
+    "code": 1
+   },
+   {
+    "time": "2026-08-15T06:00",
+    "pop": 0,
+    "temp": 24.3,
+    "code": 2
+   },
+   {
+    "time": "2026-08-15T09:00",
+    "pop": 0,
+    "temp": 25.6,
+    "code": 2
+   },
+   {
+    "time": "2026-08-15T12:00",
+    "pop": 31,
+    "temp": 27.7,
+    "code": 1
+   },
+   {
+    "time": "2026-08-15T15:00",
+    "pop": 47,
+    "temp": 28.5,
+    "code": 1
+   },
+   {
+    "time": "2026-08-15T18:00",
+    "pop": 47,
+    "temp": 26.5,
+    "code": 3
+   },
+   {
+    "time": "2026-08-15T21:00",
+    "pop": 0,
+    "temp": 24.6,
+    "code": 2
    }
   ]
  },
  "sources": [
   "47NEWS",
   "AAB秋田朝日放送",
+  "ABEMA",
   "ABS秋田放送",
   "AKT秋田テレビ",
   "Excite エキサイト",
@@ -218,9 +219,11 @@
   "Number Web",
   "PR TIMES",
   "STRAIGHT PRESS",
+  "TBS NEWS DIG",
   "TVer",
   "Weverse",
   "Yahoo!ニュース",
+  "akita.keizai.biz",
   "au Webポータル",
   "city.kitaakita.akita.jp",
   "kabu-ir.com",
@@ -259,8 +262,24 @@
   "電波タイムズ",
   "ｄメニューニュース"
  ],
- "count": 261,
+ "count": 270,
  "items": [
+  {
+   "id": "96606b761eb661b0",
+   "url": "https://abema.tv/video/episode/89-42_s0_p525184",
+   "title_original": "秋田県に記録的短時間大雨に関する気象防災速報",
+   "source": "ABEMA",
+   "image": "",
+   "local": false,
+   "published": "2026-08-13T16:37:08+00:00",
+   "title_ja": "秋田県に記録的短時間大雨情報が発表",
+   "summary_ja": "秋田県内で記録的な大雨が観測されたことを受け、気象防災速報が発表されました。土砂災害や河川の氾濫、低い土地の浸水などに警戒し、安全な場所で過ごすよう呼びかけています。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
   {
    "id": "6baab478d6c7c8bf",
    "url": "https://www.sakigake.jp/news/article/20260813AK0021",
@@ -518,6 +537,86 @@
    "importance": 2
   },
   {
+   "id": "6077a983e8f37c76",
+   "url": "https://akita.keizai.biz/gpnews/1750391",
+   "title_original": "５５万本のヒマワリが見頃",
+   "source": "akita.keizai.biz",
+   "image": "https://images.keizai.biz/img/gp/m0092522752.jpg",
+   "local": false,
+   "published": "2026-08-13T08:59:47+00:00",
+   "title_ja": "55万本のヒマワリが見頃を迎える",
+   "summary_ja": "秋田県内で、55万本ものヒマワリが見頃を迎えています。一面に広がる鮮やかな黄色い花々が、訪れる人々の目を楽しませています。",
+   "category": "観光・イベント",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "bed735cdf5f5ff82",
+   "url": "https://akita.keizai.biz/gpnews/1750390",
+   "title_original": "「確認・相談・１１０番」を呼びかけ",
+   "source": "akita.keizai.biz",
+   "image": "https://images.keizai.biz/img/gp/m0092522808.jpg",
+   "local": false,
+   "published": "2026-08-13T08:59:47+00:00",
+   "title_ja": "防犯に向け「確認・相談・110番」の徹底を呼びかけ",
+   "summary_ja": "トラブルや犯罪被害を防ぐため、「確認・相談・110番」の徹底が呼びかけられています。不審な電話や訪問などがあった場合には、一人で判断せず、速やかに警察や周囲の人に相談することが推奨されています。",
+   "category": "くらし・地域",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "37feb4ef85bd756e",
+   "url": "https://news.ntv.co.jp/n/abs/category/weather/ab5c2aa651527e425c96d77b5c5aba8ec2",
+   "title_original": "大気の状態が不安定に 沿岸は大雨が降っているところも 13日夜のはじめ頃にかけて低い土地の浸水・河川の増水や氾濫に警戒を 秋田 13日(午後5時44分)",
+   "source": "日テレNEWS NNN",
+   "image": "https://image.gallery.play.jp/abs-news/articles/2b5d5b6fc2f54c2eaf39b2fe530c8e3e/17e52a41-2594-4665-87c6-15b0250d56ef.jpg?w=1200",
+   "local": false,
+   "published": "2026-08-13T08:55:00+00:00",
+   "title_ja": "秋田県内で大気が不安定に、浸水や河川の増水に警戒呼びかけ",
+   "summary_ja": "秋田県内では大気の状態が不安定になり、沿岸を中心に一時大雨が降る地域がありました。気象台などは、低い土地の浸水や河川の増水、氾濫に対して十分な警戒を行うよう呼びかけました。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "75c96ce70a05d1eb",
+   "url": "https://news.web.nhk/newsweb/na/nb-6010028863",
+   "title_original": "秋田県内 「急性呼吸器感染症」前週比１.１倍 対策徹底を",
+   "source": "NHKニュース",
+   "image": "https://imgu.web.nhk/news/u/lnews/akita/20260813/6010028863_20260813185901_m.jpg",
+   "local": false,
+   "published": "2026-08-13T08:51:00+00:00",
+   "title_ja": "秋田県内の急性呼吸器感染症が前週比1.1倍に、対策徹底を呼びかけ",
+   "summary_ja": "秋田県内で「急性呼吸器感染症」の患者数が前週比で1.1倍に増加していることが分かりました。感染拡大を防ぐため、手洗いやうがい、適切な換気といった基本的な感染対策の徹底が呼びかけられています。",
+   "category": "くらし・地域",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "992e3ce9a2b629d5",
+   "url": "https://topics.smt.docomo.ne.jp/article/abs/region/abs-2026081302423967",
+   "title_original": "手足口病の感染者依然として多く…警報レベル続く 県が手洗いなどの対策を呼びかけ 秋田",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/-/20260803100341/img/dmenu_service-brand-logo_200x200.png",
+   "local": false,
+   "published": "2026-08-13T08:50:00+00:00",
+   "title_ja": "手足口病の流行が継続　秋田県が手洗いや感染対策を呼びかけ",
+   "summary_ja": "秋田県内で手足口病の感染者数が依然として多く、警報レベルが続いています。県は感染拡大を防ぐため、こまめな手洗いや適切な衛生管理などの対策を講じるよう注意を呼びかけています。",
+   "category": "行政・政治",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "85dca68961e1ecc5",
    "url": "https://www.sakigake.jp/news/article/20260813AK0008",
    "title_original": "秋田県内のレギュラーガソリン価格、２週ぶり値上がり",
@@ -534,6 +633,38 @@
    "importance": 3
   },
   {
+   "id": "9ad6b44a4f0930a3",
+   "url": "https://news.yahoo.co.jp/articles/b8ad00b8b6bf613e99c7ef9ca0e2beb047eacea1",
+   "title_original": "【レベル3大雨警報】秋田県・能代市に発表 17:22時点（TBS NEWS DIG Powered by JNN）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260813-22871131-jnn-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-08-13T08:24:18+00:00",
+   "title_ja": "秋田県能代市にレベル3の大雨警報が発表",
+   "summary_ja": "秋田県能代市に対し、レベル3の大雨警報が発表されました。今後の気象情報に注意し、大雨による浸水や土砂災害などの発生に備えて早めの警戒と安全確保を行ってください。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "fa2ffeefd12755a3",
+   "url": "https://newsdig.tbs.co.jp/articles/-/2871131?display=1",
+   "title_original": "【レベル３大雨警報】秋田県・能代市に発表 17:22時点",
+   "source": "TBS NEWS DIG",
+   "image": "https://newsdig.ismcdn.jp/mwimgs/0/2/1200w/img_029d38b312492fc188138061c791c196231669.jpg",
+   "local": false,
+   "published": "2026-08-13T08:22:00+00:00",
+   "title_ja": "能代市にレベル3の大雨警報を発表　警戒を呼びかけ",
+   "summary_ja": "秋田県能代市にレベル3の大雨警報が発表されました。大雨に伴う低地への浸水や土砂災害などに警戒し、気象状況の推移に十分注意して身の安全を守る行動をとってください。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
    "id": "f38ad7e665e526b1",
    "url": "https://www.sakigake.jp/news/article/20260813AK0011",
    "title_original": "秋田県内の手足口病患者数、前週から横ばい ３施設で集団発生",
@@ -546,6 +677,22 @@
    "category": "くらし・地域",
    "area": "県全体",
    "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "8abdd38be9a91593",
+   "url": "https://www.akt.co.jp/news?sel=20260813-00000006-AKT-1",
+   "title_original": "AKT-NEWS 秋田市の動物園 涼しい時間帯に動物と触れ合う「夜の動物園」開催 普段と違う様子楽しんで|08月13日(木)17:00",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/20260813-00000006-AKT-1-00-thumb.jpg",
+   "local": false,
+   "published": "2026-08-13T08:00:00+00:00",
+   "title_ja": "秋田市の動物園で「夜の動物園」開催 普段と違う夜の姿を楽しんで",
+   "summary_ja": "秋田市の動物園で、涼しい夜の時間帯に動物たちと触れ合える「夜の動物園」が開催されています。日中とは異なる動物たちの様子や、夜ならではの雰囲気を楽しむことができます。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "event",
    "event_when": "",
    "importance": 3
   },
