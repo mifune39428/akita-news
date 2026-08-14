@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-14T04:05:29.735439+09:00",
+ "updated_at": "2026-08-14T11:06:49.148104+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,24 +20,24 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-08-13T17:00:00+09:00",
-  "updated_at": "2026-08-14T04:08:01.245271+09:00",
+  "reported_at": "2026-08-14T11:00:00+09:00",
+  "updated_at": "2026-08-14T11:08:00.544047+09:00",
   "days": [
    {
     "date": "2026-08-14",
-    "code": 51,
-    "max": 31.8,
-    "min": 25.1,
-    "pop": 82,
-    "text": "晴れ所により夕方雨で雷を伴い激しく降る"
+    "code": 2,
+    "max": 31.7,
+    "min": 25.0,
+    "pop": 84,
+    "text": "くもり時々晴れ所により昼過ぎから夜のはじめ頃雨で雷を伴い激しく降る"
    },
    {
     "date": "2026-08-15",
-    "code": 3,
-    "max": 28.5,
+    "code": 2,
+    "max": 28.8,
     "min": 23.6,
-    "pop": 51,
-    "text": "晴れ時々くもり所により昼前から夜のはじめ頃雨で雷を伴う"
+    "pop": 61,
+    "text": "晴れ時々くもり所により昼過ぎから夕方雨"
    },
    {
     "date": "2026-08-16",
@@ -50,57 +50,57 @@
    {
     "date": "2026-08-17",
     "code": 3,
-    "max": 31.5,
-    "min": 21.8,
-    "pop": 6,
+    "max": 31.1,
+    "min": 21.6,
+    "pop": 2,
     "text": ""
    },
    {
     "date": "2026-08-18",
-    "code": 95,
-    "max": 30.2,
-    "min": 23.8,
-    "pop": 45,
+    "code": 3,
+    "max": 31.6,
+    "min": 23.4,
+    "pop": 43,
     "text": ""
    },
    {
     "date": "2026-08-19",
-    "code": 95,
-    "max": 27.2,
-    "min": 23.2,
-    "pop": 63,
+    "code": 51,
+    "max": 30.0,
+    "min": 24.0,
+    "pop": 75,
     "text": ""
    },
    {
     "date": "2026-08-20",
     "code": 51,
-    "max": 28.2,
-    "min": 23.5,
-    "pop": 69,
+    "max": 27.5,
+    "min": 22.5,
+    "pop": 67,
     "text": ""
    },
    {
     "date": "2026-08-21",
-    "code": 53,
-    "max": 27.9,
-    "min": 23.0,
-    "pop": 80,
-    "text": ""
-   },
-   {
-    "date": "2026-08-22",
-    "code": 53,
-    "max": 27.8,
-    "min": 22.2,
+    "code": 3,
+    "max": 28.3,
+    "min": 21.5,
     "pop": 78,
     "text": ""
    },
    {
-    "date": "2026-08-23",
-    "code": 2,
+    "date": "2026-08-22",
+    "code": 51,
     "max": 27.6,
-    "min": 21.4,
-    "pop": 55,
+    "min": 20.5,
+    "pop": 71,
+    "text": ""
+   },
+   {
+    "date": "2026-08-23",
+    "code": 51,
+    "max": 27.8,
+    "min": 20.9,
+    "pop": 53,
     "text": ""
    }
   ],
@@ -114,92 +114,92 @@
    {
     "time": "2026-08-14T03:00",
     "pop": 0,
-    "temp": 25.2,
+    "temp": 25.1,
     "code": 1
    },
    {
     "time": "2026-08-14T06:00",
     "pop": 0,
-    "temp": 25.2,
+    "temp": 25.1,
     "code": 1
    },
    {
     "time": "2026-08-14T09:00",
     "pop": 0,
-    "temp": 28.6,
+    "temp": 28.2,
     "code": 1
    },
    {
     "time": "2026-08-14T12:00",
     "pop": 16,
-    "temp": 31.5,
+    "temp": 30.7,
     "code": 1
    },
    {
     "time": "2026-08-14T15:00",
-    "pop": 80,
-    "temp": 31.4,
-    "code": 1
+    "pop": 84,
+    "temp": 30.8,
+    "code": 2
    },
    {
     "time": "2026-08-14T18:00",
-    "pop": 63,
-    "temp": 28.1,
+    "pop": 53,
+    "temp": 27.7,
     "code": 2
    },
    {
     "time": "2026-08-14T21:00",
     "pop": 0,
-    "temp": 26.3,
-    "code": 1
+    "temp": 26.0,
+    "code": 2
    },
    {
     "time": "2026-08-15T00:00",
-    "pop": 0,
-    "temp": 25.3,
-    "code": 1
+    "pop": 2,
+    "temp": 25.0,
+    "code": 2
    },
    {
     "time": "2026-08-15T03:00",
     "pop": 0,
-    "temp": 24.7,
-    "code": 1
+    "temp": 24.6,
+    "code": 2
    },
    {
     "time": "2026-08-15T06:00",
     "pop": 0,
     "temp": 24.3,
-    "code": 2
+    "code": 1
    },
    {
     "time": "2026-08-15T09:00",
     "pop": 0,
-    "temp": 25.6,
-    "code": 2
+    "temp": 26.1,
+    "code": 1
    },
    {
     "time": "2026-08-15T12:00",
-    "pop": 31,
-    "temp": 27.7,
+    "pop": 24,
+    "temp": 28.2,
     "code": 1
    },
    {
     "time": "2026-08-15T15:00",
-    "pop": 47,
-    "temp": 28.5,
+    "pop": 61,
+    "temp": 28.8,
     "code": 1
    },
    {
     "time": "2026-08-15T18:00",
-    "pop": 47,
-    "temp": 26.5,
-    "code": 3
+    "pop": 37,
+    "temp": 27.2,
+    "code": 1
    },
    {
     "time": "2026-08-15T21:00",
     "pop": 0,
-    "temp": 24.6,
-    "code": 2
+    "temp": 24.8,
+    "code": 1
    }
   ]
  },
@@ -252,6 +252,7 @@
   "東京報道新聞",
   "株式会社 北鹿新聞社",
   "株式会社旅行新聞新社",
+  "毎日新聞",
   "河北新報オンライン",
   "福島民報デジタル",
   "秋田経済新聞",
@@ -262,8 +263,280 @@
   "電波タイムズ",
   "ｄメニューニュース"
  ],
- "count": 270,
+ "count": 288,
  "items": [
+  {
+   "id": "509932066e25f401",
+   "url": "https://news.nicovideo.jp/watch/nw19660868?news_ref=watch_20_nw18997677",
+   "title_original": "【JAF秋田】いで湯の里「湯沢」と芭蕉ゆかりの地「新庄」を結ぶ旅ドライブスタンプラリーに協力しています",
+   "source": "ニコニコニュース",
+   "image": "",
+   "local": false,
+   "published": "2026-08-14T02:00:35+00:00",
+   "title_ja": "湯沢と新庄を結ぶドライブスタンプラリー開催中",
+   "summary_ja": "湯沢市と山形県新庄市を結ぶルートを巡るドライブスタンプラリーにJAF秋田が協力しています。観光地を車で巡りながら楽しむことができる企画です。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "event",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "791588856f4a0d23",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0010/?nv=akita",
+   "title_original": "お笑いコンビ・チュートリアル、２９日に秋田で初の単独ライブ 「うっかり」大曲の花火と同日に…",
+   "source": "秋田魁新報電子版",
+   "image": "https://www.sakigake.jp/images/news-entry/20260814ak0010_01_l.jpg",
+   "local": false,
+   "published": "2026-08-14T02:00:00+00:00",
+   "title_ja": "チュートリアル、29日に秋田で初単独ライブ",
+   "summary_ja": "お笑いコンビ・チュートリアルが、今月29日に秋田県内で初となる単独ライブを開催します。偶然にも大曲の花火と同日開催となり、注目を集めています。",
+   "category": "文化・芸能",
+   "area": "中央",
+   "kind": "event",
+   "event_when": "8月29日",
+   "importance": 3
+  },
+  {
+   "id": "143ececd241e8b4c",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0009",
+   "title_original": "競泳 ２０２６全国高校総体",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/ogp.png",
+   "local": true,
+   "published": "2026-08-14T01:21:31+00:00",
+   "title_ja": "全国高校総体の競泳競技の結果",
+   "summary_ja": "全国高校総体で行われた競泳競技の記録について報じています。大会での選手たちの熱戦や記録の詳細は、新聞紙面にて順次更新されます。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "1fca160048324569",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0005",
+   "title_original": "全国高校軟式野球、能代は２５日初戦 相手は兵庫工",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260814ak0005_01_l.jpg",
+   "local": true,
+   "published": "2026-08-14T01:15:00+00:00",
+   "title_ja": "全国高校軟式野球で能代は25日に初戦、兵庫工と対戦",
+   "summary_ja": "第71回全国高校軟式野球選手権の組み合わせが決まり、西東北代表の能代高校は8月25日に行われる1回戦で兵庫工と対戦することが決定しました。大会は24日から6日間の日程で兵庫県で開催されます。",
+   "category": "スポーツ",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "d9714c599ef5769f",
+   "url": "https://www.asahi.com/articles/ASV8F45PZV8FUBUB004M.html",
+   "title_original": "夢舞台で見せた「執念」のプレー 秋田代表・横手の熱戦を振り返って",
+   "source": "朝日新聞",
+   "image": "https://imgopt.asahi.com/ogp/AS20260813004464_comm.jpg",
+   "local": false,
+   "published": "2026-08-14T01:00:01+00:00",
+   "title_ja": "夢舞台で執念のプレー見せた秋田代表・横手の熱戦を振り返る",
+   "summary_ja": "夢の舞台において執念あふれるプレーを見せた秋田県代表・横手の熱戦について振り返る記事が掲載されました。チームが見せた健闘や熱狂的な戦いぶりが紹介されています。",
+   "category": "スポーツ",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "ffea295d0be28bec",
+   "url": "https://www.sakigake.jp/news/article/20260813AK0013",
+   "title_original": "戦時中、当時の子どもたちは… 秋田市で体験を語る会",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260809G00021_l.jpg",
+   "local": true,
+   "published": "2026-08-14T00:30:00+00:00",
+   "title_ja": "秋田市で戦争体験を語る会が開催",
+   "summary_ja": "秋田市土崎みなと歴史伝承館で、土崎空襲などの体験を伝える催しが開かれた。地元住民３人が登壇し、参加者は当時の暮らしや戦争の恐ろしさに耳を傾けた。",
+   "category": "文化・芸能",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "7961277723c81936",
+   "url": "https://www.akt.co.jp/info/ekiden2026",
+   "title_original": "「十八（ジュッパチ）」の愛称で知られる「十和田八幡平駅伝」は今年で７９回目を迎える。",
+   "source": "AKT秋田テレビ",
+   "image": "",
+   "local": false,
+   "published": "2026-08-14T00:25:28+00:00",
+   "title_ja": "歴史ある十和田八幡平駅伝が開催へ",
+   "summary_ja": "「十八」の愛称で親しまれる「十和田八幡平駅伝」は、今年で記念すべき第７９回を迎える。",
+   "category": "スポーツ",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "4a93d7cfb1a2e179",
+   "url": "https://topics.smt.docomo.ne.jp/article/abs/region/abs-2026081403727499",
+   "title_original": "鹿角市八幡平湯瀬の山林で座っているクマ 散歩中の女性が目撃 体長は約1メートル 13日 秋田",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/abs/m_abs-2026081403727499.jpg",
+   "local": false,
+   "published": "2026-08-14T00:15:00+00:00",
+   "title_ja": "鹿角市の山林でクマが目撃される",
+   "summary_ja": "鹿角市八幡平湯瀬の山林で、散歩中の女性が体長約１メートルのクマが座っているのを目撃した。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "a9bec2bd16916211",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0001",
+   "title_original": "北斗星（８月１４日付）",
+   "source": "秋田魁新報電子版",
+   "image": "https://www.sakigake.jp/images/news-entry/20260814ak0001_01_l.jpg",
+   "local": false,
+   "published": "2026-08-14T00:13:00+00:00",
+   "title_ja": "秋田魁新報のコラム「北斗星」",
+   "summary_ja": "８月１４日付の秋田魁新報に掲載されたコラム「北斗星」の話題。",
+   "category": "その他",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
+  },
+  {
+   "id": "5805b57b7a42b86e",
+   "url": "https://news.ntv.co.jp/n/abs/category/weather/ab94dd6427f855408ca7c19815f1c7c0f7",
+   "title_original": "昼過ぎから大雨となる所がある見込み 上空の寒気や暖かく湿った空気の影響 土砂災害や低い土地の浸水・河川の増水に注意を 14日 秋田",
+   "source": "日テレNEWS NNN",
+   "image": "https://image.gallery.play.jp/abs-news/articles/e48a666b972d4c7c8f885bd501da6d61/2df68164-d881-4ddb-a04b-fa79d8847d33.jpg?w=1200",
+   "local": false,
+   "published": "2026-08-14T00:02:00+00:00",
+   "title_ja": "昼過ぎから大雨に注意、土砂災害などに警戒を",
+   "summary_ja": "上空の寒気や湿った空気の影響で、昼過ぎから大雨となる所がある見込み。土砂災害や低い土地の浸水、河川の増水に注意が必要。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "58b9c7d6d976f502",
+   "url": "https://www.sakigake.jp/news/article/20260813AK0014",
+   "title_original": "ソーラーカーラリー、工学院大（東京）が総合優勝 大潟村",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260811G00043_l.jpg",
+   "local": true,
+   "published": "2026-08-14T00:00:00+00:00",
+   "title_ja": "大潟村のソーラーカーレースで工学院大学が総合優勝",
+   "summary_ja": "大潟村のソーラースポーツラインで「2026ワールド・グリーン・チャレンジ」の最終日が8月11日に行われた。ソーラーカーとソーラーバイシクルが競うレースで、ソーラーカー部門では東京の工学院大学が総合優勝を果たした。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "864664cb113623df",
+   "url": "https://www.sakigake.jp/news/article/20260813AK0009",
+   "title_original": "ブラウブリッツ、１５日に富山とホーム開幕戦 鍛えた走力で初白星を",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260811G00042_l.jpg",
+   "local": true,
+   "published": "2026-08-13T23:30:00+00:00",
+   "title_ja": "ブラウブリッツ秋田、15日にホーム開幕戦で富山と対戦",
+   "summary_ja": "サッカーJ2のブラウブリッツ秋田は、8月15日午後6時から秋田市のソユースタジアムで富山とのホーム開幕戦に臨む。引き分けに終わった開幕戦を経て、鍛え上げた走力を武器に今シーズン初勝利を目指す。",
+   "category": "スポーツ",
+   "area": "中央",
+   "kind": "event",
+   "event_when": "8月15日",
+   "importance": 3
+  },
+  {
+   "id": "005b7b8e6d93e67c",
+   "url": "https://www.sakigake.jp/news/article/20260813AK0022",
+   "title_original": "フェンシング男子・秋田北鷹、相手の堅い守備崩せず【インターハイ】",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260813G00011_l.jpg",
+   "local": true,
+   "published": "2026-08-13T23:00:00+00:00",
+   "title_ja": "インターハイ・フェンシング男子団体で秋田北鷹が8強入り",
+   "summary_ja": "全国高校総体のフェンシング男子団体で、秋田北鷹高校がベスト8に進出した。準々決勝で京都の龍谷大平安に敗れ準決勝進出は逃したものの、昨年の3回戦敗退を上回る好成績を収めた。",
+   "category": "スポーツ",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "9a66e6af8c7593a0",
+   "url": "https://mainichi.jp/articles/20260810/k00/00m/020/337000c",
+   "title_original": "秋田の企業3割、人手不足で「受注・販売機会に制限」 民間調査",
+   "source": "毎日新聞",
+   "image": "https://cdn.mainichi.jp/vol1/2026/08/10/20260810k0000m020347000p/0c10.jpg?1",
+   "local": false,
+   "published": "2026-08-13T22:45:00+00:00",
+   "title_ja": "秋田県内企業の約3割が人手不足で受注や販売を制限",
+   "summary_ja": "民間機関の調査によると、秋田県内にある企業の約3割が、深刻な人手不足の影響によって商品の受注や販売機会を制限せざるを得ない状況に直面していることが明らかになった。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "24c7500a7d94009c",
+   "url": "https://www.sakigake.jp/news/article/20260813AK0020",
+   "title_original": "フェンシング女子・聖霊、厚かった「４強の壁」【インターハイ】",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260813ak0020_01_l.jpg",
+   "local": true,
+   "published": "2026-08-13T22:30:00+00:00",
+   "title_ja": "聖霊学園、フェンシング女子団体で８強入り",
+   "summary_ja": "インターハイのフェンシング女子団体に出場した聖霊学園は準々決勝で敗退した。優勝を目指したものの、３年連続でベスト８にとどまった。",
+   "category": "スポーツ",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "7a4cf4b145b35a7b",
+   "url": "https://www.sakigake.jp/news/article/20260813AK0023",
+   "title_original": "横手高野球部が甲子園から帰県 「満員のスタンドが支えてくれた」",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260813G00020_l.jpg",
+   "local": true,
+   "published": "2026-08-13T22:00:00+00:00",
+   "title_ja": "夏の甲子園出場の横手高野球部が学校へ帰県",
+   "summary_ja": "５７年ぶり２度目の夏の甲子園に出場した横手高校野球部のメンバーが学校に戻った。大勢の地域住民や生徒らが駆けつけ、温かい拍手で健闘をねぎらった。",
+   "category": "スポーツ",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "d0ebdf423cc54804",
+   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2130/r_id=10603",
+   "title_original": "自転車レース「矢島カップ」 田村さん（大館市）が完全優勝 初出場で１３年ぶり快挙 国内屈指の大会 競技に情熱、出会いに感謝",
+   "source": "株式会社 北鹿新聞社",
+   "image": "https://www.hokuroku.co.jp/files/libs/28618/202608131423214748.JPEG?1786673266",
+   "local": false,
+   "published": "2026-08-13T21:00:26+00:00",
+   "title_ja": "自転車レース「矢島カップ」で大館市の田村さんが完全優勝",
+   "summary_ja": "国内屈指の自転車レース「矢島カップ」において、大館市の田村さんが初出場で完全優勝を果たした。１３年ぶりとなる快挙を成し遂げ、競技への情熱を見せた。",
+   "category": "スポーツ",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
   {
    "id": "96606b761eb661b0",
    "url": "https://abema.tv/video/episode/89-42_s0_p525184",
@@ -3111,6 +3384,22 @@
    "event_when": "8月14日",
    "importance": 2,
    "image": "https://phinf.wevpstatic.net/MjAyNjA4MTFfMjMw/MDAxNzg2NDM0NzMxOTc0.O8rKgX1Sdjp11Gtn8lHr71cG_2mslSdYa7uVL_48Fmog.EJ_7YzdkzYU-OuHJu_d3fRESb92lI2bReckH3GIj_Q4g.JPEG/image.jpg?type=w1414"
+  },
+  {
+   "id": "33767a7821aef7ee",
+   "url": "https://www.walkerplus.com/article/171564",
+   "title_original": "秋田が誇る雪国の民俗行事「男鹿のナマハゲ」が県内各地に出現",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/171564/1008096_615.jpg",
+   "local": false,
+   "published": "2026-08-11T07:00:00+00:00",
+   "title_ja": "秋田の民俗行事「男鹿のナマハゲ」が出現",
+   "summary_ja": "秋田を代表する雪国の民俗行事である男鹿のナマハゲが、県内各地に出現している。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "9e2179323d67cd7f",
