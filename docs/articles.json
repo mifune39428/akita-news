@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-14T11:06:49.148104+09:00",
+ "updated_at": "2026-08-14T16:27:30.874275+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -21,85 +21,85 @@
  "weather": {
   "city": "秋田市",
   "reported_at": "2026-08-14T11:00:00+09:00",
-  "updated_at": "2026-08-14T11:08:00.544047+09:00",
+  "updated_at": "2026-08-14T16:29:50.083623+09:00",
   "days": [
    {
     "date": "2026-08-14",
     "code": 2,
-    "max": 31.7,
-    "min": 25.0,
-    "pop": 84,
+    "max": 31.6,
+    "min": 24.9,
+    "pop": 92,
     "text": "くもり時々晴れ所により昼過ぎから夜のはじめ頃雨で雷を伴い激しく降る"
    },
    {
     "date": "2026-08-15",
-    "code": 2,
-    "max": 28.8,
-    "min": 23.6,
-    "pop": 61,
+    "code": 51,
+    "max": 30.9,
+    "min": 23.7,
+    "pop": 48,
     "text": "晴れ時々くもり所により昼過ぎから夕方雨"
    },
    {
     "date": "2026-08-16",
     "code": 1,
-    "max": 32.0,
-    "min": 21.4,
+    "max": 32.5,
+    "min": 21.8,
     "pop": 0,
     "text": ""
    },
    {
     "date": "2026-08-17",
     "code": 3,
-    "max": 31.1,
-    "min": 21.6,
+    "max": 31.4,
+    "min": 22.0,
     "pop": 2,
     "text": ""
    },
    {
     "date": "2026-08-18",
     "code": 3,
-    "max": 31.6,
-    "min": 23.4,
-    "pop": 43,
+    "max": 30.8,
+    "min": 23.8,
+    "pop": 31,
     "text": ""
    },
    {
     "date": "2026-08-19",
-    "code": 51,
-    "max": 30.0,
-    "min": 24.0,
-    "pop": 75,
+    "code": 3,
+    "max": 30.8,
+    "min": 23.8,
+    "pop": 80,
     "text": ""
    },
    {
     "date": "2026-08-20",
     "code": 51,
-    "max": 27.5,
-    "min": 22.5,
+    "max": 29.7,
+    "min": 24.4,
     "pop": 67,
     "text": ""
    },
    {
     "date": "2026-08-21",
-    "code": 3,
-    "max": 28.3,
-    "min": 21.5,
+    "code": 51,
+    "max": 29.6,
+    "min": 23.5,
     "pop": 78,
     "text": ""
    },
    {
     "date": "2026-08-22",
     "code": 51,
-    "max": 27.6,
-    "min": 20.5,
+    "max": 31.4,
+    "min": 23.4,
     "pop": 71,
     "text": ""
    },
    {
     "date": "2026-08-23",
     "code": 51,
-    "max": 27.8,
-    "min": 20.9,
+    "max": 29.6,
+    "min": 23.2,
     "pop": 53,
     "text": ""
    }
@@ -126,73 +126,73 @@
    {
     "time": "2026-08-14T09:00",
     "pop": 0,
-    "temp": 28.2,
+    "temp": 27.8,
     "code": 1
    },
    {
     "time": "2026-08-14T12:00",
-    "pop": 16,
-    "temp": 30.7,
+    "pop": 37,
+    "temp": 30.9,
     "code": 1
    },
    {
     "time": "2026-08-14T15:00",
-    "pop": 84,
-    "temp": 30.8,
-    "code": 2
+    "pop": 92,
+    "temp": 30.7,
+    "code": 1
    },
    {
     "time": "2026-08-14T18:00",
-    "pop": 53,
-    "temp": 27.7,
-    "code": 2
+    "pop": 65,
+    "temp": 26.6,
+    "code": 1
    },
    {
     "time": "2026-08-14T21:00",
     "pop": 0,
-    "temp": 26.0,
-    "code": 2
+    "temp": 25.4,
+    "code": 1
    },
    {
     "time": "2026-08-15T00:00",
-    "pop": 2,
-    "temp": 25.0,
-    "code": 2
-   },
-   {
-    "time": "2026-08-15T03:00",
     "pop": 0,
     "temp": 24.6,
     "code": 2
    },
    {
-    "time": "2026-08-15T06:00",
+    "time": "2026-08-15T03:00",
     "pop": 0,
     "temp": 24.3,
     "code": 1
    },
    {
+    "time": "2026-08-15T06:00",
+    "pop": 0,
+    "temp": 24.0,
+    "code": 1
+   },
+   {
     "time": "2026-08-15T09:00",
     "pop": 0,
-    "temp": 26.1,
+    "temp": 26.2,
     "code": 1
    },
    {
     "time": "2026-08-15T12:00",
-    "pop": 24,
-    "temp": 28.2,
+    "pop": 16,
+    "temp": 29.5,
     "code": 1
    },
    {
     "time": "2026-08-15T15:00",
-    "pop": 61,
-    "temp": 28.8,
+    "pop": 47,
+    "temp": 30.9,
     "code": 1
    },
    {
     "time": "2026-08-15T18:00",
     "pop": 37,
-    "temp": 27.2,
+    "temp": 28.1,
     "code": 1
    },
    {
@@ -233,7 +233,9 @@
   "t.co",
   "tenki.jp",
   "いわき民報社",
+  "ウェザーニュース",
   "ウォーカープラス",
+  "エンタメラッシュ",
   "クラウドファンディング - READYFOR",
   "チバテレ",
   "トラベルボイス",
@@ -263,8 +265,200 @@
   "電波タイムズ",
   "ｄメニューニュース"
  ],
- "count": 288,
+ "count": 304,
  "items": [
+  {
+   "id": "5b310e77e93d2d3c",
+   "url": "https://topics.smt.docomo.ne.jp/article/fnn/nation/fnn-1094689",
+   "title_original": "【速報】鳥取・日野町にレベル4土砂災害危険警報 岩手や宮城、秋田、千葉の一部にも継続して警戒呼びかけ 大雨危険警報は岩手・滝沢市に（FNNプライムオンライン）",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/fnn/m_fnn-1094689.jpg",
+   "local": false,
+   "published": "2026-08-14T07:16:00+00:00",
+   "title_ja": "鳥取で土砂災害警戒情報　秋田などでも注意呼びかけ",
+   "summary_ja": "鳥取県などでレベル4の土砂災害危険警報が発令されたほか、秋田県や岩手県、宮城県などの一部地域に対しても継続して警戒が呼びかけられています。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "127a1e4514853d58",
+   "url": "https://topics.smt.docomo.ne.jp/article/abs/region/abs-2026081402877449",
+   "title_original": "県の内陸で大雨の所も 夜のはじめ頃にかけて土砂災害に厳重に警戒を 低い土地の浸水・河川の増水や氾濫にも警戒を 秋田 14日(午後4時)",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/abs/m_abs-2026081402877449.jpg",
+   "local": false,
+   "published": "2026-08-14T07:15:00+00:00",
+   "title_ja": "秋田県内陸で大雨のおそれ　土砂災害や河川氾濫に警戒を呼びかけ",
+   "summary_ja": "１４日夜のはじめ頃にかけて秋田県の内陸部を中心に大雨となるおそれがある。大雨に伴う土砂災害をはじめ、低い土地の浸水や河川の増水、氾濫に対して厳重な警戒が呼びかけられている。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "184b45b077317013",
+   "url": "https://akita.keizai.biz/gpnews/1750709",
+   "title_original": "色鮮やかにお祝い",
+   "source": "秋田経済新聞",
+   "image": "https://images.keizai.biz/img/gp/m0092535220.jpg",
+   "local": false,
+   "published": "2026-08-14T07:07:30+00:00",
+   "title_ja": "色鮮やかな装飾や作品でお祝い　秋田で祝福の話題",
+   "summary_ja": "色鮮やかな演出や作品によって祝福が行われている様子が伝えられている。地域での節目や行事を華やかに祝い、彩りを添える取り組みが関心を集めている。",
+   "category": "くらし・地域",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
+  },
+  {
+   "id": "65f70e2194092b9a",
+   "url": "https://weathernews.jp/onebox/livecam/tohoku/akita/7CDDE908B755",
+   "title_original": "秋田県由利本荘市のライブカメラ",
+   "source": "ウェザーニュース",
+   "image": "https://gvs.weathernews.jp/common/images/ogp/livecam@1x.png",
+   "local": false,
+   "published": "2026-08-14T06:51:00+00:00",
+   "title_ja": "秋田県由利本荘市の現在の様子を伝えるライブカメラ",
+   "summary_ja": "ウェザーニュースが公開している、秋田県由利本荘市の状況を確認できるライブカメラ情報。現地の気象状態や周辺の様子をリアルタイムで把握するのに役立つ。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
+  },
+  {
+   "id": "804da1b82d0de266",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0012",
+   "title_original": "秋田県プレミアム商品券、電子券が完売 紙券は９月２日から販売",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260814ak0012_01_l.jpg",
+   "local": true,
+   "published": "2026-08-14T06:45:11+00:00",
+   "title_ja": "秋田県プレミアム商品券の電子券が完売　紙券は9月2日販売開始",
+   "summary_ja": "秋田県は14日、物価高騰対策として追加発行したプレミアム商品券の電子券が同日午後3時に完売したと発表した。紙タイプの商品券50万セットについては、9月2日から販売を開始する。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "e0f74c9dadb4f9a7",
+   "url": "https://news.web.nhk/newsweb/na/nb-6010028872",
+   "title_original": "大館市にレベル４土砂災害危険警報（１５：２５）",
+   "source": "NHKニュース",
+   "image": "https://imgu.web.nhk/common/news/eyecatch/nhk-one-news_eyecatch-1280x720.png",
+   "local": false,
+   "published": "2026-08-14T06:42:00+00:00",
+   "title_ja": "大館市にレベル4の土砂災害危険警報を発表",
+   "summary_ja": "気象庁などは14日午後3時25分、秋田県大館市にレベル4の土砂災害危険警報を発表しました。土砂災害の危険性が高まっているため、自治体から出される避難情報に注意し、安全な場所へ速やかに避難してください。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "d06bf83fd82bdd5b",
+   "url": "https://news.web.nhk/newsweb/na/nb-6010028871",
+   "title_original": "秋田県の内陸に「竜巻注意」（１５：２２）",
+   "source": "NHKニュース",
+   "image": "https://imgu.web.nhk/common/news/eyecatch/nhk-one-news_eyecatch-1280x720.png",
+   "local": false,
+   "published": "2026-08-14T06:37:00+00:00",
+   "title_ja": "秋田県の内陸に竜巻注意情報が発表",
+   "summary_ja": "14日午後3時22分、秋田県の内陸地域を対象に竜巻注意情報が発表されました。雷雨や急な風の変化など発達した積乱雲が接近する兆候が見られた場合は、頑丈な建物へ移動するなど身の安全を確保してください。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "3f8069ec4dd1e93d",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0006",
+   "title_original": "希望や勇気感じて 佐々木ひでおさんの口筆詩画、北秋田市で初の作品展",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260814ak0006_01_l.jpg",
+   "local": true,
+   "published": "2026-08-14T05:00:00+00:00",
+   "title_ja": "北秋田市で佐々木ひでおさんの口筆詩画展",
+   "summary_ja": "井川町出身で口に筆をくわえて描く佐々木ひでおさんの作品展が、北秋田市の合川公民館で開かれています。北秋田市での開催は初となり、希望や勇気を感じさせる詩画作品が展示されています。",
+   "category": "文化・芸能",
+   "area": "県北",
+   "kind": "event",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "e149a07b19810212",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0007",
+   "title_original": "戦争の悲惨さ感じて、道の駅かみこあにで写真展 フィリピンや中国などを慰霊巡拝",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260814ak0007_01_l.jpg",
+   "local": true,
+   "published": "2026-08-14T04:00:00+00:00",
+   "title_ja": "上小阿仁村の道の駅で戦争と平和の写真展　慰霊巡拝写真など44点",
+   "summary_ja": "上小阿仁村の道の駅かみこあに情報休憩室で、戦争と平和について考える写真展が開催されています。秋田県遺族連合会がフィリピンや中国などへ慰霊巡拝に訪れた際に撮影した写真など、計44点が展示されています。会期は8月30日までです。",
+   "category": "文化・芸能",
+   "area": "県北",
+   "kind": "event",
+   "event_when": "8月30日まで",
+   "importance": 2
+  },
+  {
+   "id": "ed05a21e6062802b",
+   "url": "https://www.aab-tv.co.jp/news/aabnews-26081410410029",
+   "title_original": "秋田出身トップアスリートが合宿 世界陸上メダリスト・元競歩選手がコーチに",
+   "source": "AAB秋田朝日放送",
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026081410410011929.jpg",
+   "local": true,
+   "published": "2026-08-14T03:26:09+00:00",
+   "title_ja": "大館市で競歩の指導合宿がスタート　同市出身の小林快さんらがコーチ",
+   "summary_ja": "大館市で現役選手を指導する競歩の合宿が行われています。同市出身で世界陸上メダリストの元選手・小林快さんら5人がコーチを務め、全国から参加した28人の選手に指導を実施しています。",
+   "category": "スポーツ",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "77cd4c9e35b3bf18",
+   "url": "https://entamerush.jp/708051/amp",
+   "title_original": "【イベントレポート】株式会社ベルコ、「男鹿ナマハゲロックフェスティバル」にて2年連続となるブース出展＆PR活動を実施！",
+   "source": "エンタメラッシュ",
+   "image": "https://entamerush.jp/wp-content/uploads/2026/08/2026-08-14_12-05-33_319896.jpeg",
+   "local": false,
+   "published": "2026-08-14T03:17:13+00:00",
+   "title_ja": "ベルコが男鹿ナマハゲロックフェスにブース出展　2年連続でPR活動",
+   "summary_ja": "株式会社ベルコが「男鹿ナマハゲロックフェスティバル」会場にて、2年連続となるブース出展とPR活動を実施しました。同社はイベントを通じて来場者へのアピールや地域活動の展開を行っています。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "b29277731d64c0bc",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0003",
+   "title_original": "湯沢西小４年・鈴木アヒナエマさん ルーツの２人は「敵」同士 【戦後８１年】わたしがみた「戦争」（上）",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260814ak0003_01_l.jpg",
+   "local": true,
+   "published": "2026-08-14T02:45:00+00:00",
+   "title_ja": "湯沢市の小4児童が自らの家族史から「戦争と平和」を取材",
+   "summary_ja": "湯沢西小学校4年の鈴木アヒナエマさんがこの夏、記者として先の戦争と家族の関わりについて調べました。地元の湯沢、父親の出身地であるハワイ、原爆被災地の長崎での関わりを通し、平和のあり方について考えています。",
+   "category": "教育・子育て",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
   {
    "id": "509932066e25f401",
    "url": "https://news.nicovideo.jp/watch/nw19660868?news_ref=watch_20_nw18997677",
@@ -314,6 +508,22 @@
    "importance": 2
   },
   {
+   "id": "2a5955b70ed68a12",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0008",
+   "title_original": "卓球 ２０２６全国高校総体",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/ogp.png",
+   "local": true,
+   "published": "2026-08-14T01:16:07+00:00",
+   "title_ja": "全国高校総体の卓球競技、大会記録は紙面掲載後に更新",
+   "summary_ja": "2026年に開催される全国高校総体の卓球競技に関する速報案内。大会における記録情報の更新については、新聞紙面へ掲載された後に順次行われる予定となっている。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "1fca160048324569",
    "url": "https://www.sakigake.jp/news/article/20260814AK0005",
    "title_original": "全国高校軟式野球、能代は２５日初戦 相手は兵庫工",
@@ -344,6 +554,38 @@
    "kind": "news",
    "event_when": "",
    "importance": 2
+  },
+  {
+   "id": "1800285ec2c977e1",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0004",
+   "title_original": "湯沢雄勝地区、栗駒ＣＡＴ’Ｓが７大会連続で全県へ 全県おはよう野球大会",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/ogp.png",
+   "local": true,
+   "published": "2026-08-14T01:00:00+00:00",
+   "title_ja": "栗駒CAT’Sが7大会連続で全県大会へ、湯沢雄勝予選V",
+   "summary_ja": "全県おはよう野球大会の湯沢雄勝地区予選決勝が湯沢市の野球場で行われ、栗駒CAT’Sが優勝を果たした。同チームは7大会連続8度目となる本大会への出場を決めている。",
+   "category": "スポーツ",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "b83ee9bca1c85907",
+   "url": "http://akita.keizai.biz/headline/4080",
+   "title_original": "秋田駅前のラーメン店「すみたに」が復活 3日間の売り上げ全額を熊本に寄付",
+   "source": "秋田経済新聞",
+   "image": "https://images.keizai.biz/akita_keizai/headline/1786585939.jpg",
+   "local": true,
+   "published": "2026-08-14T00:55:55+00:00",
+   "title_ja": "秋田駅前のラーメン店「すみたに」再開、売上全額を寄付へ",
+   "summary_ja": "秋田市中通のラーメン店「すみたに」が8月17日に営業を再開する予定となっている。店舗では営業再開から3日間の売り上げ全額を、熊本県へ寄付する支援活動を行う。",
+   "category": "経済・企業",
+   "area": "中央",
+   "kind": "event",
+   "event_when": "8月17日〜",
+   "importance": 3
   },
   {
    "id": "ffea295d0be28bec",
@@ -520,6 +762,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 4
+  },
+  {
+   "id": "6a99093e0579969b",
+   "url": "https://www.sakigake.jp/news/article/20260813AK0015",
+   "title_original": "熊本地震被災地へ派遣、秋田県職員「第１陣」 被害認定調査に汗流す",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260812G00005_l.jpg",
+   "local": true,
+   "published": "2026-08-13T21:30:00+00:00",
+   "title_ja": "熊本地震の被災地へ派遣の秋田県職員、現地で被害認定調査",
+   "summary_ja": "熊本地震の被災地に派遣された秋田県職員の第1陣が、現地の住家被害認定調査にあたっている。被災者の生活再建を支えるため、猛暑のなか一軒ずつ巡回調査を進めている。",
+   "category": "行政・政治",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "d0ebdf423cc54804",
