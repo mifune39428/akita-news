@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-14T22:10:55.771735+09:00",
+ "updated_at": "2026-08-15T03:57:23.915138+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -21,37 +21,29 @@
  "weather": {
   "city": "秋田市",
   "reported_at": "2026-08-14T20:00:00+09:00",
-  "updated_at": "2026-08-14T22:14:39.126591+09:00",
+  "updated_at": "2026-08-15T03:58:44.936604+09:00",
   "days": [
-   {
-    "date": "2026-08-14",
-    "code": 51,
-    "max": 31.6,
-    "min": 25.0,
-    "pop": 98,
-    "text": "くもり所により夜のはじめ頃雨"
-   },
    {
     "date": "2026-08-15",
     "code": 2,
     "max": 31.0,
-    "min": 23.7,
-    "pop": 59,
-    "text": "晴れ時々くもり所により昼過ぎから夕方雨で雷を伴い激しく降る"
+    "min": 23.8,
+    "pop": 31,
+    "text": "くもり所により夜のはじめ頃雨"
    },
    {
     "date": "2026-08-16",
-    "code": 1,
-    "max": 32.5,
+    "code": 2,
+    "max": 32.6,
     "min": 21.7,
     "pop": 0,
-    "text": ""
+    "text": "晴れ時々くもり所により昼過ぎから夕方雨で雷を伴い激しく降る"
    },
    {
     "date": "2026-08-17",
     "code": 3,
-    "max": 31.1,
-    "min": 22.0,
+    "max": 31.3,
+    "min": 21.6,
     "pop": 6,
     "text": ""
    },
@@ -60,7 +52,7 @@
     "code": 3,
     "max": 31.4,
     "min": 23.7,
-    "pop": 43,
+    "pop": 51,
     "text": ""
    },
    {
@@ -68,7 +60,7 @@
     "code": 2,
     "max": 30.6,
     "min": 24.2,
-    "pop": 67,
+    "pop": 73,
     "text": ""
    },
    {
@@ -76,7 +68,7 @@
     "code": 51,
     "max": 30.6,
     "min": 24.2,
-    "pop": 67,
+    "pop": 78,
     "text": ""
    },
    {
@@ -102,104 +94,112 @@
     "min": 23.2,
     "pop": 65,
     "text": ""
+   },
+   {
+    "date": "2026-08-24",
+    "code": 51,
+    "max": 29.3,
+    "min": 23.1,
+    "pop": 65,
+    "text": ""
    }
   ],
   "hours": [
    {
-    "time": "2026-08-14T00:00",
-    "pop": 0,
-    "temp": 25.7,
-    "code": 0
-   },
-   {
-    "time": "2026-08-14T03:00",
-    "pop": 0,
-    "temp": 25.1,
-    "code": 1
-   },
-   {
-    "time": "2026-08-14T06:00",
-    "pop": 0,
-    "temp": 25.1,
-    "code": 1
-   },
-   {
-    "time": "2026-08-14T09:00",
-    "pop": 0,
-    "temp": 27.8,
-    "code": 1
-   },
-   {
-    "time": "2026-08-14T12:00",
-    "pop": 53,
-    "temp": 30.9,
-    "code": 1
-   },
-   {
-    "time": "2026-08-14T15:00",
-    "pop": 98,
-    "temp": 31.4,
-    "code": 1
-   },
-   {
-    "time": "2026-08-14T18:00",
-    "pop": 63,
-    "temp": 26.8,
-    "code": 1
-   },
-   {
-    "time": "2026-08-14T21:00",
-    "pop": 0,
-    "temp": 25.8,
-    "code": 2
-   },
-   {
     "time": "2026-08-15T00:00",
     "pop": 2,
-    "temp": 25.0,
-    "code": 2
+    "temp": 25.4,
+    "code": 1
    },
    {
     "time": "2026-08-15T03:00",
-    "pop": 2,
-    "temp": 24.5,
+    "pop": 0,
+    "temp": 25.0,
     "code": 1
    },
    {
     "time": "2026-08-15T06:00",
     "pop": 0,
-    "temp": 24.2,
+    "temp": 24.6,
     "code": 1
    },
    {
     "time": "2026-08-15T09:00",
     "pop": 0,
-    "temp": 26.2,
+    "temp": 27.1,
     "code": 1
    },
    {
     "time": "2026-08-15T12:00",
-    "pop": 12,
-    "temp": 29.2,
+    "pop": 6,
+    "temp": 29.9,
     "code": 1
    },
    {
     "time": "2026-08-15T15:00",
-    "pop": 59,
+    "pop": 31,
     "temp": 31.0,
     "code": 1
    },
    {
     "time": "2026-08-15T18:00",
-    "pop": 39,
-    "temp": 28.3,
-    "code": 1
+    "pop": 18,
+    "temp": 28.5,
+    "code": 2
    },
    {
     "time": "2026-08-15T21:00",
     "pop": 0,
-    "temp": 25.1,
+    "temp": 25.3,
     "code": 1
+   },
+   {
+    "time": "2026-08-16T00:00",
+    "pop": 0,
+    "temp": 23.3,
+    "code": 1
+   },
+   {
+    "time": "2026-08-16T03:00",
+    "pop": 0,
+    "temp": 22.2,
+    "code": 1
+   },
+   {
+    "time": "2026-08-16T06:00",
+    "pop": 0,
+    "temp": 22.0,
+    "code": 0
+   },
+   {
+    "time": "2026-08-16T09:00",
+    "pop": 0,
+    "temp": 26.2,
+    "code": 0
+   },
+   {
+    "time": "2026-08-16T12:00",
+    "pop": 0,
+    "temp": 30.6,
+    "code": 0
+   },
+   {
+    "time": "2026-08-16T15:00",
+    "pop": 0,
+    "temp": 32.6,
+    "code": 2
+   },
+   {
+    "time": "2026-08-16T18:00",
+    "pop": 0,
+    "temp": 28.8,
+    "code": 1
+   },
+   {
+    "time": "2026-08-16T21:00",
+    "pop": 0,
+    "temp": 24.9,
+    "code": 0
    }
   ]
  },
@@ -227,6 +227,7 @@
   "au Webポータル",
   "city.kitaakita.akita.jp",
   "kabu-ir.com",
+  "news.infoseek.co.jp",
   "nhk.or.jp",
   "online.logi-biz.com",
   "prtimes.jp",
@@ -266,8 +267,88 @@
   "電波タイムズ",
   "ｄメニューニュース"
  ],
- "count": 323,
+ "count": 334,
  "items": [
+  {
+   "id": "e5835368860e9142",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1461008459674763971",
+   "title_original": "（秋田）にかほ市黒川八幡でクマ出没 ８月１４日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052141.png?fushinsha_joho-1461008459674763971",
+   "local": false,
+   "published": "2026-08-14T14:43:00+00:00",
+   "title_ja": "にかほ市黒川八幡でクマが出没",
+   "summary_ja": "８月１４日、にかほ市黒川八幡でクマが目撃されました。地域住民の皆様は、今後の出没情報に注意し、遭遇しないよう音の鳴るものを携帯するなど、身の安全の確保に十分努めてください。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "c16045386fbd50c9",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1461006446539785208",
+   "title_original": "（秋田）北秋田市阿仁根子根烈でクマ出没 ８月１４日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052132.png?fushinsha_joho-1461006446539785208",
+   "local": false,
+   "published": "2026-08-14T14:35:00+00:00",
+   "title_ja": "北秋田市阿仁根子根烈でクマが出没",
+   "summary_ja": "８月１４日、北秋田市阿仁根子根烈においてクマの出没が確認されました。近隣にお住まいの方や付近を通行する際は、周囲の状況に注意を払い、十分に警戒してください。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "40e6dbb746d14cef",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1461004433358504951",
+   "title_original": "（秋田）羽後町南元西でクマ出没 ８月１３日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/054631.png?fushinsha_joho-1461004433358504951",
+   "local": false,
+   "published": "2026-08-14T14:27:00+00:00",
+   "title_ja": "羽後町南元西でクマが出没",
+   "summary_ja": "羽後町南元西において、クマの出没が確認されました。付近を通行する際は周囲の状況に十分注意し、不要な外出は控えるなど安全確保に努めましょう。",
+   "category": "天気・防災",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "5665185537c3d16f",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1461001415777747921",
+   "title_original": "（秋田）八峰町峰浜水沢でクマ出没 ８月１４日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/053490.png?fushinsha_joho-1461001415777747921",
+   "local": false,
+   "published": "2026-08-14T14:15:00+00:00",
+   "title_ja": "八峰町峰浜水沢でクマが出没",
+   "summary_ja": "八峰町峰浜水沢の地域でクマの出没が確認されました。住民や通行人は周囲の警戒を怠らず、十分注意してください。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "c419288d4a7cac56",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0031",
+   "title_original": "「魔法」テーマの創作花火、夏夜を彩る 男鹿市で日本海花火",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260814G00030_l.jpg",
+   "local": true,
+   "published": "2026-08-14T14:00:31+00:00",
+   "title_ja": "男鹿市で日本海花火、魔法をテーマに夜空彩る",
+   "summary_ja": "男鹿市のOGAマリンパークで第22回男鹿日本海花火が開催されました。魔法をテーマにした色鮮やかな創作花火が打ち上げられ、真夏の夜空を美しく染め上げました。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
   {
    "id": "3948493086cf5815",
    "url": "https://origin.akt.co.jp/news?sel=20260814-00000006-AKT-1",
@@ -285,6 +366,22 @@
    "importance": 3
   },
   {
+   "id": "3863a424e1ad09b3",
+   "url": "https://news.yahoo.co.jp/articles/9db079072fc634eeabdf831c0307694177ad6574",
+   "title_original": "アイスクリームの万博、秋田初開催 全国各地の人気アイスが一堂に会する 暑い日にいかが？（秋田テレビ）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260814-90018189-akt-000-1-thumb.jpg?exp=10800",
+   "local": false,
+   "published": "2026-08-14T11:19:01+00:00",
+   "title_ja": "全国の人気アイスが集結する博覧会が秋田初開催",
+   "summary_ja": "全国各地の人気アイスクリームが一堂に会するイベントが、秋田で初めて開催されます。暑い季節に楽しめる催しとなっています。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "event",
+   "event_when": "8月15日以降",
+   "importance": 3
+  },
+  {
    "id": "5c4fd8c8fc392a7d",
    "url": "https://www.sakigake.jp/news/article/20260814AK0022",
    "title_original": "卓球ダブルス、男女とも１回戦敗退 秋田の齊藤・三上「悔しい結果」【インターハイ】",
@@ -299,6 +396,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "62169a9dc97852e3",
+   "url": "https://www.akita-abs.co.jp/blog/abst/archives/10255",
+   "title_original": "8月15日からのイベント情報",
+   "source": "ABS秋田放送",
+   "image": "https://www.akita-abs.co.jp/blog/abst/wp-content/uploads/sites/52/2026/08/event060814.jpg",
+   "local": false,
+   "published": "2026-08-14T10:59:31+00:00",
+   "title_ja": "本日8月15日からの県内イベント情報",
+   "summary_ja": "8月15日から開催される各地のイベント情報をお知らせします。お出かけの際の参考にしていただけます。",
+   "category": "観光・イベント",
+   "area": "県全体",
+   "kind": "event",
+   "event_when": "8月15日以降",
+   "importance": 2
   },
   {
    "id": "067e7ee1c9a137af",
@@ -493,6 +606,22 @@
    "importance": 3
   },
   {
+   "id": "e67efd4146ae11d4",
+   "url": "https://news.web.nhk/newsweb/na/nb-6010028881",
+   "title_original": "大館市 レベル４土砂災害危険警報をレベル２土砂災害注意報に",
+   "source": "NHKニュース",
+   "image": "https://imgu.web.nhk/news/u/lnews/akita/20260814/6010028881_20260728112847_m.jpg",
+   "local": false,
+   "published": "2026-08-14T09:45:00+00:00",
+   "title_ja": "大館市の土砂災害危険警報が注意報へ引き下げ",
+   "summary_ja": "大館市に出されていたレベル４の土砂災害危険警報が、レベル２の土砂災害注意報へと切り替えられました。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "65938c7324723279",
    "url": "https://news.ntv.co.jp/n/abs/category/weather/ab1ee3f6b2533d48c791a3604b2b133653",
    "title_original": "大気の状態が非常に不安定に 14日夜のはじめ頃にかけて土砂災害・低い土地の浸水・河川の増水に注意を 秋田 14日(午後6時35分)",
@@ -507,6 +636,54 @@
    "kind": "news",
    "event_when": "",
    "importance": 4
+  },
+  {
+   "id": "cbbac06c87bb5281",
+   "url": "https://news.web.nhk/newsweb/na/nb-6010028879",
+   "title_original": "秋田県内 １４日夜はじめごろにかけ土砂災害に厳重に警戒",
+   "source": "NHKニュース",
+   "image": "https://imgu.web.nhk/news/u/lnews/akita/20260814/6010028879_20260814182956_m.jpg",
+   "local": false,
+   "published": "2026-08-14T09:13:00+00:00",
+   "title_ja": "県内は14日夜はじめごろまで土砂災害に厳重警戒",
+   "summary_ja": "秋田県内では、14日夜のはじめごろにかけて土砂災害に対する厳重な警戒が呼びかけられています。十分な注意が必要です。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "df1aa04966fc9d54",
+   "url": "https://www.akt.co.jp/news?sel=20260814-00000002-AKT-1",
+   "title_original": "57年ぶりの甲子園を終えた横手ナインが地元へ 在校生や保護者ら150人が温かく出迎え 秋田・横手市",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/20260814-00000002-AKT-1-00-thumb.jpg",
+   "local": false,
+   "published": "2026-08-14T09:00:00+00:00",
+   "title_ja": "57年ぶりの甲子園を終えた横手ナインが地元に帰還",
+   "summary_ja": "57年ぶりとなる夏の甲子園出場を戦い抜いた横手高校の野球部員たちが横手市へ戻り、在校生や保護者ら約150人による温かい出迎えを受けました。",
+   "category": "スポーツ",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "a289a1cc8aa73136",
+   "url": "https://news.infoseek.co.jp/amp/article/abs_1460921183022072815",
+   "title_original": "【特集】「永遠に紡ぐ」 短大演劇部の学生がつなぐ記憶と平和への思い “空襲を語り継ぐこと”をテーマに公演 秋田",
+   "source": "news.infoseek.co.jp",
+   "image": "https://media.image.infoseek.co.jp/isnews/photos/abs/abs_1460921183022072815_0-enlarge.jpg",
+   "local": false,
+   "published": "2026-08-14T08:59:12+00:00",
+   "title_ja": "短大演劇部が空襲の記憶と平和への思いを伝える公演",
+   "summary_ja": "秋田市内で短大の演劇部が、戦争の記憶を次世代へ語り継ぐことをテーマにした舞台公演を行い、平和への思いを表現しました。",
+   "category": "文化・芸能",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "16e72b5e2cb168bb",
