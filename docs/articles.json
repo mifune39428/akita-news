@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-15T10:20:55.376903+09:00",
+ "updated_at": "2026-08-15T15:41:06.351765+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,39 +20,39 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-08-15T05:00:00+09:00",
-  "updated_at": "2026-08-15T10:23:03.134772+09:00",
+  "reported_at": "2026-08-15T11:00:00+09:00",
+  "updated_at": "2026-08-15T15:42:31.282717+09:00",
   "days": [
    {
     "date": "2026-08-15",
-    "code": 2,
+    "code": 3,
     "max": 30.8,
-    "min": 24.0,
-    "pop": 55,
-    "text": "晴れ時々くもり所により昼過ぎから夕方雨で雷を伴い激しく降る"
+    "min": 24.3,
+    "pop": 76,
+    "text": "晴れ昼過ぎから夕方くもり所により雨で雷を伴い激しく降る"
    },
    {
     "date": "2026-08-16",
-    "code": 2,
-    "max": 32.1,
-    "min": 21.6,
+    "code": 1,
+    "max": 32.2,
+    "min": 22.3,
     "pop": 0,
     "text": "晴れ朝晩くもり"
    },
    {
     "date": "2026-08-17",
     "code": 3,
-    "max": 31.3,
+    "max": 31.2,
     "min": 21.6,
     "pop": 0,
     "text": ""
    },
    {
     "date": "2026-08-18",
-    "code": 3,
-    "max": 31.1,
-    "min": 23.4,
-    "pop": 22,
+    "code": 51,
+    "max": 29.5,
+    "min": 23.9,
+    "pop": 20,
     "text": ""
    },
    {
@@ -60,7 +60,7 @@
     "code": 51,
     "max": 30.4,
     "min": 24.4,
-    "pop": 57,
+    "pop": 47,
     "text": ""
    },
    {
@@ -68,7 +68,7 @@
     "code": 95,
     "max": 29.6,
     "min": 23.7,
-    "pop": 80,
+    "pop": 76,
     "text": ""
    },
    {
@@ -119,33 +119,33 @@
    },
    {
     "time": "2026-08-15T06:00",
-    "pop": 0,
+    "pop": 4,
     "temp": 24.9,
     "code": 0
    },
    {
     "time": "2026-08-15T09:00",
-    "pop": 0,
-    "temp": 27.6,
+    "pop": 8,
+    "temp": 27.8,
     "code": 1
    },
    {
     "time": "2026-08-15T12:00",
-    "pop": 2,
-    "temp": 30.1,
+    "pop": 4,
+    "temp": 30.2,
     "code": 1
    },
    {
     "time": "2026-08-15T15:00",
-    "pop": 55,
-    "temp": 30.8,
+    "pop": 69,
+    "temp": 30.5,
     "code": 1
    },
    {
     "time": "2026-08-15T18:00",
-    "pop": 33,
-    "temp": 28.4,
-    "code": 2
+    "pop": 67,
+    "temp": 28.1,
+    "code": 1
    },
    {
     "time": "2026-08-15T21:00",
@@ -156,50 +156,50 @@
    {
     "time": "2026-08-16T00:00",
     "pop": 0,
-    "temp": 23.4,
+    "temp": 23.7,
     "code": 1
    },
    {
     "time": "2026-08-16T03:00",
     "pop": 0,
-    "temp": 22.2,
+    "temp": 22.8,
     "code": 1
    },
    {
     "time": "2026-08-16T06:00",
     "pop": 0,
-    "temp": 21.8,
+    "temp": 22.3,
     "code": 1
    },
    {
     "time": "2026-08-16T09:00",
     "pop": 0,
-    "temp": 26.0,
+    "temp": 26.1,
     "code": 1
    },
    {
     "time": "2026-08-16T12:00",
     "pop": 0,
-    "temp": 30.4,
-    "code": 0
+    "temp": 30.1,
+    "code": 1
    },
    {
     "time": "2026-08-16T15:00",
     "pop": 0,
-    "temp": 32.1,
+    "temp": 32.2,
     "code": 0
    },
    {
     "time": "2026-08-16T18:00",
     "pop": 0,
-    "temp": 29.2,
+    "temp": 29.1,
     "code": 0
    },
    {
     "time": "2026-08-16T21:00",
     "pop": 0,
-    "temp": 24.5,
-    "code": 0
+    "temp": 25.0,
+    "code": 1
    }
   ]
  },
@@ -233,6 +233,7 @@
   "prtimes.jp",
   "t.co",
   "tenki.jp",
+  "tokyu.co.jp",
   "いわき民報社",
   "ウェザーニュース",
   "ウォーカープラス",
@@ -244,6 +245,7 @@
   "ライブドアニュース",
   "レッツエンジョイ東京",
   "公明新聞電子版プラス",
+  "再都市化",
   "北羽新報社",
   "千葉テレビ放送",
   "夜景FAN",
@@ -267,8 +269,168 @@
   "電波タイムズ",
   "ｄメニューニュース"
  ],
- "count": 342,
+ "count": 356,
  "items": [
+  {
+   "id": "6f62c1bedd32fda7",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0006",
+   "title_original": "移住者や住民、野菜収穫しピザ作り 大仙市の髙梨商店で交流会",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260815ak0006_01_l.jpg",
+   "local": true,
+   "published": "2026-08-15T06:00:00+00:00",
+   "title_ja": "大仙市で移住者交流会、野菜収穫やピザ作りで親睦深める",
+   "summary_ja": "秋田県大仙市の飲食店で11日、移住者交流会が開催されました。県外からの移住者や地元住民ら約30人が参加し、野菜の収穫やピザ作りを体験しながら交流を楽しみました。",
+   "category": "くらし・地域",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "96eb68812dfd0e1a",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0040",
+   "title_original": "秋田市新屋町の海岸、釣り人がサメ目撃 旧秋田空港跡地付近",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260815ak0040_01_l.jpg",
+   "local": true,
+   "published": "2026-08-15T05:20:51+00:00",
+   "title_ja": "秋田市新屋の海岸でサメの目撃情報、県が注意呼びかけ",
+   "summary_ja": "15日午前8時半ごろ、秋田市新屋町の海岸で釣り人が全長2〜3メートルのサメ1匹を目撃しました。陸へ接近する恐れがあるため、秋田県が付近の住民やレジャー客に向けて注意を呼びかけています。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "c845bfd0ade01f3c",
+   "url": "https://www.akt.co.jp/news?sel=20260815-00000001-AKT-1",
+   "title_original": "AKT-NEWS ナイスカップ・秋田県小学校クラブ野球大会 劇的サヨナラで鶴舞野球クラブが大会初制覇|08月15日(土)12:30",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/20260815-00000001-AKT-1-00-thumb.jpg",
+   "local": false,
+   "published": "2026-08-15T04:01:51+00:00",
+   "title_ja": "鶴舞野球クラブがサヨナラ勝ちで初優勝",
+   "summary_ja": "県内の小学校クラブ野球大会で、鶴舞野球クラブがサヨナラ勝ちを収めて初めての制覇を果たしました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "084d010bcfe1dbac",
+   "url": "https://www.fnn.jp/articles/-/1095182",
+   "title_original": "ナイスカップ・秋田県小学校クラブ野球大会 劇的サヨナラで鶴舞野球クラブが大会初制覇",
+   "source": "FNNプライムオンライン",
+   "image": "https://fnn.ismcdn.jp/mwimgs/9/0/600/img_90ef592a3366abcb68d4580eea87133221980.jpg",
+   "local": false,
+   "published": "2026-08-15T03:30:00+00:00",
+   "title_ja": "小学校クラブ野球大会で鶴舞野球クラブが初優勝",
+   "summary_ja": "県内の小学校クラブ野球大会において、鶴舞野球クラブが劇的なサヨナラ勝ちで大会初制覇を成し遂げました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "cbd2deb7b88b7264",
+   "url": "https://news.ntv.co.jp/n/abs/category/economy/aba9a9def8d21c4811b04a90467d451035",
+   "title_original": "県のプレミアムチケット 電子チケット５０万セット早くも完売 秋田（2026年8月14日掲載）｜ABS NEWS NNN",
+   "source": "日テレNEWS NNN",
+   "image": "https://image.gallery.play.jp/abs-news/articles/a9b953434e7a431db46df0d4aee327f1/ce0ce02e-551b-4f3a-8368-3d3238f63aee.jpg?w=1200",
+   "local": false,
+   "published": "2026-08-15T03:13:00+00:00",
+   "title_ja": "県プレミアム電子チケット、５０万セットが完売",
+   "summary_ja": "県が発行したプレミアム付き電子チケット５０万セットが、早くも完売となりました。非常にお得な商品として、多くの県民から高い関心を集めたことがうかがえます。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "1a1f60febc69bcbf",
+   "url": "https://saitoshika-west.com/blog-entry-10261.html",
+   "title_original": "秋田県新県立体育館が起工 6,030席の「オクタゴンアリーナ」を2028年秋開業へ、PFI総額約325億円で地域需要の創出を狙う",
+   "source": "再都市化",
+   "image": "",
+   "local": false,
+   "published": "2026-08-15T03:00:32+00:00",
+   "title_ja": "新県立体育館の起工式、２０２８年秋開業へ",
+   "summary_ja": "秋田県の新県立体育館が着工しました。約６千席を備える「オクタゴンアリーナ」として２０２８年秋のオープンを予定しており、地域の新たな拠点として期待されています。",
+   "category": "行政・政治",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 5
+  },
+  {
+   "id": "488c43a437217923",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0035",
+   "title_original": "秋田県小学校野球・ナイスカップ、鶴舞が初優勝",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260815G00001_l.jpg",
+   "local": true,
+   "published": "2026-08-15T02:51:00+00:00",
+   "title_ja": "県小学校野球大会、鶴舞が初の頂点に",
+   "summary_ja": "県小学校クラブ野球大会などの最終日が秋田市の球場で行われ、決勝を制した鶴舞が初優勝を果たしました。熱戦を繰り広げた子どもたちに大きな拍手が送られました。",
+   "category": "スポーツ",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "13a452bb9b491989",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0004",
+   "title_original": "小４生・エマさん、日米の「家族」の碑を訪問 「命」の重みに向き合う 【戦後８１年】わたしがみた「戦争」（中）",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260815ak0004_01_l.jpg",
+   "local": true,
+   "published": "2026-08-15T02:50:00+00:00",
+   "title_ja": "湯沢市の小４生が親子記者として日米の碑を訪問",
+   "summary_ja": "全国から選ばれた親子記者として、湯沢市の小学生と母親が日米の「家族」の碑を訪れました。戦後８１年の企画で命の重みを見つめています。",
+   "category": "文化・芸能",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "2e21fa9740e059bf",
+   "url": "https://news.yahoo.co.jp/articles/ea447614639ec8e15803b53e29b696794dc73701",
+   "title_original": "『大曲の花火』観覧前後におすすめ!JR大曲駅からひと駅 秋田・美郷町で味わうニテコサイダー、流しそうめん、湧き水スポット巡り",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260815-01193417-fnnprimev-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-08-15T02:00:41+00:00",
+   "title_ja": "大曲の花火の前後に訪れたい美郷町のスポット紹介",
+   "summary_ja": "大曲の花火の観覧前後におすすめな、美郷町の湧き水スポットや流しそうめん、ニテコサイダーなどを紹介する観光記事です。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "e918a56d72d0a8cd",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0005",
+   "title_original": "新キャラ「うーご」よろしくね！ 羽後町公式、三輪小２年・池部那海さん考案",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260815ak0005_01_l.jpg",
+   "local": true,
+   "published": "2026-08-15T02:00:00+00:00",
+   "title_ja": "羽後町の新公式キャラ「うーご」誕生 小学生が考案",
+   "summary_ja": "秋田県羽後町に、新たな公式マスコットキャラクター「うーご」が誕生しました。同町の三輪小学校２年生、池部那海さんが考案したもので、町の鳥ウグイスと町の花フクジュソウがモチーフとなっています。今後は町の広報紙やＳＮＳなどで活躍する予定です。",
+   "category": "行政・政治",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
   {
    "id": "c5fb2f6a3a99b09b",
    "url": "https://topics.smt.docomo.ne.jp/article/sakigake/region/sakigake-20260814AK0021",
@@ -302,6 +464,38 @@
    "importance": 3
   },
   {
+   "id": "133e711b5b2b9fa7",
+   "url": "https://www.tokyu.co.jp/area/digital-services/article/arti-01KY9N0SJTB4PEADHKFFWCPSWZ",
+   "title_original": "【秋田県】マンガデザインで文化ツーリズム",
+   "source": "tokyu.co.jp",
+   "image": "https://cdn.scramble-cms.dp.tokyu.co.jp/strapi/manga_sumb_akita_e075985ce8.png",
+   "local": false,
+   "published": "2026-08-15T01:00:00+00:00",
+   "title_ja": "秋田県でマンガデザインを活用した文化ツーリズムを展開",
+   "summary_ja": "秋田県で、マンガデザインを活用した文化ツーリズムの取り組みが行われます。地域の文化的な魅力をマンガのデザインを通して発信し、観光振興や地域活性化に繋げることを目指しています。",
+   "category": "観光・イベント",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "98d285dbca00cf45",
+   "url": "https://www.asahi.com/articles/photo/AS20260814004545.html?oai=ASV8G4F62V8GUBUB002M",
+   "title_original": "「日本最後の空襲」土崎空襲の追悼式典 犠牲者名を読み上げ平和祈念 [秋田県]",
+   "source": "朝日新聞",
+   "image": "https://imgopt.asahi.com/ogp/AS20260814004546_comm.jpg",
+   "local": false,
+   "published": "2026-08-15T01:00:00+00:00",
+   "title_ja": "土崎空襲の追悼式典、犠牲者を悼み平和を祈念",
+   "summary_ja": "終戦前日の土崎空襲の犠牲者を悼む追悼式典が行われ、犠牲者名の読み上げを通じて恒久平和への祈りが捧げられました。",
+   "category": "文化・芸能",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
    "id": "9eb0ab1a69d9b5a3",
    "url": "https://www.hokuu.co.jp/?p=43266",
    "title_original": "二十歳の門出に誓い新た 能代市、三種町、八峰町で「成人式」",
@@ -328,6 +522,22 @@
    "title_ja": "障がい児指導法を再確認 能代市で県教育研究会の全県大会",
    "summary_ja": "能代市で聴覚や言語に障がいのある児童への教育をテーマにした全県大会が開かれた。参加した教育関係者らが、適切な指導や支援方法についてあらためて確認し合い、理解を深めた。",
    "category": "教育・子育て",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "5ce74e663c53e5fd",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0019",
+   "title_original": "帰省客らにバター餅配布 大館能代空港で「本場の味」ＰＲ",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260812G00015_l.jpg",
+   "local": true,
+   "published": "2026-08-15T00:00:00+00:00",
+   "title_ja": "大館能代空港で帰省客にバター餅を配布してPR",
+   "summary_ja": "大館能代空港にて、日本バター餅協会の関係者らが到着した帰省客へ名物のバター餅を配り、本場の味わいを広く呼びかけました。",
+   "category": "観光・イベント",
    "area": "県北",
    "kind": "news",
    "event_when": "",
@@ -460,6 +670,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 4
+  },
+  {
+   "id": "9faebbd44393dc98",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0027",
+   "title_original": "６０代女性の軽乗用車、クマと衝突 八峰町の県道",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260814ak0027_01_l.jpg",
+   "local": true,
+   "published": "2026-08-14T12:52:00+00:00",
+   "title_ja": "八峰町の県道で車とクマが衝突",
+   "summary_ja": "八峰町の県道で、走行中の軽乗用車が体長約６０センチのクマと衝突しました。運転していた女性や同乗者にけがはありませんでした。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "3948493086cf5815",
