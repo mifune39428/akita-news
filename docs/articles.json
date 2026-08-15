@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-15T03:57:23.915138+09:00",
+ "updated_at": "2026-08-15T10:20:55.376903+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,87 +20,87 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-08-14T20:00:00+09:00",
-  "updated_at": "2026-08-15T03:58:44.936604+09:00",
+  "reported_at": "2026-08-15T05:00:00+09:00",
+  "updated_at": "2026-08-15T10:23:03.134772+09:00",
   "days": [
    {
     "date": "2026-08-15",
     "code": 2,
-    "max": 31.0,
-    "min": 23.8,
-    "pop": 31,
-    "text": "くもり所により夜のはじめ頃雨"
+    "max": 30.8,
+    "min": 24.0,
+    "pop": 55,
+    "text": "晴れ時々くもり所により昼過ぎから夕方雨で雷を伴い激しく降る"
    },
    {
     "date": "2026-08-16",
     "code": 2,
-    "max": 32.6,
-    "min": 21.7,
+    "max": 32.1,
+    "min": 21.6,
     "pop": 0,
-    "text": "晴れ時々くもり所により昼過ぎから夕方雨で雷を伴い激しく降る"
+    "text": "晴れ朝晩くもり"
    },
    {
     "date": "2026-08-17",
     "code": 3,
     "max": 31.3,
     "min": 21.6,
-    "pop": 6,
+    "pop": 0,
     "text": ""
    },
    {
     "date": "2026-08-18",
     "code": 3,
-    "max": 31.4,
-    "min": 23.7,
-    "pop": 51,
+    "max": 31.1,
+    "min": 23.4,
+    "pop": 22,
     "text": ""
    },
    {
     "date": "2026-08-19",
-    "code": 2,
-    "max": 30.6,
-    "min": 24.2,
-    "pop": 73,
+    "code": 51,
+    "max": 30.4,
+    "min": 24.4,
+    "pop": 57,
     "text": ""
    },
    {
     "date": "2026-08-20",
-    "code": 51,
-    "max": 30.6,
-    "min": 24.2,
-    "pop": 78,
+    "code": 95,
+    "max": 29.6,
+    "min": 23.7,
+    "pop": 80,
     "text": ""
    },
    {
     "date": "2026-08-21",
-    "code": 51,
-    "max": 29.6,
-    "min": 23.5,
-    "pop": 73,
+    "code": 95,
+    "max": 26.3,
+    "min": 22.7,
+    "pop": 84,
     "text": ""
    },
    {
     "date": "2026-08-22",
     "code": 51,
-    "max": 31.4,
-    "min": 23.4,
+    "max": 27.7,
+    "min": 22.9,
     "pop": 80,
     "text": ""
    },
    {
     "date": "2026-08-23",
-    "code": 51,
-    "max": 29.6,
-    "min": 23.2,
-    "pop": 65,
+    "code": 3,
+    "max": 28.0,
+    "min": 21.8,
+    "pop": 76,
     "text": ""
    },
    {
     "date": "2026-08-24",
-    "code": 51,
-    "max": 29.3,
-    "min": 23.1,
-    "pop": 65,
+    "code": 96,
+    "max": 26.1,
+    "min": 24.1,
+    "pop": 69,
     "text": ""
    }
   ],
@@ -115,48 +115,48 @@
     "time": "2026-08-15T03:00",
     "pop": 0,
     "temp": 25.0,
-    "code": 1
+    "code": 0
    },
    {
     "time": "2026-08-15T06:00",
     "pop": 0,
-    "temp": 24.6,
-    "code": 1
+    "temp": 24.9,
+    "code": 0
    },
    {
     "time": "2026-08-15T09:00",
     "pop": 0,
-    "temp": 27.1,
+    "temp": 27.6,
     "code": 1
    },
    {
     "time": "2026-08-15T12:00",
-    "pop": 6,
-    "temp": 29.9,
+    "pop": 2,
+    "temp": 30.1,
     "code": 1
    },
    {
     "time": "2026-08-15T15:00",
-    "pop": 31,
-    "temp": 31.0,
+    "pop": 55,
+    "temp": 30.8,
     "code": 1
    },
    {
     "time": "2026-08-15T18:00",
-    "pop": 18,
-    "temp": 28.5,
+    "pop": 33,
+    "temp": 28.4,
     "code": 2
    },
    {
     "time": "2026-08-15T21:00",
     "pop": 0,
-    "temp": 25.3,
+    "temp": 25.6,
     "code": 1
    },
    {
     "time": "2026-08-16T00:00",
     "pop": 0,
-    "temp": 23.3,
+    "temp": 23.4,
     "code": 1
    },
    {
@@ -168,37 +168,37 @@
    {
     "time": "2026-08-16T06:00",
     "pop": 0,
-    "temp": 22.0,
-    "code": 0
+    "temp": 21.8,
+    "code": 1
    },
    {
     "time": "2026-08-16T09:00",
     "pop": 0,
-    "temp": 26.2,
-    "code": 0
+    "temp": 26.0,
+    "code": 1
    },
    {
     "time": "2026-08-16T12:00",
     "pop": 0,
-    "temp": 30.6,
+    "temp": 30.4,
     "code": 0
    },
    {
     "time": "2026-08-16T15:00",
     "pop": 0,
-    "temp": 32.6,
-    "code": 2
+    "temp": 32.1,
+    "code": 0
    },
    {
     "time": "2026-08-16T18:00",
     "pop": 0,
-    "temp": 28.8,
-    "code": 1
+    "temp": 29.2,
+    "code": 0
    },
    {
     "time": "2026-08-16T21:00",
     "pop": 0,
-    "temp": 24.9,
+    "temp": 24.5,
     "code": 0
    }
   ]
@@ -267,8 +267,120 @@
   "電波タイムズ",
   "ｄメニューニュース"
  ],
- "count": 334,
+ "count": 342,
  "items": [
+  {
+   "id": "c5fb2f6a3a99b09b",
+   "url": "https://topics.smt.docomo.ne.jp/article/sakigake/region/sakigake-20260814AK0021",
+   "title_original": "由利本荘市・木のおもちゃ館、来館４０万人達成",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/sakigake/m_sakigake-20260814AK0021.jpg",
+   "local": false,
+   "published": "2026-08-15T01:14:03+00:00",
+   "title_ja": "由利本荘市の木のおもちゃ館で累計来館者数が40万人に達する",
+   "summary_ja": "由利本荘市にある「木のおもちゃ館」で、累計の来場者数が40万人に達しました。多くの人に利用されながら節目を迎え、地域の交流や観光の拠点として親しまれています。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "bd0163f98f25bb86",
+   "url": "https://www.asahi.com/articles/ASV8G3TFMV8GUBUB005M.html",
+   "title_original": "「戦争考えるきっかけに」 映画「東京裁判」、秋田の御成座が上映 [秋田県]",
+   "source": "朝日新聞",
+   "image": "https://imgopt.asahi.com/ogp/AS20260814003768_comm.jpg",
+   "local": false,
+   "published": "2026-08-15T01:00:01+00:00",
+   "title_ja": "大館市の映画館「御成座」が映画「東京裁判」を上映　戦争を考える機会に",
+   "summary_ja": "秋田県大館市にある映画館「御成座」にて、映画「東京裁判」の上映が行われています。作品の鑑賞を通じて、過去の歴史や戦争について改めて考えるきっかけを提案しています。",
+   "category": "文化・芸能",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "9eb0ab1a69d9b5a3",
+   "url": "https://www.hokuu.co.jp/?p=43266",
+   "title_original": "二十歳の門出に誓い新た 能代市、三種町、八峰町で「成人式」",
+   "source": "北羽新報社",
+   "image": "",
+   "local": false,
+   "published": "2026-08-15T00:41:47+00:00",
+   "title_ja": "能代市・三種町・八峰町で「成人式」が開かれ新成人が門出を祝う",
+   "summary_ja": "能代市、三種町、八峰町の各市町で成人式が執り行われました。二十歳の節目を迎えた参加者たちが集まり、将来への思いを胸に新しい門出に向けた誓いを立てました。",
+   "category": "くらし・地域",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "d063eeb4ca92c376",
+   "url": "https://www.hokuu.co.jp/?p=43292",
+   "title_original": "適切な指導・支援を再確認 県聴覚・言語障がい教育研、能代市で全県大会",
+   "source": "北羽新報社",
+   "image": "",
+   "local": false,
+   "published": "2026-08-15T00:41:47+00:00",
+   "title_ja": "障がい児指導法を再確認 能代市で県教育研究会の全県大会",
+   "summary_ja": "能代市で聴覚や言語に障がいのある児童への教育をテーマにした全県大会が開かれた。参加した教育関係者らが、適切な指導や支援方法についてあらためて確認し合い、理解を深めた。",
+   "category": "教育・子育て",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "6e9802ad519e1713",
+   "url": "https://news.yahoo.co.jp/articles/573a5183581faa9e9ef6f708fc9ba68abada23fd",
+   "title_original": "クマスプレー購入に半額補助 秋田・美郷町、全町民を対象に（毎日新聞）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260815-00000003-mai-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-08-14T23:35:34+00:00",
+   "title_ja": "美郷町がクマスプレー購入費用を半額補助 全町民を対象に導入",
+   "summary_ja": "美郷町は、クマによる被害を未然に防ぐための対策として、クマスプレーの購入費用に対する半額補助を実施する。全町民を対象とした取り組みで、身の安全の確保や防犯意識の向上につなげる。",
+   "category": "天気・防災",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "b78c0b8d94850d45",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0018",
+   "title_original": "大館市で高校生らが競歩合宿 講師は銅メダリスト小林快さん",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260813G00018_l.jpg",
+   "local": true,
+   "published": "2026-08-14T23:30:00+00:00",
+   "title_ja": "大館市で競歩合宿 銅メダリスト小林快さんが高校生らに指導",
+   "summary_ja": "大館市の長根山陸上競技場などで、世界選手権銅メダリストの小林快さんを講師に迎えた競歩の講習合宿が開かれている。県内外から参加した高校生や社会人ら２８人が、フォーム習得をはじめとする技術向上に取り組んでいる。",
+   "category": "スポーツ",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "9353a2602b864384",
+   "url": "https://www.sakigake.jp/news/article/20260814AK0024",
+   "title_original": "土崎空襲「目標地点」に標柱設置へ 秋田市主導のモニュメントは初",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260814G00011_l.jpg",
+   "local": true,
+   "published": "2026-08-14T22:00:00+00:00",
+   "title_ja": "土崎空襲の目標地点に秋田市が初の標柱設置へ",
+   "summary_ja": "終戦直前の土崎空襲の記憶を後世に伝えるため、秋田市が主導して爆撃目標となった製油所近くに標柱を設置する計画が進められています。",
+   "category": "文化・芸能",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
   {
    "id": "e5835368860e9142",
    "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1461008459674763971",
@@ -393,6 +505,22 @@
    "summary_ja": "全国高校総体の卓球ダブルスが14日に行われ、秋田県勢は男女ともに1回戦で敗退しました。男子ダブルスに出場した秋田の齊藤佑典・三上充紀ペアは、善戦したものの悔しい結果となりました。",
    "category": "スポーツ",
    "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "cea4780cc1b212fc",
+   "url": "https://tver.jp/episodes/epv3bycfmt",
+   "title_original": "お盆に合わせ各地で”二十歳の節目を祝う行事” 能代市の成人式には約300人が出席 大人への決意 秋田",
+   "source": "TVer",
+   "image": "",
+   "local": false,
+   "published": "2026-08-14T11:07:15+00:00",
+   "title_ja": "お盆時期に合わせて二十歳の節目祝う行事開催　能代市では約３００人が参加",
+   "summary_ja": "お盆の時期に合わせて各地で二十歳を祝う行事が開かれ、能代市では約３００人が式典に出席した。参加者たちは大人としての新たな一歩を踏み出し、決意を新たにした。",
+   "category": "くらし・地域",
+   "area": "県北",
    "kind": "news",
    "event_when": "",
    "importance": 3
