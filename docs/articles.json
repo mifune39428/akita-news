@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-15T21:40:59.651020+09:00",
+ "updated_at": "2026-08-16T03:32:26.264269+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -21,62 +21,54 @@
  "weather": {
   "city": "秋田市",
   "reported_at": "2026-08-15T21:00:00+09:00",
-  "updated_at": "2026-08-15T21:45:03.457987+09:00",
+  "updated_at": "2026-08-16T03:37:25.082731+09:00",
   "days": [
-   {
-    "date": "2026-08-15",
-    "code": 2,
-    "max": 31.2,
-    "min": 24.3,
-    "pop": 92,
-    "text": "晴れ"
-   },
    {
     "date": "2026-08-16",
     "code": 3,
-    "max": 31.5,
-    "min": 22.2,
+    "max": 31.8,
+    "min": 22.4,
     "pop": 0,
-    "text": "晴れ朝晩くもり"
+    "text": "晴れ"
    },
    {
     "date": "2026-08-17",
     "code": 3,
-    "max": 31.2,
-    "min": 22.4,
-    "pop": 0,
-    "text": ""
+    "max": 30.6,
+    "min": 22.3,
+    "pop": 2,
+    "text": "晴れ朝晩くもり"
    },
    {
     "date": "2026-08-18",
     "code": 51,
-    "max": 30.1,
-    "min": 23.9,
-    "pop": 22,
+    "max": 29.0,
+    "min": 23.8,
+    "pop": 10,
     "text": ""
    },
    {
     "date": "2026-08-19",
-    "code": 51,
-    "max": 29.7,
-    "min": 24.0,
-    "pop": 45,
+    "code": 2,
+    "max": 30.7,
+    "min": 23.6,
+    "pop": 37,
     "text": ""
    },
    {
     "date": "2026-08-20",
-    "code": 95,
-    "max": 29.6,
+    "code": 51,
+    "max": 30.2,
     "min": 24.4,
-    "pop": 76,
+    "pop": 74,
     "text": ""
    },
    {
     "date": "2026-08-21",
     "code": 95,
-    "max": 27.2,
+    "max": 26.9,
     "min": 22.7,
-    "pop": 90,
+    "pop": 88,
     "text": ""
    },
    {
@@ -102,57 +94,17 @@
     "min": 23.7,
     "pop": 55,
     "text": ""
+   },
+   {
+    "date": "2026-08-25",
+    "code": 3,
+    "max": 29.8,
+    "min": 23.3,
+    "pop": 61,
+    "text": ""
    }
   ],
   "hours": [
-   {
-    "time": "2026-08-15T00:00",
-    "pop": 2,
-    "temp": 25.4,
-    "code": 1
-   },
-   {
-    "time": "2026-08-15T03:00",
-    "pop": 0,
-    "temp": 25.0,
-    "code": 0
-   },
-   {
-    "time": "2026-08-15T06:00",
-    "pop": 4,
-    "temp": 24.9,
-    "code": 0
-   },
-   {
-    "time": "2026-08-15T09:00",
-    "pop": 8,
-    "temp": 27.8,
-    "code": 1
-   },
-   {
-    "time": "2026-08-15T12:00",
-    "pop": 86,
-    "temp": 30.2,
-    "code": 1
-   },
-   {
-    "time": "2026-08-15T15:00",
-    "pop": 84,
-    "temp": 31.2,
-    "code": 1
-   },
-   {
-    "time": "2026-08-15T18:00",
-    "pop": 73,
-    "temp": 28.6,
-    "code": 2
-   },
-   {
-    "time": "2026-08-15T21:00",
-    "pop": 0,
-    "temp": 25.9,
-    "code": 1
-   },
    {
     "time": "2026-08-16T00:00",
     "pop": 0,
@@ -162,43 +114,91 @@
    {
     "time": "2026-08-16T03:00",
     "pop": 0,
-    "temp": 22.7,
-    "code": 1
+    "temp": 22.9,
+    "code": 0
    },
    {
     "time": "2026-08-16T06:00",
     "pop": 0,
-    "temp": 22.3,
-    "code": 1
+    "temp": 22.5,
+    "code": 0
    },
    {
     "time": "2026-08-16T09:00",
     "pop": 0,
-    "temp": 25.9,
+    "temp": 26.2,
     "code": 1
    },
    {
     "time": "2026-08-16T12:00",
     "pop": 0,
-    "temp": 29.9,
+    "temp": 30.2,
     "code": 1
    },
    {
     "time": "2026-08-16T15:00",
     "pop": 0,
-    "temp": 31.2,
+    "temp": 31.8,
     "code": 3
    },
    {
     "time": "2026-08-16T18:00",
     "pop": 0,
-    "temp": 28.8,
-    "code": 1
+    "temp": 28.7,
+    "code": 0
    },
    {
     "time": "2026-08-16T21:00",
     "pop": 0,
     "temp": 24.8,
+    "code": 1
+   },
+   {
+    "time": "2026-08-17T00:00",
+    "pop": 0,
+    "temp": 23.1,
+    "code": 2
+   },
+   {
+    "time": "2026-08-17T03:00",
+    "pop": 0,
+    "temp": 22.6,
+    "code": 1
+   },
+   {
+    "time": "2026-08-17T06:00",
+    "pop": 0,
+    "temp": 22.6,
+    "code": 1
+   },
+   {
+    "time": "2026-08-17T09:00",
+    "pop": 0,
+    "temp": 26.0,
+    "code": 1
+   },
+   {
+    "time": "2026-08-17T12:00",
+    "pop": 0,
+    "temp": 29.7,
+    "code": 3
+   },
+   {
+    "time": "2026-08-17T15:00",
+    "pop": 0,
+    "temp": 30.4,
+    "code": 1
+   },
+   {
+    "time": "2026-08-17T18:00",
+    "pop": 0,
+    "temp": 27.4,
+    "code": 2
+   },
+   {
+    "time": "2026-08-17T21:00",
+    "pop": 2,
+    "temp": 25.2,
     "code": 1
    }
   ]
@@ -240,6 +240,7 @@
   "エンタメラッシュ",
   "クラウドファンディング - READYFOR",
   "チバテレ",
+  "ツーリズムメディアサービス",
   "トラベルボイス",
   "ニコニコニュース",
   "ライブドアニュース",
@@ -269,8 +270,72 @@
   "電波タイムズ",
   "ｄメニューニュース"
  ],
- "count": 371,
+ "count": 377,
  "items": [
+  {
+   "id": "f825fbfc57c7f99a",
+   "url": "https://tms-media.jp/posts/94218",
+   "title_original": "ジャルパック、「大曲の花火-秋の章-」鑑賞ツアー イス席付きで秋田周遊も",
+   "source": "ツーリズムメディアサービス",
+   "image": "https://tms-media.jp/wp-content/uploads/2026/08/jlkjlkjrafda.jpg",
+   "local": false,
+   "published": "2026-08-15T15:42:22+00:00",
+   "title_ja": "「大曲の花火-秋の章-」観覧イス席付きの秋田周遊ツアーが販売開始",
+   "summary_ja": "ジャルパックが「大曲の花火-秋の章-」を観覧できるツアープランを販売している。イス席で花火を楽しめるほか、秋田県内をあわせて周遊できる行程が用意されている。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "event",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "88bd3c202e6d32d4",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1461369840367534461",
+   "title_original": "（秋田）秋田市新屋町砂奴寄でクマ出没 ８月１５日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052019.png?fushinsha_joho-1461369840367534461",
+   "local": false,
+   "published": "2026-08-15T14:39:00+00:00",
+   "title_ja": "8月15日、秋田市新屋町砂奴寄でクマが出没",
+   "summary_ja": "8月15日、秋田市新屋町砂奴寄地区でクマが目撃された。近隣住民や付近を通行する際は、音を鳴らすなど安全対策を講じ、クマに遭遇しないよう注意が必要である。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "2a07a38da1b8fc45",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0052",
+   "title_original": "ブラウブリッツ秋田、富山に大敗 ホーム開幕戦、白星飾れず",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260815ak0052_02_l.jpg",
+   "local": true,
+   "published": "2026-08-15T14:08:39+00:00",
+   "title_ja": "ブラウブリッツ秋田、ホーム開幕戦で富山に0-4で大敗",
+   "summary_ja": "サッカーJ2のブラウブリッツ秋田は15日、秋田市のソユースタジアムで富山とのホーム開幕戦に臨んだが、0対4で敗れた。チームの成績は通算1分け1敗となった。",
+   "category": "スポーツ",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "f16baa2c40ffe049",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1461358767021490315",
+   "title_original": "（秋田）秋田市寺内蛭根３丁目でクマ出没 ８月１５日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052019.png?fushinsha_joho-1461358767021490315",
+   "local": false,
+   "published": "2026-08-15T13:55:00+00:00",
+   "title_ja": "秋田市寺内蛭根3丁目でクマが目撃される",
+   "summary_ja": "8月15日、秋田市寺内蛭根3丁目でクマが目撃されました。近隣にお住まいの方や周辺を通行される方は、ラジオや鈴を携帯するなど、遭遇しないよう十分に身の安全を確保し、警戒してください。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
   {
    "id": "9f7a9e25782f899b",
    "url": "https://www.sakigake.jp/news/article/20260815AK0042",
@@ -336,6 +401,22 @@
    "importance": 3
   },
   {
+   "id": "abe3cdf78dd8796e",
+   "url": "https://www.aab-tv.co.jp/news/aabnews-26081511380041",
+   "title_original": "秋田県プレミアムチケットの電子チケット完売 紙チケットは９月２日から販売",
+   "source": "AAB秋田朝日放送",
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026081511380011941.jpg",
+   "local": true,
+   "published": "2026-08-15T09:09:01+00:00",
+   "title_ja": "秋田県プレミアム電子チケットが完売 紙は9月2日発売",
+   "summary_ja": "秋田県が物価高騰対策として発行している「プレミアムチケット」の電子分50万セットが、8月14日に完売した。紙のチケットについては、9月2日から販売が開始される予定となっている。",
+   "category": "行政・政治",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
    "id": "7808f7f8cb54ca6f",
    "url": "https://www.47news.jp/14793080.html",
    "title_original": "秋田県小学校野球・ナイスカップ 鶴舞が初優勝、天王出戸にサヨナラ",
@@ -395,6 +476,22 @@
    "summary_ja": "小学生球児が熱戦を繰り広げた「ナイスカップ」で、鶴舞野球クラブが劇的なサヨナラ勝ちを果たし初優勝を飾りました。夏の舞台で頂点に立ち、最高の結末を迎えました。",
    "category": "スポーツ",
    "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "458e30967cea3fc4",
+   "url": "https://news.ntv.co.jp/category/culture/ab369fb9ca53134cd189c365d8ae24ee12",
+   "title_original": "秋田の誇りが一堂に 民謡に各地の民俗文化をたっぷり楽しむイベント 秋田（2026年8月15日掲載）｜ABS NEWS NNN",
+   "source": "日テレNEWS NNN",
+   "image": "https://image.gallery.play.jp/abs-news/articles/8b0c472e40e64d208e3625544807bbbb/2e8c2bf3-1404-4c93-88e6-8b3eba942976.jpg?w=1200",
+   "local": false,
+   "published": "2026-08-15T08:50:01+00:00",
+   "title_ja": "秋田の民謡や伝統文化を楽しむイベントが開催",
+   "summary_ja": "秋田の伝統的な民謡や各地の民俗文化を一堂に集めて楽しむイベントが開催された。地域の誇りである多彩な伝統芸能が披露され、来場者は秋田が誇る文化の魅力をたっぷりと堪能した。",
+   "category": "文化・芸能",
+   "area": "県全体",
    "kind": "news",
    "event_when": "",
    "importance": 3
