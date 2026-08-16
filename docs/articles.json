@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-16T03:32:26.264269+09:00",
+ "updated_at": "2026-08-16T10:25:43.897644+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,24 +20,24 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-08-15T21:00:00+09:00",
-  "updated_at": "2026-08-16T03:37:25.082731+09:00",
+  "reported_at": "2026-08-16T07:00:00+09:00",
+  "updated_at": "2026-08-16T10:27:19.257530+09:00",
   "days": [
    {
     "date": "2026-08-16",
     "code": 3,
-    "max": 31.8,
-    "min": 22.4,
+    "max": 32.4,
+    "min": 22.3,
     "pop": 0,
     "text": "晴れ"
    },
    {
     "date": "2026-08-17",
     "code": 3,
-    "max": 30.6,
-    "min": 22.3,
-    "pop": 2,
-    "text": "晴れ朝晩くもり"
+    "max": 30.4,
+    "min": 22.5,
+    "pop": 0,
+    "text": "晴れ昼過ぎから時々くもり"
    },
    {
     "date": "2026-08-18",
@@ -49,57 +49,57 @@
    },
    {
     "date": "2026-08-19",
-    "code": 2,
-    "max": 30.7,
-    "min": 23.6,
-    "pop": 37,
+    "code": 80,
+    "max": 30.9,
+    "min": 23.8,
+    "pop": 41,
     "text": ""
    },
    {
     "date": "2026-08-20",
-    "code": 51,
-    "max": 30.2,
-    "min": 24.4,
-    "pop": 74,
+    "code": 53,
+    "max": 29.7,
+    "min": 23.8,
+    "pop": 67,
     "text": ""
    },
    {
     "date": "2026-08-21",
-    "code": 95,
-    "max": 26.9,
-    "min": 22.7,
+    "code": 96,
+    "max": 23.9,
+    "min": 21.2,
     "pop": 88,
     "text": ""
    },
    {
     "date": "2026-08-22",
-    "code": 51,
-    "max": 27.8,
-    "min": 22.6,
-    "pop": 80,
+    "code": 53,
+    "max": 27.0,
+    "min": 21.4,
+    "pop": 84,
     "text": ""
    },
    {
     "date": "2026-08-23",
-    "code": 1,
-    "max": 30.1,
-    "min": 21.4,
+    "code": 51,
+    "max": 28.3,
+    "min": 21.7,
     "pop": 71,
     "text": ""
    },
    {
     "date": "2026-08-24",
-    "code": 51,
-    "max": 29.1,
-    "min": 23.7,
-    "pop": 55,
+    "code": 95,
+    "max": 28.8,
+    "min": 22.3,
+    "pop": 53,
     "text": ""
    },
    {
     "date": "2026-08-25",
-    "code": 3,
-    "max": 29.8,
-    "min": 23.3,
+    "code": 96,
+    "max": 26.3,
+    "min": 24.3,
     "pop": 61,
     "text": ""
    }
@@ -126,79 +126,79 @@
    {
     "time": "2026-08-16T09:00",
     "pop": 0,
-    "temp": 26.2,
-    "code": 1
+    "temp": 26.5,
+    "code": 0
    },
    {
     "time": "2026-08-16T12:00",
     "pop": 0,
-    "temp": 30.2,
+    "temp": 30.8,
     "code": 1
    },
    {
     "time": "2026-08-16T15:00",
     "pop": 0,
-    "temp": 31.8,
-    "code": 3
+    "temp": 32.4,
+    "code": 1
    },
    {
     "time": "2026-08-16T18:00",
     "pop": 0,
-    "temp": 28.7,
-    "code": 0
+    "temp": 28.6,
+    "code": 1
    },
    {
     "time": "2026-08-16T21:00",
     "pop": 0,
-    "temp": 24.8,
-    "code": 1
+    "temp": 24.9,
+    "code": 3
    },
    {
     "time": "2026-08-17T00:00",
     "pop": 0,
     "temp": 23.1,
-    "code": 2
+    "code": 1
    },
    {
     "time": "2026-08-17T03:00",
     "pop": 0,
-    "temp": 22.6,
+    "temp": 22.7,
     "code": 1
    },
    {
     "time": "2026-08-17T06:00",
     "pop": 0,
-    "temp": 22.6,
+    "temp": 22.8,
     "code": 1
    },
    {
     "time": "2026-08-17T09:00",
     "pop": 0,
-    "temp": 26.0,
+    "temp": 26.1,
     "code": 1
    },
    {
     "time": "2026-08-17T12:00",
     "pop": 0,
-    "temp": 29.7,
-    "code": 3
+    "temp": 29.6,
+    "code": 1
    },
    {
     "time": "2026-08-17T15:00",
     "pop": 0,
-    "temp": 30.4,
-    "code": 1
+    "temp": 30.0,
+    "code": 3
    },
    {
     "time": "2026-08-17T18:00",
     "pop": 0,
-    "temp": 27.4,
-    "code": 2
+    "temp": 27.6,
+    "code": 1
    },
    {
     "time": "2026-08-17T21:00",
-    "pop": 2,
-    "temp": 25.2,
+    "pop": 0,
+    "temp": 25.3,
     "code": 1
    }
   ]
@@ -255,6 +255,7 @@
   "日テレNEWS NNN",
   "日刊スポーツ",
   "日本経済新聞",
+  "日本農業新聞",
   "朝日新聞",
   "東京報道新聞",
   "株式会社 北鹿新聞社",
@@ -270,8 +271,136 @@
   "電波タイムズ",
   "ｄメニューニュース"
  ],
- "count": 377,
+ "count": 387,
  "items": [
+  {
+   "id": "a056a0dc708b0073",
+   "url": "https://kahoku.news/articles/20260815khn000042.html",
+   "title_original": "秋田県の高校生アスリートが県外に進学するのはなぜ? 県教委の検証委が報告書作成",
+   "source": "河北新報オンライン",
+   "image": "https://kahoku.news/images/2026/08/15/20260815khn000042/001_size7.jpg?timestamp=20260816102429",
+   "local": false,
+   "published": "2026-08-16T01:00:00+00:00",
+   "title_ja": "高校生アスリートの県外流出なぜ？県教委の検証委が報告書を作成",
+   "summary_ja": "秋田県教育委員会の検証委員会が、県内の高校生アスリートが県外の学校へ進学する理由をまとめた報告書を作成しました。地元の有望な選手が県外へ流出する背景について迫り、今後の対策に生かしていくものとみられます。",
+   "category": "教育・子育て",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "50483fa03d2bac9c",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0043/?nv=akita",
+   "title_original": "たい焼きならぬ「クニマス焼き」を名物に 仙北市の男性、キッチンカーに挑戦",
+   "source": "秋田魁新報電子版",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260803G00047_l.jpg",
+   "local": false,
+   "published": "2026-08-16T01:00:00+00:00",
+   "title_ja": "仙北市の男性が「クニマス焼き」キッチンカーに挑戦！新たな名物へ",
+   "summary_ja": "秋田県仙北市の男性が、たい焼きではなく「クニマス」をかたどった「クニマス焼き」の販売にキッチンカーで挑戦しています。地元の貴重な魚をモチーフにした新しい名物グルメとして、地域の活性化を目指します。",
+   "category": "グルメ・農林水産",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "7b2d4634a6a9e613",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0049",
+   "title_original": "初Ｖ・鶴舞、昨年の悔しさ晴らし最高の笑顔 秋田県小学校野球・ナイスカップ",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260815G00003_l.jpg",
+   "local": true,
+   "published": "2026-08-16T00:00:00+00:00",
+   "title_ja": "鶴舞が初優勝、県小学校クラブ野球",
+   "summary_ja": "県小学校クラブ野球大会兼県スポーツ少年団大会の決勝戦が行われ、鶴舞がサヨナラ勝ちで初優勝を飾りました。昨年の準優勝の悔しさを晴らす喜びの勝利となりました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "d6be5ea50684b26a",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0054",
+   "title_original": "戦後８１年、不戦の誓い新たに 秋田市で平和考える催し",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260815ak0054_01_l.jpg",
+   "local": true,
+   "published": "2026-08-15T23:00:00+00:00",
+   "title_ja": "秋田市で平和を考える催しが開かれる",
+   "summary_ja": "終戦の日の15日、秋田市で平和について考える催しが開催されました。市民ら約30人が参加し、高校生の発表や意見交換を通じて不戦の誓いを新たにしました。",
+   "category": "文化・芸能",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "573270d2f279ce4a",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0047",
+   "title_original": "秋田県内の戦争遺跡、６割超が「管理者不明」 保存・活用の課題浮き彫り",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260815ak0047_01_l.jpg",
+   "local": true,
+   "published": "2026-08-15T22:00:00+00:00",
+   "title_ja": "県内の戦争遺跡、6割超で管理者が不明",
+   "summary_ja": "秋田県内の戦争遺跡に関する本紙の調査で、6割以上で地元市町村が管理者を把握できていないことが明らかになりました。戦争体験者が減少する中、保存と活用の課題が浮き彫りになっています。",
+   "category": "行政・政治",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "d7579759b0a1c16a",
+   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2130/r_id=10610",
+   "title_original": "２０歳の節目に 決意も新たに 大館市と北秋田市 祝う会や集い開催",
+   "source": "株式会社 北鹿新聞社",
+   "image": "https://www.hokuroku.co.jp/files/libs/28740/202608151756305114.JPEG?1786843622",
+   "local": false,
+   "published": "2026-08-15T21:01:54+00:00",
+   "title_ja": "大館市と北秋田市で20歳を祝う式典を開催",
+   "summary_ja": "大館市と北秋田市で、20歳の節目を祝う会や集いが開催されました。参加した若者たちは気持ちを新たに式典へ臨み、将来への決意を深めました。",
+   "category": "くらし・地域",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "b35ce14421907513",
+   "url": "https://www.agrinews.co.jp/opinion/index/400107",
+   "title_original": "［自治体農政 首長語る］秋田県大館市・石田健祐市長① 祖父母が挑戦の支え",
+   "source": "日本農業新聞",
+   "image": "https://www.agrinews.co.jp/media/2026/08/14/20260814_qb9nhrfgsr5pueyuiewd.jpg",
+   "local": false,
+   "published": "2026-08-15T20:01:25+00:00",
+   "title_ja": "大館市の石田健祐市長が農政や自身の背景を語る",
+   "summary_ja": "秋田県大館市の石田健祐市長が、自治体の農政に関するインタビュー記事で思いを語りました。市長としての挑戦を支えてくれた祖父母とのエピソードにも触れています。",
+   "category": "行政・政治",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "367ce26078a570ae",
+   "url": "https://kahoku.news/articles/20260815khn000044.html",
+   "title_original": "秋田・三種町が観光誘客の切り札と期待するものは？＜みちのく＞",
+   "source": "河北新報オンライン",
+   "image": "https://kahoku.news/images/2026/08/15/20260815khn000044/001_size7.jpg?timestamp=20260816102702",
+   "local": false,
+   "published": "2026-08-15T20:00:00+00:00",
+   "title_ja": "三種町が期待を寄せる観光誘客の切り札とは",
+   "summary_ja": "秋田県三種町において、観光誘客の切り札として期待が寄せられている取り組みについて紹介されています。地域の魅力を生かした集客施策に関心が集まっています。",
+   "category": "観光・イベント",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
   {
    "id": "f825fbfc57c7f99a",
    "url": "https://tms-media.jp/posts/94218",
@@ -285,6 +414,22 @@
    "category": "観光・イベント",
    "area": "県南",
    "kind": "event",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "65e9c877d408090f",
+   "url": "https://www.47news.jp/14796023.html",
+   "title_original": "カターレ大勝で今季初白星 秋田に４－０",
+   "source": "47NEWS",
+   "image": "https://img.cf.47news.jp/public/photo/a2e91e51891ffdc1ee5b23afc553bedf/photo.jpg",
+   "local": false,
+   "published": "2026-08-15T15:26:00+00:00",
+   "title_ja": "ブラウブリッツ秋田、カターレ戦で敗戦",
+   "summary_ja": "サッカーの試合でカターレ富山に敗れたというニュースです。スポーツの試合結果に関する県民注目の話題を分かりやすくお伝えします。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
    "event_when": "",
    "importance": 3
   },
@@ -351,6 +496,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "b5343a4dd40206c5",
+   "url": "https://www.akt.co.jp/news?sel=20260815-00000003-AKT-1",
+   "title_original": "AKT-NEWS 秋田市では8年ぶり開催の大相撲夏巡業 会場は約5600人の相撲ファンが力士の迫力を満喫|08月15日(土)18:00",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/20260815-00000003-AKT-1-00-view.jpg",
+   "local": false,
+   "published": "2026-08-15T09:43:10+00:00",
+   "title_ja": "秋田市で大相撲夏巡業、8年ぶりの開催に賑わう",
+   "summary_ja": "秋田市で8年ぶりとなる大相撲夏巡業が開催され、約5600人のファンが詰めかけて力士たちの迫力ある取組を満喫しました。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
   },
   {
    "id": "93faab2ec89f06d0",
