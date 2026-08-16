@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-16T10:25:43.897644+09:00",
+ "updated_at": "2026-08-16T15:42:09.285532+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,12 +20,12 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-08-16T07:00:00+09:00",
-  "updated_at": "2026-08-16T10:27:19.257530+09:00",
+  "reported_at": "2026-08-16T11:00:00+09:00",
+  "updated_at": "2026-08-16T15:43:41.621794+09:00",
   "days": [
    {
     "date": "2026-08-16",
-    "code": 3,
+    "code": 2,
     "max": 32.4,
     "min": 22.3,
     "pop": 0,
@@ -34,25 +34,25 @@
    {
     "date": "2026-08-17",
     "code": 3,
-    "max": 30.4,
-    "min": 22.5,
-    "pop": 0,
+    "max": 28.3,
+    "min": 22.8,
+    "pop": 2,
     "text": "晴れ昼過ぎから時々くもり"
    },
    {
     "date": "2026-08-18",
-    "code": 51,
-    "max": 29.0,
-    "min": 23.8,
-    "pop": 10,
+    "code": 53,
+    "max": 30.0,
+    "min": 23.5,
+    "pop": 14,
     "text": ""
    },
    {
     "date": "2026-08-19",
-    "code": 80,
-    "max": 30.9,
-    "min": 23.8,
-    "pop": 41,
+    "code": 3,
+    "max": 30.3,
+    "min": 23.0,
+    "pop": 54,
     "text": ""
    },
    {
@@ -60,7 +60,7 @@
     "code": 53,
     "max": 29.7,
     "min": 23.8,
-    "pop": 67,
+    "pop": 80,
     "text": ""
    },
    {
@@ -68,7 +68,7 @@
     "code": 96,
     "max": 23.9,
     "min": 21.2,
-    "pop": 88,
+    "pop": 92,
     "text": ""
    },
    {
@@ -126,14 +126,14 @@
    {
     "time": "2026-08-16T09:00",
     "pop": 0,
-    "temp": 26.5,
+    "temp": 26.8,
     "code": 0
    },
    {
     "time": "2026-08-16T12:00",
     "pop": 0,
-    "temp": 30.8,
-    "code": 1
+    "temp": 30.9,
+    "code": 0
    },
    {
     "time": "2026-08-16T15:00",
@@ -144,61 +144,61 @@
    {
     "time": "2026-08-16T18:00",
     "pop": 0,
-    "temp": 28.6,
+    "temp": 28.7,
     "code": 1
    },
    {
     "time": "2026-08-16T21:00",
     "pop": 0,
     "temp": 24.9,
-    "code": 3
+    "code": 1
    },
    {
     "time": "2026-08-17T00:00",
     "pop": 0,
-    "temp": 23.1,
-    "code": 1
+    "temp": 23.3,
+    "code": 2
    },
    {
     "time": "2026-08-17T03:00",
     "pop": 0,
-    "temp": 22.7,
+    "temp": 22.9,
     "code": 1
    },
    {
     "time": "2026-08-17T06:00",
     "pop": 0,
-    "temp": 22.8,
-    "code": 1
+    "temp": 23.0,
+    "code": 2
    },
    {
     "time": "2026-08-17T09:00",
     "pop": 0,
-    "temp": 26.1,
-    "code": 1
+    "temp": 25.4,
+    "code": 2
    },
    {
     "time": "2026-08-17T12:00",
-    "pop": 0,
-    "temp": 29.6,
-    "code": 1
+    "pop": 2,
+    "temp": 27.7,
+    "code": 3
    },
    {
     "time": "2026-08-17T15:00",
-    "pop": 0,
-    "temp": 30.0,
-    "code": 3
+    "pop": 2,
+    "temp": 28.3,
+    "code": 2
    },
    {
     "time": "2026-08-17T18:00",
     "pop": 0,
-    "temp": 27.6,
+    "temp": 26.5,
     "code": 1
    },
    {
     "time": "2026-08-17T21:00",
     "pop": 0,
-    "temp": 25.3,
+    "temp": 24.8,
     "code": 1
    }
   ]
@@ -221,6 +221,7 @@
   "STRAIGHT PRESS",
   "TBS NEWS DIG",
   "TVer",
+  "Web eclat",
   "Weverse",
   "Yahoo!ニュース",
   "akita.keizai.biz",
@@ -271,8 +272,216 @@
   "電波タイムズ",
   "ｄメニューニュース"
  ],
- "count": 387,
+ "count": 400,
  "items": [
+  {
+   "id": "f72b5237dd48d21f",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0050",
+   "title_original": "「大曲の花火」に合わせ限定酒登場！ 今年は「自由玉」がテーマ",
+   "source": "秋田魁新報電子版",
+   "image": "https://www.sakigake.jp/images/news-entry/20260815ak0050_01_l.jpg",
+   "local": false,
+   "published": "2026-08-16T06:00:00+00:00",
+   "title_ja": "大曲の花火に合わせ限定酒が登場 「自由玉」がテーマ",
+   "summary_ja": "伝統の「大曲の花火」開催に合わせ、今年のテーマである「自由玉」にちなんだ特別な限定日本酒が発売されます。地元の大きな催しを彩るオリジナル商品として、観光客や酒造ファンから関心を集めています。",
+   "category": "グルメ・農林水産",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "6f1ea2b8487f1e21",
+   "url": "https://akita.keizai.biz/photoflash/5259",
+   "title_original": "「秋田市竿燈会」の町内を紹介する作品",
+   "source": "秋田経済新聞",
+   "image": "https://images.keizai.biz/akita_keizai/photonews/1786850068_b.jpg",
+   "local": false,
+   "published": "2026-08-16T04:31:27+00:00",
+   "title_ja": "秋田市竿燈会の各町内を紹介する作品が公開",
+   "summary_ja": "国の重要無形民俗文化財である秋田竿燈まつりを担う「秋田市竿燈会」の各町内を紹介する作品が制作されました。それぞれの町内が持つ独自の歴史や魅力を知ることができる内容となっています。",
+   "category": "文化・芸能",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "0424fc487ff11568",
+   "url": "http://akita.keizai.biz/headline/4081",
+   "title_original": "秋田で書道作品の公募展「書友展」 39都道府県の1930点を一堂に",
+   "source": "秋田経済新聞",
+   "image": "https://images.keizai.biz/akita_keizai/headline/1786849269.jpg",
+   "local": true,
+   "published": "2026-08-16T04:20:10+00:00",
+   "title_ja": "秋田市のアトリオンで公募書道展「書友展」開催　全国から1930点出品",
+   "summary_ja": "秋田市のアトリオン美術展示ホールで16日、公募書道展「書友展」が始まった。会場には全国39都道府県から集まった1930点の書道作品が一堂に展示されている。",
+   "category": "文化・芸能",
+   "area": "中央",
+   "kind": "event",
+   "event_when": "8月16日〜",
+   "importance": 3
+  },
+  {
+   "id": "8ec8d01a15fff358",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0058",
+   "title_original": "リスタート対応に遅れ、守備崩壊 ブラウブリッツ、昨季の雪辱果たせず",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260815ak0058_01_l.jpg",
+   "local": true,
+   "published": "2026-08-16T04:15:00+00:00",
+   "title_ja": "ブラウブリッツ秋田、富山に敗れる　相手のリスタートに対応できず4失点",
+   "summary_ja": "サッカーJリーグのブラウブリッツ秋田はホーム開幕戦で富山と対戦した。素早いリスタートやパスへの対応が遅れて4失点を喫し、昨季の敗戦の雪辱を果たすことができなかった。",
+   "category": "スポーツ",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "75aa502a4db842a4",
+   "url": "https://mshale.com/f1cae291/a78dcdd50kh9CvDNFqE",
+   "title_original": "秋田県横手市の冬のかまくら祭りの準備に忙しいスタッフ United Nations Special Rapporteur (CmqDlkf0uQ)",
+   "source": "Mshale",
+   "image": "",
+   "local": false,
+   "published": "2026-08-16T03:39:21+00:00",
+   "title_ja": "横手市で冬の「かまくら」に向け準備進む",
+   "summary_ja": "秋田県横手市で、冬の代表的な伝統行事である「かまくら祭り」の開催に向けた準備が進められています。スタッフたちが冬の本番に向けて忙しく作業に取り組んでおり、祭りへの期待が高まっています。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "52530a631f187902",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1461549020713337694",
+   "title_original": "（秋田）由利本荘市東鮎川石垣でクマ出没 ８月１５日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052108.png?fushinsha_joho-1461549020713337694",
+   "local": false,
+   "published": "2026-08-16T02:31:00+00:00",
+   "title_ja": "由利本荘市東鮎川石垣でクマの目撃情報",
+   "summary_ja": "8月15日、秋田県由利本荘市東鮎川石垣地区でクマが目撃されました。地域住民や近くを通りかかる方は、遭遇しないよう音を出すなどの対策を心がけ、今後の情報にも十分ご注意ください。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "d9735b603239aede",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0051",
+   "title_original": "王鵬関らの躍動にファン歓声 大相撲秋田場所",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260815G00019_l.jpg",
+   "local": true,
+   "published": "2026-08-16T02:30:00+00:00",
+   "title_ja": "大相撲秋田場所が開催、王鵬関らの取組に歓声",
+   "summary_ja": "8月15日、秋田市のCNAアリーナで大相撲秋田場所が開催されました。秋田市にゆかりのある小結・王鵬関をはじめとする多くの力士たちが熱戦を繰り広げ、会場を訪れた約5400人のファンを魅了しました。",
+   "category": "スポーツ",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "c9703c4d6e1e37a1",
+   "url": "https://www.sakigake.jp/news/article/20260815AK0048",
+   "title_original": "わかみメロンの爽やかな甘み凝縮 道の駅おが「オガーレ」がキャンディー販売",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260815ak0048_01_l.jpg",
+   "local": true,
+   "published": "2026-08-16T02:00:00+00:00",
+   "title_ja": "「わかみメロン」のキャンディー販売　道の駅おが「オガーレ」",
+   "summary_ja": "秋田県男鹿市の道の駅おが「オガーレ」で、若美地区特産「わかみメロン」を使ったキャンディーが販売されています。口に入れると爽やかな甘みと風味が広がる仕上がりです。",
+   "category": "グルメ・農林水産",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "3246477116a69675",
+   "url": "https://yakei-fan.com/magazine/fireworks/akita/ani-hanabi2026.html",
+   "title_original": "【2026】「第64回阿仁の花火と灯籠流し」 本日開催（秋田県北秋田市）",
+   "source": "夜景FAN",
+   "image": "https://yakei-fan.com/images/magazine/fireworks/pic_ani-hanabi202501.jpg",
+   "local": false,
+   "published": "2026-08-16T01:58:30+00:00",
+   "title_ja": "北秋田市で「阿仁の花火と灯籠流し」本日開催",
+   "summary_ja": "北秋田市で「第64回阿仁の花火と灯籠流し」が本日8月16日に開催されます。夜空を美しく彩る花火と、川面を幻想的に照らす灯籠流しの競演を楽しむことができます。",
+   "category": "観光・イベント",
+   "area": "県北",
+   "kind": "event",
+   "event_when": "8月16日",
+   "importance": 3
+  },
+  {
+   "id": "b93d76fd4a3c17d5",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1461537947923759469",
+   "title_original": "（秋田）大仙市神宮寺上高野でクマ出没 ８月１６日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052124.png?fushinsha_joho-1461537947923759469",
+   "local": false,
+   "published": "2026-08-16T01:47:00+00:00",
+   "title_ja": "大仙市神宮寺でクマの目撃情報",
+   "summary_ja": "8月16日、大仙市神宮寺上高野でクマが目撃されました。近隣にお住まいの方や近くを通行する方は、今後の目撃情報などに留意し、遭遇しないよう十分に注意してください。",
+   "category": "天気・防災",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "3b2573a79e31f6d7",
+   "url": "https://www.sakigake.jp/news/article/20260816AK0004",
+   "title_original": "小４生・エマさん 伝える、平和を守るため 【戦後８１年】わたしがみた「戦争」（下）",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260816ak0004_01_l.jpg",
+   "local": true,
+   "published": "2026-08-16T01:45:00+00:00",
+   "title_ja": "小学4年生のエマさんが伝える平和への思い",
+   "summary_ja": "長崎原爆犠牲者慰霊平和祈念式典などを通して、小学4年生のエマさんが、平和を守るためのメッセージや戦争に対する自身の考えを伝えています。未来へ平和をつなぐための思いが綴られています。",
+   "category": "教育・子育て",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "4c4037acad38e655",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/tjn_akitatownjoho/region/tjn_akitatownjoho-https_web.akita-townjoho.jp_gourmet_ramen_20260816-nozoichi-2_",
+   "title_original": "秋田市「豚節らーめん のぞいち」透き通る豚スープがやみつきの一杯",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/-/20260803100341/img/dmenu_service-brand-logo_200x200.png",
+   "local": false,
+   "published": "2026-08-16T01:00:00+00:00",
+   "title_ja": "秋田市「豚節らーめん のぞいち」の透き通るスープが話題",
+   "summary_ja": "秋田市にあるラーメン店「豚節らーめん のぞいち」が紹介されています。同店の透き通るような豚スープは、一度食べたらやみつきになる味わいで、多くの人気を集めています。",
+   "category": "グルメ・農林水産",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "655272932cdc9c43",
+   "url": "https://eclat.hpplus.jp/jmadam/neneko/odekake/204616",
+   "title_original": "【日本の名水百選・前編】秋田県美郷町・六郷湧水群。誰もが郷里を感じるような緑と水の自然豊かな田舎景色。",
+   "source": "Web eclat",
+   "image": "https://img-eclat.hpplus.jp/ogp/image/1f/1f27cfd3-c47b-4ed9-9862-a486deb82784-1200x630.jpg",
+   "local": false,
+   "published": "2026-08-16T01:00:00+00:00",
+   "title_ja": "美郷町の六郷湧水群が日本の名水百選として紹介",
+   "summary_ja": "美郷町にある六郷湧水群が、豊かな緑と清らかな水に恵まれた日本の名水百選として取り上げられました。誰もがどこか懐かしさを覚えるような、自然あふれる田舎の風景が魅力として伝えられています。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
   {
    "id": "a056a0dc708b0073",
    "url": "https://kahoku.news/articles/20260815khn000042.html",
@@ -301,6 +510,38 @@
    "summary_ja": "秋田県仙北市の男性が、たい焼きではなく「クニマス」をかたどった「クニマス焼き」の販売にキッチンカーで挑戦しています。地元の貴重な魚をモチーフにした新しい名物グルメとして、地域の活性化を目指します。",
    "category": "グルメ・農林水産",
    "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "2ae7598af997e000",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1461525868177490104",
+   "title_original": "（秋田）能代市厚柳でクマ出没 ８月１６日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052027.png?fushinsha_joho-1461525868177490104",
+   "local": false,
+   "published": "2026-08-16T00:59:00+00:00",
+   "title_ja": "能代市厚柳でクマが出没",
+   "summary_ja": "能代市厚柳のエリアでクマが出没したとの情報が寄せられています。付近を通行する際は周囲の状況に十分注意し、不要な外出を控えるなど安全確保を心がけてください。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "9711d472a83c2deb",
+   "url": "https://mshale.com/6995be30/3abe276fcjRfrTG46j0",
+   "title_original": "秋田市で竿燈まつり開幕を前に御幣渡し 差し手も意気込み (2026/08/03 12:00) Swiss Airlines Pilot Emergency (jZvCTNgAMs)",
+   "source": "Mshale",
+   "image": "",
+   "local": false,
+   "published": "2026-08-16T00:11:22+00:00",
+   "title_ja": "秋田市で竿燈まつり直前の御幣渡し",
+   "summary_ja": "まもなく開幕を迎える秋田竿燈まつりに向け、安全を祈願する御幣渡しが行われました。祭りを盛り上げる差し手たちも本番へ向けて気合十分の様子を見せています。",
+   "category": "観光・イベント",
+   "area": "中央",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -386,6 +627,22 @@
    "importance": 2
   },
   {
+   "id": "57c1f3fa0f0644e0",
+   "url": "https://mainichi.jp/articles/20260816/ddl/k05/100/016000c",
+   "title_original": "「能代宇宙イベント」が開幕 学生チーム技術競う ／秋田",
+   "source": "毎日新聞",
+   "image": "https://cdn.mainichi.jp/vol1/2026/08/16/20260816ddlk05100290000p/0c10.jpg?1",
+   "local": false,
+   "published": "2026-08-15T20:00:58+00:00",
+   "title_ja": "能代市で宇宙イベントが開幕、学生が技術競う",
+   "summary_ja": "能代市で学生チームが技術を競い合う「能代宇宙イベント」が開幕しました。多くの若者が技術向上を目指して参加しています。",
+   "category": "文化・芸能",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "367ce26078a570ae",
    "url": "https://kahoku.news/articles/20260815khn000044.html",
    "title_original": "秋田・三種町が観光誘客の切り札と期待するものは？＜みちのく＞",
@@ -460,6 +717,22 @@
    "title_ja": "ブラウブリッツ秋田、ホーム開幕戦で富山に0-4で大敗",
    "summary_ja": "サッカーJ2のブラウブリッツ秋田は15日、秋田市のソユースタジアムで富山とのホーム開幕戦に臨んだが、0対4で敗れた。チームの成績は通算1分け1敗となった。",
    "category": "スポーツ",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "0f34cad59530e648",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1461361787135673105",
+   "title_original": "（秋田）秋田市寺内神屋敷でクマ出没 ８月１５日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052019.png?fushinsha_joho-1461361787135673105",
+   "local": false,
+   "published": "2026-08-15T14:07:00+00:00",
+   "title_ja": "秋田市寺内神屋敷でのクマ出没情報",
+   "summary_ja": "秋田市寺内神屋敷のエリアでクマが目撃されました。住民や付近を通行する際は十分な注意が必要です。",
+   "category": "天気・防災",
    "area": "中央",
    "kind": "news",
    "event_when": "",
@@ -6400,70 +6673,6 @@
    "event_when": "",
    "importance": 3,
    "image": "https://img.topics.smt.news.goo.ne.jp/picture/sakigake/m_sakigake-20260809AK0018.jpg"
-  },
-  {
-   "id": "e0736021096330fd",
-   "url": "https://news.infoseek.co.jp/amp/article/mainichi_20260809k0000m040192000c",
-   "title_original": "2体の竜、勇壮に 幻想的なスモーク演出 秋田・八郎まつり",
-   "source": "Infoseek",
-   "local": false,
-   "published": "2026-08-09T10:06:01+00:00",
-   "title_ja": "秋田・八郎まつりで2体の竜がスモーク演出とともに登場",
-   "summary_ja": "八郎まつりにおいて、2体の竜がスモークによる幻想的な演出の中を勇壮に舞い踊りました。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3,
-   "image": "https://media.image.infoseek.co.jp/isnews/photos/mainichi/mainichi_20260809k0000m040192000c_0-enlarge.jpg"
-  },
-  {
-   "id": "c42e2efeafc8a0ed",
-   "url": "https://article.auone.jp/558c4e85-33db-41b8-9a1f-52b5d924d190",
-   "title_original": "令和8年8月8日「ハチ公」に感謝 大館市・秋田犬の里でイベント",
-   "source": "au Webポータル",
-   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/08/08/https___news_jp_i_1458958588717318808.jpg",
-   "local": false,
-   "published": "2026-08-09T10:05:50+00:00",
-   "title_ja": "大館市の秋田犬の里で「ハチ公」感謝イベント",
-   "summary_ja": "ハチ公にちなんだ記念日に合わせ、大館市の秋田犬の里で感謝を伝えるイベントが開催されました。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "330666612c45aeee",
-   "url": "https://mshale.com/4cc72f29/515e614dKugirh-6mvg",
-   "title_original": "秋田竿燈まつり2026 最終日｜過去最高の圧巻演技_最高の気象条件で見せた継ぎ竹の数々_最前列の感動を再びここで【4K高画質・高音質】 John Stamos (Zx8PaW0EGT)",
-   "source": "Mshale",
-   "image": "",
-   "local": false,
-   "published": "2026-08-09T08:45:45+00:00",
-   "title_ja": "秋田竿燈まつり2026が最終日を迎える",
-   "summary_ja": "好天に恵まれた今年の秋田竿燈まつりが最終日を迎え、見事な技の数々が披露されて感動のフィナーレとなりました。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "181e8949dfdcea4b",
-   "url": "https://www.47news.jp/14766046.html",
-   "title_original": "能代市で「のしろ銀河フェス」始まる モデルロケット打ち上げ体験など「宇宙イベント」も実施へ",
-   "source": "47NEWS",
-   "local": false,
-   "published": "2026-08-09T02:00:00+00:00",
-   "title_ja": "能代市で「のしろ銀河フェス」がスタート",
-   "summary_ja": "能代市において、モデルロケットの打ち上げ体験など宇宙に親しめる様々な企画が詰まった銀河フェスが始まりました。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3,
-   "image": "https://img.cf.47news.jp/public/photo/9f8993551dce9d4e44f91a92a520189f/photo.jpg"
   }
  ]
 }
