@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-17T21:47:50.654325+09:00",
+ "updated_at": "2026-08-18T03:42:04.816183+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -21,46 +21,38 @@
  "weather": {
   "city": "秋田市",
   "reported_at": "2026-08-17T17:00:00+09:00",
-  "updated_at": "2026-08-17T21:48:30.950611+09:00",
+  "updated_at": "2026-08-18T03:42:59.770569+09:00",
   "days": [
-   {
-    "date": "2026-08-17",
-    "code": 3,
-    "max": 28.8,
-    "min": 22.7,
-    "pop": 2,
-    "text": "くもり"
-   },
    {
     "date": "2026-08-18",
     "code": 3,
-    "max": 29.3,
-    "min": 23.2,
-    "pop": 20,
-    "text": "くもり昼前から時々晴れ"
+    "max": 30.2,
+    "min": 23.7,
+    "pop": 16,
+    "text": "くもり"
    },
    {
     "date": "2026-08-19",
-    "code": 3,
-    "max": 29.8,
-    "min": 24.2,
-    "pop": 39,
-    "text": ""
+    "code": 53,
+    "max": 29.7,
+    "min": 24.1,
+    "pop": 32,
+    "text": "くもり昼前から時々晴れ"
    },
    {
     "date": "2026-08-20",
-    "code": 95,
-    "max": 28.2,
-    "min": 23.3,
-    "pop": 76,
+    "code": 65,
+    "max": 25.7,
+    "min": 22.9,
+    "pop": 81,
     "text": ""
    },
    {
     "date": "2026-08-21",
-    "code": 55,
+    "code": 65,
     "max": 27.7,
     "min": 22.9,
-    "pop": 93,
+    "pop": 95,
     "text": ""
    },
    {
@@ -68,7 +60,7 @@
     "code": 51,
     "max": 28.5,
     "min": 21.8,
-    "pop": 73,
+    "pop": 59,
     "text": ""
    },
    {
@@ -76,7 +68,7 @@
     "code": 3,
     "max": 27.7,
     "min": 20.7,
-    "pop": 53,
+    "pop": 45,
     "text": ""
    },
    {
@@ -102,103 +94,111 @@
     "min": 23.7,
     "pop": 67,
     "text": ""
+   },
+   {
+    "date": "2026-08-27",
+    "code": 53,
+    "max": 27.7,
+    "min": 23.6,
+    "pop": 49,
+    "text": ""
    }
   ],
   "hours": [
    {
-    "time": "2026-08-17T00:00",
+    "time": "2026-08-18T00:00",
     "pop": 0,
-    "temp": 23.5,
-    "code": 2
-   },
-   {
-    "time": "2026-08-17T03:00",
-    "pop": 0,
-    "temp": 23.0,
-    "code": 2
-   },
-   {
-    "time": "2026-08-17T06:00",
-    "pop": 0,
-    "temp": 22.9,
-    "code": 2
-   },
-   {
-    "time": "2026-08-17T09:00",
-    "pop": 0,
-    "temp": 24.8,
+    "temp": 24.4,
     "code": 3
    },
    {
-    "time": "2026-08-17T12:00",
-    "pop": 2,
-    "temp": 27.9,
-    "code": 2
-   },
-   {
-    "time": "2026-08-17T15:00",
-    "pop": 0,
-    "temp": 28.8,
-    "code": 2
-   },
-   {
-    "time": "2026-08-17T18:00",
-    "pop": 0,
-    "temp": 27.0,
-    "code": 1
-   },
-   {
-    "time": "2026-08-17T21:00",
-    "pop": 0,
-    "temp": 25.3,
-    "code": 1
-   },
-   {
-    "time": "2026-08-18T00:00",
-    "pop": 0,
-    "temp": 24.3,
-    "code": 1
-   },
-   {
     "time": "2026-08-18T03:00",
-    "pop": 2,
-    "temp": 23.9,
+    "pop": 0,
+    "temp": 24.0,
     "code": 2
    },
    {
     "time": "2026-08-18T06:00",
-    "pop": 0,
-    "temp": 23.5,
+    "pop": 2,
+    "temp": 23.8,
     "code": 1
    },
    {
     "time": "2026-08-18T09:00",
-    "pop": 0,
-    "temp": 26.3,
-    "code": 1
+    "pop": 2,
+    "temp": 26.5,
+    "code": 2
    },
    {
     "time": "2026-08-18T12:00",
     "pop": 0,
-    "temp": 28.1,
+    "temp": 29.0,
     "code": 2
    },
    {
     "time": "2026-08-18T15:00",
-    "pop": 20,
-    "temp": 29.1,
-    "code": 1
+    "pop": 16,
+    "temp": 29.9,
+    "code": 2
    },
    {
     "time": "2026-08-18T18:00",
-    "pop": 6,
-    "temp": 27.8,
+    "pop": 2,
+    "temp": 28.4,
     "code": 1
    },
    {
     "time": "2026-08-18T21:00",
     "pop": 0,
-    "temp": 25.5,
+    "temp": 26.2,
+    "code": 1
+   },
+   {
+    "time": "2026-08-19T00:00",
+    "pop": 0,
+    "temp": 24.9,
+    "code": 1
+   },
+   {
+    "time": "2026-08-19T03:00",
+    "pop": 0,
+    "temp": 24.3,
+    "code": 1
+   },
+   {
+    "time": "2026-08-19T06:00",
+    "pop": 0,
+    "temp": 24.1,
+    "code": 2
+   },
+   {
+    "time": "2026-08-19T09:00",
+    "pop": 0,
+    "temp": 26.2,
+    "code": 1
+   },
+   {
+    "time": "2026-08-19T12:00",
+    "pop": 27,
+    "temp": 29.5,
+    "code": 1
+   },
+   {
+    "time": "2026-08-19T15:00",
+    "pop": 31,
+    "temp": 29.0,
+    "code": 1
+   },
+   {
+    "time": "2026-08-19T18:00",
+    "pop": 16,
+    "temp": 27.4,
+    "code": 3
+   },
+   {
+    "time": "2026-08-19T21:00",
+    "pop": 8,
+    "temp": 25.3,
     "code": 2
    }
   ]
@@ -228,6 +228,7 @@
   "akita.keizai.biz",
   "au Webポータル",
   "city.kitaakita.akita.jp",
+  "dochaku.com",
   "fnn.jp",
   "kabu-ir.com",
   "news.infoseek.co.jp",
@@ -283,6 +284,22 @@
  ],
  "count": 400,
  "items": [
+  {
+   "id": "a31fe6b4b724b197",
+   "url": "https://mshale.com/33845995/eb68c0572cYAGsbq3EE",
+   "title_original": "公務員ハンターも！秋田市で新入職員入所式 Letizia Ortiz (vJhxHKg2m2)",
+   "source": "Mshale",
+   "image": "",
+   "local": false,
+   "published": "2026-08-17T15:49:47+00:00",
+   "title_ja": "秋田市で新入職員の入所式を開催　公務員ハンターの採用も",
+   "summary_ja": "秋田市で新入職員の入所式が行われました。鳥獣被害対策などに携わる公務員ハンターとして採用された職員も含まれており、新たな体制での行政サービスや地域課題の解決に向けた取り組みが期待されています。",
+   "category": "行政・政治",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
   {
    "id": "d90447b07ab0a845",
    "url": "https://www.sakigake.jp/news/article/20260817AK0020/?nv=akita",
@@ -508,6 +525,22 @@
    "importance": 2
   },
   {
+   "id": "d35e7df121aa0906",
+   "url": "https://topics.smt.docomo.ne.jp/article/abs/region/abs-2026081708186633",
+   "title_original": "ブラウブリッツ秋田がホーム開幕戦 7,000人近いサポーターが熱い声援も…悔しい結果に 秋田",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/abs/m_abs-2026081708186633.jpg",
+   "local": false,
+   "published": "2026-08-17T09:05:00+00:00",
+   "title_ja": "ブラウブリッツ秋田、ホーム開幕戦は惜敗",
+   "summary_ja": "多くのサポーターが詰めかけ熱い声援を送る中、ブラウブリッツ秋田のホーム開幕戦が行われましたが、惜しくも悔しい結果となりました。",
+   "category": "スポーツ",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "bee12f78264ddb27",
    "url": "https://www.asahi.com/articles/ASV8K138KV8KUBUB008M.html",
    "title_original": "金賞復帰、舞台裏に杜氏の覚悟 「名工」が醸す秋田の日本酒・高清水 [秋田県]",
@@ -551,6 +584,70 @@
    "summary_ja": "休耕田を活用して整備されたヒマワリ畑で、約2万本の種から育った大輪の花々が美しく咲き誇り、訪れる人々を魅了しています。",
    "category": "観光・イベント",
    "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "fabc0ae3bbafe105",
+   "url": "https://topics.smt.docomo.ne.jp/article/fushinsha_joho/region/fushinsha_joho-1461997979827012111",
+   "title_original": "（秋田）秋田市雄和戸賀沢でクマ出没 ８月１７日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052019.png?fushinsha_joho-1461997979827012111",
+   "local": false,
+   "published": "2026-08-17T08:11:00+00:00",
+   "title_ja": "秋田市雄和戸賀沢でクマ出没",
+   "summary_ja": "秋田市雄和戸賀沢でクマの出没が確認された。今後の注意が必要となる。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "cbc78fd40af824cb",
+   "url": "https://www.nikkei.com/article/DGXZQOCC174B00X10C26A8000000",
+   "title_original": "秋田県、県有林由来のJ―クレジット販売 1トン1万1000円",
+   "source": "日本経済新聞",
+   "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3463778017082026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=cd7b9417251ba1bd734efd33c8689931",
+   "local": false,
+   "published": "2026-08-17T08:00:00+00:00",
+   "title_ja": "県有林由来のJークレジット販売",
+   "summary_ja": "秋田県は、県有林から得られたJークレジットの販売価格を1トンあたり1万1000円に設定した。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "df9a7b8f3ba414f2",
+   "url": "https://dochaku.com/ionomagari20260817",
+   "title_original": "【大仙市】THE SUPER FRUITがイオンモール大曲に登場！2026年8月25日にフリーライブ開催",
+   "source": "dochaku.com",
+   "image": "https://dochaku.com/wp-content/uploads/2026/08/ionomagari20260817.jpg",
+   "local": false,
+   "published": "2026-08-17T07:01:15+00:00",
+   "title_ja": "イオンモール大曲でスパフルがフリーライブ開催",
+   "summary_ja": "大仙市のイオンモール大曲にて、2026年8月25日にTHE SUPER FRUITによるフリーライブが開催されます。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "event",
+   "event_when": "8月25日",
+   "importance": 3
+  },
+  {
+   "id": "e8f65f2c6f4176f7",
+   "url": "https://news.yahoo.co.jp/articles/c0a57e29e45820cd380374ffeb066c4cc60bed5e",
+   "title_original": "お盆期間の新幹線利用 東北新幹線、秋田新幹線ともに前年上回る イベント開催やインバウンド需要が多かったため 岩手",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260817-22876763-ibciwatev-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-08-17T07:00:34+00:00",
+   "title_ja": "お盆期間の新幹線利用、秋田新幹線は前年上回る",
+   "summary_ja": "お盆期間中の東北新幹線および秋田新幹線の利用実績が発表され、イベント開催やインバウンド需要の増加により前年度を上回りました。",
+   "category": "くらし・地域",
+   "area": "県全体",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -746,6 +843,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "7018fc59a0a44726",
+   "url": "https://news.web.nhk/newsweb/na/nb-6010028895",
+   "title_original": "秋田県内の熱中症の救急搬送 １週間で１０５人 前週の５倍超",
+   "source": "NHKニュース",
+   "image": "https://imgu.web.nhk/news/u/lnews/akita/20260817/6010028895_20260817123726_m.jpg",
+   "local": false,
+   "published": "2026-08-17T02:55:00+00:00",
+   "title_ja": "熱中症搬送が急増、1週間で105人",
+   "summary_ja": "県内における熱中症での救急搬送数が直近の1週間で105人に達しました。前週の5倍を超える急増となっており、引き続き厳重な警戒が呼びかけられています。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
   },
   {
    "id": "1cdb479fc4cd841d",
@@ -6570,118 +6683,6 @@
    "event_when": "8月14日",
    "importance": 2,
    "image": "https://phinf.wevpstatic.net/MjAyNjA4MTFfMjMw/MDAxNzg2NDM0NzMxOTc0.O8rKgX1Sdjp11Gtn8lHr71cG_2mslSdYa7uVL_48Fmog.EJ_7YzdkzYU-OuHJu_d3fRESb92lI2bReckH3GIj_Q4g.JPEG/image.jpg?type=w1414"
-  },
-  {
-   "id": "0be261b48368f04f",
-   "url": "https://weverse.io/akb48/artist/3-238657932?hl=ko",
-   "title_original": "AKB48 커뮤니티 포스트 - ✨＼いよいよ明後日スタート！／✨ 秋田県・たざ",
-   "source": "Weverse",
-   "image": "https://phinf.wevpstatic.net/MjAyNjA4MTFfMjMw/MDAxNzg2NDM0NzMxOTc0.O8rKgX1Sdjp11Gtn8lHr71cG_2mslSdYa7uVL_48Fmog.EJ_7YzdkzYU-OuHJu_d3fRESb92lI2bReckH3GIj_Q4g.JPEG/image.jpg?type=w1414",
-   "local": false,
-   "published": "2026-08-11T08:00:24+00:00",
-   "title_ja": "仙北市でAKB48関連のイベントが開催予定",
-   "summary_ja": "仙北市を舞台にしたAKB48関連のイベントが、いよいよ明後日からスタートする予定です。詳細はコミュニティ等で確認できます。",
-   "category": "観光・イベント",
-   "area": "県南",
-   "kind": "event",
-   "event_when": "8月14日",
-   "importance": 2
-  },
-  {
-   "id": "b3a68fc8c0bb2e0a",
-   "url": "https://weverse.io/akb48/artist/3-238657932?hl=zh-cn",
-   "title_original": "AKB48社区帖子 - ✨＼いよいよ明後日スタート！／✨ 秋田県・たざわ湖スキー",
-   "source": "Weverse",
-   "local": false,
-   "published": "2026-08-11T08:00:24+00:00",
-   "title_ja": "AKB48の「たざわ湖スキー」関連企画が14日始動へ",
-   "summary_ja": "AKB48のコミュニティにおいて、秋田県の「たざわ湖スキー」に関連する企画が8月14日から開始されることが告知されました。現時点で具体的な内容は公表されていませんが、地域に関わる取り組みとして注目されます。",
-   "category": "観光・イベント",
-   "area": "県南",
-   "kind": "event",
-   "event_when": "8月14日",
-   "importance": 2,
-   "image": "https://phinf.wevpstatic.net/MjAyNjA4MTFfMjMw/MDAxNzg2NDM0NzMxOTc0.O8rKgX1Sdjp11Gtn8lHr71cG_2mslSdYa7uVL_48Fmog.EJ_7YzdkzYU-OuHJu_d3fRESb92lI2bReckH3GIj_Q4g.JPEG/image.jpg?type=w1414"
-  },
-  {
-   "id": "33767a7821aef7ee",
-   "url": "https://www.walkerplus.com/article/171564",
-   "title_original": "秋田が誇る雪国の民俗行事「男鹿のナマハゲ」が県内各地に出現",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/171564/1008096_615.jpg",
-   "local": false,
-   "published": "2026-08-11T07:00:00+00:00",
-   "title_ja": "秋田の民俗行事「男鹿のナマハゲ」が出現",
-   "summary_ja": "秋田を代表する雪国の民俗行事である男鹿のナマハゲが、県内各地に出現している。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "9e2179323d67cd7f",
-   "url": "https://www.sakigake.jp/news/article/20260811AK0028",
-   "title_original": "【インターハイ】フェンシング秋田北鷹の相馬、入賞ならず",
-   "source": "秋田魁新報",
-   "local": true,
-   "published": "2026-08-11T06:44:00+00:00",
-   "title_ja": "インターハイのフェンシング男子サーブルで秋田北鷹の相馬選手が入賞逃す",
-   "summary_ja": "全国高校総体のフェンシング競技に出場した秋田北鷹高校３年の相馬天星選手は、男子サーブルで上位入賞を目指した。しかし、目標まであと一歩のところで敗れ、惜しくも入賞はかなわなかった。",
-   "category": "スポーツ",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2,
-   "image": "https://www.sakigake.jp/images/news-entry/AK20260811G00017_l.jpg"
-  },
-  {
-   "id": "1828b9881dd8fb0e",
-   "url": "https://article.auone.jp/7382c2ab-9c98-4179-9146-d671af8782b2",
-   "title_original": "紀藤正樹弁護士 秋田県のバスローブ会見に「この件は謝罪で済むレベルではない」",
-   "source": "au Webポータル",
-   "local": false,
-   "published": "2026-08-11T06:35:50+00:00",
-   "title_ja": "紀藤弁護士が秋田県の「バスローブ会見」を厳しく批判",
-   "summary_ja": "紀藤正樹弁護士が、秋田県に関連して行われたいわゆる「バスローブ会見」について言及しました。同弁護士は、今回の事案は単なる謝罪だけで解決するような問題ではないとして、非常に厳しい見解を示しています。",
-   "category": "行政・政治",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3,
-   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/08/11/https___news_jp_i_1459796659511788023.jpg"
-  },
-  {
-   "id": "e0af468ca79ac6ec",
-   "url": "https://yakei-fan.com/magazine/fireworks/akita/happo-hanabifes2026.html",
-   "title_original": "花火と音楽とグルメが集う「八峰花火フェス2026」本日開催（秋田県山本郡八峰町）",
-   "source": "夜景FAN",
-   "local": false,
-   "published": "2026-08-11T06:16:27+00:00",
-   "title_ja": "秋田県八峰町で花火と音楽、グルメを楽しむフェスが本日開催",
-   "summary_ja": "秋田県山本郡八峰町にて、花火と音楽、そして様々なグルメが一度に楽しめるイベント「八峰花火フェス2026」が本日開催されます。地域の魅力を詰め込んだ華やかな催しとして、多くの来場者が期待されています。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "event",
-   "event_when": "本日",
-   "importance": 3,
-   "image": "https://yakei-fan.com/images/magazine/fireworks/pic_happo-hanabifes202601.jpg"
-  },
-  {
-   "id": "fb08b3b8d5400598",
-   "url": "https://yakei-fan.com/magazine/fireworks/akita/odate-hanabi2026.html",
-   "title_original": "【2026】「大館大文字まつり」第72回花火大会本日開催！花火と大文字焼きの競演",
-   "source": "夜景FAN",
-   "local": false,
-   "published": "2026-08-11T06:08:19+00:00",
-   "title_ja": "大館市で「大館大文字まつり」の花火大会が本日開催",
-   "summary_ja": "秋田県大館市にて、伝統ある「大館大文字まつり」の第72回花火大会が本日開催されます。夜空を彩る美しい花火と、山肌に浮かび上がる大文字焼きが織りなす、この地域ならではの幻想的な競演が繰り広げられます。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "event",
-   "event_when": "本日",
-   "importance": 3,
-   "image": "https://yakei-fan.com/images/magazine/tourism/pic_odate-hanabi202301.jpg"
   }
  ]
 }
