@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-18T03:42:04.816183+09:00",
+ "updated_at": "2026-08-18T10:20:09.282655+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,31 +20,31 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-08-17T17:00:00+09:00",
-  "updated_at": "2026-08-18T03:42:59.770569+09:00",
+  "reported_at": "2026-08-18T05:00:00+09:00",
+  "updated_at": "2026-08-18T10:20:53.298027+09:00",
   "days": [
    {
     "date": "2026-08-18",
     "code": 3,
-    "max": 30.2,
-    "min": 23.7,
-    "pop": 16,
-    "text": "くもり"
+    "max": 31.3,
+    "min": 23.6,
+    "pop": 43,
+    "text": "くもり昼過ぎから時々晴れ"
    },
    {
     "date": "2026-08-19",
-    "code": 53,
-    "max": 29.7,
-    "min": 24.1,
-    "pop": 32,
-    "text": "くもり昼前から時々晴れ"
+    "code": 51,
+    "max": 30.2,
+    "min": 24.2,
+    "pop": 26,
+    "text": "くもり明け方まで晴れ所により昼過ぎから夜のはじめ頃雨で雷を伴い激しく降る"
    },
    {
     "date": "2026-08-20",
     "code": 65,
     "max": 25.7,
     "min": 22.9,
-    "pop": 81,
+    "pop": 92,
     "text": ""
    },
    {
@@ -52,7 +52,7 @@
     "code": 65,
     "max": 27.7,
     "min": 22.9,
-    "pop": 95,
+    "pop": 85,
     "text": ""
    },
    {
@@ -60,7 +60,7 @@
     "code": 51,
     "max": 28.5,
     "min": 21.8,
-    "pop": 59,
+    "pop": 60,
     "text": ""
    },
    {
@@ -68,7 +68,7 @@
     "code": 3,
     "max": 27.7,
     "min": 20.7,
-    "pop": 45,
+    "pop": 37,
     "text": ""
    },
    {
@@ -76,7 +76,7 @@
     "code": 80,
     "max": 29.0,
     "min": 23.0,
-    "pop": 78,
+    "pop": 51,
     "text": ""
    },
    {
@@ -84,7 +84,7 @@
     "code": 80,
     "max": 27.6,
     "min": 23.9,
-    "pop": 82,
+    "pop": 78,
     "text": ""
    },
    {
@@ -92,7 +92,7 @@
     "code": 95,
     "max": 26.5,
     "min": 23.7,
-    "pop": 67,
+    "pop": 65,
     "text": ""
    },
    {
@@ -100,7 +100,7 @@
     "code": 53,
     "max": 27.7,
     "min": 23.6,
-    "pop": 49,
+    "pop": 51,
     "text": ""
    }
   ],
@@ -108,97 +108,97 @@
    {
     "time": "2026-08-18T00:00",
     "pop": 0,
-    "temp": 24.4,
+    "temp": 24.2,
     "code": 3
    },
    {
     "time": "2026-08-18T03:00",
-    "pop": 0,
-    "temp": 24.0,
+    "pop": 2,
+    "temp": 23.8,
     "code": 2
    },
    {
     "time": "2026-08-18T06:00",
-    "pop": 2,
-    "temp": 23.8,
+    "pop": 4,
+    "temp": 23.9,
     "code": 1
    },
    {
     "time": "2026-08-18T09:00",
-    "pop": 2,
-    "temp": 26.5,
+    "pop": 0,
+    "temp": 27.4,
     "code": 2
    },
    {
     "time": "2026-08-18T12:00",
-    "pop": 0,
-    "temp": 29.0,
+    "pop": 2,
+    "temp": 30.6,
     "code": 2
    },
    {
     "time": "2026-08-18T15:00",
-    "pop": 16,
-    "temp": 29.9,
+    "pop": 43,
+    "temp": 30.5,
     "code": 2
    },
    {
     "time": "2026-08-18T18:00",
-    "pop": 2,
-    "temp": 28.4,
+    "pop": 12,
+    "temp": 28.3,
     "code": 1
    },
    {
     "time": "2026-08-18T21:00",
     "pop": 0,
-    "temp": 26.2,
+    "temp": 26.4,
     "code": 1
    },
    {
     "time": "2026-08-19T00:00",
     "pop": 0,
-    "temp": 24.9,
+    "temp": 25.1,
     "code": 1
    },
    {
     "time": "2026-08-19T03:00",
-    "pop": 0,
-    "temp": 24.3,
+    "pop": 4,
+    "temp": 24.4,
     "code": 1
    },
    {
     "time": "2026-08-19T06:00",
-    "pop": 0,
-    "temp": 24.1,
+    "pop": 2,
+    "temp": 24.3,
     "code": 2
    },
    {
     "time": "2026-08-19T09:00",
     "pop": 0,
-    "temp": 26.2,
+    "temp": 27.4,
     "code": 1
    },
    {
     "time": "2026-08-19T12:00",
-    "pop": 27,
-    "temp": 29.5,
+    "pop": 24,
+    "temp": 30.0,
     "code": 1
    },
    {
     "time": "2026-08-19T15:00",
-    "pop": 31,
-    "temp": 29.0,
+    "pop": 22,
+    "temp": 29.5,
     "code": 1
    },
    {
     "time": "2026-08-19T18:00",
-    "pop": 16,
-    "temp": 27.4,
+    "pop": 8,
+    "temp": 27.6,
     "code": 3
    },
    {
     "time": "2026-08-19T21:00",
-    "pop": 8,
-    "temp": 25.3,
+    "pop": 0,
+    "temp": 26.0,
     "code": 2
    }
   ]
@@ -223,7 +223,6 @@
   "TVer",
   "Togetter",
   "Web eclat",
-  "Weverse",
   "Yahoo!ニュース",
   "akita.keizai.biz",
   "au Webポータル",
@@ -249,6 +248,7 @@
   "チバテレ",
   "ツーリズムメディアサービス",
   "デイリースポーツ",
+  "トラベル Watch",
   "ニコニコニュース",
   "ライブドアニュース",
   "ラブすぽ",
@@ -263,6 +263,7 @@
   "日テレNEWS",
   "日テレNEWS NNN",
   "日刊スポーツ",
+  "日刊工業新聞",
   "日本経済新聞",
   "日本農業新聞",
   "時事ドットコム",
@@ -285,6 +286,134 @@
  "count": 400,
  "items": [
   {
+   "id": "763fc3824d87f05a",
+   "url": "https://www.sakigake.jp/news/article/20260817AK0011",
+   "title_original": "もりよし盆踊り、子どもから大人まで輪になって 北秋田市",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260817ak0011_01_l.jpg",
+   "local": true,
+   "published": "2026-08-18T01:00:00+00:00",
+   "title_ja": "浴衣姿で輪になって踊りを楽しむ もりよし盆踊り",
+   "summary_ja": "北秋田市の米内沢中央駐車場で「もりよし盆踊り＆夏祭り」が開催されました。幅広い世代の住民が浴衣姿で輪に加わり、伝統的な踊りやステージ発表で盛り上がりました。",
+   "category": "観光・イベント",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "32b39bbe8953cf61",
+   "url": "https://kahoku.news/articles/20260817khn000048.html",
+   "title_original": "データセンター「後進地」脱却なるか 東北で投資が活発化 秋田に国内最大級の建設計画、東北電はコンテナ型導入",
+   "source": "河北新報オンライン",
+   "image": "https://kahoku.news/images/2026/08/17/20260817khn000048/001_size7.jpg?timestamp=20260818101148",
+   "local": false,
+   "published": "2026-08-18T01:00:00+00:00",
+   "title_ja": "東北各地でデータセンター投資が活発化 秋田にも計画",
+   "summary_ja": "東北地方でデータセンターの建設計画や投資が活発になっています。秋田県内では国内最大級の建設計画が進められるなど、インフラ整備の動きが注目を集めています。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "b6be14926a318557",
+   "url": "https://www.sakigake.jp/news/article/20260817AK0020",
+   "title_original": "インターハイ、秋田県勢の８位以上は｢１７｣ 前年を大きく上回る【一覧表あり】",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20260817G00018_l.jpg",
+   "local": true,
+   "published": "2026-08-18T00:50:00+00:00",
+   "title_ja": "インターハイで秋田県勢が健闘 8位以上は前年上回る",
+   "summary_ja": "全国高校総体（インターハイ）の全日程が終了し、県勢の8位入賞は前年を大きく上回る17を数えました。優勝は逃したものの、各競技で選手たちの健闘が光りました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "793e27b3f8e402c3",
+   "url": "https://www.nikkan.co.jp/articles/view/00789535",
+   "title_original": "秋田県産技センター、昨年度の成果報告会 技術相談23％増",
+   "source": "日刊工業新聞",
+   "image": "",
+   "local": false,
+   "published": "2026-08-17T21:19:30+00:00",
+   "title_ja": "秋田県産技センターが昨年度の成果報告会を開催",
+   "summary_ja": "秋田県産業技術センターが昨年度の活動成果を報告した。企業からの技術相談件数は前年度から23％増加したことが明らかにされている。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "5b12c2716e962faf",
+   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2130/r_id=10615",
+   "title_original": "とんぶり 栽培のスマート化へ 大館市 実証実験を開始 生育把握しデータ化",
+   "source": "株式会社 北鹿新聞社",
+   "image": "https://www.hokuroku.co.jp/files/libs/28759/202608171820374554.JPEG?1787016037",
+   "local": false,
+   "published": "2026-08-17T21:01:14+00:00",
+   "title_ja": "大館市でとんぶりの栽培スマート化に向けた実証実験",
+   "summary_ja": "大館市において、特産品であるとんぶりの栽培をスマート化するための実証実験が始まった。生育状況を的確に把握してデータ化を目指す。",
+   "category": "グルメ・農林水産",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "b38c36963f563f38",
+   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2130/r_id=10616",
+   "title_original": "一般会計 ７・９億円を追加補正 大館市 ９月議会は２４日招集 起業支援や窓口改革も",
+   "source": "株式会社 北鹿新聞社",
+   "image": "https://www.hokuroku.co.jp/files/libs/8360/201909241311217234.jpg?1787016037",
+   "local": false,
+   "published": "2026-08-17T21:01:14+00:00",
+   "title_ja": "大館市が一般会計に7.9億円の追加補正予算案を提出へ",
+   "summary_ja": "大館市は9月議会に向けて一般会計の追加補正予算案をまとめた。総額7億9千万円規模で、起業支援や窓口業務の改革関連事業などが盛り込まれている。",
+   "category": "行政・政治",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "cd928c0a08dcabca",
+   "url": "https://travel.watch.impress.co.jp/docs/news/2133287.html",
+   "title_original": "ジャルパック「大曲の花火－秋の章－」イス席鑑賞ツアー。秋田空港から貸切バスで会場直行、選べるフリー/観光付きコース",
+   "source": "トラベル Watch",
+   "image": "https://travel.watch.impress.co.jp/img/trw/list/2133/287/02.jpg",
+   "local": false,
+   "published": "2026-08-17T21:00:00+00:00",
+   "title_ja": "大曲の花火－秋の章－の鑑賞ツアーが発売",
+   "summary_ja": "秋田空港発着の貸切バスで会場へ直行する「大曲の花火－秋の章－」のイス席鑑賞ツアーが販売されています。観光付きコースなども選ぶことが可能です。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "event",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "896a3c418f77e2b0",
+   "url": "https://news.yahoo.co.jp/articles/ab654da6f45c119cbbfe04cd2a15c8183cba10d3",
+   "title_original": "【横手市】8/18 最高33℃、暑さに注意、昼間は晴れる予想【朝版】",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260818-00020117-wordleafw-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-08-17T20:46:01+00:00",
+   "title_ja": "横手市は最高気温33度に達する予想",
+   "summary_ja": "横手市の朝の予報をお伝えします。本日は昼間から晴れが広がり、最高気温は33度まで上がる見込みですので、厳しい暑さへの警戒が必要です。",
+   "category": "天気・防災",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "a31fe6b4b724b197",
    "url": "https://mshale.com/33845995/eb68c0572cYAGsbq3EE",
    "title_original": "公務員ハンターも！秋田市で新入職員入所式 Letizia Ortiz (vJhxHKg2m2)",
@@ -301,16 +430,16 @@
    "importance": 3
   },
   {
-   "id": "d90447b07ab0a845",
-   "url": "https://www.sakigake.jp/news/article/20260817AK0020/?nv=akita",
-   "title_original": "インターハイ、秋田県勢の８位以上は１７ 前年を大きく上回る",
-   "source": "秋田魁新報電子版",
-   "image": "https://www.sakigake.jp/images/ogp.png",
+   "id": "5d77e4cc38c40c2d",
+   "url": "https://www.walkerplus.com/article/1400520",
+   "title_original": "この夏、“まだバレてない秋田県”を楽しもう！宿泊料金が最大1万2000円割引になる「得旅キャンペーン」がスタート",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1400520/17407558_615.jpg",
    "local": false,
-   "published": "2026-08-17T11:58:00+00:00",
-   "title_ja": "インターハイで秋田県勢が健闘、8位以上は前年を大幅増",
-   "summary_ja": "全国高等学校総合体育大会（インターハイ）において、秋田県勢の8位以上の入賞数が17に達し、前年の実績を大きく上回る結果となった。高校生たちの健闘を伝えるスポーツニュース。（102文字）",
-   "category": "スポーツ",
+   "published": "2026-08-17T12:20:55+00:00",
+   "title_ja": "秋田の宿泊がお得に、最大1万2000円割引のキャンペーン",
+   "summary_ja": "秋田県での宿泊料金が最大1万2000円割引になる「得旅キャンペーン」がスタートしました。夏休みの旅行や県内観光にお得に利用できる注目の企画です。",
+   "category": "観光・イベント",
    "area": "県全体",
    "kind": "news",
    "event_when": "",
@@ -6555,134 +6684,6 @@
    "event_when": "",
    "importance": 4,
    "image": "https://www.sakigake.jp/images/news-entry/AK20260811G00009_l.jpg"
-  },
-  {
-   "id": "f52f80fb7fcb0c27",
-   "url": "https://news.ntv.co.jp/n/abs/category/life/ab4a7974839dc04b87b38c314db17f8b04",
-   "title_original": "夏休みの思い出を 魚のつかみ取り大会！100人以上の子どもが夢中に 秋田・北秋田市",
-   "source": "日テレNEWS",
-   "local": false,
-   "published": "2026-08-11T09:10:00+00:00",
-   "title_ja": "魚のつかみ取りに子どもたちが夢中",
-   "summary_ja": "秋田県北秋田市で夏休みの思い出作りに魚のつかみ取り大会が開かれ、100人を超える子どもたちが参加して大いに盛り上がった。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3,
-   "image": "https://image.gallery.play.jp/abs-news/articles/ad51fa1c6f474639be827b01cd25f2a9/3cc422dc-c85e-4cfd-bd1c-36693f9983a8.jpg?w=1200"
-  },
-  {
-   "id": "79ccfb75f32c084c",
-   "url": "https://news.ntv.co.jp/n/abs/category/life/abdb61dcde0d2a43b284fa28d656c16666",
-   "title_original": "県内就職や移住希望者向けのイベント 140以上の企業や団体が秋田で働く魅力をPR",
-   "source": "日テレNEWS",
-   "local": false,
-   "published": "2026-08-11T09:08:00+00:00",
-   "title_ja": "秋田での就職や移住を応援する大規模なPRイベントを開催",
-   "summary_ja": "県内での就職や移住を希望する人を対象としたイベントが開催され、140を超える企業や団体が参加して秋田で働く魅力をアピールしました。",
-   "category": "経済・企業",
-   "area": "県全体",
-   "kind": "event",
-   "event_when": "",
-   "importance": 3,
-   "image": "https://image.gallery.play.jp/abs-news/articles/ef2572d9ee7248b1a7c80089c20119fa/c664fa36-d608-4e84-893c-45563fd563c6.jpg?w=1200"
-  },
-  {
-   "id": "2d9be872b416c222",
-   "url": "https://news.ntv.co.jp/n/abs/category/economy/abfb9958bfe5124eaeb13537040dec5025",
-   "title_original": "去年県内を訪れた外国人観光客の旅行消費額は約45億円 東北で最少 唯一前年を下回る 秋田",
-   "source": "日テレNEWS",
-   "local": false,
-   "published": "2026-08-11T09:05:00+00:00",
-   "title_ja": "昨年の外国人旅行消費額は約45億円、東北で唯一の前年割れ",
-   "summary_ja": "昨年県内を訪れた外国人観光客の旅行消費額は約45億円となり、東北地方で最も少なく、唯一前年を下回る結果となりました。",
-   "category": "経済・企業",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4,
-   "image": "https://image.gallery.play.jp/abs-news/articles/a6b110d2e4a2488dabb0056e065024ec/5babac1e-cd52-4a7f-85b6-a0051344580d.jpg?w=1200"
-  },
-  {
-   "id": "8ee8ec0f5051d14f",
-   "url": "https://www.sakigake.jp/news/article/20260811AK0031",
-   "title_original": "【甲子園横手高】大応援団、アルプススタンドを紫に染める",
-   "source": "秋田魁新報",
-   "local": true,
-   "published": "2026-08-11T08:56:00+00:00",
-   "title_ja": "57年ぶり甲子園の横手高校、アルプススタンドから大応援団が後押し",
-   "summary_ja": "11日に兵庫県の甲子園球場で行われた全国高校野球選手権大会2回戦で、57年ぶりに出場した横手高校は大応援団に支えられ敦賀気比と対戦した。一塁側のアルプススタンドはスクールカラーの紫に染まり、選手たちへ熱い声援が送られた。",
-   "category": "スポーツ",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3,
-   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0031_01_l.jpg"
-  },
-  {
-   "id": "a61b9d9c588f2279",
-   "url": "https://www.sakigake.jp/news/article/20260811AK0030",
-   "title_original": "【写真特集】夏の甲子園、横手高の戦い",
-   "source": "秋田魁新報",
-   "local": true,
-   "published": "2026-08-11T08:38:00+00:00",
-   "title_ja": "横手高校の甲子園での激闘を振り返る写真特集",
-   "summary_ja": "57年ぶりとなる夏の甲子園出場を果たした横手高校の熱戦の様子を、16枚の写真で振り返る特集。アルプススタンドの応援や選手たちのプレーなど、甲子園での雄姿が収められている。",
-   "category": "スポーツ",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3,
-   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0030_01_l.jpg"
-  },
-  {
-   "id": "fa76667983ff36b5",
-   "url": "https://article.auone.jp/article/74a01246-8f24-41d2-afb7-cc1cab75b221",
-   "title_original": "秋田県で1時間に約100mmの猛烈な雨 気象防災速報・記録的短時間大雨",
-   "source": "au Webポータル",
-   "local": false,
-   "published": "2026-08-11T08:24:48+00:00",
-   "title_ja": "秋田県内で1時間に約100ミリの猛烈な雨を記録",
-   "summary_ja": "秋田県内で1時間に約100ミリの猛烈な雨が観測され、記録的短時間大雨情報が出されました。気象庁などは土砂災害や低い土地の浸水、河川の増水や氾濫に対して厳重な警戒を求めています。",
-   "category": "天気・防災",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 5,
-   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/08/09/https___weathernews_jp_news_202608_090171_.jpg"
-  },
-  {
-   "id": "46e3ecfa038d2cb5",
-   "url": "https://www.sakigake.jp/news/article/20260811AK0027",
-   "title_original": "【甲子園横手高】亡き父が取らせてくれた飛球 戸澤樹",
-   "source": "秋田魁新報",
-   "local": true,
-   "published": "2026-08-11T08:08:00+00:00",
-   "title_ja": "横手高・戸澤選手が甲子園の守備で躍動、亡き父に捧げる好捕",
-   "summary_ja": "甲子園の舞台で9回表に左翼の守備に就いた横手高校3年の戸澤樹選手。左中間に上がった先頭打者の大きな飛球を懸命に追いかけて見事に捕球し、守備でチームに貢献するとともに亡き父への思いを込めたプレーを見せた。",
-   "category": "スポーツ",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3,
-   "image": "https://www.sakigake.jp/images/news-entry/20260811ak0027_01_l.jpg"
-  },
-  {
-   "id": "2cea44de44ddad86",
-   "url": "https://weverse.io/akb48/artist/3-238657932?hl=ja",
-   "title_original": "AKB48コミュニティの投稿 - ✨＼いよいよ明後日スタート！／✨ 秋田県・たざ",
-   "source": "Weverse",
-   "local": false,
-   "published": "2026-08-11T08:02:31+00:00",
-   "title_ja": "AKB48投稿で「秋田県・たざ」関連企画が14日開始と予告",
-   "summary_ja": "AKB48のコミュニティ投稿にて、秋田県の「たざ」で始まる場所やイベントに関する企画が、8月14日から開始されることが告知されました。詳細は明かされていません。",
-   "category": "観光・イベント",
-   "area": "県南",
-   "kind": "event",
-   "event_when": "8月14日",
-   "importance": 2,
-   "image": "https://phinf.wevpstatic.net/MjAyNjA4MTFfMjMw/MDAxNzg2NDM0NzMxOTc0.O8rKgX1Sdjp11Gtn8lHr71cG_2mslSdYa7uVL_48Fmog.EJ_7YzdkzYU-OuHJu_d3fRESb92lI2bReckH3GIj_Q4g.JPEG/image.jpg?type=w1414"
   }
  ]
 }
