@@ -145,9 +145,10 @@
     flex: 0 0 auto; width: 52px; text-align: center;
     font-size: 11.5px; padding: 6px 0; border-radius: 10px; background: var(--chip);
   }
-  .wh .hr { color: var(--muted); }
-  .wh .ic { font-size: 16px; line-height: 1.5; }
-  .wh .pop { font-weight: 700; font-size: 12px; }
+  .wh { width: 66px; }
+  .wh .hr { color: var(--muted); font-size: 10.5px; }
+  .wh .span { font-size: 11.5px; line-height: 1.5; }
+  .wh .pop { font-weight: 700; font-size: 13px; }
   .wh.rain { background: color-mix(in srgb, var(--accent) 18%, transparent); }
   .wdays { margin-top: 12px; }
   .wd {
@@ -161,6 +162,9 @@
   .wd .pop { width: 46px; color: var(--accent); font-weight: 600; }
   .wd .deg { margin-left: auto; font-weight: 600; }
   .wd .deg .lo { color: var(--muted); font-weight: 500; }
+  .wd .est { font-size: 10.5px; color: var(--muted); border: 1px solid var(--line); border-radius: 5px; padding: 0 4px; }
+  .wnote { font-size: 11px; color: var(--muted); margin: 10px 0 0; }
+  .wnote a { color: var(--accent); font-weight: 600; white-space: nowrap; }
   .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 11.5px; color: var(--muted); margin-bottom: 7px; }
   .tag { background: var(--chip); border-radius: 6px; padding: 2px 7px; color: var(--text); }
   .badge { background: var(--badge); color: #fff; border-radius: 6px; padding: 2px 7px; font-weight: 600; }
@@ -297,22 +301,8 @@ function render() {
 }
 
 // ---- 天気 ----------------------------------------------------------------
-// Open-Meteo の天気コード → 絵文字と日本語。
-const WX = {
-  0: ["☀️", "快晴"], 1: ["🌤", "晴れ"], 2: ["⛅", "晴れ時々くもり"], 3: ["☁️", "くもり"],
-  45: ["🌫", "霧"], 48: ["🌫", "霧"],
-  51: ["🌦", "霧雨"], 53: ["🌦", "霧雨"], 55: ["🌦", "強い霧雨"],
-  56: ["🌧", "着氷性の霧雨"], 57: ["🌧", "着氷性の霧雨"],
-  61: ["🌧", "小雨"], 63: ["🌧", "雨"], 65: ["🌧", "強い雨"],
-  66: ["🌧", "着氷性の雨"], 67: ["🌧", "着氷性の雨"],
-  71: ["🌨", "小雪"], 73: ["🌨", "雪"], 75: ["❄️", "大雪"], 77: ["❄️", "細氷"],
-  80: ["🌦", "にわか雨"], 81: ["🌦", "にわか雨"], 82: ["⛈", "激しいにわか雨"],
-  85: ["🌨", "にわか雪"], 86: ["🌨", "にわか雪"],
-  95: ["⛈", "雷雨"], 96: ["⛈", "雷雨・ひょう"], 99: ["⛈", "雷雨・ひょう"],
-};
-const wx = code => WX[code] || ["", "―"];
+// 表示に使う値（絵文字・言い方・降水確率）は collect.py 側で気象庁の予報から作ってある。
 const jstDate = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" });
-const jstHour = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo", hour: "2-digit", hour12: false });
 
 function dayLabel(iso, today, tomorrow) {
   if (iso === today) return ["今日", ""];
@@ -321,6 +311,8 @@ function dayLabel(iso, today, tomorrow) {
   const week = ["日", "月", "火", "水", "木", "金", "土"][d.getDay()];
   return [`${d.getMonth() + 1}/${d.getDate()}(${week})`, week === "土" ? "sat" : week === "日" ? "sun" : ""];
 }
+
+const pct = v => (v === null || v === undefined || v === "") ? "―" : `${v}%`;
 
 function renderWeather(w) {
   const box = document.getElementById("weather");
@@ -332,54 +324,54 @@ function renderWeather(w) {
 
   const card = (d, label) => {
     if (!d) return "";
-    const [icon, name] = wx(d.code);
     // 気象庁の文は「所により…」以降が長いので、カードには前半だけ出す（全文は下に添える）。
-    const short = (d.text || "").split("所により")[0] || name;
+    const short = (d.text || "").split("所により")[0] || d.text || "―";
     return `<div class="wcard">
       <div class="lbl">${label}</div>
-      <div class="icon">${icon}</div>
+      <div class="icon">${d.icon || "―"}</div>
       <div class="txt">${escapeHtml(short)}</div>
       <div class="deg">${Math.round(d.max)}° <span class="lo">/ ${Math.round(d.min)}°</span></div>
-      <div class="lbl">降水 ${d.pop != null ? d.pop : "―"}%</div>
+      <div class="lbl">降水 ${pct(d.pop)}</div>
     </div>`;
   };
 
-  // 3時間ごとの降水確率。今の時刻より前のコマは落とす。
-  const nowHour = `${today}T${jstHour.format(new Date()).padStart(2, "0")}:00`;
-  const hours = (w.hours || []).filter(h => h.time >= nowHour).slice(0, 16);
-  const hourCells = hours.map(h => {
-    const [icon] = wx(h.code);
-    const hour = Number(h.time.slice(11, 13));
-    const mark = h.time.slice(0, 10) === today ? "" : "翌";
-    return `<div class="wh ${h.pop >= 50 ? "rain" : ""}">
-      <div class="hr">${mark}${hour}時</div>
-      <div class="ic">${icon}</div>
-      <div class="pop">${h.pop != null ? h.pop : "―"}%</div>
-    </div>`;
-  }).join("");
+  // 6時間ごとの降水確率（気象庁の発表そのまま）。終わったコマは落とす。
+  const now = Date.now();
+  const blocks = (w.pops || []).filter(b => new Date(`${b.time}:00+09:00`).getTime() + 6 * 3600e3 > now);
+  const blockCells = blocks.map(b => `
+    <div class="wh ${b.pop >= 50 ? "rain" : ""}">
+      <div class="hr">${b.time.slice(0, 10) === today ? "今日" : "明日"}</div>
+      <div class="span">${b.label}</div>
+      <div class="pop">${pct(b.pop)}</div>
+    </div>`).join("");
 
   const rows = days.slice(0, 10).map(d => {
-    const [icon, name] = wx(d.code);
     const [label, cls] = dayLabel(d.date, today, tomorrow);
-    // 今日・明日は気象庁の言い方に合わせる（上のカードと食い違わないように）。
-    const text = (d.text || "").split("所により")[0] || name;
+    // 今日・明日は気象庁の言い方が長いので、カードと同じく前半だけ。
+    const text = (d.text || "").split("所により")[0] || d.text || "―";
     return `<div class="wd">
       <span class="day ${cls}">${label}</span>
-      <span class="ic">${icon}</span>
-      <span>${escapeHtml(text)}</span>
-      <span class="pop">${d.pop != null ? d.pop : "―"}%</span>
+      <span class="ic">${d.icon || ""}</span>
+      <span>${escapeHtml(text)}${d.official ? "" : ' <span class="est">目安</span>'}</span>
+      <span class="pop">${pct(d.pop)}</span>
       <span class="deg">${Math.round(d.max)}° <span class="lo">/ ${Math.round(d.min)}°</span></span>
     </div>`;
   }).join("");
 
+  const issued = w.reported_at
+    ? new Date(w.reported_at).toLocaleString("ja-JP", { timeZone: "Asia/Tokyo", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" })
+    : "";
+
   box.innerHTML = `
     <h2>🌤 ${escapeHtml(w.city || "秋田市")}の天気
-      <span>${w.reported_at ? `気象庁 ${new Date(w.reported_at).toLocaleString("ja-JP", { timeZone: "Asia/Tokyo", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" })}発表` : ""}</span>
+      <span>${issued ? `気象庁 ${issued}発表` : ""}</span>
     </h2>
     <div class="wnow">${card(days[0], "今日")}${card(days[1], "明日")}</div>
     ${days[0].text ? `<p class="wsub">今日: ${escapeHtml(days[0].text)}</p>` : ""}
-    ${hourCells ? `<p class="wsub">3時間ごとの降水確率</p><div class="wscroll">${hourCells}</div>` : ""}
-    <div class="wdays">${rows}</div>`;
+    ${blockCells ? `<p class="wsub">6時間ごとの降水確率</p><div class="wscroll">${blockCells}</div>` : ""}
+    <div class="wdays">${rows}</div>
+    <p class="wnote">天気と降水確率は気象庁の発表。気温と「目安」の日は数値予報（Open-Meteo）。
+      ${w.link ? `<a href="${escapeHtml(w.link)}" target="_blank" rel="noopener noreferrer">tenki.jp で見る →</a>` : ""}</p>`;
   box.hidden = false;
 }
 

@@ -673,17 +673,70 @@ def to_public(item: dict) -> dict:
 # 秋田市の天気
 # --------------------------------------------------------------------------
 
-# 気象庁の秋田県予報。timeSeries[0] に「沿岸」（秋田市が入る区域）の天気文がある。
+# 天気と降水確率は気象庁の秋田県予報を使う（予報官が出した公式の値）。
+# data[0] が今日・明日（6時間ごとの降水確率つき）、data[1] が週間予報。
 JMA_FORECAST_URL = "https://www.jma.go.jp/bosai/forecast/data/forecast/050000.json"
-JMA_COAST_AREA = "050010"
-# 気温・降水確率・週間は Open-Meteo（APIキー不要）。座標は秋田市役所あたり。
+JMA_COAST_AREA = "050010"   # 秋田市が入る「沿岸」区域
+JMA_PREF_AREA = "050000"    # 週間予報の区域（秋田県）
+# 気温と、気象庁の週間予報が届かない先の日だけ Open-Meteo で埋める（APIキー不要）。
+# 座標は秋田市役所あたり。
 OPEN_METEO_URL = (
     "https://api.open-meteo.com/v1/forecast"
     "?latitude=39.7186&longitude=140.1024"
-    "&hourly=precipitation_probability,temperature_2m,weather_code"
     "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max"
     "&timezone=Asia%2FTokyo&forecast_days=10"
 )
+# いつも見ている天気サイトへの入り口（秋田市のページ）。
+# tenki.jp は規約でデータの取得・転載を禁じているので、リンクを置くだけにする。
+TENKI_URL = "https://tenki.jp/forecast/2/8/3210/5201/"
+
+FORECAST_DAYS = 10
+
+# 気象庁の天気コード（テロップ番号）→ 絵文字と短い言い方。
+# 表にない番号は先頭の数字（1=晴れ / 2=くもり / 3=雨 / 4=雪）で拾う。
+JMA_TELOP = {
+    "100": ("☀️", "晴れ"), "101": ("🌤", "晴れ時々くもり"), "102": ("🌦", "晴れ一時雨"),
+    "103": ("🌦", "晴れ時々雨"), "104": ("🌨", "晴れ一時雪"), "105": ("🌨", "晴れ時々雪"),
+    "106": ("🌦", "晴れ一時雨か雪"), "107": ("🌦", "晴れ時々雨か雪"),
+    "110": ("🌤", "晴れのち時々くもり"), "111": ("🌤", "晴れのちくもり"),
+    "112": ("🌦", "晴れのち一時雨"), "113": ("🌦", "晴れのち時々雨"), "114": ("🌧", "晴れのち雨"),
+    "115": ("🌨", "晴れのち一時雪"), "116": ("🌨", "晴れのち時々雪"), "117": ("🌨", "晴れのち雪"),
+    "119": ("⛈", "晴れのち雨か雷雨"), "125": ("⛈", "晴れ午後は雷雨"),
+    "126": ("🌦", "晴れ昼頃から雨"), "127": ("🌦", "晴れ夕方から雨"), "128": ("🌦", "晴れ夜は雨"),
+    "200": ("☁️", "くもり"), "201": ("⛅", "くもり時々晴れ"), "202": ("🌦", "くもり一時雨"),
+    "203": ("🌦", "くもり時々雨"), "204": ("🌨", "くもり一時雪"), "205": ("🌨", "くもり時々雪"),
+    "206": ("🌦", "くもり一時雨か雪"), "207": ("🌦", "くもり時々雨か雪"), "209": ("🌫", "霧"),
+    "210": ("⛅", "くもりのち時々晴れ"), "211": ("⛅", "くもりのち晴れ"),
+    "212": ("🌦", "くもりのち一時雨"), "213": ("🌦", "くもりのち時々雨"), "214": ("🌧", "くもりのち雨"),
+    "215": ("🌨", "くもりのち一時雪"), "216": ("🌨", "くもりのち時々雪"), "217": ("🌨", "くもりのち雪"),
+    "218": ("🌨", "くもりのち雨か雪"), "219": ("⛈", "くもりのち雨か雷雨"),
+    "224": ("🌦", "くもり昼頃から雨"), "225": ("🌦", "くもり夕方から雨"), "226": ("🌦", "くもり夜は雨"),
+    "228": ("🌨", "くもり昼頃から雪"), "229": ("🌨", "くもり夕方から雪"), "230": ("🌨", "くもり夜は雪"),
+    "300": ("🌧", "雨"), "301": ("🌦", "雨時々晴れ"), "302": ("🌦", "雨時々やむ"),
+    "303": ("🌨", "雨時々雪"), "306": ("🌧", "大雨"), "308": ("🌧", "雨で暴風を伴う"),
+    "311": ("🌦", "雨のち晴れ"), "313": ("🌧", "雨のちくもり"), "314": ("🌨", "雨のち時々雪"),
+    "315": ("🌨", "雨のち雪"), "317": ("🌦", "雨か雪のち晴れ"), "320": ("🌦", "朝のうち雨のち晴れ"),
+    "321": ("🌧", "朝のうち雨のちくもり"), "328": ("🌧", "雨で夜は暴風雨"),
+    "400": ("❄️", "雪"), "401": ("🌨", "雪時々晴れ"), "402": ("🌨", "雪時々やむ"),
+    "403": ("🌨", "雪時々雨"), "406": ("❄️", "風雪強い"), "407": ("❄️", "大雪"),
+    "411": ("🌤", "雪のち晴れ"), "413": ("☁️", "雪のちくもり"), "414": ("🌧", "雪のち雨"),
+    "420": ("🌤", "朝のうち雪のち晴れ"), "421": ("☁️", "朝のうち雪のちくもり"),
+    "425": ("❄️", "雪一時強く降る"),
+}
+JMA_TELOP_FALLBACK = {"1": ("☀️", "晴れ"), "2": ("☁️", "くもり"), "3": ("🌧", "雨"), "4": ("❄️", "雪")}
+
+# Open-Meteo の天気コード → 絵文字と言い方（気象庁の週間予報より先の日に使う）。
+OM_CODES = {
+    0: ("☀️", "快晴"), 1: ("🌤", "晴れ"), 2: ("⛅", "晴れ時々くもり"), 3: ("☁️", "くもり"),
+    45: ("🌫", "霧"), 48: ("🌫", "霧"), 51: ("🌦", "霧雨"), 53: ("🌦", "霧雨"), 55: ("🌦", "強い霧雨"),
+    56: ("🌧", "着氷性の霧雨"), 57: ("🌧", "着氷性の霧雨"),
+    61: ("🌧", "小雨"), 63: ("🌧", "雨"), 65: ("🌧", "強い雨"),
+    66: ("🌧", "着氷性の雨"), 67: ("🌧", "着氷性の雨"),
+    71: ("🌨", "小雪"), 73: ("🌨", "雪"), 75: ("❄️", "大雪"), 77: ("❄️", "細氷"),
+    80: ("🌦", "にわか雨"), 81: ("🌦", "にわか雨"), 82: ("⛈", "激しいにわか雨"),
+    85: ("🌨", "にわか雪"), 86: ("🌨", "にわか雪"),
+    95: ("⛈", "雷雨"), 96: ("⛈", "雷雨・ひょう"), 99: ("⛈", "雷雨・ひょう"),
+}
 
 
 def fetch_json(url: str, timeout: int = 15):
@@ -692,64 +745,115 @@ def fetch_json(url: str, timeout: int = 15):
         return json.loads(response.read().decode("utf-8"))
 
 
-def jma_weather_texts() -> tuple[list[str], str]:
-    """気象庁の「今日／明日の天気」の文と発表時刻を返す。取れなければ空。"""
+def telop(code: str) -> tuple[str, str]:
+    code = str(code or "").strip()
+    return JMA_TELOP.get(code) or JMA_TELOP_FALLBACK.get(code[:1], ("", "―"))
+
+
+def to_int(value) -> int | None:
     try:
-        data = fetch_json(JMA_FORECAST_URL)
-        series = data[0]["timeSeries"][0]
-        area = next(a for a in series["areas"] if a["area"]["code"] == JMA_COAST_AREA)
-        # 「晴れ　時々　くもり」のように全角スペースで区切られているので詰める。
-        texts = [re.sub(r"[　\s]+", "", text) for text in area["weathers"]]
-        return texts, data[0]["reportDatetime"]
-    except Exception:  # noqa: BLE001  天気が取れなくても記事は出す
-        return [], ""
+        return int(str(value).strip())
+    except (TypeError, ValueError):
+        return None
+
+
+def find_area(series: dict, code: str) -> dict:
+    return next(a for a in series["areas"] if a["area"]["code"] == code)
+
+
+def jma_forecast() -> tuple[dict, list[dict], str]:
+    """気象庁から、日ごとの天気・降水確率と、6時間ごとの降水確率を取り出す。
+
+    返すのは {日付: {icon, text, pop}} と、6時間ごとの降水確率のコマ、発表時刻。
+    """
+    data = fetch_json(JMA_FORECAST_URL)
+    days: dict[str, dict] = {}
+
+    # 今日・明日：天気の文と6時間ごとの降水確率。
+    near = data[0]["timeSeries"]
+    weather = find_area(near[0], JMA_COAST_AREA)
+    for stamp, code, text in zip(
+        near[0]["timeDefines"], weather["weatherCodes"], weather["weathers"]
+    ):
+        icon, _ = telop(code)
+        days[stamp[:10]] = {
+            "icon": icon,
+            # 「晴れ　時々　くもり」のように全角スペースで区切られているので詰める。
+            "text": re.sub(r"[　\s]+", "", text),
+            "pop": None,
+            "official": True,
+        }
+
+    blocks: list[dict] = []
+    pops_series = find_area(near[1], JMA_COAST_AREA)
+    for stamp, value in zip(near[1]["timeDefines"], pops_series["pops"]):
+        pop = to_int(value)
+        if pop is None:
+            continue
+        start = int(stamp[11:13])
+        blocks.append({"time": stamp[:16], "label": f"{start}-{start + 6}時", "pop": pop})
+        day = days.setdefault(stamp[:10], {"icon": "", "text": "", "pop": None, "official": True})
+        # その日の代表値は、6時間ごとのうち一番高い確率にする。
+        day["pop"] = pop if day["pop"] is None else max(day["pop"], pop)
+
+    # 週間予報：3日目以降の天気と降水確率。
+    week = data[1]["timeSeries"][0]
+    weekly = find_area(week, JMA_PREF_AREA)
+    for stamp, code, value in zip(week["timeDefines"], weekly["weatherCodes"], weekly["pops"]):
+        date = stamp[:10]
+        if date in days:  # 今日・明日は細かいほうの予報を優先する
+            continue
+        icon, text = telop(code)
+        days[date] = {"icon": icon, "text": text, "pop": to_int(value), "official": True}
+
+    return days, blocks, data[0]["reportDatetime"]
 
 
 def fetch_weather() -> dict:
-    """秋田市の天気（今日・明日、3時間ごとの降水確率、10日間）をまとめる。"""
+    """秋田市の天気（今日・明日、6時間ごとの降水確率、10日間）をまとめる。
+
+    天気と降水確率は気象庁、気温は Open-Meteo。気象庁の週間予報より先の日だけ、
+    天気と降水確率も Open-Meteo の予測で埋める（その日は official を false にする）。
+    """
     try:
         forecast = fetch_json(OPEN_METEO_URL)
     except Exception as exc:  # noqa: BLE001
-        print(f"  × 天気の取得に失敗: {type(exc).__name__}: {exc}")
+        print(f"  × 気温の取得に失敗: {type(exc).__name__}: {exc}")
         return {}
+    try:
+        jma_days, blocks, reported_at = jma_forecast()
+    except Exception as exc:  # noqa: BLE001  気象庁が読めない日は数値予報だけで出す
+        print(f"  × 気象庁の予報が読めません（Open-Meteoで代用）: {type(exc).__name__}: {exc}")
+        jma_days, blocks, reported_at = {}, [], ""
 
     daily = forecast["daily"]
-    hourly = forecast["hourly"]
-    texts, reported_at = jma_weather_texts()
-
-    days = [
-        {
+    days = []
+    for i, date in enumerate(daily["time"][:FORECAST_DAYS]):
+        entry = jma_days.get(date)
+        if entry is None:
+            icon, text = OM_CODES.get(daily["weather_code"][i], ("", "―"))
+            entry = {
+                "icon": icon,
+                "text": text,
+                "pop": daily["precipitation_probability_max"][i],
+                "official": False,
+            }
+        days.append({
             "date": date,
-            "code": daily["weather_code"][i],
             "max": daily["temperature_2m_max"][i],
             "min": daily["temperature_2m_min"][i],
-            "pop": daily["precipitation_probability_max"][i],
-            # 今日・明日だけ気象庁の天気文を添える。
-            "text": texts[i] if i < len(texts) and i < 2 else "",
-        }
-        for i, date in enumerate(daily["time"])
-    ]
+            **entry,
+        })
 
-    # 3時間ごとの降水確率。今日と明日の2日分だけ載せる。
-    two_days = set(daily["time"][:2])
-    hours = [
-        {
-            "time": stamp,
-            "pop": hourly["precipitation_probability"][i],
-            "temp": hourly["temperature_2m"][i],
-            "code": hourly["weather_code"][i],
-        }
-        for i, stamp in enumerate(hourly["time"])
-        if stamp[:10] in two_days and int(stamp[11:13]) % 3 == 0
-    ]
-
-    print(f"  天気: {len(days)}日分 / 3時間ごと {len(hours)}コマ")
+    official = sum(1 for day in days if day["official"])
+    print(f"  天気: {len(days)}日分（うち気象庁 {official}日）/ 6時間ごと {len(blocks)}コマ")
     return {
         "city": "秋田市",
         "reported_at": reported_at,
         "updated_at": dt.datetime.now(JST).isoformat(),
         "days": days,
-        "hours": hours,
+        "pops": blocks,
+        "link": TENKI_URL,
     }
 
 
