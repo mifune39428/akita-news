@@ -15,6 +15,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script src="ui.js" data-site="akita-news"></script>
 <style>
   :root {
     --bg: #f7f4ee;
@@ -287,7 +288,7 @@ function render() {
       // 出典と時刻は幅いっぱいに置き、見出しだけサムネイルと並べる。
       : `${meta}<div class="row"><div class="body">${title}</div>${img("thumb")}</div>`;
     return `
-    <article>
+    <article data-id="${escapeHtml(item.id)}">
       <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
         ${head}
         <p class="summary">${escapeHtml(item.summary_ja)}</p>
@@ -436,7 +437,7 @@ async function load() {
   try {
     const res = await fetch(`articles.json?t=${Date.now()}`, { cache: "no-store" });
     const data = await res.json();
-    all = data.items || [];
+    all = window.NEWS_ITEMS = data.items || [];
     document.getElementById("updated").textContent = data.updated_at ? `更新 ${relative(data.updated_at)}` : "";
     document.getElementById("sources").textContent = "収集元: " + (data.sources || []).join("、");
     renderWeather(data.weather);
