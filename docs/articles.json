@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-31T01:16:59.869524+09:00",
+ "updated_at": "2026-08-31T05:44:00.470210+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,13 +20,13 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-08-30T17:00:00+09:00",
-  "updated_at": "2026-08-31T01:20:13.451621+09:00",
+  "reported_at": "2026-08-31T05:00:00+09:00",
+  "updated_at": "2026-08-31T05:45:37.318882+09:00",
   "days": [
    {
     "date": "2026-08-31",
-    "max": 26.8,
-    "min": 20.6,
+    "max": 26.9,
+    "min": 21.0,
     "icon": "☁️",
     "text": "くもり",
     "pop": 10,
@@ -34,17 +34,17 @@
    },
    {
     "date": "2026-09-01",
-    "max": 25.5,
-    "min": 22.2,
+    "max": 28.4,
+    "min": 21.8,
     "icon": "🌦",
-    "text": "くもり一時雨",
-    "pop": null,
+    "text": "くもり昼前から夕方雨",
+    "pop": 60,
     "official": true
    },
    {
     "date": "2026-09-02",
-    "max": 27.9,
-    "min": 21.1,
+    "max": 26.8,
+    "min": 21.9,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -52,8 +52,8 @@
    },
    {
     "date": "2026-09-03",
-    "max": 22.9,
-    "min": 20.8,
+    "max": 25.8,
+    "min": 22.1,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 60,
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-09-04",
-    "max": 25.4,
-    "min": 19.2,
+    "max": 23.7,
+    "min": 20.6,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -70,8 +70,8 @@
    },
    {
     "date": "2026-09-05",
-    "max": 23.7,
-    "min": 18.0,
+    "max": 24.6,
+    "min": 18.2,
     "icon": "🌤",
     "text": "晴れ時々くもり",
     "pop": 20,
@@ -79,8 +79,8 @@
    },
    {
     "date": "2026-09-06",
-    "max": 22.8,
-    "min": 14.8,
+    "max": 27.2,
+    "min": 16.7,
     "icon": "🌤",
     "text": "晴れ時々くもり",
     "pop": 20,
@@ -88,57 +88,67 @@
    },
    {
     "date": "2026-09-07",
-    "max": 23.8,
-    "min": 14.1,
-    "icon": "🌤",
-    "text": "晴れ",
+    "max": 24.5,
+    "min": 18.8,
+    "icon": "🌦",
+    "text": "にわか雨",
     "pop": 25,
     "official": false
    },
    {
     "date": "2026-09-08",
-    "max": 24.1,
-    "min": 14.6,
-    "icon": "☁️",
-    "text": "くもり",
+    "max": 26.2,
+    "min": 20.7,
+    "icon": "⛈",
+    "text": "雷雨",
     "pop": 30,
     "official": false
    },
    {
     "date": "2026-09-09",
     "max": 26.2,
-    "min": 14.6,
-    "icon": "☁️",
-    "text": "くもり",
+    "min": 20.4,
+    "icon": "🌦",
+    "text": "にわか雨",
     "pop": 27,
     "official": false
    }
   ],
   "pops": [
    {
-    "time": "2026-08-30T18:00",
-    "label": "18-24時",
-    "pop": 30
-   },
-   {
-    "time": "2026-08-31T00:00",
-    "label": "0-6時",
-    "pop": 10
-   },
-   {
     "time": "2026-08-31T06:00",
     "label": "6-12時",
-    "pop": 10
+    "pop": 0
    },
    {
     "time": "2026-08-31T12:00",
     "label": "12-18時",
-    "pop": 0
+    "pop": 10
    },
    {
     "time": "2026-08-31T18:00",
     "label": "18-24時",
-    "pop": 0
+    "pop": 10
+   },
+   {
+    "time": "2026-09-01T00:00",
+    "label": "0-6時",
+    "pop": 10
+   },
+   {
+    "time": "2026-09-01T06:00",
+    "label": "6-12時",
+    "pop": 50
+   },
+   {
+    "time": "2026-09-01T12:00",
+    "label": "12-18時",
+    "pop": 60
+   },
+   {
+    "time": "2026-09-01T18:00",
+    "label": "18-24時",
+    "pop": 30
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -155,6 +165,7 @@
   "Koubo",
   "Mantan Web",
   "Mshale",
+  "NHK",
   "NHKニュース",
   "PR TIMES",
   "TVer",
@@ -166,7 +177,6 @@
   "oita-press.co.jp",
   "tenki.jp",
   "web.nhk",
-  "いこーよニュース",
   "なびたび北東北",
   "ウォーカープラス",
   "エフエム秋田",
@@ -202,6 +212,22 @@
  "count": 400,
  "items": [
   {
+   "id": "1e3cce82992febb8",
+   "url": "https://news.yahoo.co.jp/articles/f084810ee199cc8d655bea61eeff9b9b4771757c",
+   "title_original": "【秋田市】8/31 最高29℃、暑さを感じる場面がありそうな予想【朝版】",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260831-00020003-wordleafw-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-08-30T20:08:57+00:00",
+   "title_ja": "8月31日の秋田市は最高気温29度予想 日中は暑さを感じる見込み",
+   "summary_ja": "8月31日の秋田市は最高気温が29度まで上がる見込みです。日中の時間帯を中心に暑さを感じる場面があると予想されているため、体調管理などに注意しながら過ごすことが求められます。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "18c47c420e6e4e02",
    "url": "https://go2senkyo.com/seijika/196719/posts/1484979",
    "title_original": "8月29日、秋田市に神谷宗幣代表を迎えてタウンミィーティング。",
@@ -216,6 +242,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 2
+  },
+  {
+   "id": "31630113bfd700de",
+   "url": "https://tenki.jp/past/2026/08/30/amedas/2/8",
+   "title_original": "秋田県の過去のアメダス実況(2026年08月30日)(気温)",
+   "source": "tenki.jp",
+   "image": "https://storage.tenki.jp/archive/amedas/2026/08/30/15/00/00/temp/pref-8-large.jpg",
+   "local": false,
+   "published": "2026-08-30T15:30:24+00:00",
+   "title_ja": "8月30日の秋田県内アメダス実況データ 気温の観測結果",
+   "summary_ja": "2026年8月30日に秋田県内のアメダス観測点で記録された気温の実況データです。県内各地の観測地点における詳細な気温の推移や最高・最低気温の記録を確認できます。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
   },
   {
    "id": "5249b5b4b7daf532",
@@ -426,6 +468,54 @@
    "importance": 3
   },
   {
+   "id": "a657e97db86bf329",
+   "url": "https://news.web.nhk/newsweb/na/nb-6010029066",
+   "title_original": "秋田 高校生が自作ロボットの性能と操作技術を競う",
+   "source": "NHKニュース",
+   "image": "https://imgu.web.nhk/news/u/lnews/akita/20260830/6010029066_20260830185609_m.jpg",
+   "local": false,
+   "published": "2026-08-30T08:25:00+00:00",
+   "title_ja": "秋田の高校生が自作ロボットの性能と操作技術を競う",
+   "summary_ja": "秋田県において、高校生たちが自分自身の手で製作したロボットを使い、そのロボットの性能の高さや操作する技術の優劣を互いに競い合う様子について報じられています。高校生によるロボット競技が実施されました。",
+   "category": "教育・子育て",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "b5705f74609eb2f0",
+   "url": "https://www.walkerplus.com/article/1404767",
+   "title_original": "「日本一の汗かき」は秋田県民だった!?“秋田美人”のイメージにもつながる意外なルーツ",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1404767/17559473_615.jpg",
+   "local": false,
+   "published": "2026-08-30T08:13:04+00:00",
+   "title_ja": "秋田県民が日本一の汗かき？美人のイメージに繋がるルーツ",
+   "summary_ja": "「日本一の汗かき」は秋田県民であるという話題を取り上げ、「秋田美人」のイメージにもつながるという、汗かきと秋田美人の関係に関する意外なルーツや背景について紹介されています。",
+   "category": "くらし・地域",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "cbfb834f715a2eeb",
+   "url": "https://www.walkerplus.com/article/157450/image906882.html",
+   "title_original": "＜画像3 / 3＞秋田県大仙市・大曲の花火ウイークと合体！「夏まつり大曲2018」開催",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/157450/906881_615.jpg",
+   "local": false,
+   "published": "2026-08-30T08:04:03+00:00",
+   "title_ja": "大仙市で大曲の花火ウイークと連動した夏まつりが開催",
+   "summary_ja": "秋田県大仙市において、「大曲の花火ウイーク」と合体した形でイベント「夏まつり大曲2018」が開催されました。大仙市で行われた大曲の花火に関連するお祭りについて伝えられています。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "445c75502fbdb3b6",
    "url": "https://www.navitabi.jp/article/11367",
    "title_original": "大曲の花火、小松煙火工業（大仙市）に総理大臣賞",
@@ -538,6 +628,22 @@
    "importance": 3
   },
   {
+   "id": "fc32048bdf86afa3",
+   "url": "https://www.walkerplus.com/article/201431/image1220128.html",
+   "title_original": "＜画像1 / 2＞ハガレンの全てがここに！横手市増田まんが美術館で「鋼の錬金術師展」開催",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/201431/1220128_615.jpg",
+   "local": false,
+   "published": "2026-08-30T05:28:58+00:00",
+   "title_ja": "横手市増田まんが美術館で「鋼の錬金術師展」が開催",
+   "summary_ja": "横手市の増田まんが美術館で、人気漫画「鋼の錬金術師」の魅力を伝える原画展が開催される。作品の世界観を網羅した貴重な展示の数々を楽しめるイベントとなっている。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "event",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "4d7e62c0b56c126c",
    "url": "https://www.nikkansports.com/m/general/nikkan/news/202608300000572_m.html",
    "title_original": "JR東日本秋田支社、鳥海山ろくのワイナリーの人気モニターツアーを宿泊ツアーへ 初の商品化",
@@ -549,6 +655,22 @@
    "summary_ja": "JR東日本秋田支社は、鳥海山麓にあるワイナリーを訪ねる人気のモニターツアーを、新たに宿泊ツアーとして初めて商品化しました。地域の魅力をより深く楽しめる旅行商品として展開されます。",
    "category": "観光・イベント",
    "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "adcbc16a0acd1b42",
+   "url": "https://www.walkerplus.com/article/40915/image212186.html",
+   "title_original": "＜画像12 / 15＞秋田美人の壇蜜、「あきたこまち」の新CMで天女姿に！",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/40915/212165_615.jpg",
+   "local": false,
+   "published": "2026-08-30T05:23:17+00:00",
+   "title_ja": "壇蜜さんが秋田米「あきたこまち」新CMで天女姿に",
+   "summary_ja": "タレントの壇蜜さんが、秋田県産米「あきたこまち」の新しいテレビCMに出演し、艶やかな天女姿を披露した。秋田のおいしいお米を全国へアピールする内容となっている。",
+   "category": "グルメ・農林水産",
+   "area": "県全体",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -632,6 +754,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "78ec3a6a29474125",
+   "url": "https://news.infoseek.co.jp/amp/article/abs_1466628023018095020",
+   "title_original": "２４時間テレビ ABSチャリティー縁日にぎわう 秋田",
+   "source": "Infoseek",
+   "image": "https://media.image.infoseek.co.jp/isnews/photos/abs/abs_1466628023018095020_0-enlarge.jpg",
+   "local": false,
+   "published": "2026-08-30T02:56:08+00:00",
+   "title_ja": "ABSチャリティー縁日に多くの人が訪れ賑わう",
+   "summary_ja": "24時間テレビに合わせたABSチャリティー縁日が開かれ、会場は多くの来場者でにぎわいを見せた。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "79299bd826ce38e4",
@@ -1290,6 +1428,22 @@
    "importance": 3
   },
   {
+   "id": "620a6a12897d1856",
+   "url": "https://www.nhk.jp/g/ts/EK2WLW1ZXV",
+   "title_original": "生中継!秋田大曲 全国花火競技大会の最新情報",
+   "source": "NHK",
+   "image": "",
+   "local": false,
+   "published": "2026-08-29T09:29:10+00:00",
+   "title_ja": "大曲の花火競技大会を生中継で紹介",
+   "summary_ja": "全国から注目を集める秋田県の大曲の花火競技大会について、最新の情報を生中継で伝えています。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
    "id": "2f8fa3105d13dd4d",
    "url": "https://news.web.nhk/newsweb/na/nb-6010029062",
    "title_original": "秋田 鹿角特産「北限の桃」の収穫 最盛期",
@@ -1898,6 +2052,22 @@
    "importance": 3
   },
   {
+   "id": "ef2ce4759d165ce1",
+   "url": "https://news.livedoor.com/article/image_detail/32184665/?img_id=56013374",
+   "title_original": "【画像】秋田市で戦没者追悼式・平和祈念式典 戦争で亡くなった人を悼み戦争の記憶を次の世代へ…思いを新たに",
+   "source": "ライブドアニュース",
+   "image": "https://image.news.livedoor.com/newsimage/stf/a/3/a39e5_1821_c209f9a0_d2046686.jpg",
+   "local": false,
+   "published": "2026-08-28T22:39:21+00:00",
+   "title_ja": "秋田市で戦没者追悼式と平和祈念式典を開催",
+   "summary_ja": "秋田市にて戦没者を悼み平和を祈る式典が執り行われました。参列者は戦争で亡くなった方々を偲び、その記憶を次の世代へと継承していく決意を新たにしました。",
+   "category": "行政・政治",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "03297dba33a002f4",
    "url": "https://www.sakigake.jp/news/article/20260828AK0058",
    "title_original": "県内農家「余力なくなる」 消費者「値下がり期待」 ２６年産米・概算金大幅下落で",
@@ -2376,6 +2546,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 4
+  },
+  {
+   "id": "2273486aa9404b4b",
+   "url": "https://www.akt.co.jp/news?sel=20260828-00000005-AKT-1",
+   "title_original": "県北・中央部の大雨、新城川（秋田市）で氾濫確認 藤里町の田んぼに土砂流入 浸水被害や土砂崩れも 秋田",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/20260828-00000005-AKT-1-00-thumb.jpg",
+   "local": false,
+   "published": "2026-08-28T11:08:38+00:00",
+   "title_ja": "県北・中央部で大雨被害、新城川の氾濫や土砂流入も",
+   "summary_ja": "秋田県内の県北や中央部を襲った大雨により、秋田市の新城川で氾濫が確認されました。また、藤里町では田んぼへの土砂流入や浸水被害、土砂崩れなどが発生しています。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 5
   },
   {
    "id": "be881ef291c73802",
@@ -6421,182 +6607,6 @@
    "summary_ja": "全国でデータセンターの建設が進む中、排熱や騒音などによる周辺環境への悪影響を懸念する住民との摩擦も起きている。これに対し、秋田県はデータセンターの誘致において環境問題は発生しないとの姿勢を示している。",
    "category": "経済・企業",
    "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "b586118f12993fbf",
-   "url": "https://www.sakigake.jp/news/article/20260825AK0011",
-   "title_original": "家庭と仕事の両立、市長の考えは… 鹿角・大館・能代 子育て世代の３人がトーク",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260825ak0011_01_l.jpg",
-   "local": true,
-   "published": "2026-08-25T01:25:00+00:00",
-   "title_ja": "鹿角・大館・能代の3市長がトーク、自身の家事や育児との関わりを語る",
-   "summary_ja": "秋田県内の鹿角市、大館市、能代市の若手3市長が、家事や育児への関わり方、ワークライフバランスについて意見を交わすイベントが2026年8月23日に大館市で開かれた。子育て世代の市長らがそれぞれの考えを述べた。",
-   "category": "教育・子育て",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "db36629e0fbc8a44",
-   "url": "https://www.sakigake.jp/news/article/20260824AK0026",
-   "title_original": "改修中のＪＲ能代駅を公開 遊休スペース活用に向け５月から工事",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20260815G00015_l.jpg",
-   "local": true,
-   "published": "2026-08-25T01:00:00+00:00",
-   "title_ja": "改修中のJR能代駅舎で公開見学会、1940年当時の木造構造体が現れる",
-   "summary_ja": "JR秋田事業本部が、改修工事を行っている能代駅舎の見学会を開催した。二重に張られていた天井板の上から、1940年の建設当時のまま残る洋風小屋組みの木造構造体が現れ、工事担当者が説明を行った。",
-   "category": "くらし・地域",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "d5a8c9ee6fa9dad8",
-   "url": "https://www.asahi.com/articles/ASV8S3TKYV8SOXIE027M.html?iref=sp_preftop__n",
-   "title_original": "秋田市の魅力ある写真や動画投稿して！ 市公式インスタでコンテスト [秋田県]",
-   "source": "朝日新聞",
-   "image": "https://imgopt.asahi.com/ogp/AS20260824003635_comm.jpg",
-   "local": false,
-   "published": "2026-08-25T01:00:00+00:00",
-   "title_ja": "秋田市が公式インスタグラムで写真・動画コンテストを開催",
-   "summary_ja": "秋田市は、市の魅力を捉えた写真や動画を募集する公式インスタグラム上のコンテストを実施している。応募を通じて、市内各地の素晴らしい景色や特色ある魅力を広く発信していく狙いがある。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "3100be979199beae",
-   "url": "https://kahoku.news/articles/20260824khn000083.html",
-   "title_original": "秋田の自慢の味をどうぞ 鹿角・八幡平ポークが特許庁の地域団体商標に 横手では菌床シイタケの試食会",
-   "source": "河北新報オンライン",
-   "image": "https://kahoku.news/images/2026/08/24/20260824khn000083/001_size7.jpg?timestamp=20260825102013",
-   "local": false,
-   "published": "2026-08-25T01:00:00+00:00",
-   "title_ja": "鹿角・八幡平ポークが地域団体商標に登録、横手では試食会",
-   "summary_ja": "鹿角地域の銘柄豚である八幡平ポークが特許庁の地域団体商標に登録された。また、横手市では菌床シイタケの試食会が開かれるなど、県内各地の自慢の食の魅力が改めて注目を集めている。",
-   "category": "グルメ・農林水産",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "7e77ba44075df33a",
-   "url": "https://www.sakigake.jp/news/article/20260825AK0008",
-   "title_original": "楽天・伊藤樹（美郷町出身）きょうプロ初先発 オリックス戦",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260825ak0008_01_l.jpg",
-   "local": true,
-   "published": "2026-08-25T00:50:00+00:00",
-   "title_ja": "楽天の伊藤樹選手がオリックス戦でプロ初先発へ",
-   "summary_ja": "秋田県美郷町出身で東北楽天ゴールデンイーグルスの伊藤樹選手が、25日のオリックス戦でプロ初先発のマウンドに上がる。初の登板を経て落ち着いた様子を見せており、初勝利を目指して意気込みを語っている。",
-   "category": "スポーツ",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "e69681596fbb12e4",
-   "url": "https://www.sakigake.jp/news/article/20260825AK0006",
-   "title_original": "秋田市のアパート２棟に侵入か 林野庁職員を追起訴",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260825ak0006_01_l.jpg",
-   "local": true,
-   "published": "2026-08-25T00:40:00+00:00",
-   "title_ja": "秋田市のアパート侵入疑いで林野庁職員を追起訴",
-   "summary_ja": "秋田地検は24日、秋田市内のアパートに侵入したとして、石川県穴水町の林野庁職員の男を邸宅侵入の罪で追起訴したと発表した。起訴は19日付で行われたとしている。",
-   "category": "行政・政治",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "f5a71e056ae33a9d",
-   "url": "https://news.yahoo.co.jp/articles/5efc17dbe9f80f95269c10b2c0a678c51149176d",
-   "title_original": "県内は大雨になる所がある見込み 25日夜遅くにかけて土砂災害や河川の増水などに十分注意を 秋田 25日(午前5時9分)",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260825-06218815-absakita-000-1-view.jpg?exp=10800",
-   "local": false,
-   "published": "2026-08-25T00:30:01+00:00",
-   "title_ja": "県内で大雨のおそれ、土砂災害や河川増水に警戒を",
-   "summary_ja": "秋田県内では大雨となる所がある見込みで、25日夜遅くにかけて土砂災害や河川の増水などに十分な注意が必要となっている。今後の気象情報に留意し、安全確保に努めることが呼びかけられている。",
-   "category": "天気・防災",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "0e5a2178790e4865",
-   "url": "https://www.sakigake.jp/news/article/20260824AK0028",
-   "title_original": "四季折々のイラスト、絵本作家・藤嶋さんの作品展 大仙市・旧池田氏庭園",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20260809G00011_l.jpg",
-   "local": true,
-   "published": "2026-08-25T00:30:00+00:00",
-   "title_ja": "大仙市の旧池田氏庭園で絵本作家・藤嶋えみこさんの作品展",
-   "summary_ja": "大仙市出身の絵本作家兼イラストレーター藤嶋えみこさんの作品展が、同市の国指定名勝・旧池田氏庭園の米蔵で開催されています。四季折々の風景を描いたイラストなどが展示され、独自の柔らかな世界観を楽しむことができます。",
-   "category": "文化・芸能",
-   "area": "県南",
-   "kind": "event",
-   "event_when": "8月25日以降",
-   "importance": 3
-  },
-  {
-   "id": "1959623f7ca30e3e",
-   "url": "https://report.iko-yo.net/articles/33038",
-   "title_original": "卵の詰め放題や特売、福袋も！秋田のたまごの樹大曲店で14周年祭が9月5日開催",
-   "source": "いこーよニュース",
-   "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/32346/normal.jpg?1787617177",
-   "local": false,
-   "published": "2026-08-25T00:21:03+00:00",
-   "title_ja": "たまごの樹大曲店で14周年祭が9月5日に開催",
-   "summary_ja": "秋田の「たまごの樹大曲店」にて、オープン14周年を記念したイベントが9月5日に開催されます。当日は人気の卵の詰め放題や特売品の販売、お得な福袋の用意などがあり、多くの来場者で賑わうことが予想されます。",
-   "category": "観光・イベント",
-   "area": "県南",
-   "kind": "event",
-   "event_when": "9月5日",
-   "importance": 3
-  },
-  {
-   "id": "72547c27db3ed6ad",
-   "url": "https://prtimes.jp/main/html/rd/p/000000172.000046109.html",
-   "title_original": "SUNDRED、秋田で国交省地域生活圏リーディング事業採択",
-   "source": "PR TIMES",
-   "image": "https://prcdn.freetls.fastly.net/release_image/46109/172/46109-172-8941be9775d83c5ef07a32a88cde24d5-1280x720.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-   "local": false,
-   "published": "2026-08-25T00:10:02+00:00",
-   "title_ja": "SUNDREDの事業が国交省の地域生活圏リーディング事業に採択",
-   "summary_ja": "SUNDREDが秋田県内で展開する取り組みが、国土交通省の地域生活圏リーディング事業に採択されました。地域の活性化や持続可能な生活圏の形成に向けた今後の展開が期待されています。",
-   "category": "経済・企業",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "849cbf8c738a14ad",
-   "url": "https://www.sakigake.jp/news/article/20260824AK0029",
-   "title_original": "ステージ発表や「流しジュンサイ」… ７０回目の「森岳温泉夏まつり」催し多彩",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20260824G00011_l.jpg",
-   "local": true,
-   "published": "2026-08-25T00:00:00+00:00",
-   "title_ja": "三種町で第70回森岳温泉夏まつりが開催",
-   "summary_ja": "三種町の惣三郎沼公園で、記念すべき70回目を迎えた「森岳温泉夏まつり」が開催されました。ステージ発表や名物の「流しジュンサイ」が行われたほか、ゲストによるものまねステージも披露され、会場は大いに盛り上がりました。",
-   "category": "観光・イベント",
-   "area": "県北",
    "kind": "news",
    "event_when": "",
    "importance": 3
