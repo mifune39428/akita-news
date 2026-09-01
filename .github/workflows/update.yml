@@ -20,6 +20,9 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          # rebase するので履歴を全部取る（浅いクローンだと共通の祖先が無くて失敗する）
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -42,5 +45,13 @@ jobs:
             echo "新着なし。コミットしません。"
           else
             git commit -m "ニュース自動更新 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M')"
-            git push
+            # 実行中に手元から push が入ると弾かれる。取り込み直して押し直す。
+            pushed=0
+            for i in 1 2 3; do
+              if git push; then pushed=1; break; fi
+              echo "push が弾かれました。取り込み直して $i 回目の再挑戦…"
+              git pull --rebase origin main || exit 1
+              sleep 5
+            done
+            [ "$pushed" = 1 ] || { echo "3回試しても push できませんでした"; exit 1; }
           fi
