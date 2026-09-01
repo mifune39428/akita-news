@@ -442,6 +442,9 @@
   .ui-qr svg { width: min(340px, 78vw); height: auto; background: #fff; padding: 12px; border-radius: 10px; box-shadow: 0 1px 6px rgba(0,0,0,.18); }
   .ui-qr p { font-size: 12px; color: var(--muted); margin: 8px 0 0; }
   .ui-step { font-size: 13px; line-height: 1.9; margin: 0 0 12px; }
+  .ui-check { display: flex; gap: 8px; align-items: flex-start; font-size: 12.5px; line-height: 1.7; margin: 0 0 12px; cursor: pointer; }
+  .ui-check[hidden] { display: none; }
+  .ui-check input { margin-top: 3px; flex: 0 0 auto; }
   .ui-msg { min-height: 1.2em; font-size: 12.5px; }
   .ui-msg.bad { color: #d93025; }
   .ui-msg.good { color: #2a7a3a; }
@@ -593,7 +596,7 @@
      いま一覧に載っている記事は「IDと入れた時刻」だけ渡し、中身は受け取り側が
      自分の articles.json から引く。これで荷物がうんと小さくなり、QRに収まる。
      一覧から落ちた記事だけは引きようがないので、写しをそのまま入れる。 */
-  async function packStore() {
+  async function packStore(withToken) {
     const live = window.NEWS_ITEMS || [];
     const known = [], carried = [];
     store.items.forEach(item => {
@@ -601,6 +604,12 @@
       else carried.push(item);
     });
     const payload = { v: 3, k: known, f: carried, r: store.removed || {} };
+    // 同期の設定ごと渡すと、受け取った端末はそれ以降「開くだけ」で揃うようになる。
+    // トークンは # より後ろに入るのでサーバーには送られないが、履歴やコピーには残る。
+    if (withToken && getToken()) {
+      payload.t = getToken();
+      if (getGistId()) payload.g = getGistId();
+    }
     const bytes = new TextEncoder().encode(JSON.stringify(payload));
     const packed = await gzip(bytes);
     return packed ? "1" + b64encode(packed) : "0" + b64encode(bytes);
@@ -619,12 +628,12 @@
       if (found) items.push({ ...snapshot(found), saved_at: savedAt || nowIso() });
     });
     (payload.f || []).forEach(item => { if (item && item.id) items.push(item); });
-    return { v: 2, items, removed: payload.r || {} };
+    return { store: { v: 2, items, removed: payload.r || {} }, token: payload.t || "", gist: payload.g || "" };
   }
 
-  async function handoffLink() {
+  async function handoffLink(withToken) {
     const base = location.origin + location.pathname.replace(/[^/]*$/, "");
-    return base + "#fav=" + await packStore();
+    return base + "#fav=" + await packStore(withToken);
   }
 
   /* URLの # に付いてきたお気に入りを取り込む。
@@ -635,11 +644,21 @@
     history.replaceState(null, "", location.pathname + location.search);
     try {
       const before = store.items.length;
-      store = mergeStores(store, await unpackStore(match[1]));
+      const incoming = await unpackStore(match[1]);
+      store = mergeStores(store, incoming.store);
       writeStore();
+      // 同期の設定が付いてきたら、この端末にも入れる。
+      // 以後この端末は、開き直すだけでほかの端末と揃う。
+      let linked = false;
+      if (incoming.token && !getToken()) {
+        localStorage.setItem(TOKEN_KEY, incoming.token);
+        if (incoming.gist) localStorage.setItem(GIST_KEY, incoming.gist);
+        setSyncState("idle");
+        linked = true;
+      }
       refreshUi();
-      schedulePush();
-      return { before, after: store.items.length };
+      if (linked) sync("manual"); else schedulePush();
+      return { before, after: store.items.length, linked };
     } catch (err) {
       return { error: true };
     }
@@ -663,7 +682,8 @@
       setFavMode(true);
       showNote(result.error
         ? "⚠️ 受け渡しリンクを読めませんでした。もう一度作り直してください。"
-        : `✅ ほかの端末から取り込みました（${result.before}件 → ${result.after}件）`);
+        : `✅ ほかの端末から取り込みました（${result.before}件 → ${result.after}件）` +
+          (result.linked ? "。これからは開き直すだけで揃います。" : ""));
     }, 120);
   }
 
@@ -1018,7 +1038,9 @@
       <div class="ui-sheet" role="dialog" aria-modal="true" aria-label="お気に入りをほかの端末で見る">
         <h3>お気に入りをほかの端末で見る</h3>
         <p class="ui-step">別の端末のカメラでこのQRコードを読むと、そのままお気に入りが引き継がれます。手前の★と<strong>足し合わせる</strong>ので、どちら向きに渡しても消えません。</p>
+        <p class="ui-step"><strong>開き直すだけで揃うようにしたいとき</strong>は、下の「毎回自動でそろえる」を<em>この端末で1回だけ</em>設定し、そのうえでQRの下のチェックを入れて渡します。渡した端末も、以後は開き直すだけで揃います。</p>
         <div class="ui-qr"></div>
+        <label class="ui-check" hidden><input type="checkbox" class="ui-withtoken"> <span>同期の設定も一緒に渡す（渡した端末は、以後<strong>開き直すだけで揃う</strong>ようになります）</span></label>
         <div class="ui-row">
           <button type="button" class="ui-btn primary ui-copylink">リンクをコピー</button>
           <button type="button" class="ui-btn ui-refresh">作り直す</button>
@@ -1027,8 +1049,8 @@
         <p class="ui-fine">お気に入りはリンクの <code>#</code> より後ろに入っています。この部分はサーバーへ送られないので、どこかに保存されることはありません。AirDrop・メッセージ・ユニバーサルクリップボードなど、好きな方法で送れます。</p>
 
         <details class="ui-gist">
-          <summary>毎回自動でそろえたいとき（GitHubのトークンを使う）</summary>
-          <p>GitHub の非公開Gistに預けて、開くたびに自動で同期します。端末ごとに1回だけトークンを貼れば、6サイトぶんまとめて効きます。<strong>手間をかけたくなければ、上のQRコードだけで足ります。</strong></p>
+          <summary>毎回自動でそろえる（開き直すだけで揃う・GitHubのトークンを使う）</summary>
+          <p>GitHub の非公開Gistに預けて、<strong>開くたび（再読み込みのたび）に自動で同期</strong>します。設定するのは<strong>最初の1台だけ</strong>で構いません。ほかの端末へは、上のQRに設定ごと載せて渡せます。6サイトぶんまとめて効きます。</p>
           <ol>
             <li><a href="${TOKEN_URL}" target="_blank" rel="noopener noreferrer">GitHub でトークンを作る</a>（gist だけにチェックが入った状態で開きます）</li>
             <li>できた <code>ghp_…</code> を下に貼り付けて「保存して同期」</li>
@@ -1051,10 +1073,11 @@
     });
     box.querySelector(".ui-close").addEventListener("click", () => { box.hidden = true; });
     box.querySelector(".ui-refresh").addEventListener("click", () => drawHandoff());
+    box.querySelector(".ui-withtoken").addEventListener("change", () => drawHandoff());
 
     box.querySelector(".ui-copylink").addEventListener("click", async () => {
       try {
-        const link = await handoffLink();
+        const link = await handoffLink(withToken());
         await navigator.clipboard.writeText(link);
         message(`リンクをコピーしました（お気に入り ${store.items.length}件）。別の端末で開いてください。`, "good");
       } catch (err) {
@@ -1078,6 +1101,7 @@
           box.querySelector(".ui-clear").hidden = false;
           box.querySelector(".ui-token").value = "";
           box.querySelector(".ui-token").placeholder = "（この端末には登録済み）";
+          drawHandoff();   // 「同期の設定も渡す」を選べるようにする
         }
       } catch (err) {
         localStorage.removeItem(TOKEN_KEY);
@@ -1112,8 +1136,16 @@
     return box;
   }
 
+  const withToken = () => {
+    const box = modal && modal.querySelector(".ui-withtoken");
+    return !!(box && box.checked && getToken());
+  };
+
   // QRコードを描く。件数が多くて読み取れない大きさになるときは、リンクだけ案内する。
   async function drawHandoff() {
+    // 同期の設定を持っている端末だけ、それも一緒に渡せるようにする。
+    const check = modal.querySelector(".ui-check");
+    check.hidden = !getToken();
     const area = modal.querySelector(".ui-qr");
     if (!store.items.length) {
       area.innerHTML = '<p>お気に入りがまだありません。★を付けてから渡してください。</p>';
@@ -1122,7 +1154,7 @@
     area.innerHTML = '<p>用意しています…</p>';
     let link;
     try {
-      link = await handoffLink();
+      link = await handoffLink(withToken());
     } catch (err) {
       area.innerHTML = '<p>受け渡しの用意に失敗しました。</p>';
       return;
@@ -1147,7 +1179,7 @@
     area.innerHTML =
       `<svg viewBox="0 0 ${span} ${span}" shape-rendering="crispEdges" role="img" aria-label="お気に入りの受け渡し用QRコード">` +
       `<rect width="${span}" height="${span}" fill="#fff"/><path d="${path}" fill="#000"/></svg>` +
-      `<p>お気に入り ${store.items.length}件</p>`;
+      `<p>お気に入り ${store.items.length}件${withToken() ? "＋同期の設定" : ""}</p>`;
   }
 
   /* ------------------------------------------------------------------ 詳細ページ */
