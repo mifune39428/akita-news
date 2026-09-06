@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-07T00:07:42.853934+09:00",
+ "updated_at": "2026-09-07T05:08:15.351294+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,31 +20,31 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-09-06T17:00:00+09:00",
-  "updated_at": "2026-09-07T00:09:30.392096+09:00",
+  "reported_at": "2026-09-07T05:00:00+09:00",
+  "updated_at": "2026-09-07T05:09:35.308539+09:00",
   "days": [
    {
     "date": "2026-09-07",
-    "max": 23.6,
-    "min": 21.2,
-    "icon": "🌧",
-    "text": "くもり昼前から雨",
-    "pop": 70,
+    "max": 23.3,
+    "min": 20.8,
+    "icon": "☁️",
+    "text": "くもり所により朝から夕方雨",
+    "pop": 40,
     "official": true
    },
    {
     "date": "2026-09-08",
-    "max": 27.1,
-    "min": 19.0,
-    "icon": "🌦",
-    "text": "くもり一時雨",
-    "pop": null,
+    "max": 26.8,
+    "min": 18.9,
+    "icon": "🌤",
+    "text": "晴れ昼過ぎからくもり所により夕方から雨",
+    "pop": 40,
     "official": true
    },
    {
     "date": "2026-09-09",
-    "max": 23.0,
-    "min": 15.6,
+    "max": 24.2,
+    "min": 19.3,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -52,8 +52,8 @@
    },
    {
     "date": "2026-09-10",
-    "max": 25.3,
-    "min": 12.1,
+    "max": 24.3,
+    "min": 13.3,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-09-11",
-    "max": 23.4,
-    "min": 18.0,
+    "max": 25.2,
+    "min": 18.3,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -70,8 +70,8 @@
    },
    {
     "date": "2026-09-12",
-    "max": 24.6,
-    "min": 18.1,
+    "max": 24.5,
+    "min": 17.8,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -79,7 +79,7 @@
    },
    {
     "date": "2026-09-13",
-    "max": 26.3,
+    "max": 27.3,
     "min": 17.5,
     "icon": "☁️",
     "text": "くもり",
@@ -88,57 +88,67 @@
    },
    {
     "date": "2026-09-14",
-    "max": 23.4,
-    "min": 21.3,
-    "icon": "⛈",
-    "text": "雷雨",
+    "max": 23.8,
+    "min": 20.2,
+    "icon": "🌦",
+    "text": "にわか雨",
     "pop": 49,
     "official": false
    },
    {
     "date": "2026-09-15",
-    "max": 24.1,
-    "min": 21.3,
-    "icon": "⛈",
-    "text": "雷雨",
+    "max": 21.2,
+    "min": 18.8,
+    "icon": "🌦",
+    "text": "にわか雨",
     "pop": 55,
     "official": false
    },
    {
     "date": "2026-09-16",
-    "max": 22.6,
-    "min": 20.8,
-    "icon": "🌦",
-    "text": "にわか雨",
+    "max": 22.7,
+    "min": 16.2,
+    "icon": "☁️",
+    "text": "くもり",
     "pop": 47,
     "official": false
    }
   ],
   "pops": [
    {
-    "time": "2026-09-06T18:00",
-    "label": "18-24時",
-    "pop": 0
-   },
-   {
-    "time": "2026-09-07T00:00",
-    "label": "0-6時",
-    "pop": 10
-   },
-   {
     "time": "2026-09-07T06:00",
     "label": "6-12時",
-    "pop": 50
+    "pop": 40
    },
    {
     "time": "2026-09-07T12:00",
     "label": "12-18時",
-    "pop": 70
+    "pop": 40
    },
    {
     "time": "2026-09-07T18:00",
     "label": "18-24時",
-    "pop": 60
+    "pop": 10
+   },
+   {
+    "time": "2026-09-08T00:00",
+    "label": "0-6時",
+    "pop": 10
+   },
+   {
+    "time": "2026-09-08T06:00",
+    "label": "6-12時",
+    "pop": 10
+   },
+   {
+    "time": "2026-09-08T12:00",
+    "label": "12-18時",
+    "pop": 20
+   },
+   {
+    "time": "2026-09-08T18:00",
+    "label": "18-24時",
+    "pop": 40
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -159,6 +169,7 @@
   "Mshale",
   "NHKニュース",
   "PR TIMES",
+  "South65",
   "TBS NEWS DIG",
   "TRILL",
   "Yahoo!ニュース",
@@ -172,6 +183,7 @@
   "spice.eplus.jp",
   "tenki.jp",
   "topics.smt.docomo.ne.jp",
+  "walkerplus.com",
   "zenrosai.coop",
   "いこーよニュース",
   "ウォーカープラス",
@@ -181,6 +193,7 @@
   "トラベルボイス",
   "ニコニコニュース",
   "ライブドアニュース",
+  "北海道新聞デジタル",
   "北羽新報社",
   "千葉テレビ放送",
   "日テレNEWS NNN",
@@ -236,6 +249,38 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "1d5dd95b5e58be5a",
+   "url": "https://www.hokkaido-np.co.jp/article/1365879",
+   "title_original": "レバンガが秋田に連勝 富永25得点 プレシーズンゲーム",
+   "source": "北海道新聞デジタル",
+   "image": "https://static.hokkaido-np.co.jp/image/article/size1/1/8/0/3/1803921660fd44ec87b0a94ca3f96e83_1.webp?20260907050929",
+   "local": false,
+   "published": "2026-09-06T13:34:07+00:00",
+   "title_ja": "プレシーズンゲームで敗戦",
+   "summary_ja": "バスケットボールのプレシーズンゲームで、秋田関連チームが対戦相手に連敗を喫したというスポーツの話題です。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "e9abb9b2ad9fbdee",
+   "url": "https://kahoku.news/articles/20260906khn000028.html",
+   "title_original": "秋田の野菜たっぷりカレーに「カンゲキ～」 ＜みちのく＞",
+   "source": "河北新報オンライン",
+   "image": "https://kahoku.news/images/2026/09/06/20260906khn000028/001_size7.jpg?timestamp=20260907050930",
+   "local": false,
+   "published": "2026-09-06T12:59:00+00:00",
+   "title_ja": "秋田の野菜を使ったカレーが話題に",
+   "summary_ja": "秋田県産の野菜をふんだんに使用したカレーが提供され、好評を得ている話題を取り上げています。",
+   "category": "グルメ・農林水産",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "79ea8d374b2176dd",
@@ -538,6 +583,22 @@
    "category": "スポーツ",
    "area": "県全体",
    "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "b51e288b77adf538",
+   "url": "https://www.walkerplus.com/article/1003379/image10021926.html",
+   "title_original": "＜画像1 / 2＞岡本太郎が作り上げた「太陽の塔」の全貌が明らかになる企画展が秋田県で開催",
+   "source": "walkerplus.com",
+   "image": "https://news.walkerplus.com/article/1003379/10021926_615.jpg",
+   "local": false,
+   "published": "2026-09-06T07:08:04+00:00",
+   "title_ja": "岡本太郎の「太陽の塔」企画展が秋田で開催",
+   "summary_ja": "岡本太郎が手掛けた「太陽の塔」の全貌に迫る企画展が、秋田県内で開催されます。",
+   "category": "文化・芸能",
+   "area": "県全体",
+   "kind": "event",
    "event_when": "",
    "importance": 3
   },
@@ -1102,6 +1163,22 @@
    "importance": 3
   },
   {
+   "id": "237b75b2a9e85db9",
+   "url": "https://tenki.jp/radar/2/8",
+   "title_original": "秋田県の雨雲レーダー(実況)",
+   "source": "tenki.jp",
+   "image": "https://static.tenki.jp/static-images/radar/recent/pref-8-large.jpg",
+   "local": false,
+   "published": "2026-09-05T16:44:57+00:00",
+   "title_ja": "秋田県内の雨雲レーダー状況",
+   "summary_ja": "秋田県内の現在の降雨状況を確認できる気象情報です。お出かけの際などの参考にしてください。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "d354838dd058094a",
    "url": "https://trilltrill.jp/articles/4974385",
    "title_original": "「注意してください」クマに続いて…秋田市沖で目撃された“巨大生物“に「かなりビックリする」",
@@ -1148,6 +1225,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 2
+  },
+  {
+   "id": "1251d53255746b70",
+   "url": "https://www.asahi.com/s-plus/record/contest_category/1499.html",
+   "title_original": "第69回東北吹奏楽コンクール高校小編成の部 大会結果｜審査結果・出場団体・演奏曲｜吹奏楽プラス",
+   "source": "朝日新聞",
+   "image": "https://www.asahicom.jp/s-plus/img/lp/record_db.webp",
+   "local": false,
+   "published": "2026-09-05T12:32:05+00:00",
+   "title_ja": "東北吹奏楽コンクール高校小編成の結果",
+   "summary_ja": "第69回東北吹奏楽コンクール高校小編成の部における審査結果や、出場団体および演奏曲の情報が公開されています。",
+   "category": "文化・芸能",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "ad184170208520a4",
@@ -1516,6 +1609,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 4
+  },
+  {
+   "id": "a6aae24d3d8ef2df",
+   "url": "https://south65.jp/%E7%B5%82%E6%B4%BB%E3%81%AE%E5%B8%B8%E8%AD%98%E3%82%92%E8%A6%86%E3%81%99%E3%80%8C%E7%A6%8F%E7%A5%89%E3%82%A8%E3%83%B3%E3%82%BF%E3%83%A1%E3%80%8D%E3%81%A8%E3%81%AF%E3%80%82%E7%A7%8B%E7%94%B0%E7%8A%AC",
+   "title_original": "終活の常識を覆す「福祉エンタメ」とは。秋田犬と交流する古民家カフェが提供する新たな地域支援",
+   "source": "South65",
+   "image": "",
+   "local": false,
+   "published": "2026-09-05T09:04:55+00:00",
+   "title_ja": "秋田犬と触れ合う古民家カフェの福祉エンタメ",
+   "summary_ja": "秋田犬との交流を通じて地域支援を行う、新しいスタイルの終活や福祉エンタメを提供する古民家カフェの取り組みです。",
+   "category": "くらし・地域",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "c97e29105ba1164e",
@@ -6508,102 +6617,6 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
-  },
-  {
-   "id": "7495e7551dfce10a",
-   "url": "https://www.akt.co.jp/news?sel=20260901-00000010-AKT-1",
-   "title_original": "おなかをぱちぱち！得意の“腹太鼓”で日本一に 男鹿水族館GAOのゴマフアザラシ・ターボが人気 秋田",
-   "source": "AKT秋田テレビ",
-   "image": "https://www.akt.co.jp/akt_news/20260901-00000010-AKT-1-00-thumb.jpg",
-   "local": false,
-   "published": "2026-09-01T12:17:05+00:00",
-   "title_ja": "男鹿水族館のゴマフアザラシが“腹太鼓”で人気",
-   "summary_ja": "男鹿水族館GAOで飼育されているゴマフアザラシのターボが、得意のおなかをたたくパフォーマンスで人気を集めています。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "69e82001ad47d729",
-   "url": "https://www.akt.co.jp/news?sel=20260901-00000008-AKT-1",
-   "title_original": "「多くの国民に不快な思いさせた」 秋田県の鈴木知事、懲戒処分の幹部職員の言動を陳謝",
-   "source": "AKT秋田テレビ",
-   "image": "https://www.akt.co.jp/akt_news/20260901-00000008-AKT-1-00-thumb.jpg",
-   "local": false,
-   "published": "2026-09-01T11:46:44+00:00",
-   "title_ja": "鈴木知事が懲戒処分を受けた幹部職員の言動について陳謝",
-   "summary_ja": "秋田県の鈴木知事が、懲戒処分となった幹部職員の言動に関して多くの国民に不快な思いをさせたと陳謝しました。",
-   "category": "行政・政治",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "b476a2afbf217832",
-   "url": "https://www.sakigake.jp/news/article/20260901AK0041",
-   "title_original": "２１４人、学びへの意欲新たに 国際教養大で秋季入学式",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20260901G00023_l.jpg",
-   "local": true,
-   "published": "2026-09-01T11:46:00+00:00",
-   "title_ja": "国際教養大で秋季入学式、214人が新たな学びのスタート",
-   "summary_ja": "秋田市の国際教養大学で秋季入学式が行われました。新入生や留学生計214人が出席し、それぞれの目標に向けて学びへの意欲を新たにしました。",
-   "category": "教育・子育て",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "ffce0fdd612125f4",
-   "url": "https://www.sakigake.jp/news/article/20260901AK0040",
-   "title_original": "鈴木知事「危機感を持っている」 秋田県の社会減、７月末時点で４千人超",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260901ak0040_01_l.jpg",
-   "local": true,
-   "published": "2026-09-01T11:35:00+00:00",
-   "title_ja": "鈴木知事「社会減4千人超に危機感」 秋田県人口",
-   "summary_ja": "鈴木健太知事は定例会見で、県外への転出が転入を上回る人口の社会減が、今年七月末時点で四千人を超えたことについて危機感を示しました。県は人口減少対策の総合計画を進めています。",
-   "category": "行政・政治",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "db0cdb45ceda36b5",
-   "url": "https://abema.tv/video/episode/89-42_s0_p529219",
-   "title_original": "秋田・能代市に「レベル4土砂災害危険警報」 気象庁",
-   "source": "ABEMA",
-   "image": "",
-   "local": false,
-   "published": "2026-09-01T11:33:20+00:00",
-   "title_ja": "能代市に「レベル4土砂災害危険警報」気象庁発表",
-   "summary_ja": "気象庁は、秋田県能代市に対してレベル4の土砂災害危険警報を発表しました。今後の気象情報や自治体からの避難情報に注意してください。",
-   "category": "天気・防災",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "5a0f2153354a4aa8",
-   "url": "https://www.walkerplus.com/event/ar0205e612158",
-   "title_original": "愛宕神社祭典大名行列(秋田県)の情報",
-   "source": "ウォーカープラス",
-   "image": "https://ms-cache.walkerplus.com/walkertouch/wtd/event/58/l2/612158.jpg",
-   "local": false,
-   "published": "2026-09-01T11:25:13+00:00",
-   "title_ja": "愛宕神社祭典大名行列の開催情報",
-   "summary_ja": "秋田県で行われる愛宕神社祭典大名行列のイベント情報です。伝統的な行列の様子や見どころを確認して、現地へ出かけてみましょう。",
-   "category": "観光・イベント",
-   "area": "県全体",
-   "kind": "event",
-   "event_when": "",
-   "importance": 2
   }
  ]
 }
