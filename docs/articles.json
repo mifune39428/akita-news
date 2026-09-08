@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T01:14:36.040896+09:00",
+ "updated_at": "2026-09-09T05:52:14.539720+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,31 +20,31 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-09-08T17:00:00+09:00",
-  "updated_at": "2026-09-09T01:15:18.394973+09:00",
+  "reported_at": "2026-09-09T05:00:00+09:00",
+  "updated_at": "2026-09-09T05:52:49.970148+09:00",
   "days": [
    {
     "date": "2026-09-09",
-    "max": 23.7,
-    "min": 17.7,
+    "max": 22.6,
+    "min": 17.4,
     "icon": "🌦",
     "text": "くもり後晴れ明け方まで雨",
-    "pop": 50,
+    "pop": 30,
     "official": true
    },
    {
     "date": "2026-09-10",
-    "max": 24.6,
-    "min": 15.6,
+    "max": 22.6,
+    "min": 15.4,
     "icon": "⛅",
-    "text": "くもり時々晴れ",
-    "pop": null,
+    "text": "くもり昼過ぎまで時々晴れ",
+    "pop": 0,
     "official": true
    },
    {
     "date": "2026-09-11",
-    "max": 22.8,
-    "min": 15.5,
+    "max": 26.2,
+    "min": 18.8,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -52,8 +52,8 @@
    },
    {
     "date": "2026-09-12",
-    "max": 25.5,
-    "min": 14.7,
+    "max": 25.4,
+    "min": 16.1,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-09-13",
-    "max": 26.1,
-    "min": 19.9,
+    "max": 27.0,
+    "min": 20.6,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -70,8 +70,8 @@
    },
    {
     "date": "2026-09-14",
-    "max": 24.9,
-    "min": 20.7,
+    "max": 23.9,
+    "min": 21.0,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -79,8 +79,8 @@
    },
    {
     "date": "2026-09-15",
-    "max": 24.8,
-    "min": 19.3,
+    "max": 22.7,
+    "min": 17.6,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -88,43 +88,33 @@
    },
    {
     "date": "2026-09-16",
-    "max": 22.9,
-    "min": 18.1,
-    "icon": "🌦",
-    "text": "霧雨",
+    "max": 23.0,
+    "min": 14.7,
+    "icon": "☁️",
+    "text": "くもり",
     "pop": 50,
     "official": false
    },
    {
     "date": "2026-09-17",
-    "max": 25.4,
-    "min": 18.0,
-    "icon": "🌦",
-    "text": "霧雨",
+    "max": 26.1,
+    "min": 13.4,
+    "icon": "☁️",
+    "text": "くもり",
     "pop": 49,
     "official": false
    },
    {
     "date": "2026-09-18",
-    "max": 23.7,
-    "min": 19.5,
+    "max": 23.6,
+    "min": 15.5,
     "icon": "🌦",
-    "text": "にわか雨",
+    "text": "霧雨",
     "pop": 33,
     "official": false
    }
   ],
   "pops": [
-   {
-    "time": "2026-09-08T18:00",
-    "label": "18-24時",
-    "pop": 70
-   },
-   {
-    "time": "2026-09-09T00:00",
-    "label": "0-6時",
-    "pop": 50
-   },
    {
     "time": "2026-09-09T06:00",
     "label": "6-12時",
@@ -137,6 +127,26 @@
    },
    {
     "time": "2026-09-09T18:00",
+    "label": "18-24時",
+    "pop": 10
+   },
+   {
+    "time": "2026-09-10T00:00",
+    "label": "0-6時",
+    "pop": 0
+   },
+   {
+    "time": "2026-09-10T06:00",
+    "label": "6-12時",
+    "pop": 0
+   },
+   {
+    "time": "2026-09-10T12:00",
+    "label": "12-18時",
+    "pop": 0
+   },
+   {
+    "time": "2026-09-10T18:00",
     "label": "18-24時",
     "pop": 0
    }
@@ -220,6 +230,54 @@
  ],
  "count": 400,
  "items": [
+  {
+   "id": "5233805d44fb5728",
+   "url": "https://mainichi.jp/articles/20260908/k00/00m/310/230000c",
+   "title_original": "曳山のぶつかり合いに大歓声 無形文化遺産「やま行事」 秋田",
+   "source": "毎日新聞",
+   "image": "https://cdn.mainichi.jp/vol1/2026/09/08/20260908k0000m310260000p/0c10.jpg?1",
+   "local": false,
+   "published": "2026-09-08T20:45:00+00:00",
+   "title_ja": "無形文化遺産のやま行事、迫力のぶつかり合いに歓声",
+   "summary_ja": "ユネスコ無形文化遺産に登録されている秋田の「やま行事」が開催され、迫力ある山車のぶつかり合いに大きな歓声が上がりました。",
+   "category": "文化・芸能",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "e91b64cd15f7336a",
+   "url": "https://kahoku.news/articles/20260908khn000072.html",
+   "title_original": "ぶつかり合う山車と意地 秋田・仙北の「角館祭りのやま行事」で、観光やまぶっつけ",
+   "source": "河北新報オンライン",
+   "image": "https://kahoku.news/images/2026/09/08/20260908khn000072/001_size7.jpg?timestamp=20260909055244",
+   "local": false,
+   "published": "2026-09-08T20:00:00+00:00",
+   "title_ja": "角館祭りのやま行事、山車と意地がぶつかり合う迫力の競演",
+   "summary_ja": "仙北市で行われた「角館祭りのやま行事」で、観光やまぶっつけが行われました。山車同士が激しくぶつかり合い、熱気に包まれました。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "1231424a61d59ec1",
+   "url": "https://kahoku.news/articles/20260908khn000049.html",
+   "title_original": "「特定利用空港・港湾の指定前に説明会を」 防衛力強化の一環で国が打診、秋田の住民団体が開催要望",
+   "source": "河北新報オンライン",
+   "image": "https://kahoku.news/images/2026/09/08/20260908khn000049/001_size7.jpg?timestamp=20260909055244",
+   "local": false,
+   "published": "2026-09-08T20:00:00+00:00",
+   "title_ja": "特定利用空港・港湾の指定めぐり住民団体が説明会を要望",
+   "summary_ja": "防衛力強化の一環として国が打診している特定利用空港・港湾の指定に関し、県内の住民団体が国に対して事前の説明会開催を求めました。",
+   "category": "行政・政治",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
   {
    "id": "5d2e84b76c4edd76",
    "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1470051042321006753",
@@ -346,6 +404,22 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "b84a42339979fa27",
+   "url": "https://www.sakigake.jp/news/article/20260908AK0025",
+   "title_original": "高校ラグビー秋田県予選、組み合わせ決まる ５チーム出場、１０月４日開幕",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260908ak0025_01_l.jpg",
+   "local": true,
+   "published": "2026-09-08T11:03:00+00:00",
+   "title_ja": "高校ラグビー県予選組み合わせ決定　10月4日開幕",
+   "summary_ja": "秋田市のアキタパークホテルで行われた抽選会で、5校が出場する第106回全国高校ラグビー大会の県予選組み合わせが決定し、10月4日に開幕することが発表された。",
+   "category": "スポーツ",
+   "area": "中央",
+   "kind": "event",
+   "event_when": "10月4日",
    "importance": 3
   },
   {
@@ -893,6 +967,22 @@
    "importance": 2
   },
   {
+   "id": "f09ada42eeae68bd",
+   "url": "https://www.sakigake.jp/news/list/scd/101089090",
+   "title_original": "にかほが映画に「ルックバック」公開へ",
+   "source": "秋田魁新報電子版",
+   "image": "",
+   "local": false,
+   "published": "2026-09-08T03:20:16+00:00",
+   "title_ja": "にかほ市が舞台の映画「ルックバック」が公開へ",
+   "summary_ja": "にかほ市が舞台となっている映画「ルックバック」の公開が予定されています。県内の風景がどのように描かれるのか注目されます。",
+   "category": "文化・芸能",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "0b41859596937bd1",
    "url": "https://www.sakigake.jp/news/article/20260908AK0015",
    "title_original": "コメ概算金下落、鈴木知事「本県農業の根幹を揺るがす深刻な懸念」 ９月県議会開会",
@@ -1291,6 +1381,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 2
+  },
+  {
+   "id": "a78431d0fd2c8b40",
+   "url": "https://tenki.jp/radar/2/8/rainmesh.html",
+   "title_original": "秋田県の雨雲レーダー(予報)",
+   "source": "tenki.jp",
+   "image": "https://static.tenki.jp/static-images/rainmesh/60/pref-8-large.jpg",
+   "local": false,
+   "published": "2026-09-07T19:31:47+00:00",
+   "title_ja": "秋田県内の雨雲レーダーと天気の予報",
+   "summary_ja": "秋田県内各地の雨雲の動きや今後の天気予報を確認できます。急な天気の変化に備えて活用できます。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "0d4d7a01d98d7240",
@@ -2093,6 +2199,22 @@
    "importance": 3
   },
   {
+   "id": "d4c565e397eb2275",
+   "url": "https://www.akita-abs.co.jp/blog/tamura/archives/1981",
+   "title_original": "田村修のブログ – 【リレーブログ】変化",
+   "source": "ABS秋田放送",
+   "image": "https://www.akita-abs.co.jp/blog/images/tamura/260907a.jpg",
+   "local": false,
+   "published": "2026-09-07T02:31:35+00:00",
+   "title_ja": "アナウンサーによるリレーブログの更新",
+   "summary_ja": "秋田放送のアナウンサーによるリレー形式のブログ記事が更新されました。日々の暮らしや身の回りの変化について綴られています。",
+   "category": "文化・芸能",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
+  },
+  {
    "id": "01f8f91e611567f6",
    "url": "https://www.47news.jp/14903558.html",
    "title_original": "聖霊学園、上智大への進学者が県内最多 秋田の高卒者進路",
@@ -2183,6 +2305,22 @@
    "title_ja": "能代市二ツ井町で「小掛の鍾馗様」の衣替え 地域の安泰を祈願",
    "summary_ja": "能代市二ツ井町で、地域の守り神である「小掛の鍾馗様」の衣替えが行われました。新しくなった鍾馗様を祠に安置し、集まった地域住民らが今後の安寧や安全を祈願しました。",
    "category": "文化・芸能",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "834881a4018f0d65",
+   "url": "https://www.hokuu.co.jp/?p=44060",
+   "title_original": "能代市、事業者のICT導入後押し 専門家派遣や補助金を交付",
+   "source": "北羽新報社",
+   "image": "",
+   "local": false,
+   "published": "2026-09-07T01:33:31+00:00",
+   "title_ja": "能代市が事業者のICT導入を支援へ",
+   "summary_ja": "能代市は、地域事業者のICT導入を後押しする取り組みを実施します。専門家の派遣や補助金の交付を通じて、デジタル化を進める企業をサポートします。",
+   "category": "経済・企業",
    "area": "県北",
    "kind": "news",
    "event_when": "",
@@ -6491,134 +6629,6 @@
    "kind": "event",
    "event_when": "",
    "importance": 2
-  },
-  {
-   "id": "93fe4785ecc41867",
-   "url": "https://www.nhk.or.jp/akita/info/articles/310/050/78",
-   "title_original": "秋田弁de川柳 ９月のお題募集「しなりじえ」",
-   "source": "nhk.or.jp",
-   "image": "https://www.nhk.or.jp/akita/info/articles/310/050/78/img/og.jpg",
-   "local": false,
-   "published": "2026-09-03T10:30:43+00:00",
-   "title_ja": "秋田弁de川柳、9月のお題「しなりじえ」を募集",
-   "summary_ja": "秋田弁を使った川柳コーナーで、9月のお題が「しなりじえ」に決まり作品の募集が行われている。県民のユニークな一句に期待が高まる。",
-   "category": "文化・芸能",
-   "area": "県全体",
-   "kind": "event",
-   "event_when": "9月",
-   "importance": 2
-  },
-  {
-   "id": "c736ed969ada5d22",
-   "url": "https://www.sakigake.jp/news/article/20260903AK0040",
-   "title_original": "焼いたアユにしょっつるのうま味を添えて 「秋田流炊き込みごはん」レシピを紹介【あきたごはん】",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260903ak0040_01_l.jpg",
-   "local": true,
-   "published": "2026-09-03T10:30:00+00:00",
-   "title_ja": "焼きアユと旨味が生む秋の味覚、炊き込みごはんのレシピ紹介",
-   "summary_ja": "秋田の旬の食材を紹介する企画で、焼きアユとしょっつるを使った炊き込みごはんなどのレシピが公開されました。家庭で楽しめる秋の献立として提案されています。",
-   "category": "グルメ・農林水産",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "d7cf13b061e4a2cf",
-   "url": "https://www.akt.co.jp/news?sel=20260903-00000008-AKT-1",
-   "title_original": "「今できる一番の演奏を」 本荘東小学校吹奏楽部、創部から3カ月余りで東北大会に出場 秋田・由利本荘市",
-   "source": "AKT秋田テレビ",
-   "image": "https://www.akt.co.jp/akt_news/20260903-00000008-AKT-1-00-thumb.jpg",
-   "local": false,
-   "published": "2026-09-03T10:23:23+00:00",
-   "title_ja": "創部3カ月で東北大会へ 由利本荘市の本荘東小吹奏楽部",
-   "summary_ja": "由利本荘市の本荘東小学校吹奏楽部が、創部からわずか3カ月余りで東北大会への出場を決めた。部員たちは「今できる一番の演奏をしたい」と大舞台に向けた意気込みを見せている。",
-   "category": "文化・芸能",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "8b763c37c89b76ce",
-   "url": "https://www.sakigake.jp/news/article/20260903AK0066",
-   "title_original": "秋田県内の手足口病患者数、２週連続で増加",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260903ak0066_01_l.jpg",
-   "local": true,
-   "published": "2026-09-03T10:20:00+00:00",
-   "title_ja": "秋田県内で手足口病の患者数が2週連続で増加",
-   "summary_ja": "県内における手足口病の患者数が2週連続で増加した。県は医療機関からの報告を公表し、感染対策の徹底を呼びかけている。",
-   "category": "くらし・地域",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "841897fe71b1a266",
-   "url": "https://news.livedoor.com/topics/detail/32233105",
-   "title_original": "引退発表の秋田市出身・ヤクルト石川雅規投手へ 地元からねぎらいの声 今後への期待も (2026年9月3日掲載)",
-   "source": "ライブドアニュース",
-   "image": "",
-   "local": false,
-   "published": "2026-09-03T10:19:26+00:00",
-   "title_ja": "引退発表の石川雅規投手へ、地元からねぎらいの声",
-   "summary_ja": "現役引退を発表した秋田市出身のヤクルト・石川雅規投手に対し、地元からこれまでの労をねぎらう声や、今後の活動への期待が寄せられています。",
-   "category": "スポーツ",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "a3ba3170efd0c4a1",
-   "url": "https://www.akt.co.jp/news?sel=20260903-00000001-AKT-1",
-   "title_original": "秋田市・仙北市で非常に激しい雷雨 道路冠水で車の立ち往生相次ぐ 3日夕方にかけ土砂災害などに警戒",
-   "source": "AKT秋田テレビ",
-   "image": "https://www.akt.co.jp/akt_news/20260903-00000001-AKT-1-00-thumb.jpg",
-   "local": false,
-   "published": "2026-09-03T10:10:57+00:00",
-   "title_ja": "秋田市などで激しい雷雨、道路冠水や車の立ち往生も",
-   "summary_ja": "秋田市や仙北市などで非常に激しい雷雨となり、道路の冠水や車の立ち往生が相次ぎました。気象庁などは土砂災害や低い土地の浸水への警戒を呼びかけています。",
-   "category": "天気・防災",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "cf8bbf42451f2d79",
-   "url": "https://www.akt.co.jp/news?sel=20260903-00000004-AKT-1",
-   "title_original": "都市と地方に生活拠点置く「二地域居住」推進へ 受け入れ体制強化に向け県がイベント開催 秋田",
-   "source": "AKT秋田テレビ",
-   "image": "https://www.akt.co.jp/akt_news/AKT-thumb.jpg",
-   "local": false,
-   "published": "2026-09-03T09:46:54+00:00",
-   "title_ja": "二地域居住の推進へ、受け入れ体制強化のイベント開催",
-   "summary_ja": "都市と地方の双方に生活拠点を置く「二地域居住」の推進に向け、受け入れ体制の強化を目的としたイベントが秋田県内で開催されました。",
-   "category": "行政・政治",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "66b6a8405792ed60",
-   "url": "https://origin.akt.co.jp/news?sel=20260903-00000003-AKT-1",
-   "title_original": "県内のインフル患者、1医療機関当たり0.84人 早期流行期入りの恐れ 手足口病も警戒レベル 秋田",
-   "source": "AKT秋田テレビ",
-   "image": "https://www.akt.co.jp/akt_news/20260903-00000003-AKT-1-00-thumb.jpg",
-   "local": false,
-   "published": "2026-09-03T09:45:00+00:00",
-   "title_ja": "インフル患者が増加傾向、手足口病も警戒レベル続く",
-   "summary_ja": "県内のインフルエンザ患者数は1医療機関あたり0.84人となり、早期の流行入りが懸念されています。また、手足口病も引き続き警戒レベルとなっています。",
-   "category": "くらし・地域",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
   }
  ]
 }
