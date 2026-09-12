@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T00:13:08.230650+09:00",
+ "updated_at": "2026-09-13T05:19:06.862574+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,31 +20,31 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-09-12T17:00:00+09:00",
-  "updated_at": "2026-09-13T00:15:05.754328+09:00",
+  "reported_at": "2026-09-13T05:00:00+09:00",
+  "updated_at": "2026-09-13T05:20:29.954195+09:00",
   "days": [
    {
     "date": "2026-09-13",
-    "max": 26.1,
-    "min": 18.8,
-    "icon": "⛅",
-    "text": "くもり昼前まで時々晴れ所により夕方から雨",
-    "pop": 30,
+    "max": 27.0,
+    "min": 17.9,
+    "icon": "🌦",
+    "text": "晴れ後くもり夜遅く雨",
+    "pop": 50,
     "official": true
    },
    {
     "date": "2026-09-14",
-    "max": 23.9,
-    "min": 21.0,
-    "icon": "🌦",
-    "text": "雨時々くもり",
-    "pop": null,
+    "max": 23.2,
+    "min": 19.1,
+    "icon": "🌧",
+    "text": "雨夜くもり所により明け方から昼前雷を伴い激しく降る",
+    "pop": 80,
     "official": true
    },
    {
     "date": "2026-09-15",
-    "max": 21.6,
-    "min": 17.8,
+    "max": 20.1,
+    "min": 18.9,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 70,
@@ -52,8 +52,8 @@
    },
    {
     "date": "2026-09-16",
-    "max": 23.4,
-    "min": 15.6,
+    "max": 23.5,
+    "min": 14.7,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 40,
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-09-17",
-    "max": 26.3,
-    "min": 14.4,
+    "max": 25.7,
+    "min": 12.9,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -70,8 +70,8 @@
    },
    {
     "date": "2026-09-18",
-    "max": 25.9,
-    "min": 14.8,
+    "max": 24.4,
+    "min": 15.4,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -79,8 +79,8 @@
    },
    {
     "date": "2026-09-19",
-    "max": 28.6,
-    "min": 20.6,
+    "max": 25.4,
+    "min": 19.1,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -88,26 +88,26 @@
    },
    {
     "date": "2026-09-20",
-    "max": 24.6,
-    "min": 20.3,
-    "icon": "⛈",
-    "text": "雷雨",
+    "max": 26.7,
+    "min": 20.9,
+    "icon": "🌦",
+    "text": "霧雨",
     "pop": 70,
     "official": false
    },
    {
     "date": "2026-09-21",
-    "max": 25.9,
-    "min": 19.8,
-    "icon": "🌦",
-    "text": "霧雨",
+    "max": 25.8,
+    "min": 20.4,
+    "icon": "☁️",
+    "text": "くもり",
     "pop": 23,
     "official": false
    },
    {
     "date": "2026-09-22",
-    "max": 27.9,
-    "min": 20.6,
+    "max": 23.5,
+    "min": 20.1,
     "icon": "🌦",
     "text": "霧雨",
     "pop": 43,
@@ -116,16 +116,6 @@
   ],
   "pops": [
    {
-    "time": "2026-09-12T18:00",
-    "label": "18-24時",
-    "pop": 0
-   },
-   {
-    "time": "2026-09-13T00:00",
-    "label": "0-6時",
-    "pop": 0
-   },
-   {
     "time": "2026-09-13T06:00",
     "label": "6-12時",
     "pop": 0
@@ -133,12 +123,32 @@
    {
     "time": "2026-09-13T12:00",
     "label": "12-18時",
-    "pop": 10
+    "pop": 20
    },
    {
     "time": "2026-09-13T18:00",
     "label": "18-24時",
-    "pop": 30
+    "pop": 50
+   },
+   {
+    "time": "2026-09-14T00:00",
+    "label": "0-6時",
+    "pop": 80
+   },
+   {
+    "time": "2026-09-14T06:00",
+    "label": "6-12時",
+    "pop": 80
+   },
+   {
+    "time": "2026-09-14T12:00",
+    "label": "12-18時",
+    "pop": 70
+   },
+   {
+    "time": "2026-09-14T18:00",
+    "label": "18-24時",
+    "pop": 40
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -149,9 +159,11 @@
   "AAB秋田朝日放送",
   "ABS秋田放送",
   "AKT秋田テレビ",
+  "Excite エキサイト",
   "FNNプライムオンライン",
   "Infoseek",
   "MOVIE WALKER PRESS",
+  "MSN",
   "Mshale",
   "NHKニュース",
   "PR TIMES",
@@ -187,6 +199,7 @@
   "日テレNEWS NNN",
   "日刊鉄鋼新聞 Japan Metal Daily",
   "日本経済新聞",
+  "日本農業新聞",
   "時事ドットコム",
   "朝日新聞",
   "東洋経済オンライン",
@@ -202,6 +215,38 @@
  ],
  "count": 400,
  "items": [
+  {
+   "id": "db448152aff1c5c9",
+   "url": "https://www.agrinews.co.jp/opinion/index/406184",
+   "title_original": "［自治体農政 首長語る］秋田県大館市・石田健佑市長⑤ 地方自治 プロセスが柱",
+   "source": "日本農業新聞",
+   "image": "https://www.agrinews.co.jp/media/2026/09/11/20260911_unzk2k6odxims1wt70c7.jpg",
+   "local": false,
+   "published": "2026-09-12T20:05:49+00:00",
+   "title_ja": "大館市の石田市長が語る地方自治と農政の進め方",
+   "summary_ja": "秋田県大館市の石田健佑市長が地域の農政について語るインタビュー企画です。地方自治における意思決定や合意形成のプロセスを重視する考えを示し、今後の市政運営や農業振興に関する持続可能な取り組みについて述べています。",
+   "category": "行政・政治",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "c24dfffb1065e232",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1471510157217120469",
+   "title_original": "（秋田）八峰町峰浜石川稲子沢でクマ出没 ９月１２日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/053490.png?fushinsha_joho-1471510157217120469",
+   "local": false,
+   "published": "2026-09-12T14:13:00+00:00",
+   "title_ja": "八峰町でクマの出没情報を確認 近隣に注意呼びかけ",
+   "summary_ja": "9月12日、秋田県八峰町峰浜石川の稲子沢付近でクマが目撃されました。地域の住民や近くを通行する人は、遭遇を避けるために音を出すなどの対策を行い、周辺の状況に十分注意して行動することが求められています。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
   {
    "id": "1173bdaf6563eb59",
    "url": "https://www.sakigake.jp/news/article/20260912AK0048",
@@ -342,6 +387,22 @@
    "summary_ja": "サッカーJ2のブラウブリッツ秋田は9月12日、秋田市のソユースタジアムで徳島と対戦し、4対1で快勝しました。この結果、秋田は通算成績を2勝2分け2敗の勝ち点8とし、暫定11位となっています。",
    "category": "スポーツ",
    "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "78383ea8b48ff6b7",
+   "url": "https://www.akt.co.jp/news?sel=20260912-00000004-AKT-1",
+   "title_original": "AKT-NEWS 能代松陽など4校がベスト8進出 秋季東北地区高校野球秋田県大会本戦始まる|09月12日(土)18:00",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/20260912-00000004-AKT-1-00-thumb.jpg",
+   "local": false,
+   "published": "2026-09-12T10:17:12+00:00",
+   "title_ja": "高校野球秋季秋田県大会が開幕 能代松陽など4校が8強進出",
+   "summary_ja": "秋季東北地区高校野球秋田県大会の本戦が開幕しました。初日の試合では能代松陽をはじめとする4校が勝利を収め、ベスト8進出を決めました。各校が東北大会出場を目指して熱戦を展開しています。",
+   "category": "スポーツ",
+   "area": "県全体",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -539,6 +600,22 @@
    "importance": 2
   },
   {
+   "id": "544800c6b24dfb35",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1471394395456127189",
+   "title_original": "（秋田）鹿角市尾去沢でクマ出没 ９月１１日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052094.png?fushinsha_joho-1471394395456127189",
+   "local": false,
+   "published": "2026-09-12T06:33:00+00:00",
+   "title_ja": "鹿角市尾去沢でクマの目撃情報",
+   "summary_ja": "9月11日、鹿角市尾去沢でクマが目撃された。近隣住民や付近を通行する人に注意を呼びかけている。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "674748547d1cf0c5",
    "url": "https://www.sakigake.jp/news/article/20260912AK0008",
    "title_original": "ヨックモック、「プティ シガール」パッケージに秋田犬 秋田県内６カ所で販売",
@@ -651,6 +728,22 @@
    "importance": 2
   },
   {
+   "id": "9bf5cc70427df3d6",
+   "url": "http://www.excite.co.jp/news/article/E1788877846924",
+   "title_original": "【読めたらすごい！地名チャレンジ Vol.289】「万町」なんと読む？＜秋田県能代市＞",
+   "source": "Excite エキサイト",
+   "image": "",
+   "local": false,
+   "published": "2026-09-12T04:00:00+00:00",
+   "title_ja": "【難読地名】秋田県能代市にある「万町」の読み方に挑戦",
+   "summary_ja": "秋田県能代市にある地名「万町」の読み方に挑戦するクイズ企画。地域の難読地名を紹介している。",
+   "category": "くらし・地域",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
+  },
+  {
    "id": "b626a843800d9a18",
    "url": "https://www.sakigake.jp/news/article/20260912AK0004",
    "title_original": "時代を語る・保坂武文（２５）社長から「何かつくれ」",
@@ -681,6 +774,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "84afe9d67694dea8",
+   "url": "https://www.walkerplus.com/event/ar0205e613827",
+   "title_original": "北秋田市たかのす太鼓まつり(秋田県)の情報",
+   "source": "walkerplus.com",
+   "image": "https://ms-cache.walkerplus.com/walkertouch/wtd/event/27/l2/613827.jpg",
+   "local": false,
+   "published": "2026-09-12T03:37:38+00:00",
+   "title_ja": "北秋田市のたかのす太鼓まつりの情報",
+   "summary_ja": "北秋田市で開催される「たかのす太鼓まつり」に関する情報です。県内の伝統的な太鼓の響きを楽しめるイベントとして注目されています。",
+   "category": "文化・芸能",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "698e5e805f67f0ff",
@@ -1131,6 +1240,22 @@
    "importance": 3
   },
   {
+   "id": "5c5d4dc250cec781",
+   "url": "https://www.asahi.com/articles/ASV9C3RL4V9CUBUB00GM.html",
+   "title_original": "秋の高校野球県大会 12日から本戦、上位3校が東北大会へ",
+   "source": "朝日新聞",
+   "image": "https://imgopt.asahi.com/ogp/AS20260911003813_comm.jpg",
+   "local": false,
+   "published": "2026-09-11T16:54:50+00:00",
+   "title_ja": "秋の高校野球秋田県大会が開幕、上位3校は東北大会へ",
+   "summary_ja": "秋季高校野球の秋田県大会本戦が9月12日に開幕しました。今大会で上位3校に入ったチームは、その後に開催される東北大会への出場権を獲得することになります。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "event",
+   "event_when": "9月12日〜",
+   "importance": 3
+  },
+  {
    "id": "5191731116b63139",
    "url": "https://www.walkerplus.com/article/153623/image879086.html",
    "title_original": "＜画像2 / 3＞秋田県秋田市で夏を彩る伝統の祭り「土崎港曳山まつり」開催",
@@ -1339,6 +1464,38 @@
    "importance": 3
   },
   {
+   "id": "ab3d184bb190fd31",
+   "url": "https://www.msn.com/ja-jp/weather/forecast/in-%E7%A7%8B%E7%94%B0%E7%9C%8C,%E5%A4%A7%E9%A4%A8%E5%B8%82",
+   "title_original": "秋田県, 大館市",
+   "source": "MSN",
+   "image": "",
+   "local": false,
+   "published": "2026-09-11T11:05:08+00:00",
+   "title_ja": "大館市関連の話題",
+   "summary_ja": "大館市に関するニュースや情報が伝えられています。詳しい内容については今後の続報が待たれます。",
+   "category": "くらし・地域",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
+  },
+  {
+   "id": "97f2a2622eafafd0",
+   "url": "https://www.sakigake.jp/news/article/20260911AK0032",
+   "title_original": "ベスト８入りした秋田南や秋田工で活躍中の選手は？ 秋季高校野球【成績更新】",
+   "source": "秋田魁新報電子版",
+   "image": "https://www.sakigake.jp/images/news-entry/20260911ak0032_01_l.jpg",
+   "local": false,
+   "published": "2026-09-11T10:40:00+00:00",
+   "title_ja": "秋季高校野球で活躍する選手たち",
+   "summary_ja": "秋季高校野球の県大会でベスト8に入った秋田南や秋田工などの注目選手たちの活躍を伝えています。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "03ab46bcf109b19f",
    "url": "https://www.akt.co.jp/news?sel=20260911-00000006-AKT-1",
    "title_original": "創業103年、大切にしてきたのは“客へのまごころ” 時代変わっても愛され続ける「街の布団店」 秋田市",
@@ -1449,6 +1606,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 2
+  },
+  {
+   "id": "52ddcab62ff6a26b",
+   "url": "https://www.sakigake.jp/news/article/20260911AK0033",
+   "title_original": "【能代松陽】チーム成績 秋季高校野球秋田県大会",
+   "source": "秋田魁新報電子版",
+   "image": "https://www.sakigake.jp/images/news-entry/20260911ak0033_01_l.jpg",
+   "local": false,
+   "published": "2026-09-11T10:30:01+00:00",
+   "title_ja": "能代松陽の秋季高校野球チーム成績",
+   "summary_ja": "秋季高校野球の秋田県大会に出場している能代松陽のチーム成績に関する情報をお伝えします。",
+   "category": "スポーツ",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "a803455d2f9b67e6",
@@ -6441,166 +6614,6 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
-  },
-  {
-   "id": "ce08e8a20ed5d7d7",
-   "url": "https://www.sakigake.jp/news/article/20260907AK0021",
-   "title_original": "金足農、新屋など決勝トーナメントへ 秋季高校野球秋田県大会第８日【戦評あり】",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260907ak0021_01_l.jpg",
-   "local": true,
-   "published": "2026-09-07T10:05:00+00:00",
-   "title_ja": "秋季高校野球秋田県大会、決勝トーナメント進出校が決まる",
-   "summary_ja": "秋季高校野球の県大会は2次予選3回戦が行われ、金足農や新屋などが勝ち上がって本戦の決勝トーナメントへ進出しました。",
-   "category": "スポーツ",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "12e2ade9dd0d5840",
-   "url": "https://newsdig.tbs.co.jp/list/bousai/earthquake/akita",
-   "title_original": "秋田県の地震情報 | TBS NEWS DIG",
-   "source": "TBS NEWS DIG",
-   "image": "https://newsdig.ismcdn.jp/mwimgs/f/5/-/img_f5d72f587b90c8e581b63bf8d2d61ac619307.png",
-   "local": false,
-   "published": "2026-09-07T09:43:58+00:00",
-   "title_ja": "秋田県の地震情報",
-   "summary_ja": "秋田県内で発生した地震に関する最新の情報をまとめてお伝えします。",
-   "category": "天気・防災",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "ae6ecd24a7e00e5f",
-   "url": "https://news.ntv.co.jp/n/abs/category/society/abef17d7af7f554c3ab40605f209fb7838",
-   "title_original": "大仙市の一部地域約70軒で停電 復旧の見通しは不明 秋田(7日午後6時)（2026年9月7日掲載）｜ABS NEWS NNN",
-   "source": "日テレNEWS",
-   "image": "https://image.gallery.play.jp/abs-news/articles/5eccaf9932e7420ea02af39f2a175f5f/88a306ff-65d8-41dd-9df3-cfdc3f9e0d48.jpg?w=1200",
-   "local": false,
-   "published": "2026-09-07T09:19:00+00:00",
-   "title_ja": "大仙市の一部地域で停電が発生",
-   "summary_ja": "大仙市の一部地域約70軒で停電が発生しました。現在のところ復旧の見通しは立っていません。",
-   "category": "くらし・地域",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "49351276ece7f731",
-   "url": "https://news.ntv.co.jp/n/abs/category/economy/ab3ed49159cf83414f96ba7c4e20a3b3a5",
-   "title_original": "県内にもリンゴの出荷シーズン到来！ 一部はひょう被害も…その後は天候に恵まれ高品質のリンゴに 秋田・横手市",
-   "source": "日テレNEWS",
-   "image": "https://image.gallery.play.jp/abs-news/articles/41c43c9077e4476d8f33864448cbcdb9/bb37c83d-fd76-427d-9d9c-11160fefcd0d.jpg?w=1200",
-   "local": false,
-   "published": "2026-09-07T09:13:00+00:00",
-   "title_ja": "横手市でリンゴの出荷シーズンが到来",
-   "summary_ja": "横手市でリンゴの出荷が始まりました。一部にひょうの被害があったものの、その後の天候に恵まれ高品質に育ちました。",
-   "category": "グルメ・農林水産",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "1c2567248b506a09",
-   "url": "https://news.ntv.co.jp/n/abs/category/society/abef3bb384bd964d81afc586b9fcf13654",
-   "title_original": "記録的な大雪乗り越え「中山なし」の収穫最盛期 「収穫の喜びを実感」約2,000本の木が枝折れなどの被害…懸命の復旧作業で迎えた実りの秋 秋田・大館市",
-   "source": "日テレNEWS NNN",
-   "image": "https://image.gallery.play.jp/abs-news/articles/182ccfb360ea4f31b1322f1079bffee0/3b4ce66d-e36e-44a6-8a2f-9650e6b299f4.jpg?w=1200",
-   "local": false,
-   "published": "2026-09-07T09:12:00+00:00",
-   "title_ja": "大雪の被害を乗り越え大館市で「中山なし」が収穫の最盛期",
-   "summary_ja": "秋田県大館市で、特産の「中山なし」が収穫の最盛期を迎えています。過去の記録的な大雪により約2000本の梨の木が枝折れするなどの被害を受けましたが、農家らの懸命な復旧作業により無事に実りの秋を迎えました。",
-   "category": "グルメ・農林水産",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "d62cfac325544ba1",
-   "url": "https://news.ntv.co.jp/n/abs/category/sports/abc7d2879cb37146f7a37260e70d0e753b",
-   "title_original": "ケガから約7か月…今季初1軍のマウンドへ 秋田市出身・阪神の石井大智投手 51試合連続無失点に記録を更新",
-   "source": "日テレNEWS NNN",
-   "image": "https://image.gallery.play.jp/abs-news/articles/ba1245c70cc54a8290645fb236568b28/83483c55-b841-4736-a004-b183059bc0f5.jpg?w=1200",
-   "local": false,
-   "published": "2026-09-07T09:10:00+00:00",
-   "title_ja": "秋田市出身の阪神・石井大智投手が今季初の1軍マウンドへ",
-   "summary_ja": "ケガによる約7か月間の離脱を乗り越え、秋田市出身で阪神タイガースに所属する石井大智投手が今季初めて1軍のマウンドに上がります。石井投手は51試合連続無失点という偉大な記録を更新中です。",
-   "category": "スポーツ",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "5d16c8b5b84eafb6",
-   "url": "https://news.web.nhk/newsweb/na/nd-20260907de48792",
-   "title_original": "米最大級の花火大会で秋田県「大曲の花火」に歓声",
-   "source": "NHKニュース",
-   "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20260907de48792/20260907de48792_E0000025934_1_l.jpg",
-   "local": false,
-   "published": "2026-09-07T09:03:38+00:00",
-   "title_ja": "米国の花火大会で大曲の花火が披露される",
-   "summary_ja": "アメリカで開催された最大級の花火大会において、秋田県を代表する「大曲の花火」が打ち上げられ、現地の人々から大きな歓声が上がりました。",
-   "category": "文化・芸能",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "3380fa9572b4f3af",
-   "url": "https://www.sakigake.jp/news/article/20260907AK0016",
-   "title_original": "「宅トレ」で運動習慣づくりを 竹脇まりなさん、あきた健康大使に任命",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260907ak0016_01_l.jpg",
-   "local": true,
-   "published": "2026-09-07T09:00:00+00:00",
-   "title_ja": "竹脇まりなさんがあきた健康大使に就任",
-   "summary_ja": "県は9月7日、秋田市出身のフィットネスインストラクター竹脇まりなさん（36）を「あきた健康大使」に任命し、住民の運動習慣定着を促す取り組みを発表した。",
-   "category": "行政・政治",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "56c4ba93324c30b3",
-   "url": "https://news.yahoo.co.jp/articles/77f685d75f4bbf7c14dd88d6da0c78774954c8d4",
-   "title_original": "県大会出場校決定！金足農などが切符！秋季秋田県2次予選【26年秋高校野球】（高校野球ドットコム）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260907-00016962-hbnippon-000-1-view.jpg?exp=10800",
-   "local": false,
-   "published": "2026-09-07T08:48:22+00:00",
-   "title_ja": "秋季高校野球秋田県2次予選 金足農などが県大会出場へ",
-   "summary_ja": "秋季高校野球の秋田県2次予選が行われ、金足農業をはじめとする県大会への出場校が決定した。勝ち上がった各校は、秋の頂点と上位大会への切符を目指して本大会に臨む。",
-   "category": "スポーツ",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "681b9605e08fe738",
-   "url": "https://www.sakigake.jp/news/article/20260905AK0021",
-   "title_original": "動くホテルで非日常満喫 「飛鳥Ⅱ」秋田―金沢の旅【写真特集】",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260905ak0021_01_l.jpg",
-   "local": true,
-   "published": "2026-09-07T08:05:00+00:00",
-   "title_ja": "飛鳥Ⅱで秋田‑金沢クルーズ旅行",
-   "summary_ja": "秋田魁新報がチャーターした豪華客船『飛鳥Ⅱ』で、8月31日から2泊3日で秋田港と金沢港を往復する船旅が開催され、約510人が参加した様子を写真で紹介した。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
   }
  ]
 }
