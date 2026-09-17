@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-18T01:30:37.059659+09:00",
+ "updated_at": "2026-09-18T06:03:52.004996+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,31 +20,31 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-09-17T17:00:00+09:00",
-  "updated_at": "2026-09-18T01:33:10.238353+09:00",
+  "reported_at": "2026-09-18T05:00:00+09:00",
+  "updated_at": "2026-09-18T06:04:36.791631+09:00",
   "days": [
    {
     "date": "2026-09-18",
-    "max": 26.4,
-    "min": 15.9,
+    "max": 26.9,
+    "min": 15.8,
     "icon": "🌤",
-    "text": "晴れ時々くもり",
-    "pop": 0,
+    "text": "晴れ夜くもり",
+    "pop": 10,
     "official": true
    },
    {
     "date": "2026-09-19",
-    "max": 24.0,
-    "min": 18.3,
+    "max": 25.5,
+    "min": 18.9,
     "icon": "☁️",
-    "text": "くもり",
-    "pop": null,
+    "text": "くもり所により明け方から昼前雨",
+    "pop": 40,
     "official": true
    },
    {
     "date": "2026-09-20",
-    "max": 26.4,
-    "min": 19.9,
+    "max": 25.2,
+    "min": 20.8,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -52,7 +52,7 @@
    },
    {
     "date": "2026-09-21",
-    "max": 26.2,
+    "max": 27.2,
     "min": 20.4,
     "icon": "🌦",
     "text": "くもり一時雨",
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-09-22",
-    "max": 23.3,
-    "min": 15.2,
+    "max": 23.5,
+    "min": 16.8,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -70,8 +70,8 @@
    },
    {
     "date": "2026-09-23",
-    "max": 22.4,
-    "min": 13.2,
+    "max": 23.1,
+    "min": 15.2,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -79,8 +79,8 @@
    },
    {
     "date": "2026-09-24",
-    "max": 21.0,
-    "min": 16.3,
+    "max": 21.9,
+    "min": 12.2,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -88,17 +88,17 @@
    },
    {
     "date": "2026-09-25",
-    "max": 20.9,
-    "min": 13.0,
-    "icon": "☁️",
-    "text": "くもり",
+    "max": 19.5,
+    "min": 10.7,
+    "icon": "🌤",
+    "text": "晴れ",
     "pop": 22,
     "official": false
    },
    {
     "date": "2026-09-26",
-    "max": 23.5,
-    "min": 12.9,
+    "max": 22.9,
+    "min": 11.9,
     "icon": "🌦",
     "text": "にわか雨",
     "pop": 36,
@@ -106,25 +106,15 @@
    },
    {
     "date": "2026-09-27",
-    "max": 22.7,
-    "min": 17.6,
-    "icon": "⛈",
-    "text": "雷雨",
+    "max": 20.3,
+    "min": 13.5,
+    "icon": "🌦",
+    "text": "にわか雨",
     "pop": 37,
     "official": false
    }
   ],
   "pops": [
-   {
-    "time": "2026-09-17T18:00",
-    "label": "18-24時",
-    "pop": 0
-   },
-   {
-    "time": "2026-09-18T00:00",
-    "label": "0-6時",
-    "pop": 0
-   },
    {
     "time": "2026-09-18T06:00",
     "label": "6-12時",
@@ -133,12 +123,32 @@
    {
     "time": "2026-09-18T12:00",
     "label": "12-18時",
-    "pop": 0
+    "pop": 10
    },
    {
     "time": "2026-09-18T18:00",
     "label": "18-24時",
-    "pop": 0
+    "pop": 10
+   },
+   {
+    "time": "2026-09-19T00:00",
+    "label": "0-6時",
+    "pop": 20
+   },
+   {
+    "time": "2026-09-19T06:00",
+    "label": "6-12時",
+    "pop": 40
+   },
+   {
+    "time": "2026-09-19T12:00",
+    "label": "12-18時",
+    "pop": 10
+   },
+   {
+    "time": "2026-09-19T18:00",
+    "label": "18-24時",
+    "pop": 10
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -160,6 +170,7 @@
   "Yahoo!ニュース",
   "YouTube",
   "au Webポータル",
+  "city.kitaakita.akita.jp",
   "fnn.jp",
   "hokuu.co.jp",
   "news.nicovideo.jp",
@@ -202,11 +213,60 @@
   "秋田経済新聞",
   "秋田魁新報",
   "秋田魁新報電子版",
+  "美術展ナビ",
   "読売新聞",
   "ｄメニューニュース"
  ],
  "count": 400,
  "items": [
+  {
+   "id": "8eb8ac94457ea82b",
+   "url": "https://news.yahoo.co.jp/articles/b589ca6d5d97230d8b62d589648b73fb8b2ba274",
+   "title_original": "【横手市】9/18 最高28℃、昼間は暑さに注意、夜はくもりの予想【朝版】",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260918-00020115-wordleafw-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-09-17T20:57:26+00:00",
+   "title_ja": "横手市の天気（9月18日）",
+   "summary_ja": "9月18日の横手市は最高気温28℃と予想されています。昼間は暑さに注意が必要で、夜はくもりが広がる見込みです。",
+   "category": "天気・防災",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "218a24144ee1484b",
+   "url": "https://www.akita-abs.co.jp/event/event-85827",
+   "title_original": "歌心りえコンサートinYUZAWA",
+   "source": "ABS秋田放送",
+   "image": "https://www.akita-abs.co.jp/wordpress/wp-content/uploads/2020/04/abs-logo-1.png",
+   "local": false,
+   "published": "2026-09-17T19:59:20+00:00",
+   "title_ja": "湯沢市で歌心りえコンサートが開催",
+   "summary_ja": "湯沢市において、歌心りえさんによるコンサートが催されます。",
+   "category": "文化・芸能",
+   "area": "県南",
+   "kind": "event",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "0a31879d5d3b18c8",
+   "url": "https://artexhibition.jp/topics/news/20260907-AEJ2988869",
+   "title_original": "【プレビュー】「ごんぎつね40周年記念展～黒井健 絵本原画の世界～」秋田県立美術館で10月3日から 国民に読み継がれる名作絵本の温もりあふれる原画が一堂に",
+   "source": "美術展ナビ",
+   "image": "https://artexhibition.jp/wp-content/uploads/2026/09/11200px-11-1200x630.jpg",
+   "local": false,
+   "published": "2026-09-17T17:11:00+00:00",
+   "title_ja": "秋田県立美術館で黒井健絵本原画の世界展",
+   "summary_ja": "秋田県立美術館にて、名作絵本のごんぎつね誕生40周年を記念した黒井健氏の原画展が開催されます。温もりあふれる数々の作品が一堂に会します。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "event",
+   "event_when": "10月3日〜",
+   "importance": 4
+  },
   {
    "id": "5b58c9f12473c1da",
    "url": "https://www.akt.co.jp/news?sel=20260917-00000012-AKT-1",
@@ -224,6 +284,22 @@
    "importance": 3
   },
   {
+   "id": "5191731116b63139",
+   "url": "https://www.walkerplus.com/article/153623/image879086.html",
+   "title_original": "＜画像2 / 3＞秋田県秋田市で夏を彩る伝統の祭り「土崎港曳山まつり」開催",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/153623/879085_615.jpg",
+   "local": false,
+   "published": "2026-09-17T12:32:43+00:00",
+   "title_ja": "秋田市で夏の伝統行事「土崎港曳山まつり」が開催",
+   "summary_ja": "秋田県秋田市で、地域の夏を華やかに彩る伝統行事「土崎港曳山まつり」が開催されました。地元住民や訪れた人々に長年親しまれている歴史ある祭りであり、夏の風物詩として知られています。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "a00f48fae403f0d4",
    "url": "https://www.akt.co.jp/news?sel=20260917-00000011-AKT-1",
    "title_original": "AKT-NEWS 安心して散策楽しんで！鹿角市の大湯環状列石、シルバーウィークに向けクマ対策万全に 秋田|09月17日(木)18:30",
@@ -233,6 +309,22 @@
    "published": "2026-09-17T11:54:20+00:00",
    "title_ja": "鹿角市の大湯環状列石でシルバーウィーク向けクマ対策",
    "summary_ja": "鹿角市にある大湯環状列石では、シルバーウィークの観光シーズンを前にクマ対策を強化しています。観光客が安心して散策を楽しめるよう、安全な環境づくりを進めています。",
+   "category": "観光・イベント",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "1097211e3e9cf0ca",
+   "url": "https://news.yahoo.co.jp/articles/49fe4dde8042418a89163b1465fef6c1b201d0d5?source=rss",
+   "title_original": "安心して散策楽しんで！鹿角市の大湯環状列石、シルバーウィークに向けクマ対策万全に 秋田（秋田テレビ）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260917-90018457-akt-000-1-thumb.jpg?exp=10800",
+   "local": false,
+   "published": "2026-09-17T11:49:01+00:00",
+   "title_ja": "鹿角市の大湯環状列石で大型連休に向けクマ対策を実施",
+   "summary_ja": "秋田県鹿角市にある大湯環状列石にて、シルバーウィークの連休前に利用者が安心して散策できるようクマ対策が実施されました。観光客の安全を確保するための取り組みが行われています。",
    "category": "観光・イベント",
    "area": "県北",
    "kind": "news",
@@ -384,6 +476,22 @@
    "importance": 3
   },
   {
+   "id": "d4f3df1329e6771e",
+   "url": "https://www.fnn.jp/articles/-/1116289",
+   "title_original": "【秋田県】9/18の天気予報",
+   "source": "FNNプライムオンライン",
+   "image": "https://fnn.ismcdn.jp/mwimgs/b/1/600/img_b11a1eaac50858497404001559bedbbb109587.jpg",
+   "local": false,
+   "published": "2026-09-17T10:30:00+00:00",
+   "title_ja": "9月18日の秋田県内の天気予報",
+   "summary_ja": "2026年9月18日の秋田県内における天気予報をお伝えします。県内各地域の気象状況や気温の変化について、事前の確認と適切な準備をおすすめします。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "26e14ce6298696f6",
    "url": "https://www.fnn.jp/articles/-/1116567",
    "title_original": "種から育てたサキホコレ、横手市の児童が手作業で刈り取り 食べるのが楽しみ！実りの秋を実感 秋田",
@@ -512,6 +620,22 @@
    "importance": 3
   },
   {
+   "id": "e0c00c2954c67c44",
+   "url": "https://www.city.kitaakita.akita.jp/archive/p20260917151540",
+   "title_original": "秋のクマ事故防止強化期間について",
+   "source": "city.kitaakita.akita.jp",
+   "image": "",
+   "local": false,
+   "published": "2026-09-17T10:11:07+00:00",
+   "title_ja": "秋のクマ事故防止強化期間がスタート",
+   "summary_ja": "秋の行楽シーズンや農作業の本格化に伴い、クマによる人身被害を防ぐための事故防止強化期間が設けられました。市民に向けて注意喚起や警戒情報の周知が行われています。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
    "id": "5bcf4b685631cf8c",
    "url": "https://www.aab-tv.co.jp/news/aabnews-26091716080098",
    "title_original": "県内で初導入 デジタルでつなぐ「Ｗｅｂ墓誌」とは・・・後付けも可能",
@@ -606,6 +730,54 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "a227192c9ff349dd",
+   "url": "https://akita.keizai.biz/gpnews/1763211",
+   "title_original": "時計、貴金属店に対し防犯指導",
+   "source": "秋田経済新聞",
+   "image": "https://images.keizai.biz/img/gp/m0093159559.jpg",
+   "local": false,
+   "published": "2026-09-17T09:02:51+00:00",
+   "title_ja": "時計・貴金属店を対象にした防犯指導",
+   "summary_ja": "防犯対策の一環として、時計や貴金属を取り扱う店舗に向けた指導が行われた。地域全体のセキュリティ意識向上が図られている。",
+   "category": "くらし・地域",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "e15810670481d425",
+   "url": "https://akita.keizai.biz/gpnews/1763207",
+   "title_original": "みらい、幹部人事で輪番制",
+   "source": "秋田経済新聞",
+   "image": "https://images.keizai.biz/img/gp/m0093157899.jpg",
+   "local": false,
+   "published": "2026-09-17T09:01:29+00:00",
+   "title_ja": "みらい、幹部人事で輪番制を導入",
+   "summary_ja": "企業の幹部人事において輪番制の導入について伝えられています。詳細な内容や組織の動きに注目が集まりそうです。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "639883c2590e7d7a",
+   "url": "https://news.ntv.co.jp/n/abs/category/politics/abe636278e1b7d483c82e2d18ffa4aee3e",
+   "title_original": "新スタジアム整備「行政の費用負担を増やすべきでは」議員から意見相次ぐ 県は秋田市と足並み揃え…民間の資金確保への協力に注力する姿勢改めて強調 秋田県議会",
+   "source": "日テレNEWS",
+   "image": "https://image.gallery.play.jp/abs-news/articles/f84a5d72ce2e473db8c20941dd3ec10d/668579ea-91ad-4752-b5c8-3eaf1ceff194.jpg?w=1200",
+   "local": false,
+   "published": "2026-09-17T08:56:00+00:00",
+   "title_ja": "新スタジアム整備で行政負担増を求める声が上がる",
+   "summary_ja": "秋田県議会で新スタジアム整備を巡り、行政の費用負担増を求める意見が相次ぎました。県は秋田市と足並みを揃え、民間資金の確保に向けた協力に注力する姿勢を改めて示しています。",
+   "category": "行政・政治",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
   },
   {
    "id": "25820790db73ead0",
@@ -6446,166 +6618,6 @@
    "kind": "news",
    "event_when": "",
    "importance": 2
-  },
-  {
-   "id": "1240485ce5d2ae25",
-   "url": "https://www.sakigake.jp/news/article/20260912AK0011",
-   "title_original": "美郷町議会、補正予算案を可決 大雨被害の「あったか山」、ポンプ工事費など",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260912ak0011_01_l.jpg",
-   "local": true,
-   "published": "2026-09-12T03:40:00+00:00",
-   "title_ja": "美郷町議会、補正予算案を可決",
-   "summary_ja": "11日、美郷町議会が補正予算案や決算認定案など計16件を可決し、地方財政の充実を求めた。大雨被害の「あったか山」復旧のためのポンプ工事費も含まれる。",
-   "category": "行政・政治",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "84afe9d67694dea8",
-   "url": "https://www.walkerplus.com/event/ar0205e613827",
-   "title_original": "北秋田市たかのす太鼓まつり(秋田県)の情報",
-   "source": "walkerplus.com",
-   "image": "https://ms-cache.walkerplus.com/walkertouch/wtd/event/27/l2/613827.jpg",
-   "local": false,
-   "published": "2026-09-12T03:37:38+00:00",
-   "title_ja": "北秋田市のたかのす太鼓まつりの情報",
-   "summary_ja": "北秋田市で開催される「たかのす太鼓まつり」に関する情報です。県内の伝統的な太鼓の響きを楽しめるイベントとして注目されています。",
-   "category": "文化・芸能",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "698e5e805f67f0ff",
-   "url": "https://www.sakigake.jp/news/article/20260911AK0029",
-   "title_original": "外国人ドライバー養成「クロフネ」 県支援・実装事業枠の第１号に 大館市で合宿、年度内３０人目指す",
-   "source": "秋田魁新報電子版",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20260903G00006_l.jpg",
-   "local": false,
-   "published": "2026-09-12T03:30:00+00:00",
-   "title_ja": "外国人運転手養成事業「クロフネ」が大館市で合宿、県の支援事業に選定",
-   "summary_ja": "秋田県は大館市で行われる外国人ドライバー養成事業「クロフネ」を、県の実装支援事業枠の第1号に決定した。大館市での合宿を通じて、今年度中に30人の養成を目指す方針。",
-   "category": "行政・政治",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "74bcffac9f4ec7c7",
-   "url": "https://news.ntv.co.jp/n/abs/category/life/ab6a35b3d6fe23405f97ac1a550114e778",
-   "title_original": "県内最大規模の中古車販売イベント 多くの人でにぎわう 秋田（2026年9月11日掲載）｜ABS NEWS NNN",
-   "source": "日テレNEWS NNN",
-   "image": "https://image.gallery.play.jp/abs-news/articles/6e5619ebbb2a4ff7ba6cbf74543fa41a/383b95c1-5ca5-402e-8756-9263c7bfbc4c.jpg?w=1200",
-   "local": false,
-   "published": "2026-09-12T03:11:00+00:00",
-   "title_ja": "県内最大級の中古車販売イベントが開催され賑わう",
-   "summary_ja": "秋田県内において最大規模となる中古車販売のイベントが開催されました。会場には多くの来場者が詰めかけて大変な賑わいを見せるなど、盛況となったことが伝えられています。",
-   "category": "経済・企業",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "b90338d6293fe4ba",
-   "url": "https://topics.smt.docomo.ne.jp/article/abs/region/abs-2026091208533283?fm=latestnews",
-   "title_original": "県内最大規模の中古車販売イベント 多くの人でにぎわう 秋田",
-   "source": "ｄメニューニュース",
-   "image": "https://img.topics.smt.news.goo.ne.jp/-/20260907100436/img/dmenu_service-brand-logo_200x200.png",
-   "local": false,
-   "published": "2026-09-12T03:11:00+00:00",
-   "title_ja": "秋田県内最大規模の中古車販売イベントが開催、多くの来場者で賑わう",
-   "summary_ja": "秋田県内で最大級の規模を誇る中古車販売イベントが開催され、会場は多くの来場者で賑わいを見せた。様々な中古車が一堂に展示され、多くの人々が熱心に品定めを行うなど活気に満ちた催しとなった。",
-   "category": "観光・イベント",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "d5a9e227d7815eff",
-   "url": "https://www.sakigake.jp/news/article/20260912AK0016",
-   "title_original": "新スタ整備・外旭川開発 秋田市議会の一般質問要旨（１１日）",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260912ak0016_01_l.jpg",
-   "local": true,
-   "published": "2026-09-12T03:10:00+00:00",
-   "title_ja": "秋田市議会、スタジアム整備や外旭川開発を議論",
-   "summary_ja": "11日、秋田市議会の定例会で、J2ブラウブリッツ秋田の新スタジアム整備やイオンタウン外旭川開発などが議題となった。安井正浩議員らが説明し、今後の事業計画や資金調達について質疑応答が行われた。",
-   "category": "行政・政治",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "2a38087bfdaed823",
-   "url": "https://www.sakigake.jp/news/article/20260912AK0014",
-   "title_original": "１８４チームが熱戦、全県５００歳野球開幕 大仙市の神岡野球場",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260912ak0014_01_l.jpg",
-   "local": true,
-   "published": "2026-09-12T02:09:19+00:00",
-   "title_ja": "大仙市で全県500歳野球が開幕 184チームが熱戦展開",
-   "summary_ja": "秋田県大仙市の神岡野球場を主会場に、第46回全県500歳野球大会が9月12日に開幕しました。開会式では選手たちが入場行進を行い、184の参加チームが6日間にわたって熱い戦いを繰り広げます。",
-   "category": "スポーツ",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "7f311dd6a2133c26",
-   "url": "https://www.47news.jp/14929138.html",
-   "title_original": "秋田県教育庁、県立特別支援学校の２７年度の定員を発表",
-   "source": "47news.jp",
-   "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
-   "local": false,
-   "published": "2026-09-12T02:05:00+00:00",
-   "title_ja": "県立特別支援学校の定員、教育庁が発表",
-   "summary_ja": "秋田県教育庁は、県立特別支援学校における２０２７年度の入学定員を発表しました。新年度に向けた受け入れ規模が明らかになりました。",
-   "category": "教育・子育て",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "13e210eb37c49d9f",
-   "url": "https://www.sakigake.jp/news/article/20260912AK0015",
-   "title_original": "秋田県教育庁、県立特別支援学校の２７年度の定員を発表【募集定員一覧】",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/ogp.png",
-   "local": true,
-   "published": "2026-09-12T02:05:00+00:00",
-   "title_ja": "2027年度県立特別支援学校の募集定員を秋田県教育庁が発表",
-   "summary_ja": "秋田県教育庁は9月11日、2027年度の県立特別支援学校の入学募集定員を発表しました。出願期間は2027年1月8日から18日正午までで、同年2月26日に面接などの選考が行われ、3月5日に合格者が発表されます。",
-   "category": "教育・子育て",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "6aa4f0e2f644a96a",
-   "url": "https://news.yahoo.co.jp/articles/2bff182008ca80495377e50a0f05ef1ff2acaa8f",
-   "title_original": "コロナ禍で業態転換 年間2万人が泊まった老舗ホテルが大変身 秋田・大仙市の強首ホテルから生まれた「ドレスリゾートこわくび」 2000着の衣装で人気集めるフォトスポット（FNNプライムオンライン）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260912-01211722-fnnprimev-000-1-view.jpg?exp=10800",
-   "local": false,
-   "published": "2026-09-12T02:00:40+00:00",
-   "title_ja": "大仙市の老舗ホテルがドレスリゾートに転換 2000着の衣装で人気",
-   "summary_ja": "秋田県大仙市の強首ホテルがコロナ禍を経て業態転換し、「ドレスリゾートこわくび」として生まれ変わりました。2000着の衣装を取り揃えたフォトスポットとして人気を集めています。",
-   "category": "観光・イベント",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
   }
  ]
 }
