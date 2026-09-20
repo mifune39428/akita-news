@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-21T00:40:28.689214+09:00",
+ "updated_at": "2026-09-21T05:29:46.270576+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,31 +20,31 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-09-20T17:00:00+09:00",
-  "updated_at": "2026-09-21T00:41:24.987273+09:00",
+  "reported_at": "2026-09-21T05:00:00+09:00",
+  "updated_at": "2026-09-21T05:31:41.911520+09:00",
   "days": [
    {
     "date": "2026-09-21",
-    "max": 23.6,
+    "max": 22.9,
     "min": 20.7,
     "icon": "🌧",
-    "text": "雨明け方までくもり",
-    "pop": 70,
+    "text": "雨",
+    "pop": 80,
     "official": true
    },
    {
     "date": "2026-09-22",
-    "max": 24.8,
-    "min": 18.3,
-    "icon": "🌤",
-    "text": "晴れ時々くもり",
-    "pop": null,
+    "max": 24.9,
+    "min": 17.3,
+    "icon": "🌦",
+    "text": "晴れ未明雨",
+    "pop": 50,
     "official": true
    },
    {
     "date": "2026-09-23",
-    "max": 23.3,
-    "min": 14.2,
+    "max": 23.2,
+    "min": 14.0,
     "icon": "🌤",
     "text": "晴れ時々くもり",
     "pop": 20,
@@ -52,8 +52,8 @@
    },
    {
     "date": "2026-09-24",
-    "max": 22.8,
-    "min": 15.7,
+    "max": 22.7,
+    "min": 15.8,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-09-25",
-    "max": 21.0,
-    "min": 13.6,
+    "max": 21.4,
+    "min": 14.5,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -70,8 +70,8 @@
    },
    {
     "date": "2026-09-26",
-    "max": 24.2,
-    "min": 13.6,
+    "max": 24.7,
+    "min": 15.0,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -79,8 +79,8 @@
    },
    {
     "date": "2026-09-27",
-    "max": 23.8,
-    "min": 18.2,
+    "max": 23.4,
+    "min": 15.3,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -88,57 +88,67 @@
    },
    {
     "date": "2026-09-28",
-    "max": 22.1,
-    "min": 18.0,
-    "icon": "⛈",
-    "text": "雷雨",
+    "max": 24.7,
+    "min": 14.8,
+    "icon": "🌦",
+    "text": "にわか雨",
     "pop": 48,
     "official": false
    },
    {
     "date": "2026-09-29",
-    "max": 20.6,
-    "min": 18.1,
+    "max": 20.3,
+    "min": 17.8,
     "icon": "🌦",
-    "text": "霧雨",
+    "text": "にわか雨",
     "pop": 42,
     "official": false
    },
    {
     "date": "2026-09-30",
-    "max": 21.3,
-    "min": 15.6,
-    "icon": "☁️",
-    "text": "くもり",
+    "max": 19.4,
+    "min": 13.4,
+    "icon": "🌦",
+    "text": "霧雨",
     "pop": 51,
     "official": false
    }
   ],
   "pops": [
    {
-    "time": "2026-09-20T18:00",
-    "label": "18-24時",
-    "pop": 10
-   },
-   {
-    "time": "2026-09-21T00:00",
-    "label": "0-6時",
-    "pop": 20
-   },
-   {
     "time": "2026-09-21T06:00",
     "label": "6-12時",
-    "pop": 70
+    "pop": 80
    },
    {
     "time": "2026-09-21T12:00",
     "label": "12-18時",
-    "pop": 60
+    "pop": 80
    },
    {
     "time": "2026-09-21T18:00",
     "label": "18-24時",
     "pop": 60
+   },
+   {
+    "time": "2026-09-22T00:00",
+    "label": "0-6時",
+    "pop": 50
+   },
+   {
+    "time": "2026-09-22T06:00",
+    "label": "6-12時",
+    "pop": 0
+   },
+   {
+    "time": "2026-09-22T12:00",
+    "label": "12-18時",
+    "pop": 0
+   },
+   {
+    "time": "2026-09-22T18:00",
+    "label": "18-24時",
+    "pop": 0
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -162,7 +172,10 @@
   "Yahoo!ニュース",
   "YouTube",
   "aab-tv.co.jp",
+  "article.auone.jp",
+  "asahi.com",
   "city.kitaakita.akita.jp",
+  "data.jma.go.jp",
   "hokuu.co.jp",
   "kahoku.news",
   "nhk.or.jp",
@@ -206,6 +219,22 @@
  ],
  "count": 400,
  "items": [
+  {
+   "id": "a1b666ea82025533",
+   "url": "https://www.sakigake.jp/news/article/20260920AK0037",
+   "title_original": "かつて諦めた夢をもう一度 秋田市・福田毅さん、油絵で「もう一花咲かせたい」 敬老の日２０２６",
+   "source": "秋田魁新報電子版",
+   "image": "https://www.sakigake.jp/images/ogp.png",
+   "local": false,
+   "published": "2026-09-20T13:28:02+00:00",
+   "title_ja": "敬老の日に寄せて。油絵に情熱を注ぐ秋田市の男性",
+   "summary_ja": "かつて諦めた夢に再び挑み、油絵を描き続ける秋田市在住の福田毅さんの姿が紹介されています。人生の節目を迎えてもなお創作活動に励み、新たな花を咲かせようとする生き様が伝えられています。",
+   "category": "文化・芸能",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
   {
    "id": "8a9144d717118a8b",
    "url": "https://www.sakigake.jp/news/article/20260920AK0029",
@@ -333,6 +362,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 2
+  },
+  {
+   "id": "896dfb45f5a296a9",
+   "url": "https://www.akt.co.jp/news?sel=20260920-00000002-AKT-1",
+   "title_original": "AKT-NEWS |",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/AKT-thumb.jpg",
+   "local": false,
+   "published": "2026-09-20T10:00:53+00:00",
+   "title_ja": "AKT秋田テレビのニュース配信",
+   "summary_ja": "秋田テレビが提供しているニュース配信のウェブページです。秋田県内における日々の出来事や様々なジャンルの最新情報を、インターネットを通じて分かりやすく伝えています。",
+   "category": "その他",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
   },
   {
    "id": "5fb0601ef4191deb",
@@ -511,6 +556,22 @@
    "importance": 3
   },
   {
+   "id": "796cd59b72e53b9d",
+   "url": "https://www.sakigake.jp/news/article/20260920AK0003",
+   "title_original": "「あゝ上野駅」歌碑、旧１８番ホームに移設 経年劣化や周辺環境悪化で",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260920ak0003_02_l.jpg",
+   "local": true,
+   "published": "2026-09-20T08:00:00+00:00",
+   "title_ja": "上野駅の「あゝ上野駅」歌碑が旧18番ホームへ移設",
+   "summary_ja": "集団就職で上京した秋田県出身者らの心情をつづったヒット曲「あゝ上野駅」の歌碑が、JR上野駅の広小路口前から構内の旧18番線ホームへと移設されました。経年劣化や周辺環境の変化に対応したもので、今月に移設作業が行われました。",
+   "category": "文化・芸能",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "596aebd8eda3be81",
    "url": "https://mainichi.jp/articles/20260918/k00/00m/310/337000c",
    "title_original": "ドローンでクマ対策 秋田県、実証事業を公開 来年度導入も視野",
@@ -525,6 +586,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 4
+  },
+  {
+   "id": "6f85ce903b6dda39",
+   "url": "https://www.data.jma.go.jp/kaiyou/db/tide/suisan/suisan.php?stn=S1&ys=2027&ms=02&ds=22&ye=2027&me=03&de=08&S_HILO=on&LV=DL",
+   "title_original": "潮汐・海面水位のデータ 潮位表 秋田（AKITA）",
+   "source": "data.jma.go.jp",
+   "image": "",
+   "local": false,
+   "published": "2026-09-20T07:07:59+00:00",
+   "title_ja": "秋田港の潮位データを提供する気象庁ページ",
+   "summary_ja": "気象庁が公開している秋田港の潮汐や海面水位に関する潮位表の案内です。港湾利用や海の活動に向けた専門的なデータを提供しています。",
+   "category": "その他",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
   },
   {
    "id": "3f9402000ebd22a9",
@@ -605,6 +682,22 @@
    "kind": "event",
    "event_when": "2026年9月21日〜9月22日",
    "importance": 3
+  },
+  {
+   "id": "7b3ffa6a492e5756",
+   "url": "https://www.sakigake.jp/news/article/20260920AK0002",
+   "title_original": "時代を語る・保坂武文（３２）開幕戦でダブル入賞",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260920ak0002_01_l.jpg",
+   "local": true,
+   "published": "2026-09-20T04:00:00+00:00",
+   "title_ja": "F1の舞台で歩んだ軌跡を振り返るインタビュー企画",
+   "summary_ja": "自動車レースのF1で戦った当時の思い出を振り返る連載企画です。シーズン開幕戦でのダブル入賞という、記憶に残るレースの模様を語っています。",
+   "category": "文化・芸能",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "1f184c07e7d72779",
@@ -1071,6 +1164,22 @@
    "importance": 2
   },
   {
+   "id": "6331019c1e93b4a8",
+   "url": "https://tenki.jp/past/2026/09/19/amedas/2/8/32496.html",
+   "title_original": "大正寺(秋田県)の過去のアメダス(2026年09月19日)",
+   "source": "tenki.jp",
+   "image": "https://storage.tenki.jp/archive/amedas/2026/09/19/15/00/00/temp/pref-8-large.jpg",
+   "local": false,
+   "published": "2026-09-19T15:30:47+00:00",
+   "title_ja": "大正寺の過去アメダスデータ（2026年9月19日）",
+   "summary_ja": "tenki.jpが提供する大正寺（秋田市）における2026年9月19日の過去のアメダス観測データを掲載。気温・降水量などの詳細が確認でき、天候の変化を把握するのに役立つ情報となっている。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "5689f60b86328940",
    "url": "https://tenki.jp/past/2026/09/19/amedas/2/8/snow.html",
    "title_original": "秋田県の過去のアメダス実況(2026年09月19日)(積雪深)",
@@ -1179,6 +1288,22 @@
    "category": "観光・イベント",
    "area": "中央",
    "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "f83f4617f981efda",
+   "url": "https://article.auone.jp/article/bf5b2d15-1b6f-4c4e-8e65-70804c752457",
+   "title_original": "中心市街地の夜空彩る3500発 秋田市で「千秋花火」",
+   "source": "article.auone.jp",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/09/19/https___news_jp_i_1474032914199363804_w640.webp",
+   "local": false,
+   "published": "2026-09-19T13:12:00+00:00",
+   "title_ja": "秋田市中心部で3500発の千秋花火が開催",
+   "summary_ja": "秋田市中心市街地で約3,500発の花火が打ち上げられる千秋花火が実施される。地域の夏の風物詩として多くの観客が集まり、夜空を彩る壮大な光景が期待されている。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "event",
    "event_when": "",
    "importance": 3
   },
@@ -1468,6 +1593,22 @@
    "area": "中央",
    "kind": "event",
    "event_when": "9月26日",
+   "importance": 3
+  },
+  {
+   "id": "66c6ae16f693dbf1",
+   "url": "https://news.yahoo.co.jp/articles/7a325d8e8ed4cb5a96be3e4a7115a6b3ace30df7",
+   "title_original": "秋の高校野球秋田県大会準々決勝 ベスト４出揃う（秋田朝日放送）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+   "local": false,
+   "published": "2026-09-19T09:36:01+00:00",
+   "title_ja": "秋の高校野球県大会で準々決勝が終了",
+   "summary_ja": "秋の高校野球秋田県大会は準々決勝が行われ、勝ち進んだベスト4の顔ぶれが出揃った。県内の高校球児たちが熱戦を繰り広げている。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
    "importance": 3
   },
   {
@@ -2175,6 +2316,22 @@
    "importance": 3
   },
   {
+   "id": "0143affdc305049e",
+   "url": "https://www.akt.co.jp/info/midori/recipe/20260919-2",
+   "title_original": "シャキシャキ食感！長ねぎナムル・ネギ味噌",
+   "source": "AKT秋田テレビ",
+   "image": "",
+   "local": false,
+   "published": "2026-09-19T02:43:48+00:00",
+   "title_ja": "シャキシャキ食感の長ねぎ料理を紹介",
+   "summary_ja": "食感が楽しめる長ねぎを使ったナムルやネギ味噌のレシピが紹介されている。家庭で手軽に作れる美味しい食べ方として注目を集めている。",
+   "category": "グルメ・農林水産",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "153457c612e44321",
    "url": "https://www.sakigake.jp/news/article/20260918AK0045",
    "title_original": "クマ出没を上空から監視 ＡＩ・ドローン活用、鹿角市で実証試験",
@@ -2365,6 +2522,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 2
+  },
+  {
+   "id": "5909fb814707227a",
+   "url": "https://www.asahi.com/sp/articles/photo/AS20260918005344.html?iref=sp_photo_gallery_2",
+   "title_original": "ドローンでクマ監視 超音波・鳴き声で追い払いも 秋田県が実証事業",
+   "source": "asahi.com",
+   "image": "https://imgopt.asahi.com/ogp/AS20260918005346_comm.jpg",
+   "local": false,
+   "published": "2026-09-19T01:00:01+00:00",
+   "title_ja": "ドローンを活用したクマ監視と追い払いの実証事業",
+   "summary_ja": "秋田県がドローンを用いたクマの監視や、超音波・鳴き声による追い払いの実証事業に取り組んでいます。野生動物対策としての新しい技術の検証が進められています。",
+   "category": "くらし・地域",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "88ccff39e0f00902",
@@ -6445,166 +6618,6 @@
    "kind": "news",
    "event_when": "",
    "importance": 4
-  },
-  {
-   "id": "5d1cae1f334e44a8",
-   "url": "https://news.yahoo.co.jp/expert/articles/474b4c3aa016fff682a3ff69237b43ce17aa5152",
-   "title_original": "若者が関わりたくなる地域は何が違うのか 秋田のきりたんぽまつりに学ぶ任せ方（堀潤） - エキスパート",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/horijun/02719748/title-1789519664592.jpeg?exp=10800",
-   "local": false,
-   "published": "2026-09-16T01:10:54+00:00",
-   "title_ja": "若者の地域参画を促す「秋田のきりたんぽまつり」の運営手法",
-   "summary_ja": "若者が主体的に関わりたくなる地域づくりについて、秋田の「きりたんぽまつり」における役割の任せ方や運営手法を事例に挙げて解説するコラムです。若者の力を引き出し、地域を活性化させるためのヒントを紹介しています。",
-   "category": "観光・イベント",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "aeef75675df1b65f",
-   "url": "https://www.sakigake.jp/news/article/20260916AK0018",
-   "title_original": "文科省の高校改革拠点 秋田県内３校を新たに採択",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/ogp.png",
-   "local": true,
-   "published": "2026-09-16T01:03:00+00:00",
-   "title_ja": "文科省の高校教育改革拠点に大曲農・男鹿海洋・秋田の3校採択",
-   "summary_ja": "文部科学省は15日、高校教育改革の一環で産業界の人材育成拠点となる高校に、秋田県内の大曲農業、男鹿海洋、秋田の3校を新たに採択しました。地元企業と連携した産業の創出や、地域社会に貢献する人材の育成が期待されます。",
-   "category": "教育・子育て",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "d336a39800497b33",
-   "url": "https://news.yahoo.co.jp/articles/84b9509c9903031b71b31697f5c0d4fec5b0ecaa",
-   "title_original": "新スタジアム クラブの継続困難な場合、秋田県知事は公費負担を否定（朝日新聞）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
-   "local": false,
-   "published": "2026-09-16T01:00:01+00:00",
-   "title_ja": "新スタジアム巡り秋田県知事、クラブ継続困難時の公費負担否定",
-   "summary_ja": "新しいスタジアムの建設を巡り、秋田県の知事は、利用するクラブの運営継続が困難になった場合における公費での負担について否定的な考えを示しました。今後の事業の進め方や財政負担のあり方に関する発言として注目されます。",
-   "category": "行政・政治",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "9cc5e93ecad6cd41",
-   "url": "https://www.sakigake.jp/news/article/20260915AK0034",
-   "title_original": "ポイントガード岩屋、エース・スミスから刺激【ハピネッツの話題】",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260915ak0034_01_l.jpg",
-   "local": true,
-   "published": "2026-09-16T01:00:00+00:00",
-   "title_ja": "秋田ハピネッツ岩屋頼、開幕控えエースの刺激受け重要性増す",
-   "summary_ja": "バスケットボール男子Bリーグ1部の開幕を26日に控える秋田ノーザンハピネッツで、ポイントガードの岩屋頼選手が重要性を増しています。ガード陣に負傷者が相次ぐ中、東北カップでの出場を経てエースから刺激を受けて奮起しています。",
-   "category": "スポーツ",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "95b47d5641d049c4",
-   "url": "https://www.sakigake.jp/news/article/20260916AK0005",
-   "title_original": "楽天・伊藤樹が好投、６回無失点 本拠地初登板、勝敗付かず",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260916ak0005_01_l.jpg",
-   "local": true,
-   "published": "2026-09-16T00:44:00+00:00",
-   "title_ja": "楽天の伊藤樹投手が本拠地初登板で6回無失点の好投、美郷町出身",
-   "summary_ja": "プロ野球・東北楽天ゴールデンイーグルスの新人、伊藤樹投手（美郷町出身）が本拠地初登板を果たし、6回を無失点に抑える好投を見せました。二回に三者凡退に抑えるなど活躍しましたが、試合での勝敗は付きませんでした。",
-   "category": "スポーツ",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "f2ac99379ec1ae41",
-   "url": "https://www.sakigake.jp/news/article/20260915AK0033",
-   "title_original": "見てびっくり！食べてびっくり！！ お菓子の月見バーガー、かおる堂（秋田市）が販売",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20260914G00031_l.jpg",
-   "local": true,
-   "published": "2026-09-16T00:00:00+00:00",
-   "title_ja": "秋田市のかおる堂が「お菓子の月見バーガー」を25日まで販売",
-   "summary_ja": "秋田市の菓子製造販売「かおる堂」は、お月見シーズンに合わせて「お菓子の月見バーガー」を9月25日まで販売しています。シュー生地のバンズにココアスポンジとチョコレートのパティを合わせ、見た目も本物そっくりに仕上げています。",
-   "category": "グルメ・農林水産",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "b0d8e0e03dc93321",
-   "url": "https://www.sakigake.jp/news/article/20260915AK0038",
-   "title_original": "浮き上がって見える「３Ｄ横断歩道」 県内初、北秋田市内に設置",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20260915G00007_l.jpg",
-   "local": true,
-   "published": "2026-09-15T23:30:00+00:00",
-   "title_ja": "立体的に見える「3D横断歩道」が北秋田市に設置 県内初",
-   "summary_ja": "目の錯覚を利用して立体的に浮き上がって見える「3D横断歩道」が、北秋田市内の3カ所に設置されました。秋田県内での導入は初めてです。設置初日の15日には、鷹巣小学校前の市道で地元のこども園の園児らによる渡り初めが行われました。",
-   "category": "くらし・地域",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "04f7dc7cdb98f318",
-   "url": "https://www.sakigake.jp/news/article/20260915AK0032",
-   "title_original": "秋田県内でセアカゴケグモ確認、４例目 県外から持ち込まれた車に付着か",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20260915G00013_l.jpg",
-   "local": true,
-   "published": "2026-09-15T23:15:00+00:00",
-   "title_ja": "特定外来生物「セアカゴケグモ」を県内で確認 4例目",
-   "summary_ja": "秋田県は15日、特定外来生物であるセアカゴケグモ1匹が県央部の自動車関連事業所で見つかったと発表しました。県内での確認は4例目です。周辺に他の個体や卵は確認されておらず、県外から持ち込まれた車両に付着していたとみられています。",
-   "category": "くらし・地域",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "52fe11516f40674d",
-   "url": "https://www.sakigake.jp/news/article/20260915AK0039",
-   "title_original": "男鹿市内で新たな陸上風力発電計画 日本風力エネルギー（東京）、最大１１基建設",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260915ak0039_01_l.jpg",
-   "local": true,
-   "published": "2026-09-15T23:00:00+00:00",
-   "title_ja": "男鹿市で新たな陸上風力発電計画 最大11基を建設予定",
-   "summary_ja": "秋田県男鹿市は15日、東京の「日本風力エネルギー」が市内で新たな陸上風力発電事業を計画していることを明らかにしました。最大11基の風車を建設する計画で、順調に進めば早ければ2033年11月の運転開始を目指すとしています。",
-   "category": "経済・企業",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "8086e8aa5c349be6",
-   "url": "https://www.sakigake.jp/news/article/20260915AK0041",
-   "title_original": "ロッテ・山口、初の３０号到達「夢かなった」 ２打席連続の本塁打",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260915ak0041_01_l.jpg",
-   "local": true,
-   "published": "2026-09-15T22:30:00+00:00",
-   "title_ja": "ロッテの山口航輝が初の30号到達 明桜高出身、2打席連続HR",
-   "summary_ja": "プロ野球・ロッテ of 山口航輝選手（秋田・明桜高校出身）が、2打席連続となる本塁打を放ち、自身初となるシーズン30号に到達しました。球団の日本選手では1986年の落合博満氏以来の大台達成となり、入団時からの夢がかなったと喜びを語りました。",
-   "category": "スポーツ",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
   }
  ]
 }
