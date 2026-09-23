@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-23T20:00:56.158535+09:00",
+ "updated_at": "2026-09-24T01:21:46.855414+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -21,21 +21,12 @@
  "weather": {
   "city": "秋田市",
   "reported_at": "2026-09-23T17:00:00+09:00",
-  "updated_at": "2026-09-23T20:03:30.220133+09:00",
+  "updated_at": "2026-09-24T01:32:51.645227+09:00",
   "days": [
    {
-    "date": "2026-09-23",
-    "max": 24.3,
-    "min": 14.5,
-    "icon": "🌤",
-    "text": "晴れ夜遅くくもり",
-    "pop": 0,
-    "official": true
-   },
-   {
     "date": "2026-09-24",
-    "max": 23.7,
-    "min": 18.1,
+    "max": 23.4,
+    "min": 18.2,
     "icon": "🌤",
     "text": "晴れ朝晩くもり所により明け方まで雨",
     "pop": 20,
@@ -61,8 +52,8 @@
    },
    {
     "date": "2026-09-27",
-    "max": 25.9,
-    "min": 15.1,
+    "max": 25.7,
+    "min": 16.0,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -70,8 +61,8 @@
    },
    {
     "date": "2026-09-28",
-    "max": 21.2,
-    "min": 18.7,
+    "max": 25.1,
+    "min": 18.8,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 60,
@@ -79,7 +70,7 @@
    },
    {
     "date": "2026-09-29",
-    "max": 22.9,
+    "max": 23.3,
     "min": 17.8,
     "icon": "🌦",
     "text": "くもり一時雨",
@@ -101,7 +92,7 @@
     "min": 14.8,
     "icon": "🌦",
     "text": "にわか雨",
-    "pop": 76,
+    "pop": 86,
     "official": false
    },
    {
@@ -110,7 +101,16 @@
     "min": 12.8,
     "icon": "🌦",
     "text": "強い霧雨",
-    "pop": 69,
+    "pop": 67,
+    "official": false
+   },
+   {
+    "date": "2026-10-03",
+    "max": 23.0,
+    "min": 11.1,
+    "icon": "🌦",
+    "text": "霧雨",
+    "pop": 29,
     "official": false
    }
   ],
@@ -210,6 +210,22 @@
  "count": 400,
  "items": [
   {
+   "id": "e466c967d1d1b5fb",
+   "url": "https://tenki.jp/lite/bousai/typhoon/storm/2626/2/8",
+   "title_original": "台風26号(2026年)の秋田県の暴風域に入る確率",
+   "source": "tenki.jp",
+   "image": "https://static.tenki.jp/static-images/typhoon-detail/recent/japan_wide-large.jpg",
+   "local": false,
+   "published": "2026-09-23T12:00:00+00:00",
+   "title_ja": "台風26号、秋田県が暴風域に入る確率を発表",
+   "summary_ja": "気象庁が台風26号が2026年に秋田県の暴風域に入る確率を公表した。住民は最新情報に注意し、備えを進めるよう呼びかけられている。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
    "id": "ac74f2fd846e69aa",
    "url": "https://www.akt.co.jp/news?sel=20260923-00000009-AKT-1",
    "title_original": "秋晴れの空の下、各地の寺で墓参り 静かに手を合わせ先祖の霊慰める 県内13地点で夏日に 秋田",
@@ -284,6 +300,22 @@
    "title_ja": "秋田市でダリアの出荷作業が最盛期を迎える",
    "summary_ja": "秋田市雄和の生産農家では、秋のダリアの出荷作業が最盛期を迎え、連休中も休まず慌ただしく作業が進められています。",
    "category": "グルメ・農林水産",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "3fa7469ff22d2d42",
+   "url": "https://origin.akt.co.jp/news?sel=20260923-00000010-AKT-1",
+   "title_original": "舞台の裏側にわくわく！小学生が音響や照明の仕事に挑戦 ステージ見学も ミルハス楽しむ1日 秋田市",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/20260923-00000010-AKT-1-00-thumb.jpg",
+   "local": false,
+   "published": "2026-09-23T10:00:00+00:00",
+   "title_ja": "ミルハスで小学生が舞台の裏方仕事を体験",
+   "summary_ja": "秋田市の文化会館を会場に、小学生がステージの見学や音響、照明といった舞台の裏側の仕事に挑戦しました。子どもたちは普段は見られない劇場の仕組みに触れ、楽しく仕事の体験を深めました。",
+   "category": "文化・芸能",
    "area": "中央",
    "kind": "news",
    "event_when": "",
@@ -370,6 +402,22 @@
    "importance": 2
   },
   {
+   "id": "fb84c8ca1a7db996",
+   "url": "https://news.ntv.co.jp/n/abs/category/life/ab2179d718d2594a018e6053fb169e8587",
+   "title_original": "23日は彼岸の中日 家族連れなどが先祖の墓に手を合わせる 秋田市（2026年9月23日掲載）｜ABS NEWS NNN",
+   "source": "日テレNEWS NNN",
+   "image": "https://image.gallery.play.jp/abs-news/articles/359d53e3d23c4d74b011213baa4b1897/0c8c2c27-ddaf-48a7-a64d-90724c27d3c5.jpg?w=1200",
+   "local": false,
+   "published": "2026-09-23T09:08:00+00:00",
+   "title_ja": "秋田市でお彼岸の中日、先祖の墓に手を合わせる家族連れ",
+   "summary_ja": "秋田市では彼岸の中日を迎え、家族連れなどが先祖の眠る墓を訪れて静かに手を合わせました。",
+   "category": "くらし・地域",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "9307602a950b5678",
    "url": "https://topics.smt.docomo.ne.jp/article/abs/region/abs-2026092304939123",
    "title_original": "23日は彼岸の中日 家族連れなどが先祖の墓に手を合わせる 秋田市",
@@ -384,6 +432,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 1
+  },
+  {
+   "id": "7308cce41b068818",
+   "url": "https://www.akt.co.jp/news?sel=20260923-00000005-AKT-2",
+   "title_original": "大にぎわい！天気気にせず遊べる屋内施設「みずもーる」が人気 大型遊具やおもちゃ楽しむ 秋田・美郷町",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/20260923-00000005-AKT-2-00-thumb.jpg",
+   "local": false,
+   "published": "2026-09-23T09:00:00+00:00",
+   "title_ja": "天候を気にせず遊べる美郷町の屋内施設「みずもーる」が人気",
+   "summary_ja": "美郷町にある天候に左右されず遊べる屋内施設「みずもーる」が多くの家族連れでにぎわっています。大型遊具やおもちゃが揃い、子どもたちに人気を集めています。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "b265d2d9d631ed8f",
@@ -482,6 +546,22 @@
    "importance": 3
   },
   {
+   "id": "549745e4b55c5217",
+   "url": "https://topics.smt.docomo.ne.jp/article/fushinsha_joho/region/fushinsha_joho-1475362541419987832",
+   "title_original": "（秋田）大館市豊町でクマ出没痕跡 ９月２２日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052043.png?fushinsha_joho-1475362541419987832",
+   "local": false,
+   "published": "2026-09-23T05:17:00+00:00",
+   "title_ja": "大館市豊町でクマの出没痕跡を確認",
+   "summary_ja": "大館市豊町において、クマが出没したことを示す痕跡が見つかりました。周辺住民の方は注意が必要です。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "7090675772612984",
    "url": "https://www.sakigake.jp/news/article/20260923AK0010",
    "title_original": "タイ訪問「笑い合えたり、理解し合えた」 美郷中生らが報告",
@@ -560,6 +640,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "4a0b0f04af8a37df",
+   "url": "https://www.sakigake.jp/news/article/20260923AK0005",
+   "title_original": "時代を語る・保坂武文（３５）接待は「本田流」活用",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260923ak0005_01_l.jpg",
+   "local": true,
+   "published": "2026-09-23T04:00:00+00:00",
+   "title_ja": "連載企画：保坂武文氏のインタビュー記事",
+   "summary_ja": "自動車F1レースの世界から企業経営へと転身を遂げた保坂武文氏の半生や、ビジネスにおける経験について語る連載記事です。",
+   "category": "文化・芸能",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "ee02e66772110f02",
@@ -6511,102 +6607,6 @@
    "area": "県南",
    "kind": "event",
    "event_when": "9月18日〜10月30日",
-   "importance": 3
-  },
-  {
-   "id": "8a0cbaecfeca9921",
-   "url": "https://www.sakigake.jp/news/article/20260918AK0032",
-   "title_original": "財務副大臣に進藤金日子氏（大仙市出身）",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260918ak0032_01_l.jpg",
-   "local": true,
-   "published": "2026-09-18T07:19:00+00:00",
-   "title_ja": "大仙市出身の進藤金日子氏が財務副大臣に就任",
-   "summary_ja": "大仙市協和出身で参議院議員の進藤金日子氏が、財務副大臣に就任しました。県内出身の国会議員の新たな要職起用として注目されます。",
-   "category": "行政・政治",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "7d896cd236340fc9",
-   "url": "https://www.sakigake.jp/news/article/20260918AK0031",
-   "title_original": "総務政務官に福原氏（衆院秋田２区） 第２次高市改造内閣",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260918ak0031_01_l.jpg",
-   "local": true,
-   "published": "2026-09-18T07:04:00+00:00",
-   "title_ja": "衆院秋田２区の福原淳嗣氏が総務政務官に就任",
-   "summary_ja": "衆院秋田２区選出の福原淳嗣氏が、第２次高市改造内閣の総務政務官および内閣府政務官に就任しました。県内選出議員の政務官起用となります。",
-   "category": "行政・政治",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "ca8dcb2906d97452",
-   "url": "https://www.asahi.com/articles/ASV9K2CXSV9KUBUB004M.html",
-   "title_original": "トウガラシ ハートで育む辛さ 今西広陽アナウンサー [秋田県]",
-   "source": "朝日新聞",
-   "image": "https://imgopt.asahi.com/ogp/AS20260917003544_comm.jpg",
-   "local": false,
-   "published": "2026-09-18T07:00:00+00:00",
-   "title_ja": "ハート型のトウガラシ栽培を通じた取り組みを紹介",
-   "summary_ja": "秋田県内を舞台に、ハート型の形をしたトウガラシの栽培や、それに込められた辛さを育む工夫についての話題が紹介されています。",
-   "category": "グルメ・農林水産",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "a4fbf7a7081134e8",
-   "url": "https://www.sakigake.jp/news/article/20260915AK0030",
-   "title_original": "秋田は｢ありすぎる｣～精霊と踊る夏～（２）大館の獅子踊り",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260915ak0030_01_l.jpg",
-   "local": true,
-   "published": "2026-09-18T07:00:00+00:00",
-   "title_ja": "大館市北部の粕田地区における獅子踊りや文化",
-   "summary_ja": "大館市北部の粕田地区を対象に、人形道祖神が密集する地域の特徴や獅子踊りなどの文化について紹介しています。地域の伝統や暮らしの様子を伝えています。",
-   "category": "文化・芸能",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "079ed5a2f514ef1b",
-   "url": "https://www.sakigake.jp/news/article/20260918AK0012",
-   "title_original": "秋田市河辺・鵜養の活性化策を提案 県立大生、宿泊滞在し調査",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260918ak0012_01_l.jpg",
-   "local": true,
-   "published": "2026-09-18T07:00:00+00:00",
-   "title_ja": "県立大生が秋田市鵜養の地域活性化策を提案",
-   "summary_ja": "県立大の学生が秋田市河辺の鵜養地区に滞在して行った調査の成果発表会が開催されました。空き家の活用方法など、地域住民に向けて様々な活性化策が提案されました。",
-   "category": "くらし・地域",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "ee82a1c0c8780147",
-   "url": "https://www.walkerplus.com/event/ar0205e615241",
-   "title_original": "浅舞八幡神社祭典(秋田県)の情報",
-   "source": "ウォーカープラス",
-   "image": "https://www.walkerplus.com/asset/images/common/no_image_spot.jpg",
-   "local": false,
-   "published": "2026-09-18T06:40:33+00:00",
-   "title_ja": "浅舞八幡神社祭典の開催情報",
-   "summary_ja": "秋田県で開催される伝統的な浅舞八幡神社祭典に関するお出かけ情報です。地域の歴史ある祭りを楽しむことができます。",
-   "category": "観光・イベント",
-   "area": "県南",
-   "kind": "event",
-   "event_when": "",
    "importance": 3
   }
  ]
