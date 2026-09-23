@@ -43,10 +43,12 @@ GEMINI_MODEL_FALLBACKS = [
 #   - llama-3.3-70b-versatile: 本文が極端に短く、ハッシュタグが「# タグ」と
 #     空白入りになって壊れる。品質は落ちるが最後の砦として残す。
 #   - qwen/qwen3.6-27b は出力形式が崩壊してパースできないため採用しない。
+# 2026-08-30に疎通確認して差し替えた。llama-3.3-70b-versatile と
+# llama-3.1-8b-instant は提供終了（「モデル廃止」で400が返る）。
 GROQ_MODEL_FALLBACKS = [
     "openai/gpt-oss-120b",
-    "llama-3.3-70b-versatile",
-    "llama-3.1-8b-instant",
+    "openai/gpt-oss-20b",
+    "qwen/qwen3.8-27b",
 ]
 
 DEFAULT_CLAUDE_MODEL = "claude-opus-5"
