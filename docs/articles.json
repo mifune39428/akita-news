@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-27T01:00:22.323173+09:00",
+ "updated_at": "2026-09-27T05:46:50.119017+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,31 +20,31 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-09-26T17:00:00+09:00",
-  "updated_at": "2026-09-27T01:04:30.387081+09:00",
+  "reported_at": "2026-09-27T05:00:00+09:00",
+  "updated_at": "2026-09-27T05:47:36.818094+09:00",
   "days": [
    {
     "date": "2026-09-27",
-    "max": 24.4,
-    "min": 17.3,
+    "max": 24.5,
+    "min": 16.9,
     "icon": "🌤",
-    "text": "晴れ時々くもり",
+    "text": "晴れ時々くもり能代山本地域では昼前まで霧",
     "pop": 0,
     "official": true
    },
    {
     "date": "2026-09-28",
-    "max": 23.8,
-    "min": 18.4,
-    "icon": "🌦",
-    "text": "くもり一時雨",
-    "pop": null,
+    "max": 24.6,
+    "min": 18.2,
+    "icon": "🌧",
+    "text": "くもり昼前から雨所により昼過ぎ雷を伴い激しく降る",
+    "pop": 60,
     "official": true
    },
    {
     "date": "2026-09-29",
-    "max": 21.7,
-    "min": 14.0,
+    "max": 21.4,
+    "min": 15.9,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -52,8 +52,8 @@
    },
    {
     "date": "2026-09-30",
-    "max": 22.1,
-    "min": 12.4,
+    "max": 21.8,
+    "min": 13.2,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-10-01",
-    "max": 21.1,
-    "min": 14.4,
+    "max": 20.6,
+    "min": 14.0,
     "icon": "🌦",
     "text": "くもり時々雨",
     "pop": 70,
@@ -71,7 +71,7 @@
    {
     "date": "2026-10-02",
     "max": 17.5,
-    "min": 15.3,
+    "min": 14.6,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -79,8 +79,8 @@
    },
    {
     "date": "2026-10-03",
-    "max": 18.0,
-    "min": 12.6,
+    "max": 17.7,
+    "min": 11.4,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -88,8 +88,8 @@
    },
    {
     "date": "2026-10-04",
-    "max": 21.9,
-    "min": 11.0,
+    "max": 18.1,
+    "min": 10.8,
     "icon": "🌦",
     "text": "霧雨",
     "pop": 35,
@@ -97,34 +97,24 @@
    },
    {
     "date": "2026-10-05",
-    "max": 17.5,
-    "min": 14.9,
-    "icon": "🌦",
-    "text": "にわか雨",
+    "max": 21.7,
+    "min": 10.0,
+    "icon": "⛅",
+    "text": "晴れ時々くもり",
     "pop": 55,
     "official": false
    },
    {
     "date": "2026-10-06",
-    "max": 21.6,
+    "max": 21.9,
     "min": 14.0,
     "icon": "🌦",
-    "text": "強い霧雨",
+    "text": "霧雨",
     "pop": 42,
     "official": false
    }
   ],
   "pops": [
-   {
-    "time": "2026-09-26T18:00",
-    "label": "18-24時",
-    "pop": 0
-   },
-   {
-    "time": "2026-09-27T00:00",
-    "label": "0-6時",
-    "pop": 0
-   },
    {
     "time": "2026-09-27T06:00",
     "label": "6-12時",
@@ -139,6 +129,26 @@
     "time": "2026-09-27T18:00",
     "label": "18-24時",
     "pop": 0
+   },
+   {
+    "time": "2026-09-28T00:00",
+    "label": "0-6時",
+    "pop": 10
+   },
+   {
+    "time": "2026-09-28T06:00",
+    "label": "6-12時",
+    "pop": 60
+   },
+   {
+    "time": "2026-09-28T12:00",
+    "label": "12-18時",
+    "pop": 60
+   },
+   {
+    "time": "2026-09-28T18:00",
+    "label": "18-24時",
+    "pop": 50
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -160,6 +170,7 @@
   "TBS NEWS DIG",
   "TVer",
   "Yahoo!ニュース",
+  "akita-abs.co.jp",
   "akita.keizai.biz",
   "dochaku.com",
   "news.infoseek.co.jp",
@@ -190,10 +201,12 @@
   "旅行総合研究所タビリス",
   "日テレNEWS",
   "日テレNEWS NNN",
+  "日本農業新聞",
   "朝日放送",
   "朝日新聞",
   "株式会社 北鹿新聞社",
   "株式会社オマツリジャパン",
+  "横手経済新聞",
   "毎日新聞",
   "河北新報オンライン",
   "秋田ノーザンハピネッツ",
@@ -208,6 +221,38 @@
  ],
  "count": 400,
  "items": [
+  {
+   "id": "5c950a8061cd2088",
+   "url": "https://www.agrinews.co.jp/opinion/index/408881",
+   "title_original": "［自治体農政 首長語る］秋田県大館市・石田健佑市長⑦ 中山間地農業は「宝」",
+   "source": "日本農業新聞",
+   "image": "https://www.agrinews.co.jp/media/2026/09/25/20260925_ppqqtp94fzit4vzfdw7f.jpg",
+   "local": false,
+   "published": "2026-09-26T20:04:57+00:00",
+   "title_ja": "大館市長が語る中山間地農業の魅力",
+   "summary_ja": "大館市の石田健佑市長が自治体農政について語り、中山間地における農業を地域の「宝」としてその重要性をアピールしました。",
+   "category": "行政・政治",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "f1b106a841ae7fec",
+   "url": "https://www.yomiuri.co.jp/local/akita/news/20260926-GYTNT00209",
+   "title_original": "秋田：音楽やお笑い野外フェス 高橋優さん主催 秋田・にかほ市で開幕：地域ニュース",
+   "source": "読売新聞",
+   "image": "https://www.yomiuri.co.jp/media/2026/09/20260926-GYTNI00211-1.jpg?type=ogp",
+   "local": false,
+   "published": "2026-09-26T20:00:00+00:00",
+   "title_ja": "にかほ市で高橋優さん主催の野外フェスが開幕",
+   "summary_ja": "にかほ市において、アーティストの高橋優さんが主催する音楽とお笑いの野外フェスティバルが開幕しました。多くの来場者で賑わっています。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "event",
+   "event_when": "9月27日",
+   "importance": 3
+  },
   {
    "id": "42657746046cdd0d",
    "url": "https://akita.keizai.biz/gpnews/1766860",
@@ -1025,6 +1070,22 @@
    "importance": 3
   },
   {
+   "id": "7b2a2b12cc8147de",
+   "url": "https://www.sakigake.jp/news/article/20260926AK0011",
+   "title_original": "鹿角市異動【名簿】",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20260926ak0011_01_l.jpg",
+   "local": true,
+   "published": "2026-09-26T01:20:00+00:00",
+   "title_ja": "10月1日付の鹿角市人事異動",
+   "summary_ja": "鹿角市における10月1日付の人事異動および秋田県関係の人事情報が発表されました。詳細な名簿は紙面や関連リンク等で確認できます。",
+   "category": "行政・政治",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "93964f1542656bff",
    "url": "https://www.sakigake.jp/news/article/20260925AK0050",
    "title_original": "レンチンきりたんぽに新シリーズ パッケージ、ギャグ漫画とコラボ",
@@ -1163,6 +1224,22 @@
    "title_ja": "北都銀行の人事異動",
    "summary_ja": "北都銀行に関する人事異動のお知らせです。県内経済に影響を与える金融機関の動きとして注目されます。",
    "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "4664c541de3f9268",
+   "url": "https://www.sakigake.jp/news/article/20260926AK0002",
+   "title_original": "北斗星（９月２６日付）",
+   "source": "秋田魁新報電子版",
+   "image": "https://www.sakigake.jp/images/news-entry/20260926ak0002_01_l.jpg",
+   "local": false,
+   "published": "2026-09-26T00:22:00+00:00",
+   "title_ja": "秋田魁新報のコラム「北斗星」",
+   "summary_ja": "秋田魁新報電子版に掲載されたコラム「北斗星」の9月26日付の記事。日々の出来事や地域の話題について綴られています。",
+   "category": "文化・芸能",
    "area": "県全体",
    "kind": "news",
    "event_when": "",
@@ -1425,6 +1502,22 @@
    "importance": 3
   },
   {
+   "id": "067b53fff78bd329",
+   "url": "https://yokote.keizai.biz/headline/1352",
+   "title_original": "横手で「人生会議」体験講座 専用カード使い自分らしい生き方考える",
+   "source": "横手経済新聞",
+   "image": "https://images.keizai.biz/yokote_keizai/headline/1790331428_photo.jpg",
+   "local": false,
+   "published": "2026-09-25T13:41:15+00:00",
+   "title_ja": "横手市で人生会議を考える体験講座を開催",
+   "summary_ja": "横手市において、専用のカードを使いながら自分らしい生き方や最期の迎え方について考える「人生会議」の体験講座が行われました。",
+   "category": "くらし・地域",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "d626032f282ffb3f",
    "url": "https://omatsurijapan.com/column/akita-kanto-shidaya-premium-2026",
    "title_original": "老舗料亭から眺める秋田竿燈まつり。「料亭・志田屋プラン」で過ごす特別な夜",
@@ -1471,6 +1564,38 @@
    "kind": "news",
    "event_when": "",
    "importance": 4
+  },
+  {
+   "id": "411439c073af2b4f",
+   "url": "https://www.akita-abs.co.jp/blog/radipal/archives/59033",
+   "title_original": "ラジパル日記 – タイヤ・ホイールの専門店 『コニシタイヤ Happy!新国道店』OPEN！",
+   "source": "akita-abs.co.jp",
+   "image": "https://www.akita-abs.co.jp/blog/radipal/wp-content/uploads/sites/36/2026/09/15d.jpg",
+   "local": false,
+   "published": "2026-09-25T11:39:59+00:00",
+   "title_ja": "新国道にコニシタイヤ新店がオープン",
+   "summary_ja": "タイヤ・ホイール専門店『コニシタイヤ Happy!新国道店』が秋田県新国道沿いにオープンし、タイヤ交換・ホイール販売・整備など地域の車利用者向けに多彩なサービスを提供する。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "06991b4e6a145760",
+   "url": "https://www.asahi.com/and/pressrelease/16764476",
+   "title_original": "株式会社BREAK、秋田県・秋田市の誘致企業に認定。東北初拠点を開設し、教育を起点とした地方創生モデルを秋田から展開",
+   "source": "朝日新聞",
+   "image": "",
+   "local": false,
+   "published": "2026-09-25T11:37:28+00:00",
+   "title_ja": "株式会社BREAK、秋田市に東北初拠点を開設",
+   "summary_ja": "株式会社BREAKが秋田市に東北初の拠点を設置し、教育を起点とした地方創生モデルを展開することが県の誘致企業に認定された。県はこの取り組みを地域活性化の一翼と評価し、支援策を検討する。",
+   "category": "経済・企業",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "c3cda55bbe44ce42",
@@ -6495,118 +6620,6 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
-  },
-  {
-   "id": "fe2b466a2bf757e6",
-   "url": "https://www.sakigake.jp/news/article/20260921AK0005",
-   "title_original": "藍染めの着物やのれん、味わい深く 秋田市で故田中昭夫さん回顧展",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260921ak0005_01_l.jpg",
-   "local": true,
-   "published": "2026-09-21T04:45:00+00:00",
-   "title_ja": "秋田市で藍染め作家・故田中昭夫さんの回顧展",
-   "summary_ja": "由利本荘市出身の藍染め作家故・田中昭夫さんの回顧展が、秋田市の工芸ギャラリーで開催されています。味わい深い着物やのれんなどの作品が並んでいます。",
-   "category": "文化・芸能",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "6eed2879cba52768",
-   "url": "https://www.sakigake.jp/news/article/20260920AK0015",
-   "title_original": "食材の持ち味生かし、東北の恵みＰＲ 飲食店経営・伊藤清道さん（五城目町出身）",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260920ak0015_01_l.jpg",
-   "local": true,
-   "published": "2026-09-21T04:00:00+00:00",
-   "title_ja": "五城目町出身の伊藤さんが仙台で東北の味を発信",
-   "summary_ja": "秋田県五城目町出身の伊藤清道さんが、仙台市で東北各地の食材を活かした飲食店を展開しています。各地から取り寄せたこだわりの食材の魅力を広く伝えています。",
-   "category": "経済・企業",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "50e0de8a36ddeb35",
-   "url": "https://www.sakigake.jp/news/article/20260921AK0003",
-   "title_original": "時代を語る・保坂武文（３３）タイガー来訪が幻に",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260921ak0003_01_l.jpg",
-   "local": true,
-   "published": "2026-09-21T04:00:00+00:00",
-   "title_ja": "保坂武文さんが語るF1チームでの経験",
-   "summary_ja": "F1の「BARホンダ」チームで転戦した平成12年当時を振り返る連載記事です。レースでの悔しさやファンからの励ましなど、さまざまな思い出が語られています。",
-   "category": "その他",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "8275b1eea4be6c83",
-   "url": "https://news.yahoo.co.jp/articles/48c836ded67b9335b94d3d92b1b4c0834de58ad2/images/000",
-   "title_original": "横手が準決勝で5回コールド負け！3位での東北大会出場を目指す！秋田県大会【26年秋高校野球】 (高校野球ドットコム)",
-   "source": "Yahoo!ニュース",
-   "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgHv3yiG0svC1Da9toLzWOJUDMsZkK2drfAR0DEeKjrSWpDXz3Y87361ifNSt7VC4i4HFlzVbVaJL79hJkyzd3ADrFjf8mi9oxOXrXZJaYLZhoTfX4FU83dakswqHd7sIjw==",
-   "local": false,
-   "published": "2026-09-21T03:55:09+00:00",
-   "title_ja": "横手、準決勝で5回コールド負け　3位決定戦で東北大会目指す",
-   "summary_ja": "横手高は準決勝で5回のコールドゲームに敗れ、3位決定戦で東北大会出場を狙うこととなり、今後の戦いが注目されている。",
-   "category": "スポーツ",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "bd78a089dda3a8e6",
-   "url": "https://www.web.nhk/tv/an/kokorotabi/pl/series-tep-PKRKV54PVL/ep/7YK3WZ691G",
-   "title_original": "プレイバック2014 とうちゃこ 346日目 秋田県秋田市",
-   "source": "web.nhk",
-   "image": "https://imgu.web.nhk/static/assets/images/tvseries/ts/PKRKV54PVL/PKRKV54PVL-eyecatch_03151a5a3409b85f3c29ef5ccdc57df2.jpg",
-   "local": false,
-   "published": "2026-09-21T03:54:53+00:00",
-   "title_ja": "「とうちゃこ」2014年の秋田市を旅した様子を振り返る",
-   "summary_ja": "2014年に秋田県秋田市を訪れた際の旅の様子をプレイバックして振り返る番組内容となっています。当時の旅の軌跡や、訪れた秋田市の様子を改めて紹介する内容です。",
-   "category": "文化・芸能",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 1
-  },
-  {
-   "id": "9d3e2c839cc3cb19",
-   "url": "https://www.aab-tv.co.jp/news/aabnews-26092111510017",
-   "title_original": "秋田県内の１００歳以上の高齢者数過去最多１０８４人 最高齢は大館市の女性１１２歳",
-   "source": "AAB秋田朝日放送",
-   "image": "https://www.aab-tv.co.jp/news_thumb/2026092111510012217.jpg",
-   "local": true,
-   "published": "2026-09-21T03:19:44+00:00",
-   "title_ja": "秋田県内の100歳以上が過去最多の1084人 最高齢は112歳",
-   "summary_ja": "敬老の日に合わせ、秋田県は10月1日時点での100歳以上の高齢者数が1084人となり、2002年以降で過去最多になったと発表しました。県内の最高齢は大館市に暮らす112歳の女性です。",
-   "category": "くらし・地域",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "251911591c3247dc",
-   "url": "https://topics.smt.docomo.ne.jp/article/aab/region/aab-12217",
-   "title_original": "秋田県内の１００歳以上の高齢者数過去最多1084人 最高齢は大館市の女性112歳",
-   "source": "ｄメニューニュース",
-   "image": "https://img.topics.smt.news.goo.ne.jp/picture/aab/m_aab-12217.jpg",
-   "local": false,
-   "published": "2026-09-21T02:51:00+00:00",
-   "title_ja": "県内の100歳以上が初の1000人超え",
-   "summary_ja": "県内で100歳以上の高齢者が過去最多の1084人となり、初めて1000人を超えました。大館市の女性が県内最高齢となっています。",
-   "category": "くらし・地域",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
   }
  ]
 }
