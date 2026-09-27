@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-28T01:37:10.065728+09:00",
+ "updated_at": "2026-09-28T06:03:18.853813+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,31 +20,31 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-09-27T17:00:00+09:00",
-  "updated_at": "2026-09-28T01:38:29.471608+09:00",
+  "reported_at": "2026-09-28T05:00:00+09:00",
+  "updated_at": "2026-09-28T06:06:38.627903+09:00",
   "days": [
    {
     "date": "2026-09-28",
-    "max": 24.8,
-    "min": 18.7,
+    "max": 23.5,
+    "min": 18.5,
     "icon": "🌦",
-    "text": "雨朝晩くもり所により昼過ぎ雷を伴い激しく降る",
+    "text": "くもり昼前から夕方雨所により昼過ぎ雷を伴い激しく降る",
     "pop": 70,
     "official": true
    },
    {
     "date": "2026-09-29",
-    "max": 21.2,
-    "min": 16.1,
+    "max": 21.0,
+    "min": 16.7,
     "icon": "⛅",
-    "text": "くもり時々晴れ",
-    "pop": null,
+    "text": "くもり昼過ぎから時々晴れ",
+    "pop": 10,
     "official": true
    },
    {
     "date": "2026-09-30",
-    "max": 22.4,
-    "min": 13.8,
+    "max": 22.5,
+    "min": 13.3,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -52,8 +52,8 @@
    },
    {
     "date": "2026-10-01",
-    "max": 22.1,
-    "min": 15.4,
+    "max": 23.3,
+    "min": 15.6,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 60,
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-10-02",
-    "max": 17.4,
-    "min": 14.9,
+    "max": 18.0,
+    "min": 15.7,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -70,8 +70,8 @@
    },
    {
     "date": "2026-10-03",
-    "max": 18.3,
-    "min": 13.5,
+    "max": 18.9,
+    "min": 13.9,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -79,8 +79,8 @@
    },
    {
     "date": "2026-10-04",
-    "max": 22.5,
-    "min": 11.4,
+    "max": 19.9,
+    "min": 12.3,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -88,57 +88,67 @@
    },
    {
     "date": "2026-10-05",
-    "max": 21.9,
-    "min": 16.7,
+    "max": 22.0,
+    "min": 15.9,
     "icon": "🌦",
-    "text": "霧雨",
+    "text": "にわか雨",
     "pop": 78,
     "official": false
    },
    {
     "date": "2026-10-06",
-    "max": 19.4,
-    "min": 11.0,
-    "icon": "☁️",
-    "text": "くもり",
+    "max": 19.9,
+    "min": 12.5,
+    "icon": "🌦",
+    "text": "霧雨",
     "pop": 50,
     "official": false
    },
    {
     "date": "2026-10-07",
-    "max": 23.2,
-    "min": 10.3,
-    "icon": "⛅",
-    "text": "晴れ時々くもり",
+    "max": 22.6,
+    "min": 10.6,
+    "icon": "☀️",
+    "text": "快晴",
     "pop": 18,
     "official": false
    }
   ],
   "pops": [
    {
-    "time": "2026-09-27T18:00",
-    "label": "18-24時",
-    "pop": 0
-   },
-   {
-    "time": "2026-09-28T00:00",
-    "label": "0-6時",
-    "pop": 50
-   },
-   {
     "time": "2026-09-28T06:00",
     "label": "6-12時",
-    "pop": 70
+    "pop": 60
    },
    {
     "time": "2026-09-28T12:00",
     "label": "12-18時",
-    "pop": 60
+    "pop": 70
    },
    {
     "time": "2026-09-28T18:00",
     "label": "18-24時",
     "pop": 30
+   },
+   {
+    "time": "2026-09-29T00:00",
+    "label": "0-6時",
+    "pop": 10
+   },
+   {
+    "time": "2026-09-29T06:00",
+    "label": "6-12時",
+    "pop": 10
+   },
+   {
+    "time": "2026-09-29T12:00",
+    "label": "12-18時",
+    "pop": 10
+   },
+   {
+    "time": "2026-09-29T18:00",
+    "label": "18-24時",
+    "pop": 0
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -185,6 +195,7 @@
   "公明新聞電子版プラス",
   "北海道新聞デジタル",
   "北羽新報社",
+  "山陽新聞",
   "新潟日報",
   "旅行総合研究所タビリス",
   "日テレNEWS",
@@ -208,6 +219,22 @@
  ],
  "count": 400,
  "items": [
+  {
+   "id": "0a59647f761e1043",
+   "url": "https://news.yahoo.co.jp/articles/7a5a05cf48fe93a237b2cce721d722e0a5756333",
+   "title_original": "【秋田市】9/28 最高25℃、昼間は雨、やや風がある予想【朝版】",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260928-00020003-wordleafw-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-09-27T20:09:01+00:00",
+   "title_ja": "秋田市の9月28日の天気、最高気温25度で昼間は雨と風の予想",
+   "summary_ja": "2026年9月28日の秋田市は、最高気温が25度まで上がる見込みです。日中は雨が降り、風もやや強まる時間帯があると予想されています。お出かけの際は最新の気象情報を確認し、雨具を用意するなど注意してください。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
   {
    "id": "60bc385806dc8546",
    "url": "https://www.sakigake.jp/news/article/20260927AK0029",
@@ -255,6 +282,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "1d383c91a321187c",
+   "url": "https://www.sakigake.jp/news/article/20260927CO0121",
+   "title_original": "金の１１歳栗原「本当に幸せ」 「ぷよぷよ」、祝福イベント",
+   "source": "秋田魁新報電子版",
+   "image": "https://cdn.sakigake.jp/newspack/PN2026092701000958.-.-.CI0003.jpg",
+   "local": false,
+   "published": "2026-09-27T11:56:31+00:00",
+   "title_ja": "ぷよぷよの祝福イベントで11歳の栗原選手が喜びを語る",
+   "summary_ja": "人気アクションパズルゲーム「ぷよぷよ」の祝福イベントが開催され、11歳の栗原選手が喜びを語りました。周囲からの温かい祝福を受け、本当に幸せであると笑顔を見せました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "b293e8790bb135e8",
@@ -428,6 +471,22 @@
    "summary_ja": "秋田市内で海外の文化に触れられる国際交流の催しが行われました。多数の国のブースが並び、参加者が外国人と直接交流して理解を深めました。",
    "category": "文化・芸能",
    "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "cb1f64be191c3fc4",
+   "url": "https://www.sanyonews.jp/article/1887953",
+   "title_original": "コメリパワー横手インター店（秋田県）、コメリパワー会津坂下店（福島県）、コメリハード＆グリーン今治店（愛媛県）、コメリハード＆グリーン佐賀嬉野店（佐賀県）新規開店のご案内",
+   "source": "山陽新聞",
+   "image": "https://static.sanyonews.jp/image/article/size1https://prtimes.jp/img/79052/800/resize/d79052-800-9d4f8e4e7461cccc64a4-2.jpg",
+   "local": false,
+   "published": "2026-09-27T09:08:30+00:00",
+   "title_ja": "横手市にコメリパワー横手インター店が新規開店",
+   "summary_ja": "秋田県内に新たなホームセンターとして、コメリパワー横手インター店がオープンしました。地域の利便性向上が期待される店舗の開店情報です。",
+   "category": "経済・企業",
+   "area": "県南",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -2269,6 +2328,22 @@
    "category": "スポーツ",
    "area": "県全体",
    "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "b2fb1216508946b3",
+   "url": "https://topics.smt.docomo.ne.jp/article/eventbank/region/eventbank-10645085",
+   "title_original": "大盤解説会（第45期女流本因坊戦能代市開催記念事業）",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/eventbank/m_eventbank-10645085.jpg",
+   "local": false,
+   "published": "2026-09-25T23:59:14+00:00",
+   "title_ja": "能代市での女流本因坊戦開催を記念した大盤解説会",
+   "summary_ja": "第45期女流本因坊戦の能代市開催を記念した事業として、将棋の大盤解説会が実施されます。",
+   "category": "観光・イベント",
+   "area": "県北",
+   "kind": "event",
    "event_when": "",
    "importance": 3
   },
@@ -6542,70 +6617,6 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "65c61bdc11980afd",
-   "url": "https://www.web.nhk/tv/an/kokorotabi/pl/series-tep-PKRKV54PVL/ep/DGNQ1LMVWJ",
-   "title_original": "プレイバック2014 とうちゃこ 347日目 秋田県三種町",
-   "source": "web.nhk",
-   "image": "https://imgu.web.nhk/static/assets/images/tvseries/ts/PKRKV54PVL/PKRKV54PVL-eyecatch_03151a5a3409b85f3c29ef5ccdc57df2.jpg",
-   "local": false,
-   "published": "2026-09-22T03:39:37+00:00",
-   "title_ja": "三種町を舞台にした旅番組の過去の放送を振り返る",
-   "summary_ja": "三種町が舞台となった旅番組の放送回の記録です。過去の歩みを振り返る内容となっています。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 1
-  },
-  {
-   "id": "c472e6269f28f7bc",
-   "url": "https://www.sakigake.jp/news/article/20260921AK0015",
-   "title_original": "「払田柵跡」発見の立役者・後藤宙外、文学者としての側面も 総合案内所で企画展",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20260920G00034_l.jpg",
-   "local": true,
-   "published": "2026-09-22T03:30:00+00:00",
-   "title_ja": "払田柵跡発見の後藤宙外を紹介　大仙市で文学者としての企画展",
-   "summary_ja": "国史跡「払田柵跡」の発見者として知られる大仙市出身の後藤宙外の文学者としての歩みを紹介するパネル展が、同市の払田柵総合案内所で開かれている。会期は11月15日まで。",
-   "category": "文化・芸能",
-   "area": "県南",
-   "kind": "event",
-   "event_when": "11月15日まで",
-   "importance": 2
-  },
-  {
-   "id": "3d1c608fb34d349a",
-   "url": "https://www.sakigake.jp/news/article/20260922AK0011",
-   "title_original": "【速報中】２２日は第３代表決定戦と決勝を実施 秋季高校野球秋田県大会",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260922ak0011_01_l.jpg",
-   "local": true,
-   "published": "2026-09-22T03:19:18+00:00",
-   "title_ja": "秋季高校野球秋田県大会が最終日　決勝と第3代表決定戦を実施",
-   "summary_ja": "秋季東北高校野球秋田県大会は22日、秋田市のこまちスタジアムで最終日を迎え、決勝と第3代表決定戦が行われる。特集ページでは試合結果の速報を実施している。",
-   "category": "スポーツ",
-   "area": "中央",
-   "kind": "event",
-   "event_when": "9月22日",
-   "importance": 3
-  },
-  {
-   "id": "a684a400c9aaf87f",
-   "url": "https://www.sakigake.jp/news/article/20260922AK0007",
-   "title_original": "絵画のような大胆なデザインの作品も！ アトリオンでパッチワーク展、２３日まで",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260922ak0007_01_l.jpg",
-   "local": true,
-   "published": "2026-09-22T03:15:00+00:00",
-   "title_ja": "秋田市のアトリオンでパッチワーク展　創作作品など展示、23日まで",
-   "summary_ja": "秋田市の長沢昌子さんによるパッチワーク展が、秋田市のアトリオンで開催されている。絵画のようなデザインの作品やバッグなど小物約30点が並び、会期は9月23日まで。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "event",
-   "event_when": "9月21日〜23日",
    "importance": 2
   }
  ]
