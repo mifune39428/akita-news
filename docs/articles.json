@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-05T01:45:25.313844+09:00",
+ "updated_at": "2026-10-05T06:00:11.609020+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,31 +20,31 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-10-04T17:00:00+09:00",
-  "updated_at": "2026-10-05T01:46:05.391790+09:00",
+  "reported_at": "2026-10-05T05:00:00+09:00",
+  "updated_at": "2026-10-05T06:02:24.596162+09:00",
   "days": [
    {
     "date": "2026-10-05",
-    "max": 23.9,
-    "min": 15.3,
-    "icon": "🌤",
-    "text": "晴れ昼前からくもり所により夜遅く雨",
+    "max": 23.2,
+    "min": 14.7,
+    "icon": "☁️",
+    "text": "くもり所により夜雨",
     "pop": 30,
     "official": true
    },
    {
     "date": "2026-10-06",
     "max": 21.1,
-    "min": 16.8,
+    "min": 17.5,
     "icon": "🌦",
-    "text": "くもり一時雨",
-    "pop": null,
+    "text": "くもり明け方まで雨",
+    "pop": 70,
     "official": true
    },
    {
     "date": "2026-10-07",
-    "max": 20.3,
-    "min": 15.8,
+    "max": 20.6,
+    "min": 15.1,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -52,7 +52,7 @@
    },
    {
     "date": "2026-10-08",
-    "max": 20.5,
+    "max": 20.8,
     "min": 11.6,
     "icon": "🌤",
     "text": "晴れ時々くもり",
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-10-09",
-    "max": 20.7,
-    "min": 10.6,
+    "max": 21.5,
+    "min": 10.4,
     "icon": "🌤",
     "text": "晴れ時々くもり",
     "pop": 20,
@@ -70,8 +70,8 @@
    },
    {
     "date": "2026-10-10",
-    "max": 24.9,
-    "min": 10.5,
+    "max": 25.5,
+    "min": 11.0,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -79,8 +79,8 @@
    },
    {
     "date": "2026-10-11",
-    "max": 22.0,
-    "min": 12.5,
+    "max": 21.8,
+    "min": 14.0,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -88,17 +88,17 @@
    },
    {
     "date": "2026-10-12",
-    "max": 20.9,
-    "min": 12.7,
-    "icon": "🌤",
-    "text": "晴れ",
+    "max": 22.2,
+    "min": 14.7,
+    "icon": "🌦",
+    "text": "霧雨",
     "pop": 9,
     "official": false
    },
    {
     "date": "2026-10-13",
-    "max": 20.7,
-    "min": 13.5,
+    "max": 25.1,
+    "min": 14.0,
     "icon": "🌦",
     "text": "霧雨",
     "pop": 20,
@@ -106,29 +106,19 @@
    },
    {
     "date": "2026-10-14",
-    "max": 20.9,
-    "min": 12.5,
-    "icon": "☁️",
-    "text": "くもり",
+    "max": 21.5,
+    "min": 17.7,
+    "icon": "🌦",
+    "text": "にわか雨",
     "pop": 31,
     "official": false
    }
   ],
   "pops": [
    {
-    "time": "2026-10-04T18:00",
-    "label": "18-24時",
-    "pop": 0
-   },
-   {
-    "time": "2026-10-05T00:00",
-    "label": "0-6時",
-    "pop": 0
-   },
-   {
     "time": "2026-10-05T06:00",
     "label": "6-12時",
-    "pop": 0
+    "pop": 10
    },
    {
     "time": "2026-10-05T12:00",
@@ -139,6 +129,26 @@
     "time": "2026-10-05T18:00",
     "label": "18-24時",
     "pop": 30
+   },
+   {
+    "time": "2026-10-06T00:00",
+    "label": "0-6時",
+    "pop": 70
+   },
+   {
+    "time": "2026-10-06T06:00",
+    "label": "6-12時",
+    "pop": 20
+   },
+   {
+    "time": "2026-10-06T12:00",
+    "label": "12-18時",
+    "pop": 10
+   },
+   {
+    "time": "2026-10-06T18:00",
+    "label": "18-24時",
+    "pop": 10
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -177,6 +187,7 @@
   "nikkinonline.com",
   "nippon.com",
   "origin.akt.co.jp",
+  "saga-s.co.jp",
   "sakigake.jp",
   "t.co",
   "tenki.jp",
@@ -188,6 +199,7 @@
   "スポーツナビ",
   "デーリー東北",
   "ライブドアニュース",
+  "レスポンス（Response.jp）",
   "京都新聞デジタル",
   "佐賀新聞",
   "北羽新報社",
@@ -216,6 +228,22 @@
  ],
  "count": 400,
  "items": [
+  {
+   "id": "7dd41aef32209c4f",
+   "url": "https://news.yahoo.co.jp/articles/779fcd9e76057e90a822cc1a0e5b3507f3f8b535",
+   "title_original": "【横手市】10/5 最低9℃、ひんやりする場面も、くもり空が続く予想【朝版】",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261005-00020114-wordleafw-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-10-04T20:47:09+00:00",
+   "title_ja": "横手市の10月5日の天気（朝版）",
+   "summary_ja": "10月5日の横手市は最低気温9度とひんやりし、くもり空が続く見込みです。朝晩は肌寒さ対策をしてお過ごしください。",
+   "category": "天気・防災",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
   {
    "id": "b77db206ebdbdc48",
    "url": "https://weathernews.jp/onebox/livecam/tohoku/akita/7CDDE908BCC7",
@@ -279,6 +307,38 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "3c27e23b96c61c39",
+   "url": "https://response.jp/article/2026/10/04/417356.html",
+   "title_original": "ニアミー初の貨客混載、秋田市7地区で実証",
+   "source": "レスポンス（Response.jp）",
+   "image": "https://response.jp/imgs/ogp_f/2248557.jpg",
+   "local": false,
+   "published": "2026-10-04T11:30:03+00:00",
+   "title_ja": "秋田市7地区で貨客混載の実証実験",
+   "summary_ja": "移動サービスを手掛けるニアミーが、秋田市内の7地区で初となる貨客混載の実証実験を実施します。",
+   "category": "経済・企業",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "63f72580b969693a",
+   "url": "https://s.response.jp/article/img/2026/10/04/417356/2248557.html?from=giga-page-gallery",
+   "title_original": "ニアミー初の貨客混載、秋田市7地区で実証 1枚目の写真・画像",
+   "source": "レスポンス（Response.jp）",
+   "image": "https://response.jp/imgs/p/FTSTGJfXFPDa90eMCxc6aihP-EE2QkNERUZH/2248557.jpg",
+   "local": false,
+   "published": "2026-10-04T11:30:03+00:00",
+   "title_ja": "秋田市での貨客混載実証の写真",
+   "summary_ja": "秋田市7地区で行われるニアミー初の貨客混載に関する実証実験の様子を収めた写真です。",
+   "category": "経済・企業",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "e3b3438958303803",
@@ -375,6 +435,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 2
+  },
+  {
+   "id": "efa94a510a1d97e7",
+   "url": "https://www2.nhk.or.jp/archives/movies/?id=D0027040136_00000",
+   "title_original": "秋田県富津内村のことば 送りのあいさつ",
+   "source": "nhk.or.jp",
+   "image": "https://www.nhk.or.jp/das/image/D0027040/D0027040136_00000_S_001.jpg",
+   "local": false,
+   "published": "2026-10-04T10:02:21+00:00",
+   "title_ja": "富津内村の方言における送りのあいさつについて",
+   "summary_ja": "秋田県富津内村で使用されている方言について、送りのあいさつの表現を紹介しています。地域独特の言葉の文化や言い回しに触れる内容です。",
+   "category": "文化・芸能",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
   },
   {
    "id": "79ebe8ac19b87256",
@@ -857,6 +933,22 @@
    "importance": 3
   },
   {
+   "id": "5509e06694c03572",
+   "url": "https://www.saga-s.co.jp/articles/gallery/1804113?ph=1",
+   "title_original": "【速報】＜サガン鳥栖＞ブラウブリッツ秋田戦のスタメン発表！ J2リーグ 第9節 10月4日、秋田県のソユースタジアム",
+   "source": "saga-s.co.jp",
+   "image": "https://saga.ismcdn.jp/mwimgs/6/0/1200m/img_609b2db86a8de983be77325ae616cc4d75407.png",
+   "local": false,
+   "published": "2026-10-04T03:30:00+00:00",
+   "title_ja": "ブラウブリッツ秋田の試合スタメン発表",
+   "summary_ja": "J2リーグ第9節のブラウブリッツ秋田戦に向け、ソユースタジアムでの試合スタメンが発表された。",
+   "category": "スポーツ",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "4bb38a9858cc0727",
    "url": "https://www.sakigake.jp/news/article/20261004AK0002",
    "title_original": "堀井美香さん、ハナコ岡部さんら出演 秋田の「いいな」見つけて １８日に都内で移住推進イベント",
@@ -871,6 +963,22 @@
    "kind": "event",
    "event_when": "10月18日",
    "importance": 3
+  },
+  {
+   "id": "f6109d22a8d17549",
+   "url": "https://www2.nhk.or.jp/archives/movies/?id=D0027040131_00000",
+   "title_original": "秋田県富津内村のことば なろかぼいの話",
+   "source": "nhk.or.jp",
+   "image": "https://www.nhk.or.jp/das/image/D0027040/D0027040131_00000_S_001.jpg",
+   "local": false,
+   "published": "2026-10-04T03:16:19+00:00",
+   "title_ja": "秋田県富津内村の方言について",
+   "summary_ja": "秋田県富津内村で使われている方言である「なろかぼい」について紹介している。",
+   "category": "文化・芸能",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
   },
   {
    "id": "978590ed9d75d923",
@@ -1273,6 +1381,22 @@
    "importance": 4
   },
   {
+   "id": "b0d55f17b33f91d7",
+   "url": "https://www.walkerplus.com/article/1002072/image10010591.html",
+   "title_original": "画像5 / 7＞【コロナ対策情報付き】秋田市立千秋美術館の楽しみ方！地元ゆかりの作家作品から秋田を知る",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1002072/10010590_615.jpg",
+   "local": false,
+   "published": "2026-10-03T19:14:38+00:00",
+   "title_ja": "秋田市立千秋美術館で地元ゆかりの作家作品を楽しむ",
+   "summary_ja": "秋田市立千秋美術館の見どころや楽しみ方を紹介しています。地元にゆかりのある作家たちの作品を通じて、秋田の文化や魅力を深く知ることができます。",
+   "category": "文化・芸能",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "769d3c25a60a85db",
    "url": "https://www.walkerplus.com/article/1430849/image18176226.html",
    "title_original": "画像21 / 31＞秋田空港は北東北の観光に便利！ かわいい「秋田犬」のグッズや撮影スポットも 【日本全国「空港」ガイド Vol.3】",
@@ -1335,6 +1459,22 @@
    "kind": "event",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "38bfb6f3300ab483",
+   "url": "https://media.unisba.ac.id/a9411395/7da5e5d9WzQKXxRxODYuFQE",
+   "title_original": "【投稿映像】秋田市御所野でクマ突進 ドア激突で迷走 Raimondo Todaro (34viQEiquJ)",
+   "source": "Unisba Media",
+   "image": "",
+   "local": false,
+   "published": "2026-10-03T16:26:03+00:00",
+   "title_ja": "秋田市御所野でクマがドアに激突",
+   "summary_ja": "秋田市御所野でクマが突進し、ドアに激突する様子が目撃されました。動物による危険なトラブルが発生しており、周辺での警戒が呼びかけられています。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
   },
   {
    "id": "ff492e249d3a5081",
@@ -2167,6 +2307,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "1ecba37edd98fcb8",
+   "url": "https://www.walkerplus.com/article/1021766",
+   "title_original": "楽しく歩いて運動不足解消、秋田県横手市で「健康づくりウォークラリーin秋田ふるさと村」が開催中",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1021766/10192103_615.jpg",
+   "local": false,
+   "published": "2026-10-03T02:41:34+00:00",
+   "title_ja": "横手市で健康づくりウォークラリーが開催中",
+   "summary_ja": "秋田ふるさと村を舞台に、楽しく歩いて運動不足を解消できるウォークラリーイベントが行われています。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "event",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "dd28552300645b08",
@@ -6468,150 +6624,6 @@
    "summary_ja": "秋田県大仙市にある温泉施設「柵の湯」の日帰り温泉営業が、10月1日から再開される。これまで休止していた日帰り入浴のサービスが再開されることで、地元住民や温泉ファンにとって待望の利用再開となる。",
    "category": "くらし・地域",
    "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "a5bbd64d52e3c351",
-   "url": "https://www.sakigake.jp/news/article/20260929AK0072",
-   "title_original": "秋田市、市内大学の１年生に「アキカ」配布 運賃２万円相当、申請は来年１月まで",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260929ak0072_01_l.jpg",
-   "local": true,
-   "published": "2026-09-30T01:30:00+00:00",
-   "title_ja": "秋田市が大学1年生にICカード配布 バス運賃2万円相当、申請は来年1月まで",
-   "summary_ja": "秋田市は、市内の4年制大学に入学した新1年生を対象に、2万円相当の交通ポイントが付与された地域連携ICカード「AkiCA（アキカ）」を配布している。バスの利用を促す事業の一環で、申請期限は来年1月までとなっている。",
-   "category": "行政・政治",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "8fc1572a65172d0d",
-   "url": "https://news.yahoo.co.jp/articles/6c09fa69f6cdab9e625e700ba6e4fca728e5da59",
-   "title_original": "夏の甲子園の愛知代表・享栄 秋田で県勢3校と招待試合（朝日新聞）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260930-00000027-asahi-000-1-view.jpg?exp=10800",
-   "local": false,
-   "published": "2026-09-30T01:00:01+00:00",
-   "title_ja": "甲子園愛知代表の享栄が秋田で招待試合 県内3校と対戦へ",
-   "summary_ja": "夏の甲子園の愛知県代表である享栄高校が、秋田県で秋田県勢の3つの高校と招待試合を行う。詳細な日程や対戦カードなどは明らかにされていないが、愛知の代表校と秋田の高校による試合が予定されている。",
-   "category": "スポーツ",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "963dde2389dbb7b5",
-   "url": "https://www.sakigake.jp/news/article/20260929AK0076",
-   "title_original": "Ｖチューバー「宙彩しろん」一日署長に 能代ロケット実験場で講話、交通安全訴え",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260929ak0076_01_l.jpg",
-   "local": true,
-   "published": "2026-09-30T01:00:00+00:00",
-   "title_ja": "VTuber「宙彩しろん」が一日署長に 能代市で交通安全アピール",
-   "summary_ja": "能代市をPRするバーチャルユーチューバー「宙彩しろん」が、秋田県警能代署の一日警察署長に任命された。JAXA能代ロケット実験場で講話を行うなどし、市民に向けて交通安全の大切さを呼びかけた。",
-   "category": "くらし・地域",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "289a7bcbb9208663",
-   "url": "https://www.asahi.com/articles/ASV9Y3QZ2V9YUBUB006M.html?iref=reporter-bio-cover_timeline",
-   "title_original": "宇宙系Vチューバーが一日警察署長 「大事なのは安全確認」 秋田 [秋田県]",
-   "source": "朝日新聞",
-   "image": "https://imgopt.asahi.com/ogp/AS20260929004292_comm.jpg",
-   "local": false,
-   "published": "2026-09-30T01:00:00+00:00",
-   "title_ja": "宇宙系VTuberが秋田で一日警察署長に 安全確認の重要性訴える",
-   "summary_ja": "宇宙系のバーチャルユーチューバーが秋田県内で一日警察署長を務め、「大事なのは安全確認」と呼びかけた。詳細な活動場所や日時は明らかにされていないが、宇宙系VTuberが交通安全などの啓発活動を行った。",
-   "category": "くらし・地域",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "a1d229a8d1d8b9b3",
-   "url": "https://www.sakigake.jp/news/article/20260929AK0081",
-   "title_original": "秋田市のあくらビール、岩手産ホップで仕込み開始 ビール１１月に販売",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20260925G00040_l.jpg",
-   "local": true,
-   "published": "2026-09-30T00:00:00+00:00",
-   "title_ja": "あくらビール、岩手産ホップで仕込み開始",
-   "summary_ja": "秋田市のあくらビールが岩手産のホップ「ＩＢＵＫＩ」を使ったビールの仕込みを始めた。完成したビールは１１月に販売される予定。",
-   "category": "グルメ・農林水産",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "6de07f7a9a524320",
-   "url": "https://www.sakigake.jp/news/article/20260929AK0065",
-   "title_original": "アド東北、安田社長を再任【役員改選】",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260929ak0065_01_l.jpg",
-   "local": true,
-   "published": "2026-09-29T23:00:00+00:00",
-   "title_ja": "アド東北が定時株主総会、安田社長を再任",
-   "summary_ja": "秋田市のアド東北は定時株主総会と取締役会を開き、任期満了に伴う役員改選で安田社長を再任した。",
-   "category": "経済・企業",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "6b3cbe0438e67ef7",
-   "url": "https://www.sakigake.jp/news/article/20260929AK0074",
-   "title_original": "東成瀬村異動【名簿】",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20260929ak0074_01_l.jpg",
-   "local": true,
-   "published": "2026-09-29T22:30:00+00:00",
-   "title_ja": "東成瀬村の人事異動名簿",
-   "summary_ja": "東成瀬村における１０月１日付の人事異動に関する情報。",
-   "category": "行政・政治",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "9b633dfbeba1be4a",
-   "url": "https://www.sakigake.jp/news/article/20260929AK0069",
-   "title_original": "秋田犬と散歩、「ルックバック」ロケ地巡りプランも 得旅キャンペーン第２弾開始",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20260929G00028_l.jpg",
-   "local": true,
-   "published": "2026-09-29T22:00:00+00:00",
-   "title_ja": "秋田県の宿泊割引「得旅キャンペーン」第2弾が10月1日開始",
-   "summary_ja": "秋田県内への宿泊予約で料金が割引される「得旅キャンペーン」の第２弾クーポンが１０月１日から配布されます。秋田犬との散歩やアニメのロケ地巡りといったプランも用意されており、利用期間は２０２７年２月２７日までの予定です。",
-   "category": "観光・イベント",
-   "area": "県全体",
-   "kind": "event",
-   "event_when": "10月1日〜2月27日",
-   "importance": 4
-  },
-  {
-   "id": "6c464860b99d0dd3",
-   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2268/r_id=10746",
-   "title_original": "路線バス 持続可能な公共交通へ 大館市でＷＧ初会合 専門人材や組織育成",
-   "source": "株式会社 北鹿新聞社",
-   "image": "https://www.hokuroku.co.jp/files/libs/8360/201909241311217234.jpg?1790743379",
-   "local": false,
-   "published": "2026-09-29T21:41:57+00:00",
-   "title_ja": "大館市で持続可能な路線バス維持に向けた部会が初会合",
-   "summary_ja": "秋田県大館市で、持続可能な公共交通としての路線バスを維持するためのワーキンググループの初会合が開かれました。専門的な人材や組織の育成などについて議論が行われます。",
-   "category": "行政・政治",
-   "area": "県北",
    "kind": "news",
    "event_when": "",
    "importance": 3
