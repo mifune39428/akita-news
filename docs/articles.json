@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T21:19:36.342918+09:00",
+ "updated_at": "2026-10-12T06:38:05.211798+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,39 +20,30 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-10-11T17:00:00+09:00",
-  "updated_at": "2026-10-11T21:22:26.707082+09:00",
+  "reported_at": "2026-10-12T05:00:00+09:00",
+  "updated_at": "2026-10-12T06:38:32.391934+09:00",
   "days": [
    {
-    "date": "2026-10-11",
-    "max": 21.7,
-    "min": 12.7,
-    "icon": "☀️",
-    "text": "晴れ",
-    "pop": 0,
-    "official": true
-   },
-   {
     "date": "2026-10-12",
-    "max": 22.6,
-    "min": 13.2,
+    "max": 22.8,
+    "min": 12.2,
     "icon": "☀️",
-    "text": "晴れ",
+    "text": "晴れ所により昼前まで霧",
     "pop": 0,
     "official": true
    },
    {
     "date": "2026-10-13",
-    "max": 24.0,
-    "min": 14.3,
+    "max": 25.3,
+    "min": 14.7,
     "icon": "🌤",
     "text": "晴れ時々くもり",
-    "pop": null,
+    "pop": 10,
     "official": true
    },
    {
     "date": "2026-10-14",
-    "max": 20.8,
+    "max": 22.8,
     "min": 15.6,
     "icon": "🌦",
     "text": "くもり時々雨",
@@ -61,8 +52,8 @@
    },
    {
     "date": "2026-10-15",
-    "max": 17.5,
-    "min": 13.2,
+    "max": 18.2,
+    "min": 13.9,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -70,8 +61,8 @@
    },
    {
     "date": "2026-10-16",
-    "max": 18.5,
-    "min": 11.9,
+    "max": 18.2,
+    "min": 12.6,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -79,8 +70,8 @@
    },
    {
     "date": "2026-10-17",
-    "max": 18.3,
-    "min": 9.9,
+    "max": 18.0,
+    "min": 12.4,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -88,8 +79,8 @@
    },
    {
     "date": "2026-10-18",
-    "max": 19.4,
-    "min": 9.5,
+    "max": 17.2,
+    "min": 8.8,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -97,34 +88,33 @@
    },
    {
     "date": "2026-10-19",
-    "max": 21.6,
-    "min": 14.5,
-    "icon": "🌦",
-    "text": "にわか雨",
+    "max": 20.5,
+    "min": 13.3,
+    "icon": "⛈",
+    "text": "雷雨・ひょう",
     "pop": 36,
     "official": false
    },
    {
     "date": "2026-10-20",
-    "max": 18.0,
-    "min": 13.3,
+    "max": 19.6,
+    "min": 13.1,
     "icon": "🌦",
-    "text": "霧雨",
+    "text": "強い霧雨",
     "pop": 27,
+    "official": false
+   },
+   {
+    "date": "2026-10-21",
+    "max": 14.8,
+    "min": 12.2,
+    "icon": "🌦",
+    "text": "強い霧雨",
+    "pop": 31,
     "official": false
    }
   ],
   "pops": [
-   {
-    "time": "2026-10-11T18:00",
-    "label": "18-24時",
-    "pop": 0
-   },
-   {
-    "time": "2026-10-12T00:00",
-    "label": "0-6時",
-    "pop": 0
-   },
    {
     "time": "2026-10-12T06:00",
     "label": "6-12時",
@@ -139,6 +129,26 @@
     "time": "2026-10-12T18:00",
     "label": "18-24時",
     "pop": 0
+   },
+   {
+    "time": "2026-10-13T00:00",
+    "label": "0-6時",
+    "pop": 0
+   },
+   {
+    "time": "2026-10-13T06:00",
+    "label": "6-12時",
+    "pop": 0
+   },
+   {
+    "time": "2026-10-13T12:00",
+    "label": "12-18時",
+    "pop": 10
+   },
+   {
+    "time": "2026-10-13T18:00",
+    "label": "18-24時",
+    "pop": 10
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -146,12 +156,14 @@
  "sources": [
   "47NEWS",
   "AAB秋田朝日放送",
+  "ABEMA",
   "ABS秋田放送",
   "AKT秋田テレビ",
   "CAMPFIRE (キャンプファイヤー)",
   "Excite エキサイト",
   "FNNプライムオンライン",
   "HotelBank",
+  "Howl.Link",
   "Infoseek",
   "JFA",
   "LIMO | くらしとお金の経済メディア",
@@ -167,11 +179,9 @@
   "au Webポータル",
   "city.kitaakita.akita.jp",
   "news.nicovideo.jp",
-  "news.web.nhk",
   "tenki.jp",
   "toonippo.co.jp",
   "voix.jp",
-  "いこーよニュース",
   "ぴあエンタメ情報",
   "ウォーカープラス",
   "オエノングループ",
@@ -190,6 +200,7 @@
   "北羽新報社",
   "千葉テレビ放送株式会社",
   "地球の歩き方",
+  "宇都宮ブレックス",
   "山形新聞",
   "日テレNEWS NNN",
   "日刊スポーツ",
@@ -213,55 +224,109 @@
  ],
  "count": 400,
  "digest": {
-  "headline": "秋田の今週：金融統合の動きや大館きりたんぽまつり開幕など",
+  "headline": "北東北の地銀統合検討やハピネッツ勝利、各地のイベント情報",
   "points": [
    {
-    "text": "秋田銀行が岩手銀行と青森みちのく銀行との経営統合に向け最終合意を目指す方針を示したほか、県内景気は緩やかな回復として判断が23カ月連続で据え置かれました。",
+    "text": "青森・秋田・岩手の北東北3県の地方銀行による経営統合に向けた検討が進められており、秋田銀行の芦田頭取は2028年4月までの最終合意を目指す方針を示しました。",
     "ids": [
-     "a6c5c1f5b1bdbee5",
-     "52747e7d29dee7ac",
-     "16d664d4035cdc7c"
+     "2a17b7cf063429e5",
+     "52747e7d29dee7ac"
     ]
    },
    {
-    "text": "大館市で新米の季節恒例の本場大館きりたんぽまつりが開幕し、定番から多彩なアレンジ鍋を楽しむ家族連れらで賑わっています。",
+    "text": "バスケットボールBリーグプレミアの秋田ノーザンハピネッツは、敵地で強豪の宇都宮と対戦して82対71で勝利し、3年ぶりとなる白星を挙げました。",
+    "ids": [
+     "e70ba1ff06a124bf",
+     "feb8ae93fcc32d12"
+    ]
+   },
+   {
+    "text": "大館市のニプロハチ公ドームでは本場大館きりたんぽまつりが開幕し、トマトスープや白湯などの多彩な鍋や新米の味が家族連れなどに楽しまれています。",
     "ids": [
      "b2773829d6f93a1b",
      "fed35a4ebf346386"
     ]
    },
    {
-    "text": "バスケットボールBリーグの秋田ノーザンハピネッツが宇都宮に勝利し、サッカーのブラウブリッツ秋田は敵地でのいわき戦に臨みました。",
-    "ids": [
-     "feb8ae93fcc32d12",
-     "6da679c858ce2884",
-     "7e8eca6c77ec421e"
-    ]
-   },
-   {
-    "text": "バレーボール女子のアランマーレ秋田庄内が17日に由利本荘市で開幕戦を迎えるほか、小坂町では鉄道まつりが開催されています。",
+    "text": "秋田市と潟上市をホームタウンとしたバレーボール女子のアランマーレ秋田庄内が、17日に由利本荘市で開幕戦を迎えるほか、県内では様々な催しが行われています。",
     "ids": [
      "1378ed2a05d23f65",
-     "184f4963da8bbe81",
-     "98e3665f90faa479"
-    ]
-   },
-   {
-    "text": "東日本学校吹奏楽大会の中学生部門と高校部門で県内の学校が金賞を受賞し、秋田市では両陛下が国スポ卓球競技をご観戦されました。",
-    "ids": [
-     "51267cd6a3d40103",
-     "aeb9e04382028711",
-     "d1c3c6342b5edd4d"
+     "6da679c858ce2884",
+     "184f4963da8bbe81"
     ]
    }
   ],
   "days": 3,
-  "from": "2026-10-08T21:22:26.707964+09:00",
-  "generated_at": "2026-10-11T21:22:34.071317+09:00",
+  "from": "2026-10-09T06:38:32.392931+09:00",
+  "generated_at": "2026-10-12T06:38:34.053465+09:00",
   "article_count": 24,
-  "sig": "5afdc2aaa80c"
+  "sig": "106043aa67fb"
  },
  "items": [
+  {
+   "id": "05f89dac685bebe7",
+   "url": "https://news.yahoo.co.jp/articles/17bf77e67c03f9b0367b4e2edf7f37339b9552dd",
+   "title_original": "【秋田市】10/12 最高24℃、最低12℃、晴れて気温差に注意の予想【朝版】",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261012-00020003-wordleafw-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-10-11T20:09:01+00:00",
+   "title_ja": "秋田市の天気：秋晴れで朝晩と日中の気温差に注意",
+   "summary_ja": "秋田市の本日は、最高気温24度、最低気温12度と予想されています。晴天が広がりますが、一日の寒暖差が大きいため体調管理にお気を付けください。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "2a17b7cf063429e5",
+   "url": "https://abema.tv/video/episode/89-44_s0_p537491",
+   "title_original": "青森・秋田・岩手 3県の地銀が統合検討 何がどう変わる？",
+   "source": "ABEMA",
+   "image": "",
+   "local": false,
+   "published": "2026-10-11T14:08:58+00:00",
+   "title_ja": "青森・秋田・岩手の地銀が経営統合へ向け検討",
+   "summary_ja": "北東北3県の地方銀行による経営統合の検討が進められています。今後の金融サービスのあり方や地域経済への影響に注目が集まっています。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 5
+  },
+  {
+   "id": "e70ba1ff06a124bf",
+   "url": "https://www.sakigake.jp/news/article/20261011AK0041",
+   "title_original": "スミス＆ウェッツェルが５３得点 ハピネッツ、悔しさ晴らす今季２勝目",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20261011ak0041_01_l.jpg",
+   "local": true,
+   "published": "2026-10-11T13:45:00+00:00",
+   "title_ja": "ハピネッツ、強豪・宇都宮を下して今季2勝目",
+   "summary_ja": "これまでの惜敗の悔しさをバネに、秋田が敵地で奮闘しました。強力な攻撃陣の活躍もあり、強豪・宇都宮相手に3年ぶりとなる白星を挙げました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "2aaf97bb5258d581",
+   "url": "https://www.sakigake.jp/news/article/20261011AK0044",
+   "title_original": "国スポ重量挙げ、白土が６位 成年男子９４キロ級クリーン＆ジャーク",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20261011ak0044_01_l.jpg",
+   "local": true,
+   "published": "2026-10-11T13:30:00+00:00",
+   "title_ja": "国スポ重量挙げ：成年男子94キロ級で白土が6位入賞",
+   "summary_ja": "青森県で開催された国民スポーツ大会の重量挙げ競技において、秋田県勢の選手が成年男子94キロ級のクリーン＆ジャークで6位に入賞する健闘を見せました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
   {
    "id": "62ee8a39d4147bd7",
    "url": "https://www.sakigake.jp/news/article/20261011AK0019",
@@ -293,6 +358,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "14bcec367faa1d21",
+   "url": "https://www.utsunomiyabrex.com/lp/game_20261011",
+   "title_original": "【試合情報】10/11(日) 秋田ノーザンハピネッツ戦",
+   "source": "宇都宮ブレックス",
+   "image": "https://www.utsunomiyabrex.com/files/user/lp/2026-27/20261011/images/kv_square.jpg",
+   "local": false,
+   "published": "2026-10-11T10:55:24+00:00",
+   "title_ja": "秋田ノーザンハピネッツ戦の試合情報",
+   "summary_ja": "秋田ノーザンハピネッツ戦の試合情報に関するお知らせです。チームの活動や試合の詳細は公式情報をご確認ください。",
+   "category": "スポーツ",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "d1c3c6342b5edd4d",
@@ -439,6 +520,22 @@
    "importance": 2
   },
   {
+   "id": "888c8b7fdd4aabcc",
+   "url": "https://news.yahoo.co.jp/articles/de841ce3cde5137d1fd620ebf481e48c87b6e8cd",
+   "title_original": "見て・聞いて・体験 あきた防災３６５フェスタ（秋田朝日放送）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261011-90012358-aab-000-1-thumb.jpg?exp=10800",
+   "local": false,
+   "published": "2026-10-11T09:11:02+00:00",
+   "title_ja": "「あきた防災３６５フェスタ」が開催",
+   "summary_ja": "見て、聞いて、体験しながら防災について楽しく学べるイベント「あきた防災３６５フェスタ」が催されます。",
+   "category": "観光・イベント",
+   "area": "県全体",
+   "kind": "event",
+   "event_when": "2026年10月12日",
+   "importance": 3
+  },
+  {
    "id": "d0c90347024789ad",
    "url": "https://www.aab-tv.co.jp/news/aabnews-26101115550058",
    "title_original": "見て・聞いて・体験 あきた防災３６５フェスタ",
@@ -481,6 +578,22 @@
    "title_ja": "秋田市で2つのマラソン大会開催 家族や仲間とゴール目指す",
    "summary_ja": "秋田市で2つのマラソン大会が開催されました。ランナーたちは家族や仲間とともに互いに励まし合いながら、それぞれの目標となるゴールを目指して走りを楽しみました。",
    "category": "スポーツ",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "10d3158041a4522d",
+   "url": "https://www.akt.co.jp/news?sel=20261011-00000002-AKT-1",
+   "title_original": "AKT-NEWS 日常の習慣として防災を学ぶ 楽しみながら意識を高めようというイベント初開催 秋田市 |10月11日(日)18:00",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/20261011-00000002-AKT-1-00-thumb.jpg",
+   "local": false,
+   "published": "2026-10-11T09:00:00+00:00",
+   "title_ja": "秋田市で防災意識を高めるイベントが初めて開催",
+   "summary_ja": "秋田市において、日常の習慣として防災について学びながら、楽しみながら意識を高めることを目的としたイベントが初めて開催されました。",
+   "category": "くらし・地域",
    "area": "中央",
    "kind": "news",
    "event_when": "",
@@ -1239,6 +1352,22 @@
    "importance": 2
   },
   {
+   "id": "ad6f818798dc4138",
+   "url": "https://mainichi.jp/articles/20261011/ddm/012/040/021000c",
+   "title_original": "わたしのふるさと便：逸品オススメ 秋田県 「バター餅」 農村発、アレンジ自在",
+   "source": "毎日新聞",
+   "image": "https://cdn.mainichi.jp/vol1/2026/10/11/20261011ddm012040183000p/0c10.jpg?2",
+   "local": false,
+   "published": "2026-10-10T17:01:10+00:00",
+   "title_ja": "秋田のバター餅、農村発のおすすめ商品",
+   "summary_ja": "秋田の農村で生まれたバター餅は、濃厚なバター風味ともちもち食感が特徴で、和洋問わずさまざまな料理にアレンジできると紹介されています。",
+   "category": "グルメ・農林水産",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "b3c29c26914b46c0",
    "url": "https://kahoku.news/articles/JY6XY70T2MKHN.html",
    "title_original": "5年連続で秋田県職員の 給与引き上げを勧告",
@@ -1285,6 +1414,22 @@
    "kind": "event",
    "event_when": "10月11日",
    "importance": 4
+  },
+  {
+   "id": "8209ad6c56fd9084",
+   "url": "https://t.co/C4sQo29hTj",
+   "title_original": "10/10(土) 今日の出来事。｜👹秋田の便利屋ぐりっと",
+   "source": "Howl.Link",
+   "image": "https://assets.st-note.com/production/uploads/images/322886050/rectangle_large_type_2_3407bc13330a6ca4bbd55e678ea4c55e.png?fit=bounds&quality=85&width=1280",
+   "local": false,
+   "published": "2026-10-10T11:11:19+00:00",
+   "title_ja": "秋田の便利屋『ぐりっと』が10月10日の活動報告",
+   "summary_ja": "秋田の便利屋『ぐりっと』が10月10日に行った作業や対応内容をブログ形式で報告しています。地域の暮らしに役立つ情報が掲載されています。",
+   "category": "くらし・地域",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
   },
   {
    "id": "8e7f40e65cb972a5",
@@ -1591,6 +1736,22 @@
    "importance": 3
   },
   {
+   "id": "61a8de4ef48101e7",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/san_tatsu/trend/san_tatsu-552051",
+   "title_original": "熱いパワーみなぎる、秋田県鹿角（かづの）の人と大地に会いにゆく",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/san_tatsu/m_san_tatsu-552051.jpg",
+   "local": false,
+   "published": "2026-10-10T07:00:00+00:00",
+   "title_ja": "鹿角の魅力と人々に触れる旅の話題",
+   "summary_ja": "豊かな大地と熱気あふれるパワーを持つ秋田県鹿角市を訪れ、地域の人々と触れ合う魅力を紹介しています。",
+   "category": "観光・イベント",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "478bd558a1d73136",
    "url": "https://www.asahi.com/articles/ASVB52D6CVB5UBUB001M.html",
    "title_original": "恋愛ではなく「学び」でつながるシェアハウス人気 秋田の国際教養大 [秋田県]",
@@ -1652,6 +1813,22 @@
    "area": "県南",
    "kind": "event",
    "event_when": "10月10日以降",
+   "importance": 3
+  },
+  {
+   "id": "01cadec401af7a7a",
+   "url": "https://tenki.jp/bousai/typhoon/storm/2629/2/8/3210/3214",
+   "title_original": "台風29号(2026年)の秋田県能代山本地域の暴風域に入る確率",
+   "source": "tenki.jp",
+   "image": "https://static.tenki.jp/static-images/typhoon-detail/recent/japan_wide-large.jpg",
+   "local": false,
+   "published": "2026-10-10T06:00:00+00:00",
+   "title_ja": "能代山本地域が台風29号の暴風域に入る確率",
+   "summary_ja": "台風29号の接近に伴い、秋田県の能代山本地域が暴風域に入る確率について気象情報が伝えられています。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
    "importance": 3
   },
   {
@@ -6485,182 +6662,6 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
-  },
-  {
-   "id": "7da7269700112115",
-   "url": "https://www.sakigake.jp/news/article/20261006AK0006",
-   "title_original": "県総合食品研究センター醸造試験場長・戸松さやかさん ワイン酵母の育種開発",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261006ak0006_01_l.jpg",
-   "local": true,
-   "published": "2026-10-06T04:00:00+00:00",
-   "title_ja": "ワイン酵母を開発、県醸造試験場で初の女性場長が活躍",
-   "summary_ja": "秋田市新屋町の県総合食品研究センター醸造試験場で、女性として初めて場長に就任した戸松さやかさんが研究に励んでいます。秋田の土地や酒造技術を大切にしながら、ワイン酵母の育種開発など、県内の醸造産業の発展に貢献しています。",
-   "category": "グルメ・農林水産",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "7a5c62dd07f6b8b9",
-   "url": "https://www.sakigake.jp/news/article/20261006AK0023",
-   "title_original": "秋田県警異動【名簿】",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261006ak0023_01_l.jpg",
-   "local": true,
-   "published": "2026-10-06T04:00:00+00:00",
-   "title_ja": "秋田県警が最新の人事異動を発表、名簿を公開",
-   "summary_ja": "秋田県警察本部における人事異動の情報が発表されました。県内警察組織の体制変更に伴う関係者の名簿が公開されており、治安維持に向けた新たな人員配置が示されています。",
-   "category": "行政・政治",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "27e3b16775bcc202",
-   "url": "https://www.akt.co.jp/news?sel=20261006-00000001-AKT-1",
-   "title_original": "AKT-NEWS 秋田犬「想空」が観光駅長に ホームで乗客出迎え、愛らしい姿で魅了 秋田・大館市|10月06日(火)12:00",
-   "source": "AKT秋田テレビ",
-   "image": "https://www.akt.co.jp/akt_news/AKT-thumb.jpg",
-   "local": false,
-   "published": "2026-10-06T03:37:00+00:00",
-   "title_ja": "秋田犬「想空」が大館市で観光駅長に！ホームで乗客をお出迎え",
-   "summary_ja": "秋田県大館市で、秋田犬の「想空（そら）」が観光駅長に就任しました。駅のホームで乗客を出迎え、その愛らしい姿で訪れた人々を魅了しています。地域の観光活性化に一役買っています。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "328c160180a63a38",
-   "url": "https://www.sakigake.jp/news/article/20261005AK0031",
-   "title_original": "「移植医療」への理解深めて 秋田駅でキャンペーン、関係団体が呼びかけ",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20261004G00002_l.jpg",
-   "local": true,
-   "published": "2026-10-06T03:30:00+00:00",
-   "title_ja": "移植医療への理解呼びかけ、秋田駅で街頭キャンペーン実施",
-   "summary_ja": "あきた移植医療協会などは10月4日、秋田市のJR秋田駅ぽぽろーどで移植医療への理解を深める街頭キャンペーンを実施しました。協会や県腎臓病患者連絡協議会のメンバーら約10人が参加し、駅の利用者に協力を呼びかけました。",
-   "category": "くらし・地域",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "2a780488bff02968",
-   "url": "https://www.sakigake.jp/news/article/20261006AK0018",
-   "title_original": "ミュージシャン・鈴木さん、初の個展 秋田の風景や特産など描く １２日まで、能代市",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20261005G00009_l.jpg",
-   "local": true,
-   "published": "2026-10-06T03:30:00+00:00",
-   "title_ja": "三種町出身の鈴木諭さんが初の個展、能代市で12日まで開催",
-   "summary_ja": "秋田県三種町出身のミュージシャン、鈴木諭さんの初の絵画個展「秋田素描。」が、能代市の旧料亭金勇で開催されています。クレヨンや墨を使い、地元の風景やジュンサイ、ハタハタといった秋田の特産などが描かれた作品が展示されています。会期は10月12日まで。",
-   "category": "文化・芸能",
-   "area": "県北",
-   "kind": "event",
-   "event_when": "10月6日〜12日",
-   "importance": 3
-  },
-  {
-   "id": "3f5736ec383fbc43",
-   "url": "https://news.yahoo.co.jp/articles/179457613653277a877be7a7a7eae25e760c2565",
-   "title_original": "秋田犬「想空」が観光駅長に ホームで乗客出迎え、愛らしい姿で魅了 秋田・大館市（秋田テレビ）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261006-90018577-akt-000-2-thumb.jpg?exp=10800",
-   "local": false,
-   "published": "2026-10-06T03:08:01+00:00",
-   "title_ja": "秋田犬の「想空」が観光駅長に就任、愛らしい姿で乗客を魅了",
-   "summary_ja": "秋田県大館市で、秋田犬の「想空（そら）」が観光駅長に就任しました。駅のホームに立ち、愛らしい姿で乗客を出迎えて人々を魅了しています。大館市の観光PRに貢献することが期待されています。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "d22bed53cca67359",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261006de55054",
-   "title_original": "秋田市の郵便局 来年用の年賀はがきの搬入開始",
-   "source": "news.web.nhk",
-   "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261006de55054/20261006de55054_E0000047442_1_l.jpg",
-   "local": false,
-   "published": "2026-10-06T03:01:41+00:00",
-   "title_ja": "来年用の年賀はがきが秋田市の郵便局へ搬入される",
-   "summary_ja": "秋田市の郵便局に来年用年賀はがきが到着し、搬入作業が始まりました。いよいよ年末年始の足音が聞こえ始める時期となりました。",
-   "category": "くらし・地域",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "b69f69a0e230dc63",
-   "url": "https://www.aab-tv.co.jp/news/aabnews-26100609180028",
-   "title_original": "ダンススポーツ「ブレイキン」の全国大会で秋田市の小学生が準優勝",
-   "source": "AAB秋田朝日放送",
-   "image": "https://www.aab-tv.co.jp/news_thumb/2026100609180012328.jpg",
-   "local": true,
-   "published": "2026-10-06T02:59:51+00:00",
-   "title_ja": "ブレイキン全国大会で準優勝した小学生が市長を訪問",
-   "summary_ja": "全国大会のブレイキン競技で準優勝した秋田市の小学５年生が市役所を訪れ、市長に大会の結果を報告しました。日頃の練習の成果を実らせた素晴らしい快挙です。",
-   "category": "スポーツ",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "228db93bfb66cf4f",
-   "url": "https://report.iko-yo.net/articles/34321",
-   "title_original": "はちみつソフト＆紅白餅まきも！ 秋田・田沢湖「山のはちみつ屋」で秋のはちみつ祭",
-   "source": "いこーよニュース",
-   "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/34113/normal.jpg?1791255105",
-   "local": false,
-   "published": "2026-10-06T02:59:02+00:00",
-   "title_ja": "田沢湖の「山のはちみつ屋」で秋のはちみつ祭を開催",
-   "summary_ja": "秋田県の田沢湖にある「山のはちみつ屋」で、秋の味覚を楽しめるイベントが開催されます。はちみつソフトや紅白餅まきなどが予定されています。",
-   "category": "観光・イベント",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "1c0c38ac7431e62e",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261006de55047",
-   "title_original": "秋田市の水道料金 来年4月から平均約3割値上げ 下水道は約2割",
-   "source": "news.web.nhk",
-   "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261006de55047/20261006de55047_E0000047582_1_l.jpg",
-   "local": false,
-   "published": "2026-10-06T02:57:49+00:00",
-   "title_ja": "秋田市の水道料金が来年4月から約3割値上げへ",
-   "summary_ja": "秋田市は、来年4月から水道料金を平均で約3割、下水道料金を約2割引き上げる方針を明らかにしました。市民生活への影響が懸念されます。",
-   "category": "行政・政治",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "34203ad645cc9764",
-   "url": "https://www.sakigake.jp/news/article/20261006AK0016",
-   "title_original": "「男鹿梨」でジェラート、シャリッとした食感も 道の駅おが",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261006ak0016_01_l.jpg",
-   "local": true,
-   "published": "2026-10-06T02:50:00+00:00",
-   "title_ja": "男鹿梨を使ったジェラートが道の駅おがで販売",
-   "summary_ja": "男鹿市の道の駅おがで、特産品である男鹿梨の豊水を使用したジェラートの販売が行われています。シャリッとした食感と程よい甘みや酸味が楽しめます。",
-   "category": "グルメ・農林水産",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
   }
  ]
 }
