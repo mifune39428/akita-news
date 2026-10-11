@@ -628,6 +628,43 @@ function partsFor(item) {
   };
 }
 
+// ================================================================ ここ数日のまとめ
+// 作るのは collect.py（digest.py）。ここでは articles.json の digest を表示するだけ。
+// ユニクロ ニュース・ミニマリスト・ニュースと同じ見た目・同じ動き。
+let digestData = null, digestOpen = false;
+
+function digestHtml() {
+  const d = digestData;
+  if (!d || !(d.points || []).length) return "";
+  const byId = new Map(all.map(i => [i.id, i]));
+  const CIRCLED = "①②③④⑤";
+  // 文のうしろに、根拠にした記事への小さな番号リンクを付ける。
+  const links = ids => (ids || []).map(id => byId.get(id)).filter(Boolean).map((item, n) =>
+    `<a ${linkAttrs(window.NEWS_LINK(item))} title="${escapeHtml(item.title_ja)}" aria-label="根拠の記事${n + 1}">${CIRCLED[n] || n + 1}</a>`).join("");
+  const since = d.from ? fmt.format(new Date(d.from)).split(" ")[0] : "";
+  // スマホで1画面目を埋めないよう、最初は2つだけ見せて残りは「続きを読む」で開く。
+  const FIRST = 2;
+  const extra = d.points.length > FIRST;
+  return `
+  <section class="digest${digestOpen ? " open" : ""}" id="digest">
+    <div class="dg-label">ここ${d.days || 3}日のまとめ<span>${since ? `${since}〜 · ` : ""}AIが要約</span></div>
+    <h3>${escapeHtml(d.headline)}</h3>
+    <ol>${d.points.map((p, n) => `<li class="${n >= FIRST ? "more" : ""}">${escapeHtml(p.text)}${links(p.ids)}</li>`).join("")}</ol>
+    <div class="dg-foot">
+      <span class="dg-note">${d.generated_at ? relative(d.generated_at) + "に作成" : ""}</span>
+      ${extra ? `<button class="dg-toggle" type="button" data-digest>${digestOpen ? "閉じる" : `続きを読む（あと${d.points.length - FIRST}件）`}</button>` : ""}
+    </div>
+  </section>`;
+}
+
+// 「続きを読む」「閉じる」。一覧は絞り込みのたびに作り直すので、親の #list で受ける。
+document.getElementById("list").addEventListener("click", e => {
+  if (!e.target.closest("[data-digest]")) return;
+  digestOpen = !digestOpen;
+  const box = document.getElementById("digest");
+  if (box) box.outerHTML = digestHtml();
+});
+
 function apply() {
   const q = query.trim().toLowerCase();
   renderSubFilters();
@@ -652,7 +689,11 @@ function apply() {
     document.getElementById("more").hidden = true;
     return;
   }
-  list.innerHTML = `<div id="leadSlot"></div><div class="news" id="news"></div>`;
+  // トップでは「先頭の記事 → ここ数日のまとめ → 最新ニュース」の順に並べる。
+  const digestBlock = (isHome()) ? digestHtml() : "";
+  list.innerHTML = `<div id="leadSlot"></div>`
+    + (digestBlock ? digestBlock + `<div class="sec-head"><h3>最新ニュース</h3></div>` : "")
+    + `<div class="news" id="news"></div>`;
   render();
 }
 const render = () => renderMore(partsFor);
@@ -794,6 +835,7 @@ async function load() {
     const res = await fetch(`articles.json?t=${Date.now()}`, { cache: "no-store" });
     const data = await res.json();
     all = window.NEWS_ITEMS = data.items || [];
+    digestData = data.digest || null;
     weatherData = data.weather || null;
     AREAS = data.areas || ["県北", "中央", "県南", "県全体"];
     document.getElementById("updated").textContent = data.updated_at ? `${relative(data.updated_at)}に更新` : "";

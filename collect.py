@@ -27,6 +27,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE_DIR)
 
 import llm_providers  # noqa: E402  （.env 読み込みより前でよい。キーは呼び出し時に参照される）
+import digest as digest_lib  # noqa: E402  一覧の先頭に出す「ここ数日のまとめ」
 
 FEEDS_PATH = os.path.join(BASE_DIR, "feeds.json")
 OUTPUT_PATH = os.path.join(BASE_DIR, "docs", "articles.json")
@@ -861,6 +862,23 @@ def fetch_weather() -> dict:
 # 保存
 # --------------------------------------------------------------------------
 
+# --------------------------------------------------------------------------
+# ここ数日のまとめ（一覧の先頭に出す）
+# --------------------------------------------------------------------------
+# 作り方そのものは digest.py（4サイト共通）。ここにはこのサイトならではの違いだけを書く。
+DIGEST_SITE = {
+    "editor": "秋田県のローカルニュースサイトの編集者",
+    "focus": "ニュースだけでなく、これから開かれる催し物（イベント）にも1つは触れる。県北・中央・県南のどこかに偏り過ぎないようにする。",
+    "columns": "ニュースかイベントか / 地域 / カテゴリ / 重要度 / 見出し / 要約",
+    "describe": lambda i: (
+        f"{'イベント' if i.get('kind') == 'event' else 'ニュース'} / {i.get('area', '')} / "
+        f"{i.get('category', '')} / {i.get('importance', 3)} / "
+        f"{i['title_ja']} / {i.get('summary_ja', '')}"
+        f"{'（開催: ' + i['event_when'] + '）' if i.get('event_when') else ''}"
+    ),
+}
+
+
 def load_existing() -> dict:
     if not os.path.exists(OUTPUT_PATH):
         return {"updated_at": None, "items": []}
@@ -966,6 +984,7 @@ def main() -> int:
     weather = fetch_weather() or existing.get("weather") or {}
 
     merged = [to_public(item) for item in merged]
+    digest = digest_lib.build_digest(merged, existing.get("digest"), DIGEST_SITE, parse_date)
 
     payload = {
         "updated_at": now.astimezone(JST).isoformat(),
@@ -974,6 +993,7 @@ def main() -> int:
         "weather": weather,
         "sources": sorted({item["source"] for item in merged}),
         "count": len(merged),
+        "digest": digest,
         "items": merged,
     }
 
