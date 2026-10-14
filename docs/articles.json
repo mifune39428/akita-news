@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15T01:46:22.711997+09:00",
+ "updated_at": "2026-10-15T06:22:25.640467+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,31 +20,31 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-10-14T17:00:00+09:00",
-  "updated_at": "2026-10-15T01:46:50.025563+09:00",
+  "reported_at": "2026-10-15T05:00:00+09:00",
+  "updated_at": "2026-10-15T06:23:14.707928+09:00",
   "days": [
    {
     "date": "2026-10-15",
-    "max": 19.5,
-    "min": 12.1,
-    "icon": "🌧",
-    "text": "くもり昼過ぎから雨所により昼前から雷を伴う",
+    "max": 19.2,
+    "min": 12.6,
+    "icon": "🌦",
+    "text": "くもり昼過ぎから夕方雨所により昼前から雷を伴う",
     "pop": 70,
     "official": true
    },
    {
     "date": "2026-10-16",
-    "max": 19.8,
-    "min": 12.0,
+    "max": 20.2,
+    "min": 12.5,
     "icon": "🌦",
-    "text": "くもり一時雨",
-    "pop": null,
+    "text": "くもり朝から昼前雨所により雷を伴い激しく降る",
+    "pop": 80,
     "official": true
    },
    {
     "date": "2026-10-17",
-    "max": 17.7,
-    "min": 12.3,
+    "max": 17.3,
+    "min": 10.8,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -52,8 +52,8 @@
    },
    {
     "date": "2026-10-18",
-    "max": 21.5,
-    "min": 8.5,
+    "max": 20.8,
+    "min": 7.8,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 20,
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-10-19",
-    "max": 20.5,
-    "min": 14.2,
+    "max": 20.9,
+    "min": 13.7,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 60,
@@ -70,8 +70,8 @@
    },
    {
     "date": "2026-10-20",
-    "max": 19.0,
-    "min": 9.9,
+    "max": 18.4,
+    "min": 12.2,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -79,8 +79,8 @@
    },
    {
     "date": "2026-10-21",
-    "max": 20.2,
-    "min": 9.9,
+    "max": 21.4,
+    "min": 12.3,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -88,8 +88,8 @@
    },
    {
     "date": "2026-10-22",
-    "max": 20.2,
-    "min": 12.0,
+    "max": 21.1,
+    "min": 12.1,
     "icon": "🌦",
     "text": "にわか雨",
     "pop": 37,
@@ -97,34 +97,24 @@
    },
    {
     "date": "2026-10-23",
-    "max": 16.1,
-    "min": 10.3,
-    "icon": "🌦",
-    "text": "強い霧雨",
+    "max": 15.1,
+    "min": 10.8,
+    "icon": "☁️",
+    "text": "くもり",
     "pop": 41,
     "official": false
    },
    {
     "date": "2026-10-24",
-    "max": 17.2,
-    "min": 12.0,
-    "icon": "🌧",
-    "text": "雨",
+    "max": 14.7,
+    "min": 10.8,
+    "icon": "🌦",
+    "text": "にわか雨",
     "pop": 61,
     "official": false
    }
   ],
   "pops": [
-   {
-    "time": "2026-10-14T18:00",
-    "label": "18-24時",
-    "pop": 20
-   },
-   {
-    "time": "2026-10-15T00:00",
-    "label": "0-6時",
-    "pop": 10
-   },
    {
     "time": "2026-10-15T06:00",
     "label": "6-12時",
@@ -138,7 +128,27 @@
    {
     "time": "2026-10-15T18:00",
     "label": "18-24時",
-    "pop": 50
+    "pop": 20
+   },
+   {
+    "time": "2026-10-16T00:00",
+    "label": "0-6時",
+    "pop": 30
+   },
+   {
+    "time": "2026-10-16T06:00",
+    "label": "6-12時",
+    "pop": 80
+   },
+   {
+    "time": "2026-10-16T12:00",
+    "label": "12-18時",
+    "pop": 10
+   },
+   {
+    "time": "2026-10-16T18:00",
+    "label": "18-24時",
+    "pop": 0
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -179,12 +189,13 @@
   "公明党",
   "北羽新報社",
   "千葉テレビ放送株式会社",
-  "地球の歩き方",
   "宇都宮ブレックス",
+  "建設通信新聞Digital",
   "日テレNEWS NNN",
   "日刊スポーツ",
   "日本経済新聞",
   "日本農業新聞",
+  "日本食糧新聞・電子版",
   "日経ビジネス電子版",
   "朝日新聞",
   "株式会社 北鹿新聞社",
@@ -201,15 +212,16 @@
   "秋田魁新報電子版",
   "聖教新聞",
   "西日本新聞me",
+  "読売新聞",
   "高校野球ドットコム",
   "ｄメニューニュース"
  ],
  "count": 400,
  "digest": {
-  "headline": "秋田県内ニュースまとめ：洋上風力やスポーツの話題など",
+  "headline": "秋田のここ3日の主要ニュースまとめ",
   "points": [
    {
-    "text": "秋田県や能代市など5者がデンマークのエスビアウ港公社と覚書を締結し、3港を洋上風力発電の拠点として整備を進めます。",
+    "text": "秋田県など5者は、デンマークのエスビアウ港公社と洋上風力発電の拠点整備に向けた覚書を締結しました。",
     "ids": [
      "161b3315102b806f",
      "30d4ea1ea2e808ac",
@@ -217,38 +229,128 @@
     ]
    },
    {
-    "text": "国民スポーツ大会のフェンシング少年女子フルーレで聖霊学園高が15年ぶりに優勝したほか、自転車競技でも県勢が初優勝を果たしました。",
+    "text": "秋田県の最低賃金が1,090円に引き上げられ、今冬の灯油宅配価格の暫定価格が18リットル当たり過去最高値となりました。",
     "ids": [
-     "d3516d23ed4decd0",
-     "1169b42f523cea9d"
+     "0bbe2b1287751c7e",
+     "6382ac9f38309160"
     ]
    },
    {
-    "text": "大仙市は市内の保育施設25カ所でご飯などの主食の無償提供を始め、0歳児から中学生までの給食費がすべて無償化されました。",
+    "text": "2026年産主食用米の予想収穫量が42万8600トンとなり、作付面積の減少や7月の日照不足により前年産から減少する見通しです。",
+    "ids": [
+     "0eb9428d8b0cf71a"
+    ]
+   },
+   {
+    "text": "大仙市内の保育施設25カ所でご飯など主食の無償化が始まり、同市では0歳児から中学生までの給食費がすべて無償化されました。",
     "ids": [
      "159ac78bb12bb7f5"
-    ]
-   },
-   {
-    "text": "秋田県生活協同組合連合会は今冬に配達する灯油の暫定価格を発表し、18リットル当たり過去最高値となりました。",
-    "ids": [
-     "0bbe2b1287751c7e"
-    ]
-   },
-   {
-    "text": "秋田市寺内で2028年の開学を目指している聖霊学園の四年制大学の名称がビルト大学に決定しました。",
-    "ids": [
-     "04f741a220bc714b"
     ]
    }
   ],
   "days": 3,
-  "from": "2026-10-12T01:46:50.026673+09:00",
-  "generated_at": "2026-10-15T01:46:51.824387+09:00",
+  "from": "2026-10-12T06:23:14.708837+09:00",
+  "generated_at": "2026-10-15T06:23:17.630369+09:00",
   "article_count": 24,
-  "sig": "2d377631b961"
+  "sig": "fbb81ce762d4"
  },
  "items": [
+  {
+   "id": "ea81539e54ade948",
+   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2300/r_id=10788",
+   "title_original": "施策の推進へ連携 北秋田市 地域選出県議と意見交換",
+   "source": "株式会社 北鹿新聞社",
+   "image": "https://www.hokuroku.co.jp/files/libs/8360/201909241311217234.jpg?1792012989",
+   "local": false,
+   "published": "2026-10-14T21:03:44+00:00",
+   "title_ja": "北秋田市と地域選出県議が施策推進で意見交換",
+   "summary_ja": "北秋田市と地域の県議会議員らが顔を合わせ、今後の行政施策の推進に向けた意見交換を行いました。",
+   "category": "行政・政治",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "0a7b19721453f6d7",
+   "url": "https://www.fnn.jp/articles/-/1129146",
+   "title_original": "秋田市に国内最大級のAIデータセンター構想 東北電力の1GW計画も浮上 再生可能エネルギー先進県が秘める可能性と懸念",
+   "source": "FNNプライムオンライン",
+   "image": "https://fnn.ismcdn.jp/mwimgs/e/c/600/img_ec5381e2b9ab0516efb5769790843a89669292.jpg",
+   "local": false,
+   "published": "2026-10-14T21:00:00+00:00",
+   "title_ja": "秋田市に国内最大級のAIデータセンター構想が浮上",
+   "summary_ja": "秋田市を舞台に国内最大級となるAIデータセンターの建設計画が持ち上がっており、再生可能エネルギーを活用する取り組みとして注目されています。",
+   "category": "経済・企業",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "6dba48c457bde9c9",
+   "url": "https://news.yahoo.co.jp/articles/2a8beaf2facd44e184bdb762b846c7b74e079690",
+   "title_original": "【秋田市】10/15 最高21℃、最低12℃、昼間は雨で風もややある予想【朝版】",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261015-00020003-wordleafw-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-10-14T20:08:54+00:00",
+   "title_ja": "秋田市の10月15日の天気：昼間は雨で風もやや吹く予想",
+   "summary_ja": "本日の秋田市は、最高気温21度、最低気温12度となり、昼間は雨が降って風もやや強まる見込みです。お出かけの際は雨具の準備が必要です。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "5a0e7b86f8ffd464",
+   "url": "https://business.nikkei.com/atcl/gen/19/00941/092900004",
+   "title_original": "［秋田県］GX戦略地域認定が追い風なるか 2兆円構想で増す風力の価値",
+   "source": "日経ビジネス電子版",
+   "image": "https://business.nikkei.com/atcl/gen/19/00941/092900004/fb.jpg",
+   "local": false,
+   "published": "2026-10-14T20:00:00+00:00",
+   "title_ja": "GX戦略地域認定が追い風、秋田の風力発電に期待",
+   "summary_ja": "秋田県がGX戦略地域に認定されたことを受け、大規模な2兆円構想が進む中での風力発電の価値や今後の展開に関心が集まっています。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "78e08b065481f1c9",
+   "url": "https://www.yomiuri.co.jp/local/akita/news/20261015-GYTNT00001",
+   "title_original": "秋田：直播ドローン高精度に 水田種もみ 秋田の産学官グループ、開発加速 ：地域ニュース",
+   "source": "読売新聞",
+   "image": "https://www.yomiuri.co.jp/media/2026/10/20261015-GYTNI00003-1.jpg?type=ogp",
+   "local": false,
+   "published": "2026-10-14T20:00:00+00:00",
+   "title_ja": "水田の種もみ直播ドローンを高精度化、産学官で開発加速",
+   "summary_ja": "秋田県の産学官グループが、水田への種もみ直播を高精度で行うためのドローン開発を加速させています。農業の効率化に向けた技術革新として期待されています。",
+   "category": "グルメ・農林水産",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "52afeba599343c10",
+   "url": "https://www.yomiuri.co.jp/local/akita/news/20261015-GYTNT00009",
+   "title_original": "「聖農」石川理紀之助の縁で連携協定 秋田・潟上市と宮崎・都城市",
+   "source": "読売新聞",
+   "image": "https://www.yomiuri.co.jp/media/2026/10/20261015-GYTNI00013-1.jpg?type=ogp",
+   "local": false,
+   "published": "2026-10-14T20:00:00+00:00",
+   "title_ja": "潟上市と都城市が石川理紀之助の縁で連携協定",
+   "summary_ja": "秋田県の潟上市と宮崎県の都城市が、農聖と称される石川理紀之助の縁をきっかけに連携協定を締結しました。",
+   "category": "行政・政治",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
   {
    "id": "9f46c8d8e60c8025",
    "url": "https://www.roc-taiwan.org/jp_ja/post/119089.html",
@@ -405,6 +507,22 @@
    "summary_ja": "高校野球の秋季東北大会にて秋田県勢のチームが敗退し、2年ぶりにベスト8進出を逃しました。今大会では公立校が8強から姿を消すなど、秋田勢にとって厳しい結果となっています。",
    "category": "スポーツ",
    "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "f9a077df5a15044a",
+   "url": "https://news.yahoo.co.jp/articles/7316ca8d8a97c9bac4404655d503141765d5534f?page=2",
+   "title_original": "【特集】阪神・秋田市出身 石井大智投手独占インタビュー 大けがからの復活…石井投手が明かす秘話（ABS秋田放送）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261013-09778529-absakita-000-7-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-10-14T10:31:00+00:00",
+   "title_ja": "阪神・石井大智投手のインタビュー特集",
+   "summary_ja": "秋田市出身で阪神タイガースに所属する石井大智投手が、大けがからの復活秘話を語る独占インタビューの特集が組まれました。",
+   "category": "スポーツ",
+   "area": "中央",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -698,6 +816,22 @@
    "importance": 4
   },
   {
+   "id": "94e314ed6c19ce59",
+   "url": "https://www.fnn.jp/articles/-/1132758",
+   "title_original": "秋田県、2025年度決算認定案を提出 実質収支103億7255万円の黒字 10月県議会始まる",
+   "source": "FNNプライムオンライン",
+   "image": "https://fnn.ismcdn.jp/mwimgs/3/9/600/img_399a4208b743bbb463acc6b8202b2d2035721.jpg",
+   "local": false,
+   "published": "2026-10-14T09:00:00+00:00",
+   "title_ja": "秋田県が2025年度決算認定案を提出、10月県議会が開会",
+   "summary_ja": "秋田県は10月県議会において、2025年度の決算認定案を提出しました。実質収支は103億7255万円の黒字となっています。",
+   "category": "行政・政治",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "0c93415db4e17018",
    "url": "https://topics.smt.docomo.ne.jp/article/abs/region/abs-2026101403928888",
    "title_original": "秋田内陸線の運営会社が住民説明会 全線開業以来初の運賃値上げへ「持続可能な運行のためには値上げは避けられない」と理解を求める 秋田・北秋田市",
@@ -775,6 +909,22 @@
    "area": "中央",
    "kind": "event",
    "event_when": "10月17日",
+   "importance": 3
+  },
+  {
+   "id": "4b3b3314c2eedca3",
+   "url": "https://www.asahi.com/articles/ASVBG2DN5VBGUNHB00KM.html",
+   "title_original": "11年ぶり出場の秋田4番保坂拓斗選手 「夏までに力をつけたい」",
+   "source": "朝日新聞",
+   "image": "https://imgopt.asahi.com/ogp/AS20261014002934_comm.jpg",
+   "local": false,
+   "published": "2026-10-14T07:26:41+00:00",
+   "title_ja": "11年ぶり出場の秋田・保坂選手が意気込み",
+   "summary_ja": "11年ぶりに出場する秋田の4番・保坂拓斗選手が、今後の成長に向けた意気込みを語りました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
    "importance": 3
   },
   {
@@ -1290,6 +1440,22 @@
    "importance": 3
   },
   {
+   "id": "c4a2b31ed02341bd",
+   "url": "https://news.ntv.co.jp/n/abs/category/society/ab6d8f667fb1634ad0b59f08c3be7af1a0",
+   "title_original": "県内は大気の状態が非常に不安定に 14日昼前にかけて激しい突風や落雷・降ひょう・急な強い雨に注意を 秋田 14日(午前5時6分)",
+   "source": "日テレNEWS NNN",
+   "image": "",
+   "local": false,
+   "published": "2026-10-13T23:57:00+00:00",
+   "title_ja": "県内は大気の状態が非常に不安定に、落雷や突風に注意",
+   "summary_ja": "秋田県内は大気の状態が非常に不安定となり、激しい突風や落雷、降ひょう、急な強い雨に注意が呼びかけられています。安全確保に十分な警戒が必要です。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
    "id": "cb62064da4030076",
    "url": "https://www.sakigake.jp/news/article/20261013AK0011",
    "title_original": "秋田県の移住施策「点」から「線」へ 総合政策審議会が提言案",
@@ -1354,6 +1520,22 @@
    "importance": 4
   },
   {
+   "id": "ce00f8150fc5664c",
+   "url": "https://www.yomiuri.co.jp/local/akita/feature/20261014-GYTAT00015",
+   "title_original": "秋田：【いい味見つけた】秋田県東成瀬村短角牛ローストビーフ丼（レストラン「バル・パサポルテ」） ：地域ニュース",
+   "source": "読売新聞",
+   "image": "https://www.yomiuri.co.jp/media/2026/10/20261014-GYTAI00019-1.jpg?type=ogp",
+   "local": false,
+   "published": "2026-10-13T20:00:00+00:00",
+   "title_ja": "東成瀬村の短角牛を使ったローストビーフ丼を紹介",
+   "summary_ja": "秋田県東成瀬村の特産品である短角牛を贅沢に使用した、レストランのローストビーフ丼が地域のグルメ情報として紹介されています。",
+   "category": "グルメ・農林水産",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "4249a699e3c7740c",
    "url": "https://business.nikkei.com/atcl/seminar/19nv/120500136/092501497",
    "title_original": "［新連載］秋田のアスター、「挑戦を促すストレス」でドローン用モーター開発",
@@ -1368,6 +1550,38 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "cbb6574aeaca46fd",
+   "url": "https://www.kensetsunews.com/archives/1295826",
+   "title_original": "建コン協東北の意見交換、秋田県からスタート/県、若手・女性表彰を検討/VFMコンクリ要領策定",
+   "source": "建設通信新聞Digital",
+   "image": "https://www.kensetsunews.com/PB5001H/wp-content/uploads/2026/10/20261013_164215_80982.jpg",
+   "local": false,
+   "published": "2026-10-13T19:55:00+00:00",
+   "title_ja": "建設コンサルタンツ協会東北支部が秋田で意見交換会",
+   "summary_ja": "建設コンサルタンツ協会東北支部が秋田県内で意見交換会を開催しました。若手や女性の活躍に向けた表彰制度の検討や、VFMに関するコンクリート要領の策定について議論が行われました。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "867f6ae513de5052",
+   "url": "https://news.nissyoku.co.jp/news/sato20260919010615829",
+   "title_original": "コメビジネス最前線特集：コメ産地＝秋田県 「あきたこまち」誕生42年",
+   "source": "日本食糧新聞・電子版",
+   "image": "https://news.nissyoku.co.jp/wp-content/uploads/2026/10/668339.jpg",
+   "local": false,
+   "published": "2026-10-13T19:16:00+00:00",
+   "title_ja": "誕生から42年を迎えた秋田県のコメ「あきたこまち」",
+   "summary_ja": "秋田県を代表する銘柄米として広く親しまれている「あきたこまち」が、誕生から42年を迎えました。コメビジネスの最前線として、その歩みや産地としての取り組みが注目されています。",
+   "category": "グルメ・農林水産",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "ed0fc9ee71eaf42d",
@@ -6437,214 +6651,6 @@
    "summary_ja": "秋田大学の医師らが取り組む、クマによる人身被害の減災プロジェクトのクラウドファンディングが、第1目標の500万円に到達しました。今後は最終目標の1千万円に向けて受け付けを続けています。",
    "category": "くらし・地域",
    "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "b1a1cc048e0a1067",
-   "url": "https://kahoku.news/articles/JY6XUVY447KHN.html",
-   "title_original": "大雨の時に道路から立ち上がる高さ1.3メートル「止水壁」を秋田県が全国で初めて整備",
-   "source": "河北新報オンライン",
-   "image": "https://kahoku.news/images/2026/10/08/JY6XUVY447KHN/001_size7.jpg?timestamp=20261009141324",
-   "local": false,
-   "published": "2026-10-08T23:00:00+00:00",
-   "title_ja": "大雨対策として道路上に止水壁を全国初整備へ",
-   "summary_ja": "秋田県が大雨時の浸水対策として、道路から高さ1.3メートルの止水壁を全国で初めて整備することが決まりました。",
-   "category": "行政・政治",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "4a40ce0207beadd3",
-   "url": "https://kahoku.news/articles/JY6XUVY441KHN.html",
-   "title_original": "50代トリオが「小坂鉄道まつり」準備に奮闘 10月11、12日に秋田で地域おこし協力隊が新企画",
-   "source": "河北新報オンライン",
-   "image": "https://kahoku.news/images/2026/10/08/JY6XUVY441KHN/001_size7.jpg?timestamp=20261009141324",
-   "local": false,
-   "published": "2026-10-08T23:00:00+00:00",
-   "title_ja": "小坂鉄道まつりに向けた新企画の準備が進む",
-   "summary_ja": "秋田県内で予定されている「小坂鉄道まつり」に向け、地域おこし協力隊のメンバーが新しい企画の準備に奔走しています。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "event",
-   "event_when": "10月11日〜12日",
-   "importance": 3
-  },
-  {
-   "id": "6bc84f5f17faff76",
-   "url": "https://news.livedoor.com/topics/detail/32521669",
-   "title_original": "教訓を生かして地下トンネルに「止水壁」 秋田市の秋田中央道路トンネルの大雨対策 (2026年10月8日掲載)",
-   "source": "ライブドアニュース",
-   "image": "",
-   "local": false,
-   "published": "2026-10-08T22:41:41+00:00",
-   "title_ja": "秋田市の地下トンネルで大雨対策が行われ浸水を防ぐ止水壁を設置",
-   "summary_ja": "秋田市にある地下トンネルの秋田中央道路で、過去の大雨による浸水被害などの教訓を生かした水害対策が実施されています。大雨時の冠水を防止するため、トンネル内に止水壁を整備する取り組みが進められています。",
-   "category": "天気・防災",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "3abb302fce46d0e6",
-   "url": "https://topics.smt.docomo.ne.jp/article/sakigake/region/sakigake-20261008AK0058",
-   "title_original": "秋商生開発「しいったけうめぇカレー」 稲庭うどんとセット販売 佐藤養助商店",
-   "source": "ｄメニューニュース",
-   "image": "https://img.topics.smt.news.goo.ne.jp/picture/sakigake/m_sakigake-20261008AK0058.jpg",
-   "local": false,
-   "published": "2026-10-08T22:13:35+00:00",
-   "title_ja": "秋田商業高校の生徒が開発したシイタケカレーと稲庭うどんのセットが販売",
-   "summary_ja": "秋田商業高校の生徒たちが考案したカレー「しいったけうめぇカレー」が、佐藤養助商店の稲庭うどんと組み合わされてセット販売されることになりました。地元の高校生による工夫が生かされた商品として注目を集めています。",
-   "category": "経済・企業",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "2ba2e1335a70e919",
-   "url": "https://www.arukikata.co.jp/tokuhain/396980",
-   "title_original": "【秋田】「十和田湖プリンスホテル」で買いたい！人気のお土産3選",
-   "source": "地球の歩き方",
-   "image": "https://www.arukikata.co.jp/wp-content/uploads/IMG_4700_2026_0927_2209.jpeg",
-   "local": false,
-   "published": "2026-10-08T22:01:38+00:00",
-   "title_ja": "十和田湖プリンスホテルで選ばれているおすすめの人気お土産3選",
-   "summary_ja": "十和田湖畔に位置する「十和田湖プリンスホテル」で購入できる注目のお土産が紹介されています。現地を訪れた際のおすすめ商品がまとめられており、観光や旅行時の土産選びに役立つ情報です。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "a1275c3d23213788",
-   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2300/r_id=10774",
-   "title_original": "主要施策の執行状況 大館市２５年度 地域経済活性化へ補助 技術・設備の導入など 物価高対策は幅広く",
-   "source": "株式会社 北鹿新聞社",
-   "image": "https://www.hokuroku.co.jp/files/libs/8360/201909241311217234.jpg?1791500673",
-   "local": false,
-   "published": "2026-10-08T21:01:03+00:00",
-   "title_ja": "大館市の25年度主要施策、経済活性化や物価高対策へ",
-   "summary_ja": "大館市が25年度の主要施策の執行状況をまとめました。地域経済の活性化に向けた技術や設備導入への補助をはじめ、幅広い物価高対策に取り組んでいます。",
-   "category": "行政・政治",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "1c381cba312dc2a5",
-   "url": "https://news.yahoo.co.jp/articles/d80eb3c7416c2fe8a0934b90c2cb4f5255cb0529",
-   "title_original": "【横手市】10/9 最低9℃、最高24℃、朝はひんやりする予想【朝版】",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261009-00020115-wordleafw-000-1-view.jpg?exp=10800",
-   "local": false,
-   "published": "2026-10-08T20:48:06+00:00",
-   "title_ja": "横手市の9日の天気、朝はひんやり",
-   "summary_ja": "9日の横手市は、最低気温9度、最高気温24度と予想されています。朝はひんやりとした体感になりそうです。",
-   "category": "天気・防災",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "a0031980abca77dd",
-   "url": "https://news.yahoo.co.jp/articles/baa5278846cb800995a38b811711d240e4e4efbe",
-   "title_original": "【秋田市】10/9 最高23℃、最低10℃、昼間は晴れる予想【朝版】",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261009-00020003-wordleafw-000-1-view.jpg?exp=10800",
-   "local": false,
-   "published": "2026-10-08T20:09:07+00:00",
-   "title_ja": "秋田市の9日の天気、昼間は晴れ",
-   "summary_ja": "9日の秋田市は、最高気温23度、最低気温10度と予想されています。昼間は晴れ間が出る見込みです。",
-   "category": "天気・防災",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "a259f2df84aeebda",
-   "url": "https://www.nikkei.com/article/DGXZQOCC07BGM0X01C26A0000000",
-   "title_original": "夏秋イチゴ「秋田夏響」拡大期に ノリット・ジャポンなど県補助金に採択",
-   "source": "日本経済新聞",
-   "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3698396007102026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.49&fp-y=0.31&h=630&w=1200&s=9fd0e2c997ac75e7d4351903d3e4c625",
-   "local": false,
-   "published": "2026-10-08T16:49:00+00:00",
-   "title_ja": "「秋田夏響」生産拡大へ、ノリット・ジャポン等が県の補助金に採択",
-   "summary_ja": "秋田県の夏秋イチゴブランド「秋田夏響」の生産拡大に向け、ノリット・ジャポンなどの事業が県の補助金に採択されました。今後の安定的な生産体制の強化や、地域農業の活性化に向けた取り組みの進展が期待されます。",
-   "category": "グルメ・農林水産",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "f9740be0057a620d",
-   "url": "https://topics.smt.docomo.ne.jp/article/fushinsha_joho/region/fushinsha_joho-1480955394760884994",
-   "title_original": "（秋田）北秋田市阿仁水無上新町東裏でクマ出没 １０月８日",
-   "source": "ｄメニューニュース",
-   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052132.png?fushinsha_joho-1480955394760884994",
-   "local": false,
-   "published": "2026-10-08T16:02:12+00:00",
-   "title_ja": "北秋田市阿仁水無でクマの目撃情報、10月8日",
-   "summary_ja": "10月8日に北秋田市阿仁水無上新町東裏でクマが目撃されました。付近を通行する際や近隣にお住まいの方は、周囲の状況に十分注意し、安全を確保するよう心がけてください。",
-   "category": "天気・防災",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "e8f9dfe599397c36",
-   "url": "https://tenki.jp/amedas/2/8/extreme",
-   "title_original": "秋田県の今日のアメダスの記録(10月08日)",
-   "source": "tenki.jp",
-   "image": "https://static.tenki.jp/static-images/amedas/recent/temp/pref-8-large.jpg",
-   "local": false,
-   "published": "2026-10-08T13:37:11+00:00",
-   "title_ja": "10月8日の秋田県内アメダス観測記録が発表",
-   "summary_ja": "10月8日における秋田県内のアメダス観測記録が発表されました。県内各地で観測された気温や降水量などの気象データがまとめられており、日々の気候の変化を確認することができます。",
-   "category": "天気・防災",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "7ea0aad0b5af86ca",
-   "url": "https://www.sakigake.jp/news/article/20261008AK0061",
-   "title_original": "ハピネッツ、ホーム開幕戦は黒星 川崎に８１―８７",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261008ak0061_02_l.jpg",
-   "local": true,
-   "published": "2026-10-08T13:06:43+00:00",
-   "title_ja": "ハピネッツ、ホーム開幕戦は川崎に81対87で惜敗",
-   "summary_ja": "バスケットボール男子Bリーグプレミアの秋田ノーザンハピネッツは8日、秋田市のCNAアリーナでホーム開幕戦に臨みました。東地区の川崎と対戦し、81対87で競り負け黒星スタートとなりました。",
-   "category": "スポーツ",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "362e250e11a23d68",
-   "url": "https://news.yahoo.co.jp/articles/63c9c50163de88347ee929577dbf39321bb8a9a1",
-   "title_original": "個性生かした音色で“金賞”目指す 秋田北鷹高校吹奏楽部、2年連続で「東日本大会」出場 秋田・北秋田市（秋田テレビ）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261008-90018602-akt-000-1-thumb.jpg?exp=10800",
-   "local": false,
-   "published": "2026-10-08T12:15:02+00:00",
-   "title_ja": "秋田北鷹高校吹奏楽部、2年連続で東日本大会へ",
-   "summary_ja": "北秋田市の秋田北鷹高校吹奏楽部が、2年連続で東日本吹奏楽大会への出場を決めた。部員たちはそれぞれの個性を生かした音色を響かせ、大会での金賞獲得を目指して日々練習に励んでいる。",
-   "category": "文化・芸能",
-   "area": "県北",
    "kind": "news",
    "event_when": "",
    "importance": 3
