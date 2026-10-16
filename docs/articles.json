@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T01:17:19.566637+09:00",
+ "updated_at": "2026-10-17T05:38:49.433860+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,31 +20,31 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-10-16T17:00:00+09:00",
-  "updated_at": "2026-10-17T01:20:29.361775+09:00",
+  "reported_at": "2026-10-17T05:00:00+09:00",
+  "updated_at": "2026-10-17T05:40:05.972306+09:00",
   "days": [
    {
     "date": "2026-10-17",
-    "max": 17.6,
-    "min": 13.5,
+    "max": 17.5,
+    "min": 11.9,
     "icon": "☀️",
-    "text": "晴れ明け方までくもり",
+    "text": "晴れ",
     "pop": 10,
     "official": true
    },
    {
     "date": "2026-10-18",
-    "max": 20.6,
-    "min": 8.6,
-    "icon": "🌤",
-    "text": "晴れ時々くもり",
-    "pop": null,
+    "max": 21.0,
+    "min": 8.7,
+    "icon": "☀️",
+    "text": "晴れ",
+    "pop": 0,
     "official": true
    },
    {
     "date": "2026-10-19",
-    "max": 19.6,
-    "min": 13.7,
+    "max": 20.7,
+    "min": 14.1,
     "icon": "🌦",
     "text": "くもり時々雨",
     "pop": 80,
@@ -52,8 +52,8 @@
    },
    {
     "date": "2026-10-20",
-    "max": 18.2,
-    "min": 12.3,
+    "max": 21.0,
+    "min": 13.3,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-10-21",
-    "max": 21.2,
-    "min": 15.7,
+    "max": 20.8,
+    "min": 14.5,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 70,
@@ -70,8 +70,8 @@
    },
    {
     "date": "2026-10-22",
-    "max": 15.7,
-    "min": 12.2,
+    "max": 15.6,
+    "min": 11.4,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -79,8 +79,8 @@
    },
    {
     "date": "2026-10-23",
-    "max": 15.3,
-    "min": 8.3,
+    "max": 15.8,
+    "min": 9.2,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -88,17 +88,17 @@
    },
    {
     "date": "2026-10-24",
-    "max": 17.8,
-    "min": 8.8,
-    "icon": "☁️",
-    "text": "くもり",
+    "max": 18.6,
+    "min": 9.5,
+    "icon": "🌦",
+    "text": "霧雨",
     "pop": 14,
     "official": false
    },
    {
     "date": "2026-10-25",
-    "max": 19.1,
-    "min": 9.5,
+    "max": 20.7,
+    "min": 11.2,
     "icon": "☁️",
     "text": "くもり",
     "pop": 39,
@@ -106,8 +106,8 @@
    },
    {
     "date": "2026-10-26",
-    "max": 14.9,
-    "min": 9.0,
+    "max": 18.6,
+    "min": 11.2,
     "icon": "☁️",
     "text": "くもり",
     "pop": 41,
@@ -115,16 +115,6 @@
    }
   ],
   "pops": [
-   {
-    "time": "2026-10-16T18:00",
-    "label": "18-24時",
-    "pop": 10
-   },
-   {
-    "time": "2026-10-17T00:00",
-    "label": "0-6時",
-    "pop": 10
-   },
    {
     "time": "2026-10-17T06:00",
     "label": "6-12時",
@@ -137,6 +127,26 @@
    },
    {
     "time": "2026-10-17T18:00",
+    "label": "18-24時",
+    "pop": 0
+   },
+   {
+    "time": "2026-10-18T00:00",
+    "label": "0-6時",
+    "pop": 0
+   },
+   {
+    "time": "2026-10-18T06:00",
+    "label": "6-12時",
+    "pop": 0
+   },
+   {
+    "time": "2026-10-18T12:00",
+    "label": "12-18時",
+    "pop": 0
+   },
+   {
+    "time": "2026-10-18T18:00",
     "label": "18-24時",
     "pop": 0
    }
@@ -166,7 +176,6 @@
   "au Webポータル",
   "city.kitaakita.akita.jp",
   "tenki.jp",
-  "wowKorea",
   "ぴあエンタメ情報",
   "ウォーカープラス",
   "ゲキサカ",
@@ -181,6 +190,7 @@
   "日テレNEWS NNN",
   "日本対がん協会",
   "日本経済新聞",
+  "日本赤十字社",
   "日本食糧新聞・電子版",
   "日経ビジネス電子版",
   "朝日新聞",
@@ -203,16 +213,10 @@
  ],
  "count": 400,
  "digest": {
-  "headline": "秋田銀行の統合協議や防災システムの対策、各地の話題まとめ",
+  "headline": "防災システムの対策や大仙市の国際花火シンポジウムなど",
   "points": [
    {
-    "text": "秋田銀行は岩手銀行および青森みちのく銀行と、2028年4月の経営統合を目指して協議を本格化させました。",
-    "ids": [
-     "e19a851067935c3c"
-    ]
-   },
-   {
-    "text": "自治体の防災情報システムや消防通報システムを狙った不正アクセスや情報漏えいのおそれを受け、県が緊急会議を開催しました。",
+    "text": "各地の自治体で防災情報システムへの不正アクセスが相次ぎ、県が緊急会議を開催してセキュリティ対策の強化を進めています。",
     "ids": [
      "de1882342d77e41a",
      "2af9a99c041a6190",
@@ -220,26 +224,80 @@
     ]
    },
    {
-    "text": "2022年の豪雨以降通行止めとなっていた県道西目屋二ツ井線が、19日正午に4年ぶりに全面通行止め解除となります。",
+    "text": "大仙市の「大曲の花火」が100回目の節目を迎える2028年春に、国際花火シンポジウムの開催が決定しました。",
     "ids": [
-     "432cd8cb10115e79"
+     "12d8bebdcd6f9f66",
+     "6be47ff209b817d7"
     ]
    },
    {
-    "text": "秋田ノーザンハピネッツは17日に秋田市のCNAアリーナで信州戦に臨み、大仙市では2028年の国際花火シンポジウム開催が決定しました。",
+    "text": "秋田銀行が岩手銀行・青森みちのく銀行と2028年4月の経営統合を目指す協議を本格化させました。",
     "ids": [
-     "b6c4d7baa434e4f7",
-     "6be47ff209b817d7"
+     "e19a851067935c3c"
+    ]
+   },
+   {
+    "text": "秋田ノーザンハピネッツは17日に秋田市のCNAアリーナで信州と対戦します。",
+    "ids": [
+     "b6c4d7baa434e4f7"
     ]
    }
   ],
   "days": 3,
-  "from": "2026-10-14T01:20:29.362723+09:00",
-  "generated_at": "2026-10-17T01:20:39.125505+09:00",
+  "from": "2026-10-14T05:40:05.973206+09:00",
+  "generated_at": "2026-10-17T05:40:09.122256+09:00",
   "article_count": 24,
-  "sig": "12946188c92d"
+  "sig": "dc6669bcfef1"
  },
  "items": [
+  {
+   "id": "da9d80f0a79637a2",
+   "url": "https://kahoku.news/articles/JY6Y848W24KHN.html",
+   "title_original": "「秋田の酒蔵列車」、今年も11月から運行 地酒たしなみ冬の旅",
+   "source": "河北新報オンライン",
+   "image": "https://kahoku.news/images/2026/10/16/JY6Y848W24KHN/001_size7.jpg?timestamp=20261017054001",
+   "local": false,
+   "published": "2026-10-16T20:00:00+00:00",
+   "title_ja": "地酒と冬の旅を満喫する「秋田の酒蔵列車」が11月運行",
+   "summary_ja": "車内で地酒を味わいながら冬の秋田の旅を楽しめる「秋田の酒蔵列車」が、今年も11月から運行される予定です。県内の鉄道旅を彩る恒例の企画となっています。",
+   "category": "観光・イベント",
+   "area": "県全体",
+   "kind": "event",
+   "event_when": "11月",
+   "importance": 3
+  },
+  {
+   "id": "07d8b2fd9823bc83",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1483849463734043575",
+   "title_original": "（秋田）潟上市昭和豊川槻木真形沢でクマ出没 １０月１６日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052116.png?fushinsha_joho-1483849463734043575",
+   "local": false,
+   "published": "2026-10-16T15:21:00+00:00",
+   "title_ja": "潟上市昭和豊川槻木でクマが出没",
+   "summary_ja": "10月16日、潟上市昭和豊川槻木真形沢の地域において、クマが出没したことが確認されました。付近を通行する際は、十分に周囲に注意してください。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "4edce1fe426283c4",
+   "url": "https://akita.keizai.biz/gpnews/1774732",
+   "title_original": "１次リーグでプレーする和田なつき",
+   "source": "秋田経済新聞",
+   "image": "https://images.keizai.biz/akita_keizai/globalphoto/",
+   "local": false,
+   "published": "2026-10-16T13:39:28+00:00",
+   "title_ja": "1次リーグでプレーを見せる和田なつき選手",
+   "summary_ja": "スポーツの1次リーグで懸命にプレーする和田なつき選手の様子が伝えられています。試合での活躍やチームの健闘に関心が集まっています。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
   {
    "id": "5c82262f0ebde48c",
    "url": "https://www.sakigake.jp/news/article/20261016AK0031",
@@ -252,6 +310,22 @@
    "summary_ja": "青森県で開催されている国民スポーツ大会のバスケットボール成年男子にて、秋田県代表のＪＲ東日本秋田が神奈川に快勝しました。見事な戦いぶりで準決勝への進出を果たしています。",
    "category": "スポーツ",
    "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "b8166dcaa6585a01",
+   "url": "https://news.yahoo.co.jp/articles/4243879fd858fc17d95d3c41f8172bb102483160",
+   "title_original": "能登半島地震を教訓に “集落の孤立”想定した訓練 大雨被害受けた仙北市上桧木内地区で実施 秋田（秋田テレビ）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261016-90018672-akt-000-1-thumb.jpg?exp=10800",
+   "local": false,
+   "published": "2026-10-16T11:40:01+00:00",
+   "title_ja": "孤立想定した防災訓練、仙北市上桧木内地区で実施",
+   "summary_ja": "能登半島地震の教訓を踏まえ、大雨被害を受けた仙北市上桧木内地区で集落の孤立を想定した防災訓練が行われました。実際の災害を想定した実践的な対応力を確認しました。",
+   "category": "天気・防災",
+   "area": "県南",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -417,6 +491,22 @@
    "importance": 3
   },
   {
+   "id": "ee8e7277b3738205",
+   "url": "https://www.sakigake.jp/news/article/20261016AK0020",
+   "title_original": "生活保護費、支給額が不十分 受給者が秋田県に審査請求",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20261016G00021_l.jpg",
+   "local": true,
+   "published": "2026-10-16T10:05:00+00:00",
+   "title_ja": "生活保護の追加支給額は不十分　秋田市の受給者91人が県に審査請求",
+   "summary_ja": "国の生活保護基準引き下げを違法とした最高裁判決を受けた追加支給について、秋田市の受給者91人が10月16日、支給額が十分でないとして行政不服審査法に基づき秋田県へ審査請求を行いました。",
+   "category": "行政・政治",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "a387553d399d6b9d",
    "url": "https://www.akt.co.jp/news?sel=20261016-00000004-AKT-1",
    "title_original": "国の伝統的工芸品「川連漆器」3千点一堂に お気に入り探しに多くの人 湯沢市で「川連塗りフェア」 秋田",
@@ -561,6 +651,22 @@
    "importance": 2
   },
   {
+   "id": "0418dbd9c6e32a8b",
+   "url": "https://www.jrc.or.jp/chapter/akita/news/2026/1016_056488.html",
+   "title_original": "令和8年台風18号災害義援金の受付を開始します。",
+   "source": "日本赤十字社",
+   "image": "https://www.jrc.or.jp/common/images/chapter/akita/ogp_akita.png",
+   "local": false,
+   "published": "2026-10-16T08:21:25+00:00",
+   "title_ja": "令和8年台風18号災害の義援金受付を開始",
+   "summary_ja": "日本赤十字社は、令和8年台風18号災害に関する義援金の受付を開始しました。被災地支援のための寄付を呼びかけています。",
+   "category": "行政・政治",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "a78431d0fd2c8b40",
    "url": "https://tenki.jp/radar/2/8/rainmesh.html",
    "title_original": "秋田県の雨雲レーダー(予報)",
@@ -623,6 +729,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "6f0e825dc9e3b5d4",
+   "url": "https://tenki.jp/past/2026/10/weather/2/8/47582",
+   "title_original": "秋田(秋田県)の過去の天気(実況天気・2026年10月)",
+   "source": "tenki.jp",
+   "image": "https://static.tenki.jp/images/ogp/ogp-past.jpg",
+   "local": false,
+   "published": "2026-10-16T06:31:25+00:00",
+   "title_ja": "秋田の過去の天気データ",
+   "summary_ja": "過去の天気や実況天気を振り返る気象情報です。日々の記録や過去の気候の確認に利用できます。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
   },
   {
    "id": "771dddf62f5493a7",
@@ -815,6 +937,38 @@
    "kind": "news",
    "event_when": "",
    "importance": 2
+  },
+  {
+   "id": "12d8bebdcd6f9f66",
+   "url": "https://article.auone.jp/article/fbc67b1e-cb29-469c-9754-d8160f9dd4f0",
+   "title_original": "2028年春に国際花火シンポジウムの開催決定 「大曲の花火」100回目の節目の年 秋田・大仙市",
+   "source": "au Webポータル",
+   "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/16/https___news_jp_i_1483670779414971068_w640.webp",
+   "local": false,
+   "published": "2026-10-16T03:37:00+00:00",
+   "title_ja": "大曲の花火で2028年に国際花火シンポジウム開催",
+   "summary_ja": "大仙市の「大曲の花火」が100回目の節目の年を迎える2028年春に、国際花火シンポジウムの開催が決定した。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "da92f2877e1ebad3",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261016de60273",
+   "title_original": "大館市出身 元国連事務次長 阿部信泰さんの講演会",
+   "source": "NHKニュース",
+   "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261016de60273/20261016de60273_E0000079330_1_l.jpg",
+   "local": false,
+   "published": "2026-10-16T03:30:21+00:00",
+   "title_ja": "大館市出身の元国連事務次長・阿部信泰さんが講演",
+   "summary_ja": "大館市出身で元国連事務次長を務めた阿部信泰氏による講演会が開催された。ふるさとの聴衆に向けて自身の経験や知見を語った。",
+   "category": "文化・芸能",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "e12952ea665fc04e",
@@ -6494,150 +6648,6 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "feb8ae93fcc32d12",
-   "url": "https://www.sakigake.jp/news/article/20261011AK0017",
-   "title_original": "ハピネッツ、宇都宮に３年ぶり勝利",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20261011G00022_l.jpg",
-   "local": true,
-   "published": "2026-10-11T08:24:00+00:00",
-   "title_ja": "ハピネッツ、宇都宮を破り3年ぶりの勝利",
-   "summary_ja": "バスケットボールBリーグプレミアの秋田ノーザンハピネッツはアウェーで宇都宮と対戦し、82対71で勝利を収めました。",
-   "category": "スポーツ",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "4c4cd547cc0ebbbf",
-   "url": "https://hotelbank.jp/seasonal-events/kokuspo-aomori-2026-cross-border-spillover-iwate-akita",
-   "title_original": "国スポ青森2026、隣県への宿泊波及は限定的 — 岩手・秋田に会期平日2,000室前後の受け皿",
-   "source": "HotelBank",
-   "image": "https://hotelbank.jp/wp-content/uploads/eyecatch-188083-auto.png",
-   "local": false,
-   "published": "2026-10-11T08:04:53+00:00",
-   "title_ja": "青森国体、秋田は平日2千室の宿泊受け皿",
-   "summary_ja": "青森で開催される国民体育大会の宿泊需要の一部は、岩手・秋田でも平日に約2,000室程度受け入れられると見込まれ、波及効果は限定的とされる。",
-   "category": "観光・イベント",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "3e1e0fc1cef0450b",
-   "url": "https://www.sakigake.jp/news/article/20261011AK0010",
-   "title_original": "市民の要望受けプロギター奏者４人出演 湯沢市で２５日「リクエストステージ」、入場無料",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261011ak0010_01_l.jpg",
-   "local": true,
-   "published": "2026-10-11T07:30:00+00:00",
-   "title_ja": "湯沢市役所でプロギタリストの無料演奏会",
-   "summary_ja": "湯沢市の協議会が、市民の要望に応えた無料のギター演奏会を市役所ロビーで開催する。プロの演奏家4人が出演し、多彩なステージを届ける。",
-   "category": "観光・イベント",
-   "area": "県南",
-   "kind": "event",
-   "event_when": "10月25日",
-   "importance": 3
-  },
-  {
-   "id": "67f87c5397c852e4",
-   "url": "https://mainichi.jp/graphs/20261011/mpj/00m/310/038000f",
-   "title_original": "「銀牙」の高橋よしひろさん、画業55周年で自薦原画展 秋田 [写真特集1/6]",
-   "source": "毎日新聞",
-   "image": "https://cdn.mainichi.jp/vol1/2026/10/11/20261011mpj00m310034000p/0c10.jpg?1",
-   "local": false,
-   "published": "2026-10-11T07:25:45+00:00",
-   "title_ja": "漫画家・高橋よしひろさんの画業55周年原画展",
-   "summary_ja": "代表作「銀牙」などで知られる漫画家・高橋よしひろさんの画業55周年を記念した、自薦原画展が開催されている。",
-   "category": "文化・芸能",
-   "area": "県全体",
-   "kind": "event",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "af910501d27f7dca",
-   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1481912701642605173",
-   "title_original": "（秋田）潟上市天王追分西でクマ出没 １０月１０日",
-   "source": "ｄメニューニュース",
-   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052116.png?fushinsha_joho-1481912701642605173",
-   "local": false,
-   "published": "2026-10-11T07:09:00+00:00",
-   "title_ja": "潟上市天王追分西でクマが目撃される",
-   "summary_ja": "潟上市天王追分西の地域でクマが出没した。住民や通行人は十分に周囲の状況へ注意し、警戒することが求められている。",
-   "category": "天気・防災",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "30c5254ddec1e270",
-   "url": "https://www.wowkorea.jp/woman/read/162874.html",
-   "title_original": "秋田でロボットと忍者が激突！地域密着型イベント「にかほのMIKATA祭り」開催",
-   "source": "wowKorea",
-   "image": "https://www.wowkorea.jp/img/topic/32/162874/322585_1280W.jpg",
-   "local": false,
-   "published": "2026-10-11T07:00:00+00:00",
-   "title_ja": "にかほのMIKATA祭りでロボットと忍者が対決",
-   "summary_ja": "にかほ市で開催された地域密着型イベント『にかほのMIKATA祭り』では、ロボットと忍者がテーマのパフォーマンスが行われ、来場者に新たな体験を提供しました。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "event",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "486fc84f23de3952",
-   "url": "https://www.sakigake.jp/news/article/20261011AK0002",
-   "title_original": "多彩なキャリア集結、課題解決・価値創造へ 首都圏在住の秋田県出身者、団体設立",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261011ak0002_01_l.jpg",
-   "local": true,
-   "published": "2026-10-11T07:00:00+00:00",
-   "title_ja": "首都圏の秋田県出身者が地域貢献へ新団体を設立",
-   "summary_ja": "首都圏に暮らす秋田県出身者が、古里とのつながりを深めて地域の課題解決や価値創造を目指す新たな任意団体を立ち上げた。情報発信用のサイトも開設している。",
-   "category": "くらし・地域",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "6ebbffc1c42498be",
-   "url": "https://www.asahi.com/articles/ASVB61HB2VB6UBUB00CM.html?iref=_area_area_list_n",
-   "title_original": "ユニクロ元店長が「お遍路」を歩いて見つけたこと 秋田で個人塾経営 [秋田県]",
-   "source": "朝日新聞",
-   "image": "https://imgopt.asahi.com/ogp/AS20261006001876_comm.jpg",
-   "local": false,
-   "published": "2026-10-11T07:00:00+00:00",
-   "title_ja": "ユニクロ元店長が秋田で個人塾を開業するまで",
-   "summary_ja": "ユニクロの店長を経験したのちお遍路の旅を経て、現在は秋田県内で個人塾を経営している人物の歩みと独自の視点が紹介されている。",
-   "category": "くらし・地域",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "34bbe4a4426f8520",
-   "url": "http://www.excite.co.jp/news/article/Atpress_640204",
-   "title_original": "日本初！本物ロボットと忍者の対決アトラクションやカラオケ大会、新ヒーロー登場も！地域密着イベント「にかほのMIKATA祭り」10月18日秋田県「にかほっと」で開催！",
-   "source": "Excite エキサイト",
-   "image": "",
-   "local": false,
-   "published": "2026-10-11T07:00:00+00:00",
-   "title_ja": "にかほっとで「にかほのMIKATA祭り」開催",
-   "summary_ja": "秋田県にかほ市の「にかほっと」で、ロボットと忍者の対決やカラオケ大会などが行われる地域密着型のお祭りです。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "event",
-   "event_when": "2026年10月18日",
    "importance": 3
   }
  ]
