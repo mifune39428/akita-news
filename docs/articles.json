@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18T00:11:29.804259+09:00",
+ "updated_at": "2026-10-18T05:17:33.765558+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,31 +20,31 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-10-17T17:00:00+09:00",
-  "updated_at": "2026-10-18T00:14:17.437113+09:00",
+  "reported_at": "2026-10-18T05:00:00+09:00",
+  "updated_at": "2026-10-18T05:18:07.623343+09:00",
   "days": [
    {
     "date": "2026-10-18",
-    "max": 20.9,
+    "max": 21.0,
     "min": 8.1,
-    "icon": "☀️",
-    "text": "晴れ",
+    "icon": "🌤",
+    "text": "晴れ夜くもり所により昼前まで霧",
     "pop": 0,
     "official": true
    },
    {
     "date": "2026-10-19",
-    "max": 20.9,
-    "min": 14.1,
+    "max": 20.3,
+    "min": 15.0,
     "icon": "🌦",
-    "text": "くもり時々雨",
-    "pop": null,
+    "text": "くもり朝から夕方雨所により昼前から昼過ぎ雷を伴い激しく降る",
+    "pop": 70,
     "official": true
    },
    {
     "date": "2026-10-20",
-    "max": 18.1,
-    "min": 13.3,
+    "max": 19.0,
+    "min": 15.2,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -52,8 +52,8 @@
    },
    {
     "date": "2026-10-21",
-    "max": 19.5,
-    "min": 13.9,
+    "max": 21.2,
+    "min": 13.3,
     "icon": "🌦",
     "text": "くもり時々雨",
     "pop": 70,
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-10-22",
-    "max": 15.6,
-    "min": 12.5,
+    "max": 13.9,
+    "min": 12.1,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -70,8 +70,8 @@
    },
    {
     "date": "2026-10-23",
-    "max": 16.0,
-    "min": 8.1,
+    "max": 16.2,
+    "min": 7.4,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -79,8 +79,8 @@
    },
    {
     "date": "2026-10-24",
-    "max": 19.9,
-    "min": 8.0,
+    "max": 21.3,
+    "min": 7.4,
     "icon": "☁️",
     "text": "くもり",
     "pop": 30,
@@ -88,17 +88,17 @@
    },
    {
     "date": "2026-10-25",
-    "max": 21.7,
-    "min": 15.6,
-    "icon": "🌦",
-    "text": "にわか雨",
+    "max": 21.9,
+    "min": 15.3,
+    "icon": "🌧",
+    "text": "小雨",
     "pop": 39,
     "official": false
    },
    {
     "date": "2026-10-26",
-    "max": 18.2,
-    "min": 10.6,
+    "max": 16.1,
+    "min": 11.6,
     "icon": "🌦",
     "text": "にわか雨",
     "pop": 49,
@@ -106,25 +106,15 @@
    },
    {
     "date": "2026-10-27",
-    "max": 15.8,
-    "min": 7.5,
-    "icon": "☁️",
-    "text": "くもり",
+    "max": 13.1,
+    "min": 8.6,
+    "icon": "🌦",
+    "text": "霧雨",
     "pop": 37,
     "official": false
    }
   ],
   "pops": [
-   {
-    "time": "2026-10-17T18:00",
-    "label": "18-24時",
-    "pop": 0
-   },
-   {
-    "time": "2026-10-18T00:00",
-    "label": "0-6時",
-    "pop": 0
-   },
    {
     "time": "2026-10-18T06:00",
     "label": "6-12時",
@@ -139,6 +129,26 @@
     "time": "2026-10-18T18:00",
     "label": "18-24時",
     "pop": 0
+   },
+   {
+    "time": "2026-10-19T00:00",
+    "label": "0-6時",
+    "pop": 30
+   },
+   {
+    "time": "2026-10-19T06:00",
+    "label": "6-12時",
+    "pop": 70
+   },
+   {
+    "time": "2026-10-19T12:00",
+    "label": "12-18時",
+    "pop": 60
+   },
+   {
+    "time": "2026-10-19T18:00",
+    "label": "18-24時",
+    "pop": 20
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -237,6 +247,38 @@
   "sig": "82e2839b42dc"
  },
  "items": [
+  {
+   "id": "c8f7268c07f0fc63",
+   "url": "https://topics.smt.docomo.ne.jp/article/hokkoku/region/hokkoku-20261017232036",
+   "title_original": "ＫＵＲＯＢＥアクアフェアリーズ 開幕白星、秋田にストレート勝ち 新戦力躍動",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/hokkoku/m_hokkoku-20261017232036.jpg",
+   "local": false,
+   "published": "2026-10-17T20:12:15+00:00",
+   "title_ja": "KUROBEが秋田にストレート勝ちで開幕白星",
+   "summary_ja": "バレーボールのKUROBEアクアフェアリーズが秋田での開幕戦に臨み、新戦力の活躍も見せてストレート勝ちを収めた。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "d3b206230e7587a1",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1484196752445752007",
+   "title_original": "（秋田）小坂町上向狐崎でクマ出没 １０月１７日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/053031.png?fushinsha_joho-1484196752445752007",
+   "local": false,
+   "published": "2026-10-17T14:21:00+00:00",
+   "title_ja": "小坂町上向狐崎でクマが出没",
+   "summary_ja": "10月17日、秋田県小坂町上向狐崎にクマが出没したとの通報があり、地域住民に対し注意喚起が行われました。現在、状況は確認中です。",
+   "category": "くらし・地域",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
   {
    "id": "c40ceed04d145770",
    "url": "https://www.sakigake.jp/news/article/20261017AK0047",
@@ -558,6 +600,54 @@
    "importance": 4
   },
   {
+   "id": "68d248ac611c439f",
+   "url": "https://www.walkerplus.com/article/1404767/image17559475.html",
+   "title_original": "＜画像2 / 3＞「日本一の汗かき」は秋田県民だった!?“秋田美人”のイメージにもつながる意外なルーツ",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1404767/17559473_615.jpg",
+   "local": false,
+   "published": "2026-10-17T07:38:28+00:00",
+   "title_ja": "秋田県民が日本一の汗かきと言われるルーツを探る",
+   "summary_ja": "秋田県民が日本一の汗かきと言われる理由や、秋田美人のイメージとの意外なつながりについて紹介しています。",
+   "category": "文化・芸能",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "a69459c933bf9d0a",
+   "url": "https://www.akita-abs.co.jp/blog/abst/archives/10460",
+   "title_original": "秋田駅フェスティバル2026",
+   "source": "ABS秋田放送",
+   "image": "https://www.akita-abs.co.jp/blog/abst/wp-content/uploads/sites/52/2026/10/tbst261016.jpg",
+   "local": false,
+   "published": "2026-10-17T07:28:52+00:00",
+   "title_ja": "秋田駅フェスティバル2026が開催",
+   "summary_ja": "秋田駅周辺を舞台に、鉄道の魅力や地域の名産などを楽しめるイベント「秋田駅フェスティバル2026」が行われます。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "459c426d248f708a",
+   "url": "https://www.akita-abs.co.jp/blog/abst/archives/10464",
+   "title_original": "10月17日・18日のイベント情報",
+   "source": "ABS秋田放送",
+   "image": "https://www.akita-abs.co.jp/blog/abst/wp-content/uploads/sites/52/2026/10/event261016.jpg",
+   "local": false,
+   "published": "2026-10-17T07:28:52+00:00",
+   "title_ja": "10月17日・18日開催のイベント情報",
+   "summary_ja": "秋田県内で10月17日と18日の週末に開催される様々な催しやイベントの情報をまとめて紹介しています。",
+   "category": "観光・イベント",
+   "area": "県全体",
+   "kind": "event",
+   "event_when": "2026年10月17日〜10月18日",
+   "importance": 3
+  },
+  {
    "id": "a667a0e2466b4c2a",
    "url": "https://www.sakigake.jp/news/article/20261017AK0022",
    "title_original": "ブラウブリッツ、札幌に０―１で敗れる",
@@ -619,6 +709,22 @@
    "area": "中央",
    "kind": "event",
    "event_when": "11月7日〜8日",
+   "importance": 3
+  },
+  {
+   "id": "cf230ea064e3d3a1",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261017de60895",
+   "title_original": "ＪＡＦ隊員の対応力競う「ロードサービス競技会」 秋田",
+   "source": "NHKニュース",
+   "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261017de60895/20261017de60895_E0000083434_1_l.jpg",
+   "local": false,
+   "published": "2026-10-17T06:06:34+00:00",
+   "title_ja": "JAF隊員が技術を競うロードサービス競技会を開催",
+   "summary_ja": "秋田県内で、JAFの隊員たちが日頃培ったロードサービスの対応力や作業技術を競い合う競技会が開かれました。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
    "importance": 3
   },
   {
@@ -6536,102 +6642,6 @@
    "title_ja": "秋田の大沼で鮮やかな紅葉が見ごろを迎える",
    "summary_ja": "秋田の大沼周辺では、季節の寒暖差によって木々が色づき、鮮やかな紅葉が美しい見ごろを迎えています。",
    "category": "観光・イベント",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "eb9eb33cca1950fd",
-   "url": "https://www.walkerplus.com/article/1442167/image18561794.html",
-   "title_original": "画像8 / 8＞【聖地巡礼】実写映画『ルックバック』の撮影セットが秋田・にかほ市に復元！“藤野と京本のまち”をロケ地マップで巡る",
-   "source": "ウォーカープラス",
-   "image": "https://news.walkerplus.com/article/1442167/18561793_615.jpg",
-   "local": false,
-   "published": "2026-10-12T06:12:48+00:00",
-   "title_ja": "映画「ルックバック」の撮影セットがにかほ市に復元",
-   "summary_ja": "実写映画「ルックバック」の撮影セットがにかほ市に復元され、ロケ地を巡るマップとともに作品の舞台裏を楽しめるようになっています。",
-   "category": "文化・芸能",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "853e0397223e0d74",
-   "url": "https://www.sakigake.jp/news/article/20261011AK0038",
-   "title_original": "設立３０年・秋田県立大木高研 加工技術で木材産業転換 脱・資源依存へ研究に力",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20261008G00011_l.jpg",
-   "local": true,
-   "published": "2026-10-12T06:00:00+00:00",
-   "title_ja": "設立30年の県立大木高研、木材産業の発展へ研究強化",
-   "summary_ja": "能代市にある秋田県立大木材高度加工研究所が、実社会で活用される応用研究に力を入れています。設立30周年を機に、資源に依存しない木材産業の転換と発展を目指した取り組みを進めています。",
-   "category": "経済・企業",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "3a190ba5591b5f0a",
-   "url": "https://www.sakigake.jp/news/article/20261011AK0023",
-   "title_original": "ハロウィーン向け観賞用カボチャ 大仙市から全国へ、今年は２千個収穫",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20261007G00002_l.jpg",
-   "local": true,
-   "published": "2026-10-12T05:31:00+00:00",
-   "title_ja": "大仙市から全国へ、ハロウィーン向けカボチャの出荷最盛期",
-   "summary_ja": "大仙市中仙地域の農家が手がけるハロウィーン用の観賞用カボチャが収穫期を迎えました。今年は約2千個が収穫され、全国各地へ出荷されているほか、市内の観光施設などでも販売されています。",
-   "category": "グルメ・農林水産",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "971cc69d983462e8",
-   "url": "https://www.sakigake.jp/news/article/20261011AK0024",
-   "title_original": "地元産カボチャでランタン作ろう 大仙市で１７・１８日にワークショップ",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261011ak0024_01_l.jpg",
-   "local": true,
-   "published": "2026-10-12T05:30:00+00:00",
-   "title_ja": "大仙市でハロウィン子どもワークショップ開催",
-   "summary_ja": "10月17日・18日に大仙市の県立農業科学館で、子ども向けにカボチャを使ったランタン作りのワークショップが行われます。参加者募集は主催事業が行っています。",
-   "category": "観光・イベント",
-   "area": "県南",
-   "kind": "event",
-   "event_when": "10月17日〜18日",
-   "importance": 2
-  },
-  {
-   "id": "346fa809902b8ba9",
-   "url": "https://www.47news.jp/15071261.html",
-   "title_original": "秋田県高校かるた新人競技会 ３校の２６人が熱戦",
-   "source": "47NEWS",
-   "image": "https://img.cf.47news.jp/public/photo/c34433a4a8032230d3b0ed5632fe0386/photo.jpg",
-   "local": false,
-   "published": "2026-10-12T05:00:00+00:00",
-   "title_ja": "県内の高校生が熱戦を繰り広げたかるた新人競技会",
-   "summary_ja": "秋田県内の高校かるた新人競技会が開催され、3校から集まった選手たちが熱い戦いを繰り広げました。",
-   "category": "文化・芸能",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "1f845191def17836",
-   "url": "https://www.sakigake.jp/news/article/20261011AK0022",
-   "title_original": "秋田県高校かるた新人競技会 ３校の２６人が熱戦【上位入賞者一覧】",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20261010G00005_l.jpg",
-   "local": true,
-   "published": "2026-10-12T04:45:00+00:00",
-   "title_ja": "北秋田市で高校かるた新人競技会　26人が熱戦",
-   "summary_ja": "10月10日、北秋田市交流センターで第14回秋田県高校小倉百人一首かるた新人競技会が開催され、3校から計26名の1・2年生が参加し熱戦を繰り広げました。",
-   "category": "スポーツ",
    "area": "県北",
    "kind": "news",
    "event_when": "",
