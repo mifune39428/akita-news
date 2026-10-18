@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-19T00:33:38.449010+09:00",
+ "updated_at": "2026-10-19T05:16:32.312437+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,13 +20,13 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-10-18T17:00:00+09:00",
-  "updated_at": "2026-10-19T00:34:42.408506+09:00",
+  "reported_at": "2026-10-19T05:00:00+09:00",
+  "updated_at": "2026-10-19T05:18:19.033052+09:00",
   "days": [
    {
     "date": "2026-10-19",
     "max": 20.3,
-    "min": 14.5,
+    "min": 14.1,
     "icon": "🌦",
     "text": "くもり朝から昼過ぎ雨所により朝から昼前雷を伴い激しく降る",
     "pop": 90,
@@ -34,17 +34,17 @@
    },
    {
     "date": "2026-10-20",
-    "max": 18.3,
-    "min": 12.6,
-    "icon": "🌦",
-    "text": "くもり一時雨",
-    "pop": null,
+    "max": 17.8,
+    "min": 12.8,
+    "icon": "⛅",
+    "text": "くもり昼過ぎまで時々晴れ所により夜雨",
+    "pop": 20,
     "official": true
    },
    {
     "date": "2026-10-21",
-    "max": 22.3,
-    "min": 15.2,
+    "max": 21.7,
+    "min": 15.4,
     "icon": "🌦",
     "text": "くもり時々雨",
     "pop": 70,
@@ -52,8 +52,8 @@
    },
    {
     "date": "2026-10-22",
-    "max": 15.8,
-    "min": 11.9,
+    "max": 15.4,
+    "min": 12.1,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-10-23",
-    "max": 15.8,
-    "min": 8.4,
+    "max": 15.9,
+    "min": 8.6,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -70,8 +70,8 @@
    },
    {
     "date": "2026-10-24",
-    "max": 20.4,
-    "min": 9.8,
+    "max": 18.7,
+    "min": 9.7,
     "icon": "☁️",
     "text": "くもり",
     "pop": 30,
@@ -80,7 +80,7 @@
    {
     "date": "2026-10-25",
     "max": 20.2,
-    "min": 11.6,
+    "min": 9.6,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -88,8 +88,8 @@
    },
    {
     "date": "2026-10-26",
-    "max": 18.0,
-    "min": 11.6,
+    "max": 17.1,
+    "min": 9.6,
     "icon": "🌦",
     "text": "霧雨",
     "pop": 53,
@@ -97,34 +97,24 @@
    },
    {
     "date": "2026-10-27",
-    "max": 20.5,
-    "min": 12.8,
-    "icon": "⛈",
-    "text": "雷雨",
+    "max": 15.3,
+    "min": 10.4,
+    "icon": "🌦",
+    "text": "にわか雨",
     "pop": 59,
     "official": false
    },
    {
     "date": "2026-10-28",
-    "max": 14.1,
+    "max": 16.9,
     "min": 9.9,
     "icon": "🌦",
-    "text": "霧雨",
+    "text": "強い霧雨",
     "pop": 38,
     "official": false
    }
   ],
   "pops": [
-   {
-    "time": "2026-10-18T18:00",
-    "label": "18-24時",
-    "pop": 0
-   },
-   {
-    "time": "2026-10-19T00:00",
-    "label": "0-6時",
-    "pop": 30
-   },
    {
     "time": "2026-10-19T06:00",
     "label": "6-12時",
@@ -138,7 +128,27 @@
    {
     "time": "2026-10-19T18:00",
     "label": "18-24時",
+    "pop": 20
+   },
+   {
+    "time": "2026-10-20T00:00",
+    "label": "0-6時",
+    "pop": 0
+   },
+   {
+    "time": "2026-10-20T06:00",
+    "label": "6-12時",
     "pop": 10
+   },
+   {
+    "time": "2026-10-20T12:00",
+    "label": "12-18時",
+    "pop": 10
+   },
+   {
+    "time": "2026-10-20T18:00",
+    "label": "18-24時",
+    "pop": 20
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -206,52 +216,78 @@
  ],
  "count": 400,
  "digest": {
-  "headline": "ここ3日の秋田県内ニュースまとめ",
+  "headline": "秋田の直近3日間のニュースと催し物まとめ",
   "points": [
    {
-    "text": "青森国スポのバスケットボールでJR東日本秋田が成年男子で優勝を果たし、少年男子も8強に進出しました。",
+    "text": "青森県で開催された国スポのバスケットボール成年男子でJR東日本秋田が優勝を果たしたほか、少年男子も準々決勝進出を決めました。",
     "ids": [
      "b3cf87d3873385ac",
      "51de3c67ff531db3"
     ]
    },
    {
-    "text": "自治体への不正アクセスによる情報漏えい問題を受け、秋田県が緊急会議を開いて情報管理体制やセキュリティ対策の強化を図っています。",
+    "text": "各地の自治体で防災システムへの不正アクセスや情報漏えいの可能性が浮上したことを受け、秋田県が緊急会議を開催して対策を協議しました。",
     "ids": [
-     "d4943f388ff88540",
+     "df7b241407d70f5d",
      "de1882342d77e41a",
      "76b57baa0d363cb1"
     ]
    },
    {
-    "text": "大仙市の「大曲の花火」が100回目の節目を迎える2028年春に、国際花火シンポジウムの開催が決定しました。",
-    "ids": [
-     "12d8bebdcd6f9f66"
-    ]
-   },
-   {
-    "text": "秋田県内ではクマによる人身被害が前年同期比で減少している一方、各地で目撃や警戒の呼びかけが続いています。",
+    "text": "気象庁が発表した緊急地震速報の誤報により県内が一時混乱したほか、クマの被害や目撃情報が相次ぎ注意が呼びかけられています。",
     "ids": [
      "57c877ded27a5d57",
-     "df7b241407d70f5d",
-     "128ad2bc92709425"
+     "4e20147c1e4ee084",
+     "5237773ea85735ca"
     ]
    },
    {
-    "text": "気象庁が発表した緊急地震速報の過大予測による取り消しを受け、県内の市町村で一時混乱が生じました。",
+    "text": "大仙市の「大曲の花火」が100回目の節目を迎える2028年春に、国際花火シンポジウムの開催が決定しました。",
     "ids": [
-     "4e20147c1e4ee084",
-     "5237773ea85735ca"
+     "12d8bebdcd6f9f66",
+     "793bba4168b665d8"
     ]
    }
   ],
   "days": 3,
-  "from": "2026-10-16T00:34:42.409447+09:00",
-  "generated_at": "2026-10-19T00:34:44.165499+09:00",
+  "from": "2026-10-16T05:18:19.033978+09:00",
+  "generated_at": "2026-10-19T05:18:20.808053+09:00",
   "article_count": 24,
-  "sig": "11d534f04d34"
+  "sig": "3e56dcb9f45c"
  },
  "items": [
+  {
+   "id": "a291e4dba33ddf40",
+   "url": "https://www.agrinews.co.jp/news/index/413332",
+   "title_original": "地元産扱う秋田の菓子業 台湾進出、手応え",
+   "source": "日本農業新聞",
+   "image": "https://www.agrinews.co.jp/media/2026/10/19/MN20261019T501A0300A12_P1016TPT50199AJB_S.jpg",
+   "local": false,
+   "published": "2026-10-18T20:01:05+00:00",
+   "title_ja": "秋田の菓子店が台湾進出　地元産品を活用し手応え",
+   "summary_ja": "地元産の農産物を扱う秋田県の菓子事業者が台湾への進出に取り組み、手応えを得ていることが分かりました。地域の素材を生かした商品の海外展開により、新たな市場開拓が期待されています。",
+   "category": "経済・企業",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "f6f9e099c81b055c",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/fushinsha_joho/region/fushinsha_joho-1484555113674064288",
+   "title_original": "（秋田）仙北市角館町西長野古米沢でクマ出没 １０月１８日",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052159.png?fushinsha_joho-1484555113674064288",
+   "local": false,
+   "published": "2026-10-18T14:05:00+00:00",
+   "title_ja": "仙北市角館町でクマの目撃情報　10月18日に出没",
+   "summary_ja": "10月18日、仙北市角館町西長野古米沢の地域においてクマが出没しました。地域住民や近くを訪れる人は、山林付近に近づくのを避け音の出るものを身につけるなど注意が必要です。",
+   "category": "天気・防災",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
   {
    "id": "740ec0ec895903ea",
    "url": "https://go2senkyo.com/seijika/68608/posts/1542307",
@@ -342,6 +378,22 @@
    "published": "2026-10-18T13:23:37+00:00",
    "title_ja": "秋田商が後半のゴールで全国大会へ王手",
    "summary_ja": "全国大会出場を目指す秋田商が、後半の3得点で勝利をつかみ取りました。夏の悔しさを晴らすため、チームで磨き上げてきた力を決勝戦の舞台で存分に発揮します。",
+   "category": "スポーツ",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "77c93a21c28f1bb5",
+   "url": "https://news.yahoo.co.jp/articles/f18303c76a9fa231d01265fef75bb08690145b1b",
+   "title_original": "秋田商が後半3発で48回目の全国王手。宿敵を倒せるのは「自分たちしかいない」の思いで磨いてきた力を決勝で発揮し、夏の雪辱へ（ゲキサカ）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261018-45976897-gekisaka-000-6-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-10-18T13:09:01+00:00",
+   "title_ja": "秋田商が高校サッカー県予選決勝へ 48回目の全国出場に王手",
+   "summary_ja": "高校サッカーの秋田県予選で秋田商業高校が後半に3得点を挙げ、48回目となる全国大会出場へ王手をかけました。夏の雪辱を果たそうと磨いてきた力を発揮し、宿敵を倒しての全国大会出場を目指します。",
    "category": "スポーツ",
    "area": "中央",
    "kind": "news",
@@ -504,6 +556,22 @@
    "summary_ja": "受験を控えた中学3年生を対象に、県内最大規模の模擬試験が行われました。生徒たちは日頃の成果を試し、志望校選びの参考にしました。",
    "category": "教育・子育て",
    "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "1c1b6b4c1bd6b3fb",
+   "url": "https://akita.keizai.biz/gpnews/1775446",
+   "title_original": "細野勇策が国内メジャー２冠",
+   "source": "秋田経済新聞",
+   "image": "https://images.keizai.biz/akita_keizai/globalphoto/",
+   "local": false,
+   "published": "2026-10-18T09:19:28+00:00",
+   "title_ja": "ゴルフの国内メジャー大会で細野勇策が2冠を達成",
+   "summary_ja": "国内最高峰のゴルフメジャー大会において、細野勇策選手が見事な活躍を見せ、国内メジャー2冠を獲得しました。優れたパフォーマンスを発揮して輝かしい実績を残し、今後の更なる飛躍に注目が集まっています。",
+   "category": "スポーツ",
+   "area": "中央",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -909,6 +977,22 @@
    "importance": 2
   },
   {
+   "id": "7d02dd53a2f50909",
+   "url": "https://news.livedoor.com/topics/detail/32597092",
+   "title_original": "秋田市卸売市場まつり 市民参加の競り体験も 買い物客らで賑わう (2026年10月18日掲載)",
+   "source": "ライブドアニュース",
+   "image": "",
+   "local": false,
+   "published": "2026-10-18T03:11:00+00:00",
+   "title_ja": "秋田市で卸売市場まつりが開催　競り体験などで賑わう",
+   "summary_ja": "秋田市で卸売市場まつりが開催され、大勢の買い物客で賑わいました。会場では旬の食材などの買い物が楽しまれたほか、一般市民が参加できる競り体験も行われました。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "755a9933663a51fd",
    "url": "https://www.sakigake.jp/news/article/20261018AK0022",
    "title_original": "秋田新幹線こまちに遅れ 東北新幹線一時運転見合わせ受け",
@@ -1210,6 +1294,22 @@
    "area": "中央",
    "kind": "event",
    "event_when": "2026年10月18日以降",
+   "importance": 3
+  },
+  {
+   "id": "ec8251371cfa9276",
+   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2300/r_id=10800",
+   "title_original": "上半期寄付額は７・４億円 大館市のふるさと納税 同時期の過去最多を更新 表示の見直しなど要因",
+   "source": "株式会社 北鹿新聞社",
+   "image": "https://www.hokuroku.co.jp/files/libs/8360/201909241311217234.jpg?1792354695",
+   "local": false,
+   "published": "2026-10-17T21:02:31+00:00",
+   "title_ja": "大館市の上半期ふるさと納税、過去最多を更新",
+   "summary_ja": "大館市における今年度上半期のふるさと納税の寄付額が過去最多を記録しました。表示方法の改善などが奏功し、好調な伸びを見せています。",
+   "category": "行政・政治",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
    "importance": 3
   },
   {
@@ -6555,102 +6655,6 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
-  },
-  {
-   "id": "826c770f0980f26e",
-   "url": "https://origin.akt.co.jp/news?sel=20261013-00000004-AKT-1",
-   "title_original": "青空広がり季節外れの暑さ、県内20地点で“夏日”記録 半袖姿の人も 14日は一転、曇りや雨に 秋田",
-   "source": "AKT秋田テレビ",
-   "image": "https://www.akt.co.jp/akt_news/20261013-00000004-AKT-1-00-thumb.jpg",
-   "local": false,
-   "published": "2026-10-13T09:56:47+00:00",
-   "title_ja": "県内各地で季節外れの夏日を記録、14日は一転して雨へ",
-   "summary_ja": "青空が広がって各地で季節外れの暑さとなり、20地点で夏日を観測しました。半袖で過ごす人の姿も見られましたが、翌14日は天気が一転して曇りや雨になる予報です。",
-   "category": "天気・防災",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "7b9f7ae48446e7eb",
-   "url": "https://www.aab-tv.co.jp/news/aabnews-26101316360069",
-   "title_original": "秋田内陸縦貫鉄道 運賃改定の方針を住民に説明 燃料費高騰で値上げの方針",
-   "source": "AAB秋田朝日放送",
-   "image": "https://www.aab-tv.co.jp/news_thumb/2026101316360012369.jpg",
-   "local": true,
-   "published": "2026-10-13T09:46:38+00:00",
-   "title_ja": "秋田内陸線、運賃改定に向け住民説明会を開始",
-   "summary_ja": "燃料費の高騰などを理由に運賃改定の方針を示している秋田内陸縦貫鉄道が、沿線住民向けの第一回説明会を北秋田市で開催しました。",
-   "category": "経済・企業",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "69ae05c497868860",
-   "url": "https://www.aab-tv.co.jp/news/aabnews-26101317210074",
-   "title_original": "湯沢市のダリア園見頃 今年は最高の出来に 県内外から多くの来園者も ／秋田",
-   "source": "AAB秋田朝日放送",
-   "image": "https://www.aab-tv.co.jp/news_thumb/2026101317210012374.jpg",
-   "local": true,
-   "published": "2026-10-13T09:46:01+00:00",
-   "title_ja": "湯沢市のダリア園が見頃、今年は最高の出来に",
-   "summary_ja": "湯沢市のダリア園では、天候に恵まれて今年の出来栄えが最高となり、多くのオリジナル品種が咲き誇る園内には県内外から多数の来園者が訪れています。",
-   "category": "観光・イベント",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "5b20a9d4d2e0aba8",
-   "url": "https://www.aab-tv.co.jp/news/aabnews-26101317010068",
-   "title_original": "秋田県立大学 クマ対策の研究成果を披露 クマの検知と威嚇 犬型ロボットも",
-   "source": "AAB秋田朝日放送",
-   "image": "https://www.aab-tv.co.jp/news_thumb/2026101317010012368.jpg",
-   "local": true,
-   "published": "2026-10-13T09:43:19+00:00",
-   "title_ja": "秋田県立大学、クマ対策の最新研究成果を披露",
-   "summary_ja": "相次ぐクマ被害の解決策として、秋田県立大学が開発を進めてきたクマの検知技術や犬型ロボットなどの研究成果を発表しました。",
-   "category": "くらし・地域",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "a7d9f2c6d8b2b84e",
-   "url": "https://www.akt.co.jp/news?sel=20261013-00000003-AKT-2",
-   "title_original": "八幡平の大沼周辺、紅葉が見頃 多くの観光客ら、自然が織りなす秋の風景楽しむ 秋田・鹿角市",
-   "source": "AKT秋田テレビ",
-   "image": "https://www.akt.co.jp/akt_news/20261013-00000003-AKT-2-00-thumb.jpg",
-   "local": false,
-   "published": "2026-10-13T09:37:24+00:00",
-   "title_ja": "鹿角市の八幡平・大沼周辺で紅葉が見頃を迎える",
-   "summary_ja": "鹿角市の八幡平大沼周辺で紅葉が見頃となりました。美しい秋の自然風景を楽しもうと、多くの観光客らが訪れて賑わっています。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "33135e5034fbbb4a",
-   "url": "https://www.akt.co.jp/events/kuromanta-rock-fes",
-   "title_original": "クロマンタROCK-FES",
-   "source": "AKT秋田テレビ",
-   "image": "",
-   "local": false,
-   "published": "2026-10-13T09:16:50+00:00",
-   "title_ja": "クロマンタROCK-FES開催",
-   "summary_ja": "音楽イベント「クロマンタROCK-FES」が開催され、地域の盛り上がりを見せています。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
   }
  ]
 }
