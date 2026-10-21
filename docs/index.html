@@ -830,10 +830,61 @@ setupSearch(value => { query = value; apply(); });
 setupMore(render);
 setupPlaceholders("🏮");
 
+// リンクを開いて戻ったとき、一覧の位置・開いていた絞り込みを元に戻す。
+// アプリに戻るたびに一覧を作り直すと先頭に戻ってしまうので、
+// 内容が変わっていなければ描き直さず、変わっていても位置と表示件数を引き継ぐ。
+const VIEW_KEY = "akita-view";
+let lastUpdated = null;
+
+function saveView() {
+  try {
+    sessionStorage.setItem(VIEW_KEY, JSON.stringify({ y: window.scrollY, shown, tab, area, query }));
+  } catch (err) { /* 使えなくても動く */ }
+}
+window.addEventListener("pagehide", saveView);
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") saveView(); });
+
+function savedViewOnBack() {
+  try {
+    const nav = performance.getEntriesByType("navigation")[0];
+    const raw = sessionStorage.getItem(VIEW_KEY);
+    if (!raw || !nav || nav.type !== "back_forward") return null;
+    return JSON.parse(raw);
+  } catch (err) { return null; }
+}
+
+function restoreScroll(view) {
+  if (!view) return;
+  while (shown < view.shown && shown < filtered.length) render();
+  window.scrollTo(0, view.y);
+}
+
 async function load() {
   try {
     const res = await fetch(`articles.json?t=${Date.now()}`, { cache: "no-store" });
     const data = await res.json();
+    const firstLoad = lastUpdated === null;
+    if (!firstLoad && (data.updated_at || "") === lastUpdated) {
+      document.getElementById("updated").textContent = data.updated_at ? `${relative(data.updated_at)}に更新` : "";
+      return;
+    }
+    lastUpdated = data.updated_at || "";
+    let view = null;
+    if (firstLoad) {
+      view = savedViewOnBack();
+      if (view) {
+        ({ tab, area, query } = view);
+        const box = document.getElementById("search");
+        if (query && box) {
+          box.value = query;
+          const bar = document.getElementById("searchBar"), tg = document.getElementById("searchToggle");
+          if (bar) bar.hidden = false;
+          if (tg) tg.setAttribute("aria-expanded", "true");
+        }
+      }
+    } else {
+      view = { y: window.scrollY, shown };
+    }
     all = window.NEWS_ITEMS = data.items || [];
     digestData = data.digest || null;
     weatherData = data.weather || null;
@@ -842,6 +893,7 @@ async function load() {
     document.getElementById("sources").textContent = "収集元: " + (data.sources || []).join("、");
     buildTabs(data.categories || []);
     apply();
+    restoreScroll(view);
   } catch (err) {
     document.getElementById("list").innerHTML = '<p class="empty">記事を読み込めませんでした。時間をおいて再読み込みしてください。</p>';
   }
