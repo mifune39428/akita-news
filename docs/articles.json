@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21T20:22:38.987297+09:00",
+ "updated_at": "2026-10-22T01:49:20.992327+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -21,21 +21,12 @@
  "weather": {
   "city": "秋田市",
   "reported_at": "2026-10-21T17:00:00+09:00",
-  "updated_at": "2026-10-21T20:23:18.872701+09:00",
+  "updated_at": "2026-10-22T01:49:48.496572+09:00",
   "days": [
    {
-    "date": "2026-10-21",
-    "max": 21.8,
-    "min": 14.9,
-    "icon": "🌧",
-    "text": "雨所により夕方激しく降る",
-    "pop": 80,
-    "official": true
-   },
-   {
     "date": "2026-10-22",
-    "max": 14.9,
-    "min": 10.5,
+    "max": 14.7,
+    "min": 10.4,
     "icon": "☁️",
     "text": "くもり所により昼前まで雨",
     "pop": 30,
@@ -52,7 +43,7 @@
    },
    {
     "date": "2026-10-24",
-    "max": 19.0,
+    "max": 19.2,
     "min": 9.6,
     "icon": "☁️",
     "text": "くもり",
@@ -61,8 +52,8 @@
    },
    {
     "date": "2026-10-25",
-    "max": 21.0,
-    "min": 13.0,
+    "max": 18.4,
+    "min": 12.6,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -70,7 +61,7 @@
    },
    {
     "date": "2026-10-26",
-    "max": 16.6,
+    "max": 17.3,
     "min": 9.5,
     "icon": "🌦",
     "text": "くもり一時雨",
@@ -79,8 +70,8 @@
    },
    {
     "date": "2026-10-27",
-    "max": 17.6,
-    "min": 11.4,
+    "max": 16.7,
+    "min": 11.8,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 60,
@@ -111,6 +102,15 @@
     "icon": "🌦",
     "text": "にわか雨",
     "pop": 51,
+    "official": false
+   },
+   {
+    "date": "2026-10-31",
+    "max": 18.6,
+    "min": 8.7,
+    "icon": "⛈",
+    "text": "雷雨",
+    "pop": 66,
     "official": false
    }
   ],
@@ -195,10 +195,10 @@
  ],
  "count": 400,
  "digest": {
-  "headline": "県内全域で大雨に警戒、子吉川に氾濫特別警報",
+  "headline": "秋田県内で大雨と子吉川の氾濫特別警報に警戒、佐々木希さんが新イメージキャラクター",
   "points": [
    {
-    "text": "子吉川に氾濫特別警報が発表され、県内各地で大気の状態が非常に不安定となり大雨や強い風への警戒が続いています。",
+    "text": "子吉川に氾濫特別警報が発表され、県内各地で10月の降水量が最大を記録するなど大雨への厳重な警戒が続いています。",
     "ids": [
      "11cf5b9a93027637",
      "6e1a63d0a8d480d6",
@@ -206,33 +206,120 @@
     ]
    },
    {
-    "text": "県産ブランド米のイメージキャラクターに佐々木希さんが就任したほか、今年の主食用米の予想収量は昨年を下回る見込みです。",
+    "text": "県産米「サキホコレ」などの新たなイメージキャラクターに俳優の佐々木希さんが就任し、県外へのプロモーションを展開します。",
     "ids": [
      "1f49346c6971586b",
-     "f436bf860af7e788",
      "b40b9c1c505bb234"
     ]
    },
    {
-    "text": "潟上市にスーパーの新店舗「ジェイマルエー大久保店」が10月23日にオープンし、買い物利便性の向上が期待されています。",
+    "text": "大仙市の中学校敷地内でクマが目撃されるなど、前日の被害現場近くでの出没に注意が呼びかけられています。",
     "ids": [
-     "942021b9f32e588f"
+     "4ee4ce791c9fd7d4"
     ]
    },
    {
-    "text": "北東北3銀行の経営統合に向けた動きに対し、県内企業の間で今後の影響を見据えて期待と懸念の両方の声が上がっています。",
+    "text": "東北農政局などの発表によると、作付面積の減少や日照不足の影響により、今年の県産主食用米の予想収量は昨年を下回る見込みです。",
     "ids": [
-     "efe63cc7d4fe4db2"
+     "7f69fe6d25b68142",
+     "f436bf860af7e788",
+     "895f752dfd5b5486"
+    ]
+   },
+   {
+    "text": "阪急交通社と男鹿市が包括連携協定を締結し、持続可能な地域活性化や観光振興を進めていくことになりました。",
+    "ids": [
+     "64f67c9b4b48e94f"
     ]
    }
   ],
   "days": 3,
-  "from": "2026-10-18T20:23:18.873600+09:00",
-  "generated_at": "2026-10-21T20:23:20.539576+09:00",
+  "from": "2026-10-19T01:49:48.497577+09:00",
+  "generated_at": "2026-10-22T01:49:52.115415+09:00",
   "article_count": 24,
-  "sig": "c28ee245b670"
+  "sig": "a1a2794a9695"
  },
  "items": [
+  {
+   "id": "b16236ae355da8e7",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261021de63213",
+   "title_original": "秋田 由利本荘市 被害確認なし（2200）",
+   "source": "NHKニュース",
+   "image": "https://imgu.web.nhk/common/news/eyecatch/nhk-one-news_eyecatch-1280x720.png",
+   "local": false,
+   "published": "2026-10-21T13:33:55+00:00",
+   "title_ja": "由利本荘市での被害確認されず",
+   "summary_ja": "子吉川の氾濫特別警報に関連し、由利本荘市においては午後10時時点で被害の確認は報告されていません。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "45a5f12cd112c79a",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261021de63203",
+   "title_original": "【気象予報士解説】秋田 氾濫特別警報 今後の雨などの見通しは",
+   "source": "NHKニュース",
+   "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261021de63203/20261021de63203_E0000097412_1_l.jpg",
+   "local": false,
+   "published": "2026-10-21T12:58:32+00:00",
+   "title_ja": "秋田の氾濫特別警報、今後の雨の見通しを解説",
+   "summary_ja": "秋田県内の河川で氾濫特別警報が発表されたことを受け、気象予報士が今後の雨の降り方や見通しについて詳しく解説しています。最新の気象情報にご注意ください。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
+   "id": "608921460e5ea75a",
+   "url": "https://www.sakigake.jp/news/article/20261021AK0037",
+   "title_original": "ブラウブリッツ、宮崎に競り負ける",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20261021ak0037_02_l.jpg",
+   "local": true,
+   "published": "2026-10-21T12:58:23+00:00",
+   "title_ja": "ブラウブリッツ秋田、宮崎に惜敗し3連敗",
+   "summary_ja": "J2のブラウブリッツ秋田はアウェーで宮崎と対戦し、1対2で競り負けました。これでチームは3連敗となり、苦しい展開が続いています。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "21f2da3a93772068",
+   "url": "https://origin.akt.co.jp/news?sel=20261021-00000009-AKT-1",
+   "title_original": "秋田県内の今秋のクマ、どう行動する？ 専門家「生活圏への出没は減るが事故が起きないわけではない」",
+   "source": "AKT秋田テレビ",
+   "image": "https://www.akt.co.jp/akt_news/20261021-00000009-AKT-1-00-thumb.jpg",
+   "local": false,
+   "published": "2026-10-21T12:42:00+00:00",
+   "title_ja": "秋田県内の今秋のクマの行動について専門家に聞く",
+   "summary_ja": "秋田県内における今秋のクマの行動について専門家が解説しています。生活圏への出没は減少する見通しですが、引き続き事故への警戒が必要です。",
+   "category": "くらし・地域",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "b1eb4f4cd9aa9957",
+   "url": "https://www.sakigake.jp/news/article/20261021AK0038",
+   "title_original": "ハピネッツ、広島に敗れる",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20261021ak0038_01_l.jpg",
+   "local": true,
+   "published": "2026-10-21T12:18:00+00:00",
+   "title_ja": "秋田ノーザンハピネッツ、広島戦で敗れる",
+   "summary_ja": "バスケットボールB1の秋田ノーザンハピネッツは敵地で広島と対戦し、84対98で敗れて2連敗となりました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
   {
    "id": "11cf5b9a93027637",
    "url": "https://www.sakigake.jp/news/article/20261021AK0028",
@@ -1800,6 +1887,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 4
+  },
+  {
+   "id": "b42ec63a2f2f861c",
+   "url": "https://www.walkerplus.com/article/153623/image879085.html",
+   "title_original": "＜画像1 / 3＞秋田県秋田市で夏を彩る伝統の祭り「土崎港曳山まつり」開催",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/153623/879085_615.jpg",
+   "local": false,
+   "published": "2026-10-20T06:57:36+00:00",
+   "title_ja": "土崎港曳山まつり",
+   "summary_ja": "秋田市を代表する夏の伝統行事として、華やかな曳山が街を練り歩く伝統の祭りが開催される。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "event",
+   "event_when": "7月20日〜21日",
+   "importance": 3
   },
   {
    "id": "9d669c7e0babc49e",
@@ -6533,102 +6636,6 @@
    "summary_ja": "気象庁は秋田県沿岸部に対し、竜巻が発生する恐れがあるとして注意情報を発表しました。住民は外出時に最新の気象情報を確認し、必要に応じて避難場所や避難経路を確保するなど安全対策を徹底してください。",
    "category": "天気・防災",
    "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "550b4245b9fdea4e",
-   "url": "https://www.sakigake.jp/news/article/20261015AK0029",
-   "title_original": "「春の農作業時間を最大８割削減」 農業用ドローンの研究開発、国の事業に採択",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20261015G00001_l.jpg",
-   "local": true,
-   "published": "2026-10-16T00:30:00+00:00",
-   "title_ja": "農業ドローン開発が国の支援事業に採択",
-   "summary_ja": "秋田県産業技術センターらが共同で進める農業用ドローンの研究開発が、国の研究開発支援事業に採択された。みちびき衛星測位を活用し、中山間地の農作業時間を最大8割削減することを目指す。",
-   "category": "グルメ・農林水産",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "91c17a5d091e2d81",
-   "url": "https://news.yahoo.co.jp/articles/b15665e07d56e542cc79ffbf143372d2beab9621",
-   "title_original": "「3日分以上の水や食料備えを」 秋田県が防災イベントで呼びかけ（毎日新聞）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261016-00000014-mai-000-1-view.jpg?exp=10800",
-   "local": false,
-   "published": "2026-10-16T00:15:20+00:00",
-   "title_ja": "防災備蓄呼びかけ、秋田県が3日分以上を促す",
-   "summary_ja": "秋田県は防災イベントの一環として、災害時に最低3日分の水や食料を備蓄するよう住民に呼びかけた。備蓄の重要性と具体的な保存方法を広く周知し、地域の防災力向上を図る。",
-   "category": "天気・防災",
-   "area": "県全体",
-   "kind": "event",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "bf3e2d97dfec82e6",
-   "url": "https://www.sakigake.jp/news/article/20261015AK0026",
-   "title_original": "表情豊か、秋田犬との日常切り取る 県立農業科学館で写真展",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261015ak0026_01_l.jpg",
-   "local": true,
-   "published": "2026-10-15T23:50:00+00:00",
-   "title_ja": "大仙市の県立農業科学館で秋田犬の写真展を開催中",
-   "summary_ja": "大仙市の県立農業科学館で、愛らしい表情の秋田犬をとらえた写真展が開催されています。散歩中の季節の草花と並んだ姿など、日常のひとコマが楽しめます。25日まで。",
-   "category": "観光・イベント",
-   "area": "県南",
-   "kind": "event",
-   "event_when": "10月16日〜10月25日",
-   "importance": 2
-  },
-  {
-   "id": "a5fc1da3b335bfe4",
-   "url": "https://www.sakigake.jp/news/article/20261015AK0031",
-   "title_original": "乾田直播、種もみ入りテープで効率化 みずほライス（横手市）が導入",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20261011G00009_l.jpg",
-   "local": true,
-   "published": "2026-10-15T23:20:00+00:00",
-   "title_ja": "横手市の農業法人がシーダーテープで効率的なコメ作り",
-   "summary_ja": "横手市の農業法人が、種もみを包んだひも状の素材を活用した乾田直播によるコメ生産に挑戦しています。作業の省力化や効率化を目指した新しい取り組みとして注目されています。",
-   "category": "グルメ・農林水産",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "0cde1a3f9b4e48b9",
-   "url": "https://www.sakigake.jp/news/article/20261015AK0048",
-   "title_original": "ＴＤＫ硬式野球部、９選手の退団発表",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261015ak0048_01_l.jpg",
-   "local": true,
-   "published": "2026-10-15T22:30:00+00:00",
-   "title_ja": "TDK硬式野球部が9選手の退団を発表",
-   "summary_ja": "TDK硬式野球部は、公式インスタグラムを通じて9選手がチームを退団することを明らかにした。",
-   "category": "スポーツ",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "914ea178871f8e1f",
-   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2300/r_id=10791",
-   "title_original": "クマから乗客守れ！ ＪＲ東日本 鷹ノ巣駅で緊急銃猟訓練 昨年ホームに出没 射撃まで手順確認",
-   "source": "株式会社 北鹿新聞社",
-   "image": "https://www.hokuroku.co.jp/files/libs/29514/202610151747302531.JPEG?1792122111",
-   "local": false,
-   "published": "2026-10-15T21:04:43+00:00",
-   "title_ja": "ホーム出没に備え、JR鷹ノ巣駅でクマの緊急銃猟訓練",
-   "summary_ja": "JR東日本の鷹ノ巣駅で、過去の駅構内への出没を踏まえた緊急銃猟訓練が実施されました。関係者が安全確保から射撃までの手順を確認し、いざという時の対応力を高めました。",
-   "category": "くらし・地域",
-   "area": "県北",
    "kind": "news",
    "event_when": "",
    "importance": 3
