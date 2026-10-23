@@ -891,6 +891,36 @@ def load_existing() -> dict:
     return data
 
 
+# --------------------------------------------------------------------------
+# リンクの安全
+# --------------------------------------------------------------------------
+
+def is_web_url(url: str) -> bool:
+    """http / https のURLだけを通す。"""
+    try:
+        return urllib.parse.urlparse(str(url or "")).scheme in ("http", "https")
+    except ValueError:
+        return False
+
+
+def drop_unsafe_links(items: list[dict]) -> list[dict]:
+    """リンクが http / https でない記事を捨て、画像のURLも同じ決まりでそろえる。
+
+    RSSに javascript: のようなリンクが混ざると、押した人のブラウザで命令が動いてしまう。
+    ニュースサイトは同じドメインに並んでいて、お気に入り同期の鍵も読まれうるので、載せる前に落とす。
+    画面側（docs/ui.js）でも開かないようにしてあるので、ここは入口の一枚目。
+    """
+    kept = []
+    for item in items:
+        if not is_web_url(item.get("url", "")):
+            print(f"  ・リンクが http/https でないため除外: {str(item.get('url', ''))[:60]}")
+            continue
+        if item.get("image") and not is_web_url(item["image"]):
+            item["image"] = ""
+        kept.append(item)
+    return kept
+
+
 def main() -> int:
     load_env()
 
@@ -985,6 +1015,9 @@ def main() -> int:
 
     merged = [to_public(item) for item in merged]
     digest = digest_lib.build_digest(merged, existing.get("digest"), DIGEST_SITE, parse_date)
+
+    # 書き出す直前に、http / https 以外のリンクを持つ記事を落とす（既に載っている記事も含めて）。
+    merged = drop_unsafe_links(merged)
 
     payload = {
         "updated_at": now.astimezone(JST).isoformat(),

@@ -1,5 +1,6 @@
-/* ニュースサイト共通のUI。6サイトで同じものを使っている。
+/* ニュースサイト共通のUI。7サイトで同じものを使っている。
  *
+ *  0. http / https 以外のリンク（javascript: など）は開かない（下の「リンクの安全」）。
  *  1. 下にスクロールすると上のメニュー（見出し＋絞り込み）を隠し、一番上に戻ると出す。
  *  2. 記事カードの右上の☆を押すとお気に入りに入り、「★ お気に入り」タブでまとめて読み返せる。
  *  3. お気に入りをほかの端末へ渡す。ふだんはQRコード（または受け渡しリンク）1回で済む。
@@ -51,6 +52,54 @@
     "source", "image", "published", "category", "lang", "region", "media",
     "event_when", "has_detail",
   ];
+
+  /* --------------------------------------------------------------- リンクの安全 */
+
+  /* 記事のリンクはRSS・お気に入りの受け渡しリンク・Gistなど外から来る。
+     そこに javascript: のようなリンクが混ざると、押した人のブラウザで命令が動いてしまう
+     （7サイトは同じドメインなので、お気に入り同期の鍵まで読まれる）。
+     収集側（collect.py）でも捨てているが、どの経路で入っても開かないよう、ここでも止める。
+     ページが <a> を描くたびに見張って、http / https 以外のリンクは href ごと外す。 */
+  const SAFE_PROTOCOLS = ["http:", "https:"];
+  const isSafeLink = a => SAFE_PROTOCOLS.includes(a.protocol);
+
+  function disarmLinks(root) {
+    if (!root || root.nodeType !== 1) return;
+    const links = root.matches("a[href]") ? [root] : [];
+    links.push(...root.querySelectorAll("a[href]"));
+    for (const a of links) {
+      if (!isSafeLink(a)) a.removeAttribute("href");
+    }
+  }
+
+  new MutationObserver(records => {
+    for (const r of records) {
+      if (r.type === "attributes") disarmLinks(r.target);
+      else r.addedNodes.forEach(disarmLinks);
+    }
+  }).observe(document.documentElement, {
+    childList: true, subtree: true, attributes: true, attributeFilter: ["href"],
+  });
+
+  // 見張りより先に押された場合の念押し。
+  document.addEventListener("click", e => {
+    const a = e.target.closest && e.target.closest("a[href]");
+    if (a && !isSafeLink(a)) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+    }
+  }, true);
+
+  // 「原文」など window.open で開くものも同じ決まりにする。
+  const rawOpen = window.open;
+  window.open = function (url, ...rest) {
+    try {
+      if (!SAFE_PROTOCOLS.includes(new URL(url, location.href).protocol)) return null;
+    } catch (err) {
+      return null;
+    }
+    return rawOpen.call(window, url, ...rest);
+  };
 
   /* --------------------------------------------------------------- QRコード */
 
