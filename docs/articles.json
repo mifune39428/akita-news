@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T00:44:53.978873+09:00",
+ "updated_at": "2026-10-26T05:32:01.088441+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,16 +20,16 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-10-25T18:00:00+09:00",
-  "updated_at": "2026-10-26T00:49:43.487916+09:00",
+  "reported_at": "2026-10-26T05:00:00+09:00",
+  "updated_at": "2026-10-26T05:33:37.878792+09:00",
   "days": [
    {
     "date": "2026-10-26",
     "max": 18.1,
     "min": 10.2,
-    "icon": "☀️",
-    "text": "晴れ所により昼前まで霧",
-    "pop": 0,
+    "icon": "🌤",
+    "text": "晴れ朝晩くもり所により昼前まで霧",
+    "pop": 10,
     "official": true
    },
    {
@@ -37,8 +37,8 @@
     "max": 17.0,
     "min": 11.5,
     "icon": "🌦",
-    "text": "くもり一時雨",
-    "pop": null,
+    "text": "くもり夜雨所により雷を伴う",
+    "pop": 70,
     "official": true
    },
    {
@@ -52,8 +52,8 @@
    },
    {
     "date": "2026-10-29",
-    "max": 14.5,
-    "min": 9.3,
+    "max": 14.6,
+    "min": 9.5,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-10-30",
-    "max": 19.6,
-    "min": 9.7,
+    "max": 18.6,
+    "min": 11.0,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 60,
@@ -79,8 +79,8 @@
    },
    {
     "date": "2026-11-01",
-    "max": 13.0,
-    "min": 9.7,
+    "max": 13.5,
+    "min": 10.7,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 60,
@@ -88,8 +88,8 @@
    },
    {
     "date": "2026-11-02",
-    "max": 13.5,
-    "min": 7.0,
+    "max": 16.8,
+    "min": 7.4,
     "icon": "🌦",
     "text": "にわか雨",
     "pop": 69,
@@ -97,8 +97,8 @@
    },
    {
     "date": "2026-11-03",
-    "max": 10.2,
-    "min": 3.2,
+    "max": 9.3,
+    "min": 6.8,
     "icon": "🌦",
     "text": "霧雨",
     "pop": 23,
@@ -106,29 +106,19 @@
    },
    {
     "date": "2026-11-04",
-    "max": 12.9,
-    "min": 3.1,
+    "max": 12.5,
+    "min": 5.5,
     "icon": "🌦",
-    "text": "にわか雨",
+    "text": "霧雨",
     "pop": 26,
     "official": false
    }
   ],
   "pops": [
    {
-    "time": "2026-10-25T18:00",
-    "label": "18-24時",
-    "pop": 0
-   },
-   {
-    "time": "2026-10-26T00:00",
-    "label": "0-6時",
-    "pop": 0
-   },
-   {
     "time": "2026-10-26T06:00",
     "label": "6-12時",
-    "pop": 0
+    "pop": 10
    },
    {
     "time": "2026-10-26T12:00",
@@ -138,7 +128,27 @@
    {
     "time": "2026-10-26T18:00",
     "label": "18-24時",
-    "pop": 0
+    "pop": 10
+   },
+   {
+    "time": "2026-10-27T00:00",
+    "label": "0-6時",
+    "pop": 10
+   },
+   {
+    "time": "2026-10-27T06:00",
+    "label": "6-12時",
+    "pop": 10
+   },
+   {
+    "time": "2026-10-27T12:00",
+    "label": "12-18時",
+    "pop": 30
+   },
+   {
+    "time": "2026-10-27T18:00",
+    "label": "18-24時",
+    "pop": 70
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -247,6 +257,38 @@
   "sig": "de4f337948d0"
  },
  "items": [
+  {
+   "id": "95ed86adc08c6ac9",
+   "url": "https://news.yahoo.co.jp/articles/dc67fd3377c834eace0e9129b3282a28cfe3d564",
+   "title_original": "【秋田市】10/26 最低気温10℃、ひんやりする場面も、朝はくもりで昼間から晴れる予想【朝版】",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261026-00020003-wordleafw-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-10-25T20:09:10+00:00",
+   "title_ja": "秋田市、最低気温10℃で朝は曇り昼は晴れ",
+   "summary_ja": "10月26日、秋田市の最低気温は10℃で、朝は曇り、昼以降は晴れる見込みです。日中の気温は10℃前後とやや寒く、外出時は上着を持参すると快適です。傘は不要ですが、風が強まる可能性があるため注意してください。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "0423477bd25810a5",
+   "url": "https://kahoku.news/articles/JY6YN030GRKHN.html",
+   "title_original": "いぶりがっこ、何でも寒天、限定日本酒… 仙台駅で30日から秋田・横手の物産展",
+   "source": "河北新報オンライン",
+   "image": "https://kahoku.news/images/2026/10/25/JY6YN030GRKHN/001_size7.jpg?timestamp=20261026053333",
+   "local": false,
+   "published": "2026-10-25T20:00:00+00:00",
+   "title_ja": "秋田・横手の物産展、仙台駅で10月30日開催",
+   "summary_ja": "10月30日から仙台駅で、いぶりがっこや寒天、限定日本酒など秋田・横手の特産品が集まる物産展が開催されます。地域の食文化を紹介するブースや試食コーナーも設けられ、来場者は秋田の味覚を楽しめます。",
+   "category": "観光・イベント",
+   "area": "県全体",
+   "kind": "event",
+   "event_when": "10月30日",
+   "importance": 3
+  },
   {
    "id": "972f10eb00a8814b",
    "url": "https://www.sakigake.jp/news/article/20261025AK0044",
@@ -613,6 +655,22 @@
    "area": "県北",
    "kind": "event",
    "event_when": "10月25日〜11月26日",
+   "importance": 3
+  },
+  {
+   "id": "17e6368cadb807d4",
+   "url": "https://www.sakigake.jp/news/article/20261025CO0074",
+   "title_original": "大の里「完走できた」秋巡業終了 豊昇龍も意欲",
+   "source": "秋田魁新報電子版",
+   "image": "https://cdn.sakigake.jp/newspack/PN2026102501000716.-.-.CI0003.jpg",
+   "local": false,
+   "published": "2026-10-25T07:19:07+00:00",
+   "title_ja": "大の里が秋巡業を完走、豊昇龍も意欲",
+   "summary_ja": "各地を巡った大相撲の秋巡業が終わり、大の里が全日程を無事に終えたことを振り返りました。また、横綱の豊昇龍も今後の本場所へ向けて意欲を語っています。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
    "importance": 3
   },
   {
@@ -984,6 +1042,22 @@
    "importance": 3
   },
   {
+   "id": "73240bd690377876",
+   "url": "https://www.sakigake.jp/news/article/20261025AK0002",
+   "title_original": "北斗星（１０月２５日付）",
+   "source": "秋田魁新報電子版",
+   "image": "https://www.sakigake.jp/images/news-entry/20261025ak0002_01_l.jpg",
+   "local": false,
+   "published": "2026-10-25T00:15:00+00:00",
+   "title_ja": "秋田魁新報のコラム「北斗星」",
+   "summary_ja": "秋田魁新報に掲載されたコラム記事。",
+   "category": "その他",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 1
+  },
+  {
    "id": "63643eeac4b3d151",
    "url": "https://www.iezo.net/forum/badminton-h/47592",
    "title_original": "秋田県 高校総体バドミントン2022インターハイ予選 男子秋田工業、女子秋田北が優勝",
@@ -1219,6 +1293,22 @@
    "summary_ja": "全国高校サッカー選手権大会の秋田県大会決勝、明桜対秋田商の試合を振り返る動画が公開されています。",
    "category": "スポーツ",
    "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "33833b223a4c45ac",
+   "url": "https://mainichi.jp/articles/20261025/ddl/k05/200/050000c",
+   "title_original": "原氏収集の220点 「北斎×広重」展 秋田県立近代美術館 ／秋田",
+   "source": "毎日新聞",
+   "image": "https://cdn.mainichi.jp/vol1/2026/10/25/20261025ddlk05200303000p/0c10.jpg?1",
+   "local": false,
+   "published": "2026-10-24T20:00:58+00:00",
+   "title_ja": "秋田県立近代美術館で「北斎×広重」展を開催",
+   "summary_ja": "秋田県立近代美術館において、原氏が収集した作品220点を集めた「北斎×広重」展が開かれています。",
+   "category": "文化・芸能",
+   "area": "県南",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -1526,6 +1616,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 4
+  },
+  {
+   "id": "a20014df68fbbe45",
+   "url": "https://news.livedoor.com/topics/detail/32647883",
+   "title_original": "大学では全国一広い農場でフェス 秋田県立大学で農業の魅力を満喫 秋田・大潟村 (2026年10月24日掲載)",
+   "source": "ライブドアニュース",
+   "image": "",
+   "local": false,
+   "published": "2026-10-24T08:47:00+00:00",
+   "title_ja": "大潟村の秋田県立大学で広大な農場を活用したフェス",
+   "summary_ja": "全国屈指の広さを誇る秋田県立大学の農場を舞台に、農業の魅力を存分に体感できるフェスティバルが大潟村で開催された。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "46334530462fb33f",
@@ -3156,6 +3262,22 @@
    "category": "観光・イベント",
    "area": "中央",
    "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "e0e515b679f2657c",
+   "url": "https://www.walkerplus.com/article/175477",
+   "title_original": "力の神に幸を願う！秋田県・太平山三吉神社総本宮で「三吉梵天祭」開催",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/175477/1035323_615.jpg",
+   "local": false,
+   "published": "2026-10-23T09:10:33+00:00",
+   "title_ja": "太平山三吉神社総本宮で「三吉梵天祭」開催",
+   "summary_ja": "秋田市の太平山三吉神社総本宮にて、力神に加護を祈願する伝統的な「三吉梵天祭」が開催されます。地域の信仰や文化に触れられる催しです。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "event",
    "event_when": "",
    "importance": 3
   },
@@ -6533,118 +6655,6 @@
    "area": "県全体",
    "kind": "news",
    "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "4d1b8ef101ab1013",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261020de62354",
-   "title_original": "北秋田 灯油の流出事故に備えオイルフェンスの設置訓練",
-   "source": "NHKニュース",
-   "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261020de62354/20261020de62354_E0000091811_1_l.jpg",
-   "local": false,
-   "published": "2026-10-20T10:07:26+00:00",
-   "title_ja": "北秋田市で流出事故に備えたオイルフェンス設置訓練",
-   "summary_ja": "北秋田市で灯油の流出事故を想定したオイルフェンスの設置訓練が実施されました。参加者は河川や周辺環境への被害を防ぐため、万が一の事態における迅速な対応手順や設置作業の流れを確認しました。",
-   "category": "天気・防災",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "19eb16966f363759",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261020de62343",
-   "title_original": "秋田県内 21日は大雨見込み 土砂災害・浸水など十分注意",
-   "source": "NHKニュース",
-   "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261020de62343/20261020de62343_E0000091291_1_l.jpg",
-   "local": false,
-   "published": "2026-10-20T10:05:48+00:00",
-   "title_ja": "秋田県内で21日に大雨の恐れ　土砂災害や浸水に注意呼びかけ",
-   "summary_ja": "秋田県内では10月21日にかけて大雨となる見込みです。気象台などは土砂災害や低い土地の浸水、河川の増水などに警戒が必要だとして、最新の気象情報を確認し十分に注意するよう呼びかけています。",
-   "category": "天気・防災",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "27002434e8b0ce36",
-   "url": "https://www.aab-tv.co.jp/news/aabnews-26102017500022",
-   "title_original": "労働中のクマ被害を防ぐセミナー 正しく知って対策を 秋田・由利本荘市",
-   "source": "AAB秋田朝日放送",
-   "image": "https://www.aab-tv.co.jp/news_thumb/2026102017500012422.jpg",
-   "local": true,
-   "published": "2026-10-20T10:00:24+00:00",
-   "title_ja": "由利本荘市で業務中のクマ遭遇防ぐセミナー　対策を学ぶ",
-   "summary_ja": "クマによる人身被害の発生を受けて、由利本荘市で働く人を対象にした被害防止セミナーが開かれました。参加者は近年の出没状況を踏まえ、作業中に遭遇した際の注意点や正しい予防対策について学びを深めました。",
-   "category": "くらし・地域",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "3e6b0b7bcbe7812f",
-   "url": "https://www.akt.co.jp/news?sel=20261020-00000009-AKT-1",
-   "title_original": "AKT-NEWS 自転車競技など4種目で優勝 秋田県は天皇杯41位、皇后杯44位 青森国民スポーツ大会|10月20日(火)19:00",
-   "source": "AKT秋田テレビ",
-   "image": "https://www.akt.co.jp/akt_news/20261020-00000009-AKT-1-00-thumb.jpg",
-   "local": false,
-   "published": "2026-10-20T10:00:00+00:00",
-   "title_ja": "秋田県、青森国民スポーツ大会で4種目優勝",
-   "summary_ja": "青森で開催された国民スポーツ大会で、秋田県は自転車競技など4種目で優勝し、天皇杯で41位、皇后杯で44位という成績を収め、県民の努力が光りました。",
-   "category": "スポーツ",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "27ea2ae4d11f9d41",
-   "url": "https://www.akt.co.jp/news?sel=20261020-00000003-AKT-1",
-   "title_original": "背丈ほどの大きさのものも！園児がダイコンの収穫に挑戦 友達と力合わせ豪快に引き抜く 秋田市",
-   "source": "AKT秋田テレビ",
-   "image": "https://www.akt.co.jp/akt_news/20261020-00000003-AKT-1-00-thumb.jpg",
-   "local": false,
-   "published": "2026-10-20T09:59:44+00:00",
-   "title_ja": "秋田市の園児が大きなダイコン収穫に挑戦　協力して引き抜く",
-   "summary_ja": "秋田市の園児たちがダイコンの収穫体験に取り組みました。園児たちは自分の背丈ほどもある大きなダイコンに驚きながらも、友達同士で力を合わせて力強く引き抜き、収穫の楽しさを体験しました。",
-   "category": "教育・子育て",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "a8569ae504a617a3",
-   "url": "https://news.yahoo.co.jp/articles/720044c9ab0051dfb9b848b5785dac5b98b1cf1d",
-   "title_original": "11月に開催「秋田花の祭典」を県庁でＰＲ 県産花きの魅了を知って （秋田朝日放送）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261020-90012420-aab-000-1-thumb.jpg?exp=10800",
-   "local": false,
-   "published": "2026-10-20T09:56:01+00:00",
-   "title_ja": "11月開催の「秋田花の祭典」関係者が県庁で魅力をPR",
-   "summary_ja": "11月に開催予定の「秋田花の祭典」に向け、関係者が秋田県庁を訪れてPRを行った。県内で生産された花々の魅力を広く伝えるイベントとして、開催に向けた認知向上を図っている。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "event",
-   "event_when": "11月",
-   "importance": 3
-  },
-  {
-   "id": "43f94848b2a8232a",
-   "url": "https://www.aab-tv.co.jp/news/aabnews-26102014550020",
-   "title_original": "１１月に開催「秋田花の祭典」を県庁でＰＲ 県産花きの魅了を知って",
-   "source": "AAB秋田朝日放送",
-   "image": "https://www.aab-tv.co.jp/news_thumb/2026102014550012420.jpg",
-   "local": true,
-   "published": "2026-10-20T09:55:34+00:00",
-   "title_ja": "11月に秋田市で「秋田花の祭典」　県産花束で副知事にアピール",
-   "summary_ja": "11月に秋田市で開かれる「秋田花の祭典」の告知のため、関係者が県庁を訪問した。ダリアやトルコギキョウなど県産の花々をあしらった花束が贈られ、谷副知事にその魅力を伝えた。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "event",
-   "event_when": "11月",
    "importance": 3
   }
  ]
