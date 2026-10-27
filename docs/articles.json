@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T02:41:04.131658+09:00",
+ "updated_at": "2026-10-28T06:55:38.550696+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,13 +20,13 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-10-27T17:00:00+09:00",
-  "updated_at": "2026-10-28T02:42:49.268554+09:00",
+  "reported_at": "2026-10-28T05:00:00+09:00",
+  "updated_at": "2026-10-28T06:56:21.209737+09:00",
   "days": [
    {
     "date": "2026-10-28",
-    "max": 10.3,
-    "min": 7.5,
+    "max": 10.6,
+    "min": 7.3,
     "icon": "🌧",
     "text": "雨夕方からくもり所により昼前まで雷を伴う",
     "pop": 60,
@@ -34,11 +34,11 @@
    },
    {
     "date": "2026-10-29",
-    "max": 14.3,
+    "max": 14.4,
     "min": 9.0,
-    "icon": "🌦",
-    "text": "くもり後一時雨",
-    "pop": null,
+    "icon": "☁️",
+    "text": "くもり朝晴れ所により朝晩雨",
+    "pop": 40,
     "official": true
    },
    {
@@ -53,7 +53,7 @@
    {
     "date": "2026-10-31",
     "max": 17.2,
-    "min": 10.5,
+    "min": 10.6,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 60,
@@ -61,8 +61,8 @@
    },
    {
     "date": "2026-11-01",
-    "max": 11.7,
-    "min": 7.4,
+    "max": 11.8,
+    "min": 7.7,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -70,8 +70,8 @@
    },
    {
     "date": "2026-11-02",
-    "max": 16.0,
-    "min": 7.6,
+    "max": 11.9,
+    "min": 8.1,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 60,
@@ -79,8 +79,8 @@
    },
    {
     "date": "2026-11-03",
-    "max": 13.1,
-    "min": 7.6,
+    "max": 13.2,
+    "min": 6.7,
     "icon": "🌦",
     "text": "くもり一時雨か雪",
     "pop": 50,
@@ -88,43 +88,33 @@
    },
    {
     "date": "2026-11-04",
-    "max": 9.5,
-    "min": 4.6,
+    "max": 12.4,
+    "min": 2.9,
     "icon": "🌦",
-    "text": "にわか雨",
+    "text": "霧雨",
     "pop": 61,
     "official": false
    },
    {
     "date": "2026-11-05",
-    "max": 10.2,
-    "min": 2.6,
-    "icon": "☁️",
-    "text": "くもり",
+    "max": 16.9,
+    "min": 1.2,
+    "icon": "⛅",
+    "text": "晴れ時々くもり",
     "pop": 19,
     "official": false
    },
    {
     "date": "2026-11-06",
-    "max": 14.4,
-    "min": 2.6,
-    "icon": "☁️",
-    "text": "くもり",
+    "max": 18.9,
+    "min": 8.2,
+    "icon": "🌦",
+    "text": "霧雨",
     "pop": 39,
     "official": false
    }
   ],
   "pops": [
-   {
-    "time": "2026-10-27T18:00",
-    "label": "18-24時",
-    "pop": 60
-   },
-   {
-    "time": "2026-10-28T00:00",
-    "label": "0-6時",
-    "pop": 60
-   },
    {
     "time": "2026-10-28T06:00",
     "label": "6-12時",
@@ -138,7 +128,27 @@
    {
     "time": "2026-10-28T18:00",
     "label": "18-24時",
-    "pop": 30
+    "pop": 20
+   },
+   {
+    "time": "2026-10-29T00:00",
+    "label": "0-6時",
+    "pop": 20
+   },
+   {
+    "time": "2026-10-29T06:00",
+    "label": "6-12時",
+    "pop": 10
+   },
+   {
+    "time": "2026-10-29T12:00",
+    "label": "12-18時",
+    "pop": 10
+   },
+   {
+    "time": "2026-10-29T18:00",
+    "label": "18-24時",
+    "pop": 40
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -147,7 +157,6 @@
   "47NEWS",
   "AAB秋田朝日放送",
   "ABS秋田放送",
-  "AKT秋田テレビ",
   "Excite エキサイト",
   "FNNプライムオンライン",
   "HotelBank",
@@ -190,6 +199,7 @@
   "日テレNEWS NNN",
   "日本テレビ",
   "朝日新聞",
+  "東京農工大学",
   "株式会社 北鹿新聞社",
   "毎日新聞",
   "河北新報オンライン",
@@ -206,46 +216,62 @@
  ],
  "count": 400,
  "digest": {
-  "headline": "強風警戒と防災計画改訂、人口減と紅葉祭が注目",
+  "headline": "強風警戒と防災計画改訂、人口減と紅葉祭開催",
   "points": [
    {
-    "text": "28日朝まで県内で強風・山間部の雪・沿岸の高波に警戒、羽越線吹浦―新屋間は午後3時まで運休",
+    "text": "28日未明から全県で暴風や高波が予想され、特に沿岸部や山間部で警戒が呼びかけられています。",
     "ids": [
-     "32b791ed7620da9f",
-     "fc7098d54799b5ab",
+     "09f085caeb1006f6",
+     "42533cbffcd459a2",
      "85a8feac14fcfac6"
     ]
    },
    {
-    "text": "防災計画修正で熱中症・防寒備蓄や組織体制見直しを提示",
+    "text": "県は防災計画を修正し、避難所での熱中症・防寒対策や組織体制の見直しを盛り込む方針です。",
     "ids": [
-     "db28f965fb94b17c",
+     "a8befbcaf5885b58",
      "4cfd081bd1987e15",
-     "889dd18608bee502"
+     "db28f965fb94b17c"
     ]
    },
    {
-    "text": "県人口が86万4千人で1年で4千人超減少、目標を下回る",
+    "text": "最新の人口推計で県全体の人口が約86万4千人となり、1年間で4千人超の減少が確認されました。",
     "ids": [
      "61cece0f6b4ecc2d",
-     "c7320cecb57be409",
-     "ba1589bf022cfa35"
+     "ba1589bf022cfa35",
+     "c7320cecb57be409"
     ]
    },
    {
-    "text": "仙北・抱返り渓谷で紅葉が見頃、10月26日〜11月15日まで紅葉祭開催",
+    "text": "仙北市抱返り渓谷で紅葉が見頃を迎え、10月26日から11月15日までの紅葉祭が開催中です。",
     "ids": [
      "41d25baf5590e726"
     ]
    }
   ],
   "days": 3,
-  "from": "2026-10-25T02:42:49.269375+09:00",
-  "generated_at": "2026-10-28T02:42:56.332692+09:00",
+  "from": "2026-10-25T06:56:21.210718+09:00",
+  "generated_at": "2026-10-28T06:56:28.951426+09:00",
   "article_count": 24,
-  "sig": "ad97c20bb67b"
+  "sig": "88c6f72f559e"
  },
  "items": [
+  {
+   "id": "189a8697845db3b7",
+   "url": "https://news.yahoo.co.jp/articles/1c6ecb0291aa44a6c8f4359a3c7ee38221734b2a",
+   "title_original": "【横手市】10/28 最高10℃、冷え込み、風、朝から昼間は雨の予想【朝版】",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261028-00020113-wordleafw-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-10-27T20:44:15+00:00",
+   "title_ja": "10月28日の横手市は最高気温10度で冷え込み朝から昼に雨の予報",
+   "summary_ja": "10月28日の横手市は、最高気温が10度までしか上がらず風が吹く冷え込んだ一日となる見込みです。朝から昼間にかけて雨が予想されているため、外出の際は防寒対策と雨具の準備が必要です。",
+   "category": "天気・防災",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
   {
    "id": "64338f4d58096a1f",
    "url": "https://tenki.jp/past/2026/10/27/radar/2/8",
@@ -759,6 +785,22 @@
    "importance": 3
   },
   {
+   "id": "3413f23f3285c01d",
+   "url": "https://news.yahoo.co.jp/articles/771144cf97c0f176c65e586d360788df218aff06",
+   "title_original": "28日未明から朝にかけて暴風に警戒 28日朝から夜のはじめ頃にかけて高波に十分注意を 秋田地方気象台（27日午後4時33分発表）（ABS秋田放送）",
+   "source": "Yahoo!ニュース",
+   "image": "",
+   "local": false,
+   "published": "2026-10-27T07:49:00+00:00",
+   "title_ja": "28日未明から暴風や高波に警戒を呼びかけ",
+   "summary_ja": "秋田地方気象台は、28日未明から朝にかけての暴風や、朝から夜にかけての高波に対する警戒と十分な注意を呼びかけています。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
    "id": "889dd18608bee502",
    "url": "https://news.web.nhk/newsweb/na/nd-20261027de66403",
    "title_original": "秋田県「地域防災計画修正へ」 防災基本条例骨子も提示",
@@ -1239,6 +1281,22 @@
    "importance": 3
   },
   {
+   "id": "c2293b6f10f3b1c1",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/eventbank/region/eventbank-10652008",
+   "title_original": "国指定名勝「旧池田氏庭園払田分家庭園」イルミネーションライトアップ 晩秋のファンタジーナイト",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/eventbank/m_eventbank-10652008.jpg",
+   "local": false,
+   "published": "2026-10-27T01:00:00+00:00",
+   "title_ja": "旧池田氏庭園払田分家庭園でライトアップ",
+   "summary_ja": "国指定名勝の旧池田氏庭園払田分家庭園において、晩秋の夜を彩るイルミネーションのライトアップが開催されます。幻想的な雰囲気に包まれた庭園の景色を楽しむことができます。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "event",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "5fa004b21997465f",
    "url": "https://www.sakigake.jp/news/article/20261020AK0023",
    "title_original": "「青葉坂46」応募は自身の大きな財産に 私がオーディションを受けるまで 乃木坂46矢田萌華・わたしの居場所（１０）",
@@ -1303,6 +1361,38 @@
    "importance": 3
   },
   {
+   "id": "8eda443e6d20a1e4",
+   "url": "https://news.yahoo.co.jp/articles/a2855adc23f743ee73c273a229fcd4ad93e1660c/images/000",
+   "title_original": "「ナマハゲの里」を世界へ 男鹿市が人気動画クリエーターら委嘱 (毎日新聞)",
+   "source": "Yahoo!ニュース",
+   "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJndeXNbPXMbpcm5xl-zuSN-xfjZYei-PMciM1SoUbK567QXt16TPyRCnrTaJxfaMbPxshgOION0Q8ecARAPOU7X_gKo7X37Dd41PPwxgz4v5e",
+   "local": false,
+   "published": "2026-10-27T00:15:23+00:00",
+   "title_ja": "男鹿市が人気動画クリエーターらを委嘱、ナマハゲの魅力を発信",
+   "summary_ja": "男鹿市は「ナマハゲの里」として知られる地域の魅力を世界に発信するため、人気動画クリエーターらを委嘱しました。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "232ff83578f4e96b",
+   "url": "https://news.ntv.co.jp/n/abs/category/weather/abd9cfbf75e60e447481d2e4ae331f575d",
+   "title_original": "西高東低の気圧配置に 沿岸は西よりの風が非常に強く海上ではしける見込み 28日未明から暴風に警戒を 秋田 27日(午前5時39分)",
+   "source": "日テレNEWS NNN",
+   "image": "",
+   "local": false,
+   "published": "2026-10-27T00:06:00+00:00",
+   "title_ja": "28日未明から秋田沿岸で強風に警戒",
+   "summary_ja": "西高東低の気圧配置により、28日未明から秋田の沿岸部で西寄りの強風が予想され、海上はしける恐れがあります。暴風に備えて警戒を呼びかけています。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "d295030fa8fd7f1d",
    "url": "https://www.sakigake.jp/news/article/20261026AK0020",
    "title_original": "大学運営にＤＸ、ＡＩを生かそう 秋田大、３人を学長アドバイザーに委嘱",
@@ -1346,6 +1436,22 @@
    "summary_ja": "小坂町荒谷手紙沢において、10月26日にクマが出没したとの情報が寄せられました。今後の注意喚起として周辺地域での警戒が呼びかけられています。",
    "category": "天気・防災",
    "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "68d44554bdd9ec7f",
+   "url": "https://www.47news.jp/15143117.html",
+   "title_original": "秋田県の社会減が８年ぶり４千人超え 拡大の主因は「転入減」",
+   "source": "47NEWS",
+   "image": "https://img.cf.47news.jp/public/photo/3b1f2fc657e8051b9b1f3c5061983005/photo.jpg",
+   "local": false,
+   "published": "2026-10-26T22:00:00+00:00",
+   "title_ja": "秋田県の人口減少、8年ぶり4千人超える",
+   "summary_ja": "秋田県の総人口が8年ぶりに4千人以上減少し、社会減少が顕在化しました。主な要因は転入者の減少で、今後の地域政策が問われます。",
+   "category": "行政・政治",
+   "area": "県全体",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -1442,6 +1548,22 @@
    "summary_ja": "秋田市の27日は最高気温が18度まで上がり、夕方以降は雨が降る見込みです。夜間はやや風が強まる予想が出ているため、外出の際は天気の変化に注意が必要です。",
    "category": "天気・防災",
    "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "d0a04ece6042f427",
+   "url": "https://www.jacom.or.jp/articles/kgj3Z5PEOO4_6fHUDa3YF",
+   "title_original": "「秋田牛と秋田県産あきたこまちのフェア」宮城・東京・大阪の直営店舗で開催 ＪＡ全農",
+   "source": "JAcom 農業協同組合新聞",
+   "image": "https://assets.coreda.biz/jacom/65de0776-b90e-4a0b-b902-46403cc05233",
+   "local": false,
+   "published": "2026-10-26T19:00:00+00:00",
+   "title_ja": "JA全農、秋田牛・あきたこまちフェアを全国で開催",
+   "summary_ja": "JA全農は、秋田牛と秋田県産あきたこまちをテーマにしたフェアを宮城・東京・大阪の直営店で開催し、県産食材の魅力を広くPRします。",
+   "category": "グルメ・農林水産",
+   "area": "県全体",
    "kind": "news",
    "event_when": "",
    "importance": 2
@@ -1975,6 +2097,22 @@
    "importance": 2
   },
   {
+   "id": "5738523298ad04e0",
+   "url": "https://news.yahoo.co.jp/articles/d737ff87323a918a765950665ac7f1cb33aa24a9",
+   "title_original": "「熊本県五木村の魅力をラジオで発信」秋田県で地域おこしに取り組む浜田栞さんをアドバイザーに招聘（読売新聞オンライン）",
+   "source": "Yahoo!ニュース",
+   "image": "https://s.yimg.jp/images/news-web/versions/20261027-f70ba02/all/images/ogp_default.png",
+   "local": false,
+   "published": "2026-10-26T06:34:00+00:00",
+   "title_ja": "熊本県五木村のラジオ発信、秋田の浜田さんがアドバイザーに",
+   "summary_ja": "秋田県内で地域おこしに携わる浜田栞さんが、熊本県五木村の魅力をラジオで発信する取り組みのアドバイザーに招かれました。県外の地域活性化事業に秋田で活動する人材が関わっています。",
+   "category": "観光・イベント",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "09e9b5c5d0ef7728",
    "url": "https://tenki.jp/past/2026/10/amedas/sunshine/2/8",
    "title_original": "秋田県の過去の天気(アメダス・日照時間・2026年10月)",
@@ -2023,6 +2161,22 @@
    "importance": 2
   },
   {
+   "id": "718979dab737880c",
+   "url": "https://news.yahoo.co.jp/articles/8c2797cb0a83b5aa50fddcfd19cdfc23478c289f",
+   "title_original": "春高バレー秋田県代表決定戦決勝 男子・雄物川が32連覇、女子・秋田令和が2年ぶりの全国へ（秋田テレビ）",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261024-90018730-akt-000-2-thumb.jpg?exp=10800",
+   "local": false,
+   "published": "2026-10-26T05:45:00+00:00",
+   "title_ja": "春高バレー秋田代表決定戦、男子は雄物川が32連覇",
+   "summary_ja": "春の高校バレー秋田県代表決定戦の決勝が行われました。男子は雄物川が勝利して32連覇を達成し、女子は秋田令和が2年ぶりとなる全国切符を手に入れました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
    "id": "483d0866adb9f494",
    "url": "https://www.sakigake.jp/news/article/20261026AK0005",
    "title_original": "温かみあるタッチ、古里・阿仁を鮮やかに 北秋田市でティ・アイランドさんイラスト展",
@@ -2049,6 +2203,22 @@
    "title_ja": "秋田公立美術大学大学院で現代美術の連続公開講義",
    "summary_ja": "秋田公立美術大学大学院で現代美術の巨匠たちをテーマにした公開型の連続講義が始まった。現代美術と複合芸術について学ぶ内容となっている。",
    "category": "文化・芸能",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "e0974e353b80dd64",
+   "url": "https://www.tuat.ac.jp/outline/disclosure/pressrelease/2026/20261026_01.html",
+   "title_original": "〔2026年10月26日リリース〕クマの出没が増えるなか、地域の人々は何を感じているのか？ 〜秋田市におけるツキノワグマとクマ対策への意識調査〜 | 2026年度 プレスリリース一覧 | プレスリリース | 広報・社会連携 | 大学案内 | 国立大学法人 東京農工大学",
+   "source": "東京農工大学",
+   "image": "https://www.tuat.ac.jp/images/tuat/outline/disclosure/pressrelease/2026/20261026_01_03.jpg",
+   "local": false,
+   "published": "2026-10-26T05:32:25+00:00",
+   "title_ja": "秋田市のクマ対策と住民意識について東京農工大が調査",
+   "summary_ja": "クマの出没が相次ぐ状況を受け、東京農工大学が秋田市を対象にツキノワグマや対策に対する地域住民の意識調査を実施しました。住民が何を感じているのか、その結果が公表されています。",
+   "category": "くらし・地域",
    "area": "中央",
    "kind": "news",
    "event_when": "",
@@ -2149,6 +2319,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 2
+  },
+  {
+   "id": "174b447220001bd5",
+   "url": "https://news.ntv.co.jp/n/abs/category/society/ab6f2130b3935f49b6853cc4ec3ca96f92",
+   "title_original": "北秋田市で車と歩行者が衝突 歩行者(88)が大けが 24日 秋田（2026年10月25日掲載）｜ABS NEWS NNN",
+   "source": "日テレNEWS NNN",
+   "image": "https://image.gallery.play.jp/abs-news/articles/9bdc12d22f7b4a3c80f56b4b3ca929b7/ac26a022-66a0-4472-8b5b-4df923b7d7b1.jpg?w=1200",
+   "local": false,
+   "published": "2026-10-26T03:47:00+00:00",
+   "title_ja": "北秋田市で車と歩行者の事故、歩行者が大けが",
+   "summary_ja": "北秋田市内で自動車と歩行者が衝突する事故が発生し、歩行者の88歳の方が大けがをしました。地域の交通安全への注意が改めて求められる出来事です。",
+   "category": "くらし・地域",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
   },
   {
    "id": "59e0e8029b0a5625",
@@ -6469,182 +6655,6 @@
    "kind": "news",
    "event_when": "",
    "importance": 4
-  },
-  {
-   "id": "f5df3f1f50a3f02a",
-   "url": "https://news.yahoo.co.jp/articles/4b23eaf59d807feb78d93391cfc8888f4849a665",
-   "title_original": "【横手市】10/23 最低6℃、朝は冷える見込みで、昼間は晴れる予想【朝版】",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261023-00020114-wordleafw-000-1-view.jpg?exp=10800",
-   "local": false,
-   "published": "2026-10-22T20:44:19+00:00",
-   "title_ja": "横手市の天気：朝は冷え込み昼間は晴れの予想",
-   "summary_ja": "横手市の23日の天気は、最低気温6度と朝は冷え込む見込みとなっている。日中は晴れ間が広がる予想で、寒暖差への備えが呼びかけられている。",
-   "category": "天気・防災",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "ba159ae078bd69fc",
-   "url": "https://news.yahoo.co.jp/articles/69f48ace6deb79205d88ccc38005ecba2db9a76c",
-   "title_original": "【秋田市】10/23 最低8℃、ひんやりする場面も、晴れる予想【朝版】",
-   "source": "Yahoo!ニュース",
-   "image": "",
-   "local": false,
-   "published": "2026-10-22T20:08:58+00:00",
-   "title_ja": "秋田市の朝は最低気温8度、日中は晴れの予報",
-   "summary_ja": "秋田市の朝は最低気温が8度まで下がりひんやりとした体感となりますが、日中は晴れる見込みです。朝晩と日中の気温差に注意が必要です。",
-   "category": "天気・防災",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "fb0d5466b9ae91a3",
-   "url": "https://news.yahoo.co.jp/articles/30deab6ff986e50e2c383c35388647567e1293aa",
-   "title_original": "安田聖愛 和服姿で主演映画ヒット祈願 地元・秋田県での上映熱望（スポニチアネックス）",
-   "source": "Yahoo!ニュース",
-   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261023-00000016-spnannex-000-2-view.jpg?exp=10800",
-   "local": false,
-   "published": "2026-10-22T20:03:26+00:00",
-   "title_ja": "安田聖愛さんが主演映画のヒット祈願、地元・秋田での上映を熱望",
-   "summary_ja": "秋田県出身の俳優である安田聖愛さんが和服姿で主演映画のヒット祈願を行い、地元での上映を強く希望していることが報じられています。",
-   "category": "文化・芸能",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "d117a9d29e2e972b",
-   "url": "https://www.jacom.or.jp/articles/82prZBVryOyTprXCItsPM",
-   "title_original": "第78回 秋田県農業機械化ショーに出展 サタケ",
-   "source": "JAcom 農業協同組合新聞",
-   "image": "https://assets.coreda.biz/jacom/04f57b58-6752-4ae6-9b0d-2beee796693d",
-   "local": false,
-   "published": "2026-10-22T16:00:00+00:00",
-   "title_ja": "サタケが秋田県農業機械化ショーに出展",
-   "summary_ja": "第78回秋田県農業機械化ショーにサタケが出展し、最新の農業機械や関連技術を紹介する。",
-   "category": "グルメ・農林水産",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "3cd660893bdfe0dc",
-   "url": "https://topics.smt.docomo.ne.jp/article/fushinsha_joho/region/fushinsha_joho-1486025302186459560",
-   "title_original": "（秋田）由利本荘市岩城二古金屎沢でクマ出没 １０月２２日",
-   "source": "ｄメニューニュース",
-   "image": "https://img.topics.smt.news.goo.ne.jp/region_tmb/16_9/052108.png?fushinsha_joho-1486025302186459560",
-   "local": false,
-   "published": "2026-10-22T15:40:39+00:00",
-   "title_ja": "由利本荘市岩城でクマが目撃される",
-   "summary_ja": "由利本荘市岩城二古金屎沢でクマが出没した。これからの被害を防ぐための注意喚起として報じられている。",
-   "category": "天気・防災",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "26ca5489f67affb9",
-   "url": "https://tenki.jp/past/2026/10/22/amedas/2/8",
-   "title_original": "秋田県の過去のアメダス実況(2026年10月22日)(気温)",
-   "source": "tenki.jp",
-   "image": "https://storage.tenki.jp/archive/amedas/2026/10/22/15/00/00/temp/pref-8-large.jpg",
-   "local": false,
-   "published": "2026-10-22T15:30:03+00:00",
-   "title_ja": "秋田県内のアメダス実況気温（10月22日）",
-   "summary_ja": "気象庁が提供する、秋田県内各地の過去のアメダス実況における気温データに関する情報です。",
-   "category": "天気・防災",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 1
-  },
-  {
-   "id": "c15d0efc30750407",
-   "url": "https://go2senkyo.com/seijika/196719/posts/1547936",
-   "title_original": "2026年10月21日、大仙市の旧池田氏庭園に行ってきました。",
-   "source": "選挙ドットコム",
-   "image": "",
-   "local": false,
-   "published": "2026-10-22T15:15:30+00:00",
-   "title_ja": "大仙市の旧池田氏庭園を訪問",
-   "summary_ja": "大仙市にある旧池田氏庭園を訪れた際の話題。歴史ある庭園の様子が伝えられている。",
-   "category": "観光・イベント",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "4e1cc91c9ed44a93",
-   "url": "https://akita.keizai.biz/gpnews/1776825",
-   "title_original": "イベントに出席したジョーンズＨＣ",
-   "source": "秋田経済新聞",
-   "image": "https://images.keizai.biz/akita_keizai/globalphoto/",
-   "local": false,
-   "published": "2026-10-22T14:04:24+00:00",
-   "title_ja": "イベントに登場したジョーンズHC",
-   "summary_ja": "イベントに出席したジョーンズHCに関する話題。会場の様子や参加の様子が伝えられている。",
-   "category": "文化・芸能",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "5515566ba0a7f43d",
-   "url": "https://akita.keizai.biz/gpnews/1776823",
-   "title_original": "金メダルに輝いた小田、荒井組",
-   "source": "秋田経済新聞",
-   "image": "https://images.keizai.biz/akita_keizai/globalphoto/",
-   "local": false,
-   "published": "2026-10-22T14:04:24+00:00",
-   "title_ja": "小田・荒井組が金メダルを獲得",
-   "summary_ja": "大会で金メダルに輝いた小田・荒井組の活躍を伝えるスポーツの話題。",
-   "category": "スポーツ",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "eb1a773436ca9976",
-   "url": "https://www.sakigake.jp/news/article/20261022AK0043",
-   "title_original": "男子は雄物川や秋田工、女子は由利や令和などが８強入り 春高バレー秋田県予選",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261022ak0043_01_l.jpg",
-   "local": true,
-   "published": "2026-10-22T12:00:00+00:00",
-   "title_ja": "春高バレー秋田県予選が開幕、男女のベスト8決定",
-   "summary_ja": "横手市で春高バレーの県代表決定戦が開幕し、初日は男女の1、2回戦が行われました。熱戦の末、男子は雄物川や秋田工、女子は由利や令和などがベスト8入りを果たしました。",
-   "category": "スポーツ",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "e4b6de6e30db37ac",
-   "url": "https://origin.akt.co.jp/news?sel=20261022-00000009-AKT-1",
-   "title_original": "「例年の3割しか採れない」天然キノコが不作、暑さと少雨が影響か 栽培ものの収穫にも不安 秋田・大館市",
-   "source": "AKT秋田テレビ",
-   "image": "https://www.akt.co.jp/akt_news/20261022-00000009-AKT-1-00-thumb.jpg",
-   "local": false,
-   "published": "2026-10-22T11:57:43+00:00",
-   "title_ja": "大館市で天然キノコが不作、暑さと少雨の影響か",
-   "summary_ja": "大館市では夏の暑さや雨の少なさが影響し、天然キノコが例年の3割程度しか採れない不作となっています。栽培ものの収穫にも不安の声が上がっており、秋の味覚への影響が心配されています。",
-   "category": "グルメ・農林水産",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
   }
  ]
 }
