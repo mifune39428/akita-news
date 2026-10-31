@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-31T20:52:05.183718+09:00",
+ "updated_at": "2026-11-01T01:58:49.497916+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,22 +20,13 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-10-31T17:00:00+09:00",
-  "updated_at": "2026-10-31T20:52:44.149524+09:00",
+  "reported_at": "2026-10-31T21:00:00+09:00",
+  "updated_at": "2026-11-01T01:59:30.784064+09:00",
   "days": [
-   {
-    "date": "2026-10-31",
-    "max": 17.8,
-    "min": 10.6,
-    "icon": "🌧",
-    "text": "雨夜くもり所により夜のはじめ頃まで雷を伴う",
-    "pop": 10,
-    "official": true
-   },
    {
     "date": "2026-11-01",
     "max": 12.1,
-    "min": 8.6,
+    "min": 8.2,
     "icon": "🌦",
     "text": "くもり夜遅く雨",
     "pop": 70,
@@ -43,8 +34,8 @@
    },
    {
     "date": "2026-11-02",
-    "max": 14.1,
-    "min": 8.6,
+    "max": 13.1,
+    "min": 8.4,
     "icon": "🌦",
     "text": "くもり時々雨",
     "pop": null,
@@ -53,7 +44,7 @@
    {
     "date": "2026-11-03",
     "max": 14.2,
-    "min": 9.5,
+    "min": 9.3,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -61,8 +52,8 @@
    },
    {
     "date": "2026-11-04",
-    "max": 13.1,
-    "min": 4.8,
+    "max": 13.6,
+    "min": 6.1,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -70,8 +61,8 @@
    },
    {
     "date": "2026-11-05",
-    "max": 13.7,
-    "min": 6.3,
+    "max": 13.1,
+    "min": 7.8,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -79,7 +70,7 @@
    },
    {
     "date": "2026-11-06",
-    "max": 16.8,
+    "max": 18.5,
     "min": 8.6,
     "icon": "🌦",
     "text": "くもり一時雨",
@@ -111,6 +102,15 @@
     "icon": "🌦",
     "text": "霧雨",
     "pop": 51,
+    "official": false
+   },
+   {
+    "date": "2026-11-10",
+    "max": 7.9,
+    "min": 2.6,
+    "icon": "🌦",
+    "text": "霧雨",
+    "pop": 33,
     "official": false
    }
   ],
@@ -171,7 +171,6 @@
   "ウォーカープラス",
   "ニコニコニュース",
   "ニュースメディアVOIX",
-  "ハフポスト",
   "バレーボールキング",
   "ブラウブリッツ秋田",
   "ライブドアニュース",
@@ -181,7 +180,6 @@
   "日本経済新聞",
   "日本農業新聞",
   "朝日新聞",
-  "東京農工大学",
   "株式会社 北鹿新聞社",
   "河北新報オンライン",
   "秋田ノーザンハピネッツ",
@@ -196,18 +194,25 @@
  ],
  "count": 400,
  "digest": {
-  "headline": "由利本荘市で県種苗交換会が開幕、クマ出没注意報は11月末まで延長",
+  "headline": "由利本荘市で県種苗交換会が開幕、クマ出没注意報は延長",
   "points": [
    {
-    "text": "由利本荘市のナイスアリーナを会場に、県内の農業の祭典である秋田県種苗交換会が31日に開幕しました。会場には農産物など1276点が並び、会期は11月4日までです。",
+    "text": "由利本荘市を会場に秋田県種苗交換会が開幕し、生産者自慢の農産物や最新の農業機械が展示されています。",
     "ids": [
      "eed257b3e29b00d4",
      "e9ffdf5d99c1b051",
-     "1f9d1ff9292957f3"
+     "b54a264ffd57924f"
     ]
    },
    {
-    "text": "冬眠前に活発化するツキノワグマへの警戒を続けるため、秋田県は出没注意報の期間を11月末まで延長しました。今年度捕獲されたクマは367頭となっています。",
+    "text": "県内では大気の状態が不安定となって大雨に見舞われ、新城川の水位が一時氾濫危険水位を超えるなど警戒が必要となりました。",
+    "ids": [
+     "7d9c57c9e63995e4",
+     "4bcadb3b3b480fcf"
+    ]
+   },
+   {
+    "text": "秋田県は冬眠前に活発化するクマへの警戒を続けるため、ツキノワグマ出没注意報の期限を11月末まで延長しました。",
     "ids": [
      "b88349b2f5cdbb47",
      "0ccbd671091fa174",
@@ -215,37 +220,90 @@
     ]
    },
    {
-    "text": "電子部品大手のTDKが発表した2026年9月中間期連結決算は売上高や各利益が過去最高となり、北都銀行のフィデア銀行への合併準備や洋上風力の人材育成に向けた覚書締結も進められています。",
+    "text": "秋田県が防災局の誘致に向けて動き出し、地震リスクの少なさなどを強みとして国へ要望を行う方針です。",
     "ids": [
-     "fa62efedaa326052",
-     "edcccdd31ad01341",
-     "a8ad26d8c0cf200b"
-    ]
-   },
-   {
-    "text": "秋田県は地震リスクの少なさをアピールして国の防災局誘致へ向けた要望を行う方針のほか、エネルギーや資源・リサイクル、森林産業の産業クラスター計画の成案を発表しました。",
-    "ids": [
-     "df79797a7f8bae77",
      "1f5f579d40317dde",
      "5bbbbe403ea738e8"
     ]
    },
    {
-    "text": "八郎潟町の前町長不信任や病気で意思表示できない首長の退職基準について総務省が見解を示したほか、新城川の水位が氾濫危険水位を超えるなど荒天への警戒が呼びかけられました。",
+    "text": "電子部品大手のTDKが発表した中間連結決算は、売上高や各利益が過去最高を更新しました。",
     "ids": [
-     "4bcadb3b3b480fcf",
-     "3025d1a7e1074608",
-     "f4129b7344c88db4"
+     "fa62efedaa326052"
     ]
    }
   ],
   "days": 3,
-  "from": "2026-10-28T20:52:44.150245+09:00",
-  "generated_at": "2026-10-31T20:52:46.210333+09:00",
+  "from": "2026-10-29T01:59:30.785032+09:00",
+  "generated_at": "2026-11-01T01:59:32.277025+09:00",
   "article_count": 24,
-  "sig": "78550fd1cc5a"
+  "sig": "f2c5ad43b265"
  },
  "items": [
+  {
+   "id": "02c53bd2741460b8",
+   "url": "https://www.sakigake.jp/news/article/20261031AK0051",
+   "title_original": "前半先制も後半は防戦一方に ブラウブリッツ、藤枝と引き分け",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20261031ak0051_01_l.jpg",
+   "local": true,
+   "published": "2026-10-31T12:57:00+00:00",
+   "title_ja": "ブラウブリッツ、藤枝戦は引き分けに終わる",
+   "summary_ja": "サッカーJ2のブラウブリッツ秋田は藤枝戦に臨みました。前半に先制点を奪ったものの、後半は相手の攻撃をしのぐ展開となり、惜しくも引き分けという結果になりました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "b7efa7198c3c79cb",
+   "url": "https://www.sakigake.jp/news/article/20261031AK0056",
+   "title_original": "三種、バッテリーの活躍光る 中学秋季軟式野球",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20261031ak0056_01_l.jpg",
+   "local": true,
+   "published": "2026-10-31T12:56:00+00:00",
+   "title_ja": "中学秋季軟式野球で三種が勝利",
+   "summary_ja": "中学秋季軟式野球の試合で、三種チームのバッテリーが躍動しました。エースが無安打無得点に抑える快投を見せ、捕手も適時打を放つなどの活躍でチームを勝利へ導きました。",
+   "category": "スポーツ",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "380e15c2345e8c57",
+   "url": "https://www.sakigake.jp/news/article/20261031AK0052",
+   "title_original": "バレーＳＶ・アランマーレ秋田庄内 大阪に０―３で敗れる",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20261031ak0052_01_l.jpg",
+   "local": true,
+   "published": "2026-10-31T12:54:00+00:00",
+   "title_ja": "アランマーレ秋田庄内、大阪にストレート負け",
+   "summary_ja": "SVリーグ女子のアランマーレ秋田庄内は、大阪府内で大阪Mと対戦しました。セットカウント0対3で敗れ、黒星となりました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "efec92404276f856",
+   "url": "https://www.sakigake.jp/news/article/20261031AK0053",
+   "title_original": "秋田ノーザンブレッツ、東京ガスに敗れる",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20261031G00040_l.jpg",
+   "local": true,
+   "published": "2026-10-31T12:53:00+00:00",
+   "title_ja": "秋田ノーザンブレッツ、東京ガスに黒星",
+   "summary_ja": "社会人ラグビーのトップイーストリーグに所属する秋田ノーザンブレッツは、敵地で東京ガスと対戦しました。健闘するも敗戦という結果になりました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
   {
    "id": "b9a215c914f2113c",
    "url": "https://spread-sports.jp/archives/401990",
@@ -439,6 +497,22 @@
    "importance": 4
   },
   {
+   "id": "7d9c57c9e63995e4",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261031de68999",
+   "title_original": "秋田県 大気状態不安定で大雨 新城川で一時氾濫危険水位超える",
+   "source": "NHKニュース",
+   "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261031de68999/20261031de68999_E0000131843_1_l.jpg",
+   "local": false,
+   "published": "2026-10-31T09:29:31+00:00",
+   "title_ja": "県内は大気不安定で大雨、新城川が一時氾濫危険水位に",
+   "summary_ja": "大気の状態が不安定となった秋田県内では大雨に見舞われ、新城川の水位が一時氾濫危険水位を超えるなど警戒が必要な状況となりました。これからの身を守るための防災情報として伝えます。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 4
+  },
+  {
    "id": "6091ca64065cf9d9",
    "url": "https://www.aab-tv.co.jp/news/aabnews-26103117140011",
    "title_original": "短大生が考案しスーパーの商品に 県産食材も使った「れんこんのシャキシャキサラダ」販売開始 秋田",
@@ -455,6 +529,22 @@
    "importance": 2
   },
   {
+   "id": "b2e496288ca2bbc6",
+   "url": "https://www.aab-tv.co.jp/news/aabnews-26103117390012",
+   "title_original": "サッカー・ブラウブリッツ秋田 ホームで藤枝と引き分ける 前半に先制するも後半追いつかれ連勝ならず",
+   "source": "AAB秋田朝日放送",
+   "image": "https://www.aab-tv.co.jp/news_thumb/2026103117390012512.jpg",
+   "local": true,
+   "published": "2026-10-31T09:15:40+00:00",
+   "title_ja": "BB秋田は藤枝と引き分け、連勝ならず",
+   "summary_ja": "サッカーJ2のブラウブリッツ秋田はホームで藤枝MYFCと対戦し、1対1で引き分けました。前半に先制点を奪ったものの、後半に追いつかれて連勝を逃しました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "e0acd964c95e27bb",
    "url": "https://www.aab-tv.co.jp/news/aabnews-26103111430010",
    "title_original": "秋田の活性化へ 秋田市の企業と都内の経済人との交流会",
@@ -466,6 +556,38 @@
    "summary_ja": "秋田市と秋田商工会議所が主催し、28日に都内で開催された交流会では、秋田の企業と東京の経済人が情報交換し、地域活性化のアイデアを共有した。",
    "category": "経済・企業",
    "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "44f1cec1a6c88bf7",
+   "url": "https://topics.smt.docomo.ne.jp/amp/article/abs/region/abs-2026103101448453",
+   "title_original": "“かんで”おいしい “かんで”健康 学生開発の新サラダ販売開始 秋田",
+   "source": "ｄメニューニュース",
+   "image": "https://img.topics.smt.news.goo.ne.jp/picture/abs/m_abs-2026103101448453.jpg",
+   "local": false,
+   "published": "2026-10-31T08:48:00+00:00",
+   "title_ja": "学生が開発した新しいサラダの販売が始まる",
+   "summary_ja": "秋田県内で学生が開発した、噛んでおいしく健康を意識した新しいサラダの販売が開始された。地元の若い感性が生かされた商品として注目される。",
+   "category": "グルメ・農林水産",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "04e2b80c09c2a610",
+   "url": "https://news.ntv.co.jp/n/abs/category/culture/ab191cb2e55a88439396582499a5280e7e",
+   "title_original": "秋田の酒と全国の“うまいもの”大集合 食の祭典開幕 秋田・横手市（2026年10月31日掲載）｜ABS NEWS NNN",
+   "source": "日テレNEWS NNN",
+   "image": "https://image.gallery.play.jp/abs-news/articles/1653f0b083f34dc28721e7ab572eae25/043044aa-a60a-418e-be83-1c46fb868aea.jpg?w=1200",
+   "local": false,
+   "published": "2026-10-31T08:44:00+00:00",
+   "title_ja": "秋田の酒と全国の美味が集まる食の祭典が横手市で開幕",
+   "summary_ja": "横手市で秋田の日本酒と全国各地のグルメが勢揃いする食のイベントが始まりました。県内の美味しい酒や多様な食文化を楽しめる催しとして注目を集めています。",
+   "category": "グルメ・農林水産",
+   "area": "県南",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -546,6 +668,22 @@
    "summary_ja": "秋田新幹線を貸し切って実施された就職活動イベントについて、参加者のうち県内での就職予定者が少数にとどまり、投じられた費用に対する効果を疑問視する声が上がっています。",
    "category": "行政・政治",
    "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "a9f35b9b9533bb60",
+   "url": "https://kahoku.news/articles/JY6YWXB3FCKHN.html",
+   "title_original": "色鮮やかな花々がずらり 秋田・由利本荘で「種苗交換会」開幕",
+   "source": "河北新報オンライン",
+   "image": "https://kahoku.news/images/2026/10/31/JY6YWXB3FCKHN/001_size7.jpg?timestamp=20261101015918",
+   "local": false,
+   "published": "2026-10-31T08:01:27+00:00",
+   "title_ja": "由利本荘市で色鮮やかな花々が並ぶ種苗交換会が開幕",
+   "summary_ja": "由利本荘市を会場に、色鮮やかな花々などが多数展示される伝統的な種苗交換会が始まりました。農林水産業に関わる様々な展示や交流が行われます。",
+   "category": "グルメ・農林水産",
+   "area": "中央",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -2277,6 +2415,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
+  },
+  {
+   "id": "5191731116b63139",
+   "url": "https://www.walkerplus.com/article/153623/image879086.html",
+   "title_original": "＜画像2 / 3＞秋田県秋田市で夏を彩る伝統の祭り「土崎港曳山まつり」開催",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/153623/879085_615.jpg",
+   "local": false,
+   "published": "2026-10-29T16:26:51+00:00",
+   "title_ja": "秋田市で開催された土崎港曳山まつりの様子",
+   "summary_ja": "秋田市の土崎港で伝統的な曳山まつりが開催され、色とりどりの山車や地域住民の参加で夏の風物詩として賑わいを見せた。来場者は多く、地元の飲食店も賑わい、祭りは地域活性化の一環として評価された。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
   },
   {
    "id": "6649743766b327f7",
@@ -6484,166 +6638,6 @@
    "area": "中央",
    "kind": "news",
    "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "e0974e353b80dd64",
-   "url": "https://www.tuat.ac.jp/outline/disclosure/pressrelease/2026/20261026_01.html",
-   "title_original": "〔2026年10月26日リリース〕クマの出没が増えるなか、地域の人々は何を感じているのか？ 〜秋田市におけるツキノワグマとクマ対策への意識調査〜 | 2026年度 プレスリリース一覧 | プレスリリース | 広報・社会連携 | 大学案内 | 国立大学法人 東京農工大学",
-   "source": "東京農工大学",
-   "image": "https://www.tuat.ac.jp/images/tuat/outline/disclosure/pressrelease/2026/20261026_01_03.jpg",
-   "local": false,
-   "published": "2026-10-26T05:32:25+00:00",
-   "title_ja": "秋田市のクマ対策と住民意識について東京農工大が調査",
-   "summary_ja": "クマの出没が相次ぐ状況を受け、東京農工大学が秋田市を対象にツキノワグマや対策に対する地域住民の意識調査を実施しました。住民が何を感じているのか、その結果が公表されています。",
-   "category": "くらし・地域",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "7156dba5f89303e0",
-   "url": "https://www.sakigake.jp/news/article/20261026AK0003",
-   "title_original": "［山﨑監督に聞く］住民のつながり描きたい 集落を映す・山内三又（下）",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261026ak0003_01_l.jpg",
-   "local": true,
-   "published": "2026-10-26T05:30:00+00:00",
-   "title_ja": "横手市山内地区でロケを行った映画「山内三又」",
-   "summary_ja": "横手市山内の三又地区を中心に約1週間のロケが行われた長編映画「山内三又」について、山﨑樹一郎監督が住民のつながりを描く思いを語った。",
-   "category": "文化・芸能",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "30c6f12a9d2c729e",
-   "url": "https://www.sakigake.jp/news/article/20261026AK0002",
-   "title_original": "石巻市の元高校校長・三国さん（大館出身） 重なる難局「鳳鳴」が支えに 震災時、避難者対応で奔走",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261026ak0002_01_l.jpg",
-   "local": true,
-   "published": "2026-10-26T04:30:00+00:00",
-   "title_ja": "大館出身の三国清美氏、石巻震災時の避難者支援を振り返る",
-   "summary_ja": "秋田県大館市出身の三国清美さん（72）は、東日本大震災で宮城県石巻市の女子高校校長として避難者対応に奔走した経験を語り、当時の苦難と支えになった『鳳鳴』の活動を紹介した。",
-   "category": "教育・子育て",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "b2883970bb6de978",
-   "url": "https://www.sakigake.jp/news/article/20261025AK0021",
-   "title_original": "「感謝の気持ち伝え、今後も練習励む」 秋田書道展、秋田市で表彰式",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20261025G00022_l.jpg",
-   "local": true,
-   "published": "2026-10-26T04:15:00+00:00",
-   "title_ja": "第89回秋田書道展の表彰式が秋田市で開催",
-   "summary_ja": "第89回秋田書道展の表彰式が秋田市で開催され、上位入賞者に賞状と副賞が贈られた。受賞者は感謝の気持ちを胸に、今後も練習に励む意気込みを示した。",
-   "category": "文化・芸能",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "b4a53c1680c83e70",
-   "url": "https://www.huffingtonpost.jp/entry/story_jp_6adb1a5de4b027da9ae54dae?origin=top-ad-recirc",
-   "title_original": "秋田の母から届いた塩鮭「ぼだっこ」のおにぎり⇨巻いているのは海苔ではなく…「鮭皮好きにはたまらない」と反響",
-   "source": "ハフポスト",
-   "image": "https://img.huffingtonpost.com/asset/6adccaf8140000b226e01426.png?ops=1200_630",
-   "local": false,
-   "published": "2026-10-26T04:02:46+00:00",
-   "title_ja": "秋田産塩鮭「ぼだっこ」おにぎりが話題、鮭皮の風味が好評",
-   "summary_ja": "秋田の母から届いた塩鮭「ぼだっこ」を使ったおにぎりがSNSで注目を集め、海苔の代わりに鮭皮を巻いた独特の食感と味わいが「鮭皮好きにはたまらない」と評判です。",
-   "category": "グルメ・農林水産",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "f9eaede6af578c3b",
-   "url": "https://www.sakigake.jp/news/article/20261025AK0030",
-   "title_original": "ダンスや料理通じて「世界を体感」 三種町で国際交流イベント",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20261025G00030_l.jpg",
-   "local": true,
-   "published": "2026-10-26T04:00:00+00:00",
-   "title_ja": "三種町で世界のダンスや料理を楽しむ国際交流イベント",
-   "summary_ja": "秋田県三種町で国際交流イベントが開催され、来場者がさまざまな国のダンスや料理を通じて世界旅行気分を体験した。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "a28e3b7125c6651d",
-   "url": "https://www.sakigake.jp/news/article/20261026AK0004",
-   "title_original": "時代を語る・小野花子（１７）ぶっつけで声を張る",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261026ak0004_01_l.jpg",
-   "local": true,
-   "published": "2026-10-26T04:00:00+00:00",
-   "title_ja": "民謡歌手・小野花子さんが語る当時のステージ",
-   "summary_ja": "民謡酒場のショーや出演者たちの思い出を振り返るインタビュー連載。かつて秋田市にあった「有楽」でのエピソードなどを語っています。",
-   "category": "文化・芸能",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "174b447220001bd5",
-   "url": "https://news.ntv.co.jp/n/abs/category/society/ab6f2130b3935f49b6853cc4ec3ca96f92",
-   "title_original": "北秋田市で車と歩行者が衝突 歩行者(88)が大けが 24日 秋田（2026年10月25日掲載）｜ABS NEWS NNN",
-   "source": "日テレNEWS NNN",
-   "image": "https://image.gallery.play.jp/abs-news/articles/9bdc12d22f7b4a3c80f56b4b3ca929b7/ac26a022-66a0-4472-8b5b-4df923b7d7b1.jpg?w=1200",
-   "local": false,
-   "published": "2026-10-26T03:47:00+00:00",
-   "title_ja": "北秋田市で車と歩行者の事故、歩行者が大けが",
-   "summary_ja": "北秋田市内で自動車と歩行者が衝突する事故が発生し、歩行者の88歳の方が大けがをしました。地域の交通安全への注意が改めて求められる出来事です。",
-   "category": "くらし・地域",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "59e0e8029b0a5625",
-   "url": "https://www.sakigake.jp/news/article/20261026AK0006",
-   "title_original": "タイ学生、秋田で研修中 秋田高専で授業や文化体験 ２９日まで、JICA事業",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20261020G00027_l.jpg",
-   "local": true,
-   "published": "2026-10-26T03:30:00+00:00",
-   "title_ja": "タイの高専生が秋田高専で授業や文化体験に参加",
-   "summary_ja": "JICAの事業の一環として、タイの高専生と教員が秋田市を訪れています。全学科の授業を受けたり交流行事を行ったりして、日本文化を学んでいます。",
-   "category": "教育・子育て",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "cdfe05460e7eeae1",
-   "url": "https://www.47news.jp/15139690.html",
-   "title_original": "年内引退の吉川茉優（秋田市出身） １２月ラストライブ 「１００の状態で区切り」",
-   "source": "47NEWS",
-   "image": "https://img.cf.47news.jp/public/photo/6ed7a368227a7c6efd6474453a9d3bb6/photo.jpg",
-   "local": false,
-   "published": "2026-10-26T03:30:00+00:00",
-   "title_ja": "秋田市出身の吉川茉優さんが12月にラストライブ開催",
-   "summary_ja": "年内での引退を予定している秋田市出身の吉川茉優さんが、12月に最後のライブを行います。万全の状態で芸能活動の区切りを迎えます。",
-   "category": "文化・芸能",
-   "area": "中央",
-   "kind": "event",
-   "event_when": "12月",
    "importance": 3
   }
  ]
