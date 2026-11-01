@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T21:51:25.680833+09:00",
+ "updated_at": "2026-11-02T06:48:40.715061+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -20,40 +20,31 @@
  ],
  "weather": {
   "city": "秋田市",
-  "reported_at": "2026-11-01T17:00:00+09:00",
-  "updated_at": "2026-11-01T21:52:10.601791+09:00",
+  "reported_at": "2026-11-02T05:00:00+09:00",
+  "updated_at": "2026-11-02T06:50:05.790023+09:00",
   "days": [
-   {
-    "date": "2026-11-01",
-    "max": 12.1,
-    "min": 8.1,
-    "icon": "🌧",
-    "text": "くもり夜遅く雨所により雷を伴う",
-    "pop": 50,
-    "official": true
-   },
    {
     "date": "2026-11-02",
     "max": 12.9,
     "min": 8.0,
     "icon": "🌧",
-    "text": "雨所により朝まで雷を伴う",
-    "pop": 90,
+    "text": "雨夜くもり所により朝まで雷を伴う",
+    "pop": 80,
     "official": true
    },
    {
     "date": "2026-11-03",
-    "max": 12.4,
-    "min": 10.1,
-    "icon": "🌦",
-    "text": "くもり一時雨",
-    "pop": null,
+    "max": 12.5,
+    "min": 10.6,
+    "icon": "⛅",
+    "text": "くもり昼過ぎから時々晴れ所により昼前まで雨",
+    "pop": 20,
     "official": true
    },
    {
     "date": "2026-11-04",
-    "max": 15.5,
-    "min": 7.4,
+    "max": 16.4,
+    "min": 6.2,
     "icon": "⛅",
     "text": "くもり時々晴れ",
     "pop": 30,
@@ -61,8 +52,8 @@
    },
    {
     "date": "2026-11-05",
-    "max": 13.8,
-    "min": 9.7,
+    "max": 13.7,
+    "min": 11.4,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 60,
@@ -70,8 +61,8 @@
    },
    {
     "date": "2026-11-06",
-    "max": 17.8,
-    "min": 8.9,
+    "max": 18.6,
+    "min": 8.6,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 60,
@@ -79,8 +70,8 @@
    },
    {
     "date": "2026-11-07",
-    "max": 9.0,
-    "min": 6.1,
+    "max": 9.2,
+    "min": 6.4,
     "icon": "🌦",
     "text": "くもり一時雨",
     "pop": 50,
@@ -88,8 +79,8 @@
    },
    {
     "date": "2026-11-08",
-    "max": 9.5,
-    "min": 5.7,
+    "max": 9.2,
+    "min": 5.1,
     "icon": "☁️",
     "text": "くもり",
     "pop": 40,
@@ -97,34 +88,33 @@
    },
    {
     "date": "2026-11-09",
-    "max": 10.4,
-    "min": 5.4,
+    "max": 9.8,
+    "min": 5.1,
     "icon": "🌦",
-    "text": "にわか雨",
+    "text": "霧雨",
     "pop": 53,
     "official": false
    },
    {
     "date": "2026-11-10",
-    "max": 9.8,
-    "min": 3.8,
+    "max": 12.4,
+    "min": 6.0,
     "icon": "☁️",
     "text": "くもり",
     "pop": 39,
     "official": false
+   },
+   {
+    "date": "2026-11-11",
+    "max": 14.3,
+    "min": 4.7,
+    "icon": "🌦",
+    "text": "霧雨",
+    "pop": 41,
+    "official": false
    }
   ],
   "pops": [
-   {
-    "time": "2026-11-01T18:00",
-    "label": "18-24時",
-    "pop": 50
-   },
-   {
-    "time": "2026-11-02T00:00",
-    "label": "0-6時",
-    "pop": 90
-   },
    {
     "time": "2026-11-02T06:00",
     "label": "6-12時",
@@ -133,12 +123,32 @@
    {
     "time": "2026-11-02T12:00",
     "label": "12-18時",
-    "pop": 70
+    "pop": 50
    },
    {
     "time": "2026-11-02T18:00",
     "label": "18-24時",
-    "pop": 50
+    "pop": 20
+   },
+   {
+    "time": "2026-11-03T00:00",
+    "label": "0-6時",
+    "pop": 20
+   },
+   {
+    "time": "2026-11-03T06:00",
+    "label": "6-12時",
+    "pop": 20
+   },
+   {
+    "time": "2026-11-03T12:00",
+    "label": "12-18時",
+    "pop": 0
+   },
+   {
+    "time": "2026-11-03T18:00",
+    "label": "18-24時",
+    "pop": 10
    }
   ],
   "link": "https://tenki.jp/forecast/2/8/3210/5201/"
@@ -165,9 +175,9 @@
   "au Webポータル",
   "city.kitaakita.akita.jp",
   "tenki.jp",
-  "www.nouson-n.com",
   "| 一般社団法人山梨クィーンビーズバスケットボールクラブ",
   "ウォーカープラス",
+  "トラベルボイス",
   "ニコニコニュース",
   "ニュースメディアVOIX",
   "バレーボールキング",
@@ -187,25 +197,24 @@
   "秋田魁新報",
   "秋田魁新報電子版",
   "読売新聞",
-  "農村ニュース",
   "選挙ドットコム",
   "ＪＡ秋田中央会",
   "ｄメニューニュース"
  ],
  "count": 400,
  "digest": {
-  "headline": "由利本荘市で種苗交換会が開幕、県内ニュースまとめ",
+  "headline": "種苗交換会が開幕、クマ警戒延長や県内の最新ニュースまとめ",
   "points": [
    {
-    "text": "由利本荘市のナイスアリーナなどで第149回秋田県種苗交換会が開幕し、農産物や最新の農業機械が展示されています。",
+    "text": "由利本荘市で秋田県種苗交換会が開幕し、1276点の農産物や2500台の最新農業機械が展示されている。",
     "ids": [
-     "f964da39f5531384",
      "eed257b3e29b00d4",
+     "f964da39f5531384",
      "e9ffdf5d99c1b051"
     ]
    },
    {
-    "text": "県内ではツキノワグマ猟が解禁され、出没注意報も11月末まで期間延長されました。",
+    "text": "県はクマ出没注意報の期限を11月末まで延長した。今年度の捕獲は367頭となっており、ツキノワグマ猟も解禁された。",
     "ids": [
      "960117a96d0ded1b",
      "b88349b2f5cdbb47",
@@ -213,28 +222,170 @@
     ]
    },
    {
-    "text": "大気の状態が不安定となった県内では大雨に見舞われ、新城川の水位が一時氾濫危険水位を超えました。",
+    "text": "大気不安定により県内は大雨に見舞われ、新城川の水位が氾濫危険水位を超えるなど注意が必要な状況となった。",
     "ids": [
      "7d9c57c9e63995e4",
      "4bcadb3b3b480fcf"
     ]
    },
    {
-    "text": "TDKの中間決算が過去最高を更新したほか、北都銀行の合併準備本格化や能代市のバイオマス発電所建設などの動きがありました。",
+    "text": "能代市では約2万世帯分の電力を賄う規模となるバイオマス発電所の建設が木材メーカーによって進められている。",
     "ids": [
-     "7bad5a41764ffc15",
-     "fa62efedaa326052",
-     "edcccdd31ad01341"
+     "7bad5a41764ffc15"
     ]
    }
   ],
   "days": 3,
-  "from": "2026-10-29T21:52:10.602534+09:00",
-  "generated_at": "2026-11-01T21:52:12.445493+09:00",
+  "from": "2026-10-30T06:50:05.790968+09:00",
+  "generated_at": "2026-11-02T06:50:29.524379+09:00",
   "article_count": 24,
-  "sig": "5ad38c8e6c94"
+  "sig": "72d222bee102"
  },
  "items": [
+  {
+   "id": "bcd8c78af60e222f",
+   "url": "https://www.sakigake.jp/news/article/20261101AK0027",
+   "title_original": "新酒初搾り、玄関には「杉玉」 由利本荘市・齋彌酒造店",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20261101ak0027_01_l.jpg",
+   "local": true,
+   "published": "2026-11-01T21:45:00+00:00",
+   "title_ja": "由利本荘市の齋彌酒造店で新酒初搾りを告げる杉玉設置",
+   "summary_ja": "由利本荘市の齋彌酒造店で1日、新酒の初搾りを知らせる杉玉が玄関に飾られた。直径70〜80センチ、重さ約50キロの大きな杉玉で、新酒造りの季節到来を告げている。",
+   "category": "グルメ・農林水産",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "87ebf9605ca481a2",
+   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2331/r_id=10846",
+   "title_original": "林野火災へ備えしっかり 北秋田市消防本部 ドローン、Ｊシューターも使用 秋の火災予防運動",
+   "source": "株式会社 北鹿新聞社",
+   "image": "https://www.hokuroku.co.jp/files/libs/29693/202611011843474574.JPEG?1793569797",
+   "local": false,
+   "published": "2026-11-01T21:04:09+00:00",
+   "title_ja": "北秋田市消防本部が林野火災想定の訓練を実施",
+   "summary_ja": "秋の火災予防運動に合わせて、北秋田市消防本部が林野火災への備えを強化している。ドローンやJシューターなどの機材を活用し、万全の消火・救助体制を確認した。",
+   "category": "天気・防災",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "910a906fdcec154a",
+   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2331/r_id=10848",
+   "title_original": "「あなたが選ぶ大館市」 行政サービスと市民負担は 次期総合計画に反映へ 全世帯を対象に初のアンケート",
+   "source": "株式会社 北鹿新聞社",
+   "image": "https://www.hokuroku.co.jp/files/libs/8360/201909241311217234.jpg?1793569797",
+   "local": false,
+   "published": "2026-11-01T21:04:08+00:00",
+   "title_ja": "大館市が次期総合計画に向けて全世帯アンケート",
+   "summary_ja": "大館市は次期総合計画に市民の意向を反映させるため、行政サービスや市民負担についてのアンケート調査を実施する。全世帯を対象としたこのような調査は初の取り組みとなる。",
+   "category": "行政・政治",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "18779c6942bc21b6",
+   "url": "https://www.hokuroku.co.jp/pages/51/detail=1/b_id=2331/r_id=10847",
+   "title_original": "大館市 敬老のお祝い盛んに 町内会が弁当や交流会 「心待ちにしていた」",
+   "source": "株式会社 北鹿新聞社",
+   "image": "https://www.hokuroku.co.jp/files/libs/8360/201909241311217234.jpg?1793569796",
+   "local": false,
+   "published": "2026-11-01T21:04:06+00:00",
+   "title_ja": "大館市の各町内会で高齢者を祝う敬老行事が開催",
+   "summary_ja": "大館市内の各町内会で、高齢者を敬いお祝いする取り組みが盛んに行われている。手作り弁当の配布や交流会の開催など様々な行事が催され、参加者から喜ばれている。",
+   "category": "くらし・地域",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "5a2aaea6d8ae0996",
+   "url": "https://news.yahoo.co.jp/articles/b2c1b6f1a3e21cb2d5c4beff1059a6989a71993e",
+   "title_original": "【秋田市】11/2 最高14℃、ひんやりする場面も、朝から昼間は雨の予想【朝版】",
+   "source": "Yahoo!ニュース",
+   "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261102-00020003-wordleafw-000-1-view.jpg?exp=10800",
+   "local": false,
+   "published": "2026-11-01T20:08:59+00:00",
+   "title_ja": "11月2日の秋田市は最高14度で朝から昼に雨の予想",
+   "summary_ja": "11月2日の秋田市は朝から昼間にかけて雨が予想されている。最高気温は14度にとどまり、ひんやりと肌寒く感じる場面もありそうなため、体調管理に気をつけたい。",
+   "category": "天気・防災",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "d96b73154b273ef7",
+   "url": "https://www.yomiuri.co.jp/local/akita/news/20261101-GYTNT00159",
+   "title_original": "秋田：カピバラいい湯だね 大森山動物園：地域ニュース",
+   "source": "読売新聞",
+   "image": "https://www.yomiuri.co.jp/media/2026/11/20261101-GYTNI00162-1.jpg?type=ogp",
+   "local": false,
+   "published": "2026-11-01T20:00:00+00:00",
+   "title_ja": "大森山動物園でカピバラが風呂につかり寛ぐ",
+   "summary_ja": "秋田市の大森山動物園で、カピバラがお湯につかって温まる姿が見られています。お風呂に入って気持ちよさそうに過ごす様子が、園内を訪れる来園者たちをなごませています。",
+   "category": "観光・イベント",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "f3b302ef4e220d19",
+   "url": "https://kahoku.news/articles/JY724OXE02KHN.html",
+   "title_original": "「K2登頂からシリアへ」 秋田出身、小松由佳さんが横手で講演会",
+   "source": "河北新報オンライン",
+   "image": "https://kahoku.news/images/2026/11/01/JY724OXE02KHN/001_size7.jpg?timestamp=20261102063048",
+   "local": false,
+   "published": "2026-11-01T20:00:00+00:00",
+   "title_ja": "秋田出身の小松由佳さんが横手市で講演会",
+   "summary_ja": "K2登頂やシリアでの活動経験がある秋田県出身の小松由佳さんによる講演会が、横手市で開催されました。自身のこれまでの歩みや現地での体験について語り、参加者が耳を傾けました。",
+   "category": "文化・芸能",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "697fff7ce2587767",
+   "url": "https://www.sakigake.jp/news/article/20261101AK0041",
+   "title_original": "後半に守備機能、難敵に連勝 バスケ・アランマーレ、理想的スタート切る【山梨戦】",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20261101ak0041_01_l.jpg",
+   "local": true,
+   "published": "2026-11-01T13:20:00+00:00",
+   "title_ja": "バスケ・アランマーレ秋田が山梨に連勝",
+   "summary_ja": "バスケットボールのアランマーレ秋田は、昨季2位の山梨との試合で後半に守備が機能し連勝を飾りました。勝負どころでの集中力で難敵を下し、理想的なスタートを切りました。",
+   "category": "スポーツ",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "473d7247951e021f",
+   "url": "https://www.yamakei-online.com/photo/photo_detail.php?id=23794",
+   "title_original": "白い山と紅葉 - 秋田県湯沢市 - 写真レポート＆フォトコン",
+   "source": "山と溪谷オンライン",
+   "image": "https://www.yamakei-online.com/new_images/photo/202611/485641_20261101163703_b.jpg",
+   "local": false,
+   "published": "2026-11-01T12:54:57+00:00",
+   "title_ja": "湯沢市で撮影された雪山と紅葉のレポートと写真コンテスト",
+   "summary_ja": "秋田県湯沢市の初雪で白くなった山々と色鮮やかな紅葉の風景をまとめた写真レポートや、関連するフォトコンテストに関する情報が公開されています。",
+   "category": "観光・イベント",
+   "area": "県南",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
   {
    "id": "ac5f044b75d1dd38",
    "url": "https://www.worldtimes.co.jp/culture/20261101-216833",
@@ -252,6 +403,22 @@
    "importance": 3
   },
   {
+   "id": "7ab944b2164f0d52",
+   "url": "https://www.walkerplus.com/article/1027713/image10247096.html",
+   "title_original": "画像3 / 4＞おしゃれでモダンな作品を楽しめる！秋田県仙北市で「ルネ・ラリックのガラスとアール・デココレクション」が開催中",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1027713/10247094_615.jpg",
+   "local": false,
+   "published": "2026-11-01T11:45:49+00:00",
+   "title_ja": "仙北市でルネ・ラリックのガラスとアール・デココレクション展が開催中",
+   "summary_ja": "秋田県仙北市にて、モダンでおしゃれな芸術作品を楽しめる展覧会「ルネ・ラリックのガラスとアール・デココレクション」が現在開催されています。",
+   "category": "文化・芸能",
+   "area": "県南",
+   "kind": "event",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "6efe193ffb8dd8f9",
    "url": "https://www.sakigake.jp/news/article/20261101AK0036",
    "title_original": "明桜高吹奏楽部が銀賞 全日本吹奏楽コンクール高校の部",
@@ -263,6 +430,22 @@
    "summary_ja": "明桜高の吹奏楽部が静岡・浜松で開催された第74回全日本吹奏楽コンクール高校部に出場し、銀賞を受賞した。東北代表としての快挙で、県内でも大きな話題となった。",
    "category": "文化・芸能",
    "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "5c0381211e14d063",
+   "url": "https://www.fnn.jp/articles/-/1144019",
+   "title_original": "【秋田県】11/2の天気予報",
+   "source": "FNNプライムオンライン",
+   "image": "https://fnn.ismcdn.jp/mwimgs/b/1/600/img_b11a1eaac50858497404001559bedbbb109587.jpg",
+   "local": false,
+   "published": "2026-11-01T10:30:00+00:00",
+   "title_ja": "2026年11月2日の秋田県内の天気予報",
+   "summary_ja": "2026年11月2日における秋田県内の天気予報をお伝えします。県内各地の気象状況や予想気温、天気の移り変わりに関する情報がまとめられています。",
+   "category": "天気・防災",
+   "area": "県全体",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -492,6 +675,22 @@
    "importance": 2
   },
   {
+   "id": "adcbc16a0acd1b42",
+   "url": "https://www.walkerplus.com/article/40915/image212186.html",
+   "title_original": "＜画像12 / 15＞秋田美人の壇蜜、「あきたこまち」の新CMで天女姿に！",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/40915/212165_615.jpg",
+   "local": false,
+   "published": "2026-11-01T07:03:21+00:00",
+   "title_ja": "壇蜜さんがあきたこまち新CMで天女姿を披露",
+   "summary_ja": "秋田県出身のタレントである壇蜜さんが、銘柄米「あきたこまち」の新しいテレビCMに出演し、天女をモチーフにした美しい姿を披露して話題となっています。",
+   "category": "文化・芸能",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
    "id": "4ef20a2e950d93b6",
    "url": "https://www.sakigake.jp/news/article/20261101AK0015",
    "title_original": "北都銀が今季初白星 バドミントンＳ／Ｊリーグ",
@@ -636,6 +835,22 @@
    "importance": 3
   },
   {
+   "id": "9cfcb590f25a0b73",
+   "url": "https://www.walkerplus.com/article/1007000",
+   "title_original": "米代川で絶景カヌー体験！秋田県能代市で「気軽にツーリング」が開催中",
+   "source": "ウォーカープラス",
+   "image": "https://news.walkerplus.com/article/1007000/10052945_615.jpg",
+   "local": false,
+   "published": "2026-11-01T04:28:29+00:00",
+   "title_ja": "能代市の米代川でカヌー体験イベントが開催中",
+   "summary_ja": "秋田県能代市の米代川を舞台に、初心者でも気軽に川下りを楽しめるカヌーのツーリング体験イベントが開催されています。雄大な自然を満喫できる企画です。",
+   "category": "観光・イベント",
+   "area": "県北",
+   "kind": "event",
+   "event_when": "",
+   "importance": 3
+  },
+  {
    "id": "9f651f9a5bfa3796",
    "url": "https://www.sakigake.jp/news/article/20261031AK0014",
    "title_original": "バドミントン、新チーム「大きな面白さと魅力感じている」 現役復帰の永原和可那、一問一答",
@@ -679,6 +894,22 @@
    "summary_ja": "熊本地震で発生した煙突倒壊事故を受けて国が実施した調査により、秋田県内においても損傷や劣化が進んだ煙突が存在することが確認されました。事故防止に向けた点検や適切な管理が求められます。",
    "category": "行政・政治",
    "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "f9e13b77d92221fc",
+   "url": "https://youtu.be/411GA1wxcJE?si=fbqam0NoFqFm8_zo",
+   "title_original": "【NHKのど自慢結果速報】11月1日秋田県湯沢市大会！今週のチャンピオンは？出場20組の歌唱曲・合格者！【湯沢市】【大江裕】",
+   "source": "YouTube",
+   "image": "",
+   "local": false,
+   "published": "2026-11-01T04:07:09+00:00",
+   "title_ja": "湯沢市で開催されたNHKのど自慢の結果速報",
+   "summary_ja": "秋田県湯沢市を舞台に行われたNHKのど自慢の大会結果が報じられました。出場した20組の中から今週のチャンピオンや合格者が発表され、大いに盛り上がりを見せました。",
+   "category": "文化・芸能",
+   "area": "県南",
    "kind": "news",
    "event_when": "",
    "importance": 3
@@ -778,6 +1009,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 2
+  },
+  {
+   "id": "0b78aacfbdc71be8",
+   "url": "https://news.ntv.co.jp/n/abs/category/society/ab636d7dc4e40941f2a1fb67f4871207b9",
+   "title_original": "損傷・劣化した煙突 秋田県内にも 熊本地震で発生した倒壊事故受け国が調査（2026年10月31日掲載）｜ABS NEWS NNN",
+   "source": "日テレNEWS NNN",
+   "image": "https://image.gallery.play.jp/abs-news/articles/1360a76e2d7c4dc39d8102808ce725d7/818458a2-9e47-455c-8ed1-270db4fb698e.jpg?w=1200",
+   "local": false,
+   "published": "2026-11-01T03:15:00+00:00",
+   "title_ja": "秋県内の煙突損傷、熊本地震の影響で国が調査",
+   "summary_ja": "熊本地震で倒壊した煙突に類似した損傷・劣化が秋田県内でも確認され、国が安全性を調べるための調査を実施することになった。",
+   "category": "天気・防災",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "a85bf156f36fe4b1",
@@ -986,6 +1233,22 @@
    "kind": "news",
    "event_when": "",
    "importance": 4
+  },
+  {
+   "id": "68beae59f9a3d0f5",
+   "url": "https://www.travelvoice.jp/tenders/1718",
+   "title_original": "あきたの工芸品の魅力発信！プラットフォーム構築事業業務に係る企画提案競技の実施",
+   "source": "トラベルボイス",
+   "image": "https://www.travelvoice.jp/frontend/img/common/tv_tenders_ogp.png",
+   "local": false,
+   "published": "2026-10-31T22:45:42+00:00",
+   "title_ja": "県産工芸品の魅力発信する事業の企画提案募集",
+   "summary_ja": "秋田の工芸品の魅力を広く発信するため、専用のプラットフォーム構築事業に関する企画提案競技が実施されます。",
+   "category": "観光・イベント",
+   "area": "県全体",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
   },
   {
    "id": "c6b565bab821f9a0",
@@ -6378,262 +6641,6 @@
    "kind": "news",
    "event_when": "",
    "importance": 3
-  },
-  {
-   "id": "e0d4bd7cd80fe53f",
-   "url": "https://www.sakigake.jp/news/article/20261027AK0010",
-   "title_original": "産学官連携ＧＸ推進組織が秋田県へ 森林資源で意見交換",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261027ak0010_01_l.jpg",
-   "local": true,
-   "published": "2026-10-27T05:15:00+00:00",
-   "title_ja": "東京科学大のGX組織が来県、森林活用で意見交換",
-   "summary_ja": "東京科学大が主導する産学官連携の組織が秋田県を訪れ、森林資源の活用方法やグリーントランスフォーメーションの推進に向けた施策について県職員らと話し合いました。",
-   "category": "行政・政治",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "ea379db7b39be6dd",
-   "url": "https://www.sakigake.jp/news/article/20261027AK0018",
-   "title_original": "能代リレーマラソン初開催 畠町大通りでたすきつなぐ",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261027ak0018_01_l.jpg",
-   "local": true,
-   "published": "2026-10-27T04:40:00+00:00",
-   "title_ja": "能代市の商店街でリレーマラソンとマルシェ開催",
-   "summary_ja": "能代市中心部の商店街で、チームでたすきをつなぐリレーマラソンと恒例のマルシェが同時に開催されました。小雨が降る天候の中でしたが、多くの来場者で賑わいました。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "1fe500f6d6d95409",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261027de66191",
-   "title_original": "県内唯一の国宝まつる神社を小学生が清掃 秋田 大仙",
-   "source": "NHKニュース",
-   "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261027de66191/20261027de66191_E0000114477_1_l.jpg",
-   "local": false,
-   "published": "2026-10-27T04:23:00+00:00",
-   "title_ja": "大仙の国宝神社を小学生が清掃、文化継承に参加",
-   "summary_ja": "大仙市にある県内唯一の国宝神社で、小学生が清掃活動に参加し、文化財の保全と地域の環境美化を図った。この取り組みは学校と神社が連携して実施された。",
-   "category": "文化・芸能",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "91da69e025bb0050",
-   "url": "https://www.sakigake.jp/news/article/20261027AK0013",
-   "title_original": "秋田銀・あきた未来塾が開講、若手１０人が経営戦略学ぶ",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261027ak0013_01_l.jpg",
-   "local": true,
-   "published": "2026-10-27T04:15:00+00:00",
-   "title_ja": "秋田銀行の若手経営者向け「あきた未来塾」が開講",
-   "summary_ja": "秋田銀行が主催する若手経営者向けの育成塾が開講しました。県内の企業から参加した若手メンバーが、来年夏までの期間を通じて経営戦略や専門知識を学びます。",
-   "category": "経済・企業",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "9b3ad97dbde5e4a0",
-   "url": "https://www.sakigake.jp/news/article/20261027AK0006",
-   "title_original": "時代を語る・小野花子（１８）欠かせなかった民謡",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261027ak0006_01_l.jpg",
-   "local": true,
-   "published": "2026-10-27T04:00:00+00:00",
-   "title_ja": "小野花子が語る、昭和の民謡酒場のにぎわい",
-   "summary_ja": "昭和30年代に民謡酒場で修業を重ねた日々について振り返っています。当時は秋田市内の繁華街に多くの店があり、民謡が身近な娯楽として親しまれていた時代の様子を伝えています。",
-   "category": "文化・芸能",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "270157f9dce725dd",
-   "url": "https://www.nouson-n.com/media/2026/10/27/10916",
-   "title_original": "秋田クボタ ユーザー由利本荘市船岡の渡辺さん 農地守り次世代へ 信頼の農機と共に地域守る│",
-   "source": "www.nouson-n.com",
-   "image": "https://www.nouson-n.com/dcms_media/image/12-B-1 クボタルポ　渡辺様 (2).JPG",
-   "local": false,
-   "published": "2026-10-27T03:58:04+00:00",
-   "title_ja": "由利本荘市の渡辺さん、農機を活用し地域の農地と未来を守る",
-   "summary_ja": "由利本荘市船岡で農業を営む渡辺さんが、信頼できる農業機械を活用しながら農地を維持し、次世代へ継承する取り組みを行っています。機械の活用を通じて地域農業の持続と維持に貢献しています。",
-   "category": "グルメ・農林水産",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "d7df9870e29e858b",
-   "url": "https://www.nouson-n.com/media/2026/10/27/10915",
-   "title_original": "ガンバレ秋田農業！地元のエース達に ＩＳＥＫＩ ユーザー由利本荘市の「拓の里」伊藤代表 合理的な経営貫く 地域を開き、未来を切り拓く",
-   "source": "農村ニュース",
-   "image": "https://www.nouson-n.com/dcms_media/image/13-B-1 ISEKIJapan　ルポ (1).JPG",
-   "local": false,
-   "published": "2026-10-27T03:57:42+00:00",
-   "title_ja": "由利本荘市「拓の里」の伊藤代表、合理的な農業経営で地域を開拓",
-   "summary_ja": "由利本荘市の農業法人「拓の里」で代表を務める伊藤さんが、合理的な経営手法を取り入れ地域農業の未来を切り拓いています。地元の農業を守り発展させる存在として注目を集めています。",
-   "category": "グルメ・農林水産",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "974214a3433436ed",
-   "url": "https://www.nouson-n.com/media/2026/10/27/10910",
-   "title_original": "由利本荘市で秋田県農業機械化ショー 農業の未来示す 経営に役立つ資機材ズラリ 10月31日—11月4日",
-   "source": "www.nouson-n.com",
-   "image": "https://www.nouson-n.com/dcms_media/image/1-A-2 image05 (5).jpeg",
-   "local": false,
-   "published": "2026-10-27T03:53:15+00:00",
-   "title_ja": "由利本荘市で秋田県農業機械化ショー開催へ　最新資機材を集約",
-   "summary_ja": "由利本荘市で10月31日から11月4日まで「秋田県農業機械化ショー」が開催されます。農業経営の発展に役立つ最新の機械や資材が一堂に並び、地域農業の未来像を示します。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "event",
-   "event_when": "10月31日〜11月4日",
-   "importance": 3
-  },
-  {
-   "id": "6dadbac0ebe97aa2",
-   "url": "https://www.sakigake.jp/news/article/20261026AK0015",
-   "title_original": "成瀬ダム工事の紹介施設「ＤＸ ＬＡＢＯ」３１日終了 試験湛水で水没予定",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20261026G00026_l.jpg",
-   "local": true,
-   "published": "2026-10-27T03:30:00+00:00",
-   "title_ja": "成瀬ダムDX LABO、31日で公開終了へ",
-   "summary_ja": "成瀬ダム上流展望台の見学施設『DX LABO』が31日で公開終了。ダム工事が最終段階に入り、来年度は試験湛水のため一般公開しない方針です。",
-   "category": "観光・イベント",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "4d491ffbcb4c0b87",
-   "url": "https://www.sakigake.jp/news/article/20261027AK0019",
-   "title_original": "能代電設工業に女性活躍推進「えるぼし」 能代山本初の認定企業に",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261027ak0019_01_l.jpg",
-   "local": true,
-   "published": "2026-10-27T03:15:00+00:00",
-   "title_ja": "能代電設工業が女性活躍推進企業「えるぼし」認定　能代山本初",
-   "summary_ja": "能代市の建設業「能代電設工業」が、女性の活躍推進に優れた企業として厚生労働省の「えるぼし」認定を受けました。能代山本地域に拠点を置く企業としては初の認定となります。",
-   "category": "経済・企業",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "a7e2a398a93e5dda",
-   "url": "https://www.aab-tv.co.jp/news/aabnews-26102711280071",
-   "title_original": "収穫の秋 小学生と保育園児が協力してサツマイモの収穫に挑戦 秋田・大館市",
-   "source": "AAB秋田朝日放送",
-   "image": "https://www.aab-tv.co.jp/news_thumb/2026102711280012471.jpg",
-   "local": true,
-   "published": "2026-10-27T03:01:15+00:00",
-   "title_ja": "大館市で小学生と園児がサツマイモ収穫を体験",
-   "summary_ja": "大館市の早口小学校で27日、全校児童と近くのたしろ保育園の5歳児あわせて約60人が協力してサツマイモ掘りに挑戦しました。参加した子どもたちは小学校の畑で育ったサツマイモの収穫を楽しみました。",
-   "category": "教育・子育て",
-   "area": "県北",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "42533cbffcd459a2",
-   "url": "https://www.aab-tv.co.jp/news/aabnews-26102711370070",
-   "title_original": "大気の状態が非常に不安定となる見込み 秋田県内は沿岸では２７日夜から２８日にかけて暴風に警戒を",
-   "source": "AAB秋田朝日放送",
-   "image": "https://www.aab-tv.co.jp/news_thumb/2026102711370012470.jpg",
-   "local": true,
-   "published": "2026-10-27T03:01:05+00:00",
-   "title_ja": "秋田県内で大気不安定に 沿岸は暴風に注意警戒",
-   "summary_ja": "冬型の気圧配置と上空の寒気の影響により、秋田県内では大気の状態が非常に不安定となる見込みです。特に沿岸部では、27日夜から28日にかけて荒れた天気となり、暴風に対する厳重な警戒が呼びかけられています。",
-   "category": "天気・防災",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
-  },
-  {
-   "id": "d22db3a64ef220e7",
-   "url": "https://www.sakigake.jp/news/article/20261027AK0014",
-   "title_original": "男鹿の魅力発信を支援 県外インフルエンサーを特命推進員に",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261027ak0014_01_l.jpg",
-   "local": true,
-   "published": "2026-10-27T03:01:00+00:00",
-   "title_ja": "男鹿市がインフルエンサー2人を特命推進員に委嘱",
-   "summary_ja": "男鹿市は26日、市の魅力発信を戦略的に支援してもらう「シティプロモーション特命推進員」として、県外のインフルエンサーら男女2人に委嘱しました。専門的な知識や情報発信力を活用し、交流人口や関係人口のさらなる拡大を目指します。",
-   "category": "観光・イベント",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "b904c6b9318c75e9",
-   "url": "https://news.nicovideo.jp/watch/nw19922352?news_ref=watch_110_nw19836565",
-   "title_original": "一番有名だと思う「秋田県の市町村」ランキング！ 同率1位は「秋田市」ともう一つは？",
-   "source": "ニコニコニュース",
-   "image": "",
-   "local": false,
-   "published": "2026-10-27T03:00:55+00:00",
-   "title_ja": "秋田県の市町村人気ランキング、秋田市が同率1位に",
-   "summary_ja": "ニコニコニュースが実施した『秋田県の市町村』人気ランキングで、秋田市が同率1位となり、もう一つの上位都市が明らかになった。県民の関心が高い自治体の特徴が示された。",
-   "category": "くらし・地域",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "db8a6400a092d863",
-   "url": "https://www.sakigake.jp/news/article/20261027AK0008",
-   "title_original": "「HEY!たくちゃん」のラーメンが全国３位 秋田まるごと味噌らぁ麺、道の駅なかせんに出店",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/20261027ak0008_01_l.jpg",
-   "local": true,
-   "published": "2026-10-27T02:53:00+00:00",
-   "title_ja": "大仙市の「秋田まるごと味噌らぁ麺」が全国大会で3位",
-   "summary_ja": "道の駅なかせんに出店しているラーメン店が、群馬県前橋市で開催された全国の道の駅グルメのイベントで第3位に選ばれました。",
-   "category": "グルメ・農林水産",
-   "area": "県南",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "90d087bf3f4f2eb6",
-   "url": "https://www.sakigake.jp/news/article/20261026AK0019",
-   "title_original": "中村征夫さん撮影「イクオネ」、世界６例目のクリオネ新種だった 国内研究チームが論文発表",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/news-entry/AK20261023G00017_l.jpg",
-   "local": true,
-   "published": "2026-10-27T02:25:00+00:00",
-   "title_ja": "潟上市出身の写真家が撮影の「イクオネ」が新種クリオネに",
-   "summary_ja": "潟上市出身の水中写真家が撮影し親しまれてきた生き物が、国内の研究チームによって世界で6例目となるクリオネの新種として論文発表されました。",
-   "category": "文化・芸能",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
-   "importance": 4
   }
  ]
 }
