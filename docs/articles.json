@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T23:09:21.023211+09:00",
+ "updated_at": "2026-11-14T08:22:00.103980+09:00",
  "categories": [
   "行政・政治",
   "経済・企業",
@@ -197,48 +197,96 @@
  ],
  "count": 400,
  "digest": {
-  "headline": "秋田銀行の中間決算が過去最高、能代市では9年ぶりの全国ねぎサミット開催へ",
+  "headline": "秋田銀行の中間決算が過去最高、能代市では全国ねぎサミット開催",
   "points": [
    {
-    "text": "能代市で全国のネギ産地が集まる「全国ねぎサミット」が、9年ぶりに開催されます。",
+    "text": "秋田銀行が発表した2026年4〜9月期決算は金利上昇の追い風を受け、純利益が過去最高を更新しました。",
+    "ids": [
+     "31bdd187706aa8c3"
+    ]
+   },
+   {
+    "text": "能代市を会場に、全国のネギ産地が集まり食べ比べなどが楽しめる全国ねぎサミットが9年ぶりに開催されます。",
     "ids": [
      "bd64b1deb3de2f80",
      "ffb4fbcdc3eda1e0"
     ]
    },
    {
-    "text": "秋田銀行が発表した2026年4〜9月期決算は、金利上昇の追い風を受け純利益が過去最高を更新しました。",
-    "ids": [
-     "31bdd187706aa8c3"
-    ]
-   },
-   {
-    "text": "秋田県は持続可能な水道事業の構築に向け、来年度に法定協議会を設置する方針を示しました。",
+    "text": "秋田県は持続可能な水道事業の構築に向け、来年度に水道法に基づく法定協議会を設置する方針を示しました。",
     "ids": [
      "19fb4f641fff7ba2",
      "8c965e4ddf53c8a3"
     ]
    },
    {
-    "text": "県内は今季一番の寒い朝を迎え、一部の地域でうっすらと雪が積もるなど冷え込みが強まりました。",
+    "text": "B1の秋田ノーザンハピネッツは新シーズンの地区分けで北地区への所属が決まり、チームの動きが注目されています。",
     "ids": [
-     "d034c6f2e396e9ad"
+     "e6609b4176d7f0f3"
     ]
    },
    {
-    "text": "Bリーグ1部Bプレミアの地区分けが発表され、秋田ノーザンハピネッツは北地区に所属することになりました。",
+    "text": "県内は今季一番の寒い朝を迎え、一部地域で積雪が観測されるなど急激な寒暖差への注意が呼びかけられています。",
     "ids": [
-     "e6609b4176d7f0f3"
+     "d034c6f2e396e9ad"
     ]
    }
   ],
   "days": 3,
-  "from": "2026-11-10T23:13:03.591224+09:00",
-  "generated_at": "2026-11-13T23:13:14.498565+09:00",
+  "from": "2026-11-11T08:22:23.315215+09:00",
+  "generated_at": "2026-11-14T08:22:25.071622+09:00",
   "article_count": 24,
-  "sig": "d112c9f895a7"
+  "sig": "12c02141128e"
  },
  "items": [
+  {
+   "id": "1a34e1ae8975ec19",
+   "url": "https://www.sakigake.jp/news/article/20261113AK0036",
+   "title_original": "ブラウブリッツ主体の募金団体 秋田市に１千万円を寄付",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20261113ak0036_01_l.jpg",
+   "local": true,
+   "published": "2026-11-13T22:30:00+00:00",
+   "title_ja": "新スタジアム整備に向け秋田市に１千万円寄付",
+   "summary_ja": "サッカーJ2のブラウブリッツ秋田が主体となる募金団体が、新スタジアムの整備に役立ててもらおうと秋田市に１千万円を寄付しました。県民から広く寄せられた浄財を届けました。",
+   "category": "行政・政治",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
+  {
+   "id": "0972c5cce2096933",
+   "url": "https://www.sakigake.jp/news/article/20261113AK0029",
+   "title_original": "秋田犬と一緒にレトロバスの旅いかが ＤＭＯがモニターツアー、商品化目指す",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/AK20261113G00010_l.jpg",
+   "local": true,
+   "published": "2026-11-13T21:45:00+00:00",
+   "title_ja": "秋田犬と巡るレトロバスツアーが大館市で開催",
+   "summary_ja": "秋田犬ツーリズムが大館市内で、秋田犬と一緒にレトロバスで観光地を巡るモニターツアーを実施しました。新たな観光商品の確立と魅力発信を目指しています。",
+   "category": "観光・イベント",
+   "area": "県北",
+   "kind": "news",
+   "event_when": "",
+   "importance": 2
+  },
+  {
+   "id": "08e36852d07112e0",
+   "url": "https://www.sakigake.jp/news/article/20261113AK0042",
+   "title_original": "ハピネッツ７連敗 名古屋Ｄに９４―１１０",
+   "source": "秋田魁新報",
+   "image": "https://www.sakigake.jp/images/news-entry/20261113ak0042_01_l.jpg",
+   "local": true,
+   "published": "2026-11-13T12:50:00+00:00",
+   "title_ja": "ハピネッツ、名古屋Ｄに敗れ７連敗",
+   "summary_ja": "バスケットボール男子Bリーグプレミアの秋田ノーザンハピネッツは、ホームで名古屋Ｄと対戦し９４―１１０で敗れました。これで７連敗となり、通算成績は４勝１３敗となりました。",
+   "category": "スポーツ",
+   "area": "中央",
+   "kind": "news",
+   "event_when": "",
+   "importance": 3
+  },
   {
    "id": "a78431d0fd2c8b40",
    "url": "https://tenki.jp/radar/2/8/rainmesh.html",
@@ -2276,7 +2324,7 @@
    "url": "http://www.excite.co.jp/news/article/aab_1493194338501165602",
    "title_original": "11月11日は「きりたんぽの日」大館市で園児がきりたんぽ作り /秋田",
    "source": "Excite エキサイト",
-   "image": "",
+   "image": "https://s.eximg.jp/exnews/feed/aab/b4/aab_1493194338501165602/aab_1493194338501165602_1.jpg",
    "local": false,
    "published": "2026-11-11T10:21:00+00:00",
    "title_ja": "11月11日の「きりたんぽの日」は大館市で園児がきりたんぽ作り",
@@ -3332,7 +3380,7 @@
    "url": "http://www.excite.co.jp/news/article/akt_1492857933356647337",
    "title_original": "10日夕方、大館市池内の草地でクマ1頭目撃 体長は約1メートル 警察が注意呼びかけ 秋田",
    "source": "Excite エキサイト",
-   "image": "",
+   "image": "https://s.eximg.jp/exnews/feed/akt/43/akt_1492857933356647337/akt_1492857933356647337_1.jpg",
    "local": false,
    "published": "2026-11-10T12:04:00+00:00",
    "title_ja": "大館市池内でクマ1頭が目撃される",
@@ -5028,7 +5076,7 @@
    "url": "http://www.excite.co.jp/news/article/akt_1492096159946309721",
    "title_original": "野球未経験の子供たちが楽しさ体感 高校球児に教えてもらい魅力に触れる 秋田市",
    "source": "Excite エキサイト",
-   "image": "",
+   "image": "https://s.eximg.jp/exnews/feed/akt/17/akt_1492096159946309721/akt_1492096159946309721_1.jpg",
    "local": false,
    "published": "2026-11-08T09:37:00+00:00",
    "title_ja": "高校球児が初心者の子供に指導 秋田市で野球体験イベント",
@@ -6589,54 +6637,6 @@
    "area": "中央",
    "kind": "event",
    "event_when": "11月7日",
-   "importance": 2
-  },
-  {
-   "id": "fcd374d9f15431d4",
-   "url": "https://www.sakigake.jp/news/article/20261106AK0042",
-   "title_original": "秋田県内の冬タイヤ装着率３３・２％、２日現在 「平地でも早めに装着を」",
-   "source": "秋田魁新報",
-   "image": "https://www.sakigake.jp/images/ogp.png",
-   "local": true,
-   "published": "2026-11-06T22:30:00+00:00",
-   "title_ja": "秋田県内の冬タイヤ装着率は33.2％　平地でも早めの装着呼びかけ",
-   "summary_ja": "国土交通省が秋田・湯沢・能代の国道３地点で調べた結果、2日現在の冬タイヤ装着率は平均33.2％で、前年同期比4.6ポイント上昇した。河川国道事務所は平地でも早めの装着を促している。",
-   "category": "くらし・地域",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 3
-  },
-  {
-   "id": "e8dd004c6f51b1c7",
-   "url": "https://tenki.jp/past/2026/11/06/amedas/2/8/sunshine.html",
-   "title_original": "秋田県の過去のアメダス実況(2026年11月06日)(日照時間)",
-   "source": "tenki.jp",
-   "image": "https://storage.tenki.jp/archive/amedas/2026/11/06/15/00/00/sunshine/pref-8-large.jpg",
-   "local": false,
-   "published": "2026-11-06T21:30:00+00:00",
-   "title_ja": "秋田県の2026年11月6日 アメダス日照時間データ",
-   "summary_ja": "tenki.jpが提供する2026年11月6日の秋田県のアメダス観測データ（主に日照時間）を掲載。過去の天候傾向を確認でき、同日の気象変化や季節の動向を把握できる。",
-   "category": "天気・防災",
-   "area": "県全体",
-   "kind": "news",
-   "event_when": "",
-   "importance": 2
-  },
-  {
-   "id": "4c593f7d3afb7a97",
-   "url": "https://news.livedoor.com/topics/detail/32752606",
-   "title_original": "秋田市の支援学校に動物園と水族館がやってきた！ (2026年11月6日掲載)",
-   "source": "ライブドアニュース",
-   "image": "",
-   "local": false,
-   "published": "2026-11-06T13:11:46+00:00",
-   "title_ja": "秋田市の支援学校で動物園と水族館の触れ合い企画",
-   "summary_ja": "秋田市の支援学校に動物園と水族館が訪れ、児童生徒らが動物たちとの交流を楽しみました。",
-   "category": "文化・芸能",
-   "area": "中央",
-   "kind": "news",
-   "event_when": "",
    "importance": 2
   }
  ]
